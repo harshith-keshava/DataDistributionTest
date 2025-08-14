@@ -44,7 +44,5 @@
   <widget name="widgets.brease.TextOutput" />
   <widget name="widgets.brease.ToggleButton" />
   <widget name="widgets.brease.Window" />
-  <widget name="widgets.VF.StatusLEDGreen" />
-  <widget name="widgets.VF.StatusLEDRed" />
   <widget name="widgets.widgets.ChangePasswordDialog" />
 </widgets>

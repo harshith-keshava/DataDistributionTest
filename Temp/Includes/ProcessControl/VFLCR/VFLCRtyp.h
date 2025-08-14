@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755198539_10_
-#define _BUR_1755198539_10_
+#ifndef _BUR_1755199075_10_
+#define _BUR_1755199075_10_
 
 #include <bur/plctypes.h>
 
@@ -115,5 +115,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/VFLCR/VFLCR.typ\\\" scope \
 __asm__(".previous");
 
 
-#endif /* _BUR_1755198539_10_ */
+#endif /* _BUR_1755199075_10_ */
 

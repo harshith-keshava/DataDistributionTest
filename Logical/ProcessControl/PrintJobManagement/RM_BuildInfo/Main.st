@@ -18,15 +18,7 @@ PROGRAM _INIT
 	gBuildInformation.author := '';
 	gBuildInformation.print_owner := '';
 	gBuildInformation.platform_name := '600x600';
-		
-	gBuildInformation.build_volume_limits.min.X := 130.0;
-	gBuildInformation.build_volume_limits.min.Y := 130.0;
-	gBuildInformation.build_volume_limits.min.Z := 0.0;
-
-	gBuildInformation.build_volume_limits.max.X := 728.0;
-	gBuildInformation.build_volume_limits.max.Y := 728.0;
-	gBuildInformation.build_volume_limits.max.Z := 400.0;
-	
+ 
 	
 	//subscribePLCOpen( gSystemRecipeApi.commands.loadBuildInfo, 'Build Info', task.commands.load, task.internal.load );
 	

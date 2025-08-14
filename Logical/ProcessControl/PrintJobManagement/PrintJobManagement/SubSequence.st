@@ -17,7 +17,6 @@ ACTION ValidateBuildFileSubsequence:
 		
 			task.status.buildInfoInvalidReasons.invalidBuildName := (gBuildInformation.build_layout = 0) OR (gBuildInformation.print_number = 0) OR (brsstrlen(ADR(gBuildInformation.base_filename)) <> 13);
 			task.status.buildInfoInvalidReasons.invalidNumLayers := (gBuildInformation.num_layers = 0);
-			task.status.buildInfoInvalidReasons.invalidLayerHeight := (gBuildInformation.layer_height < MIN_LAYER_HEIGHT) OR (gBuildInformation.layer_height > MAX_LAYER_HEIGHT);
 			
 			IF stateAnyTrue(gPrintJobManagement.status.buildInfoInvalid, FALSE) THEN
 				task.status.buildInfoValid := FALSE;

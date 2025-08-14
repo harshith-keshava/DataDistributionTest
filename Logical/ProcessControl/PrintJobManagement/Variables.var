@@ -1,0 +1,34 @@
+VAR
+	gOpcData_ToBuildPC : OPCUAData_TO_BuildPC_typ;
+	gOpcData_FromBuildPC : OPCUAData_FROM_BuildPC_typ;
+	gPrintJobManagement : PrintJobManagement_typ := (0);
+	gBuildInformation : BuildInformation_typ := (0);
+END_VAR
+VAR CONSTANT
+	MIN_LAYER_HEIGHT : REAL := 0.05;
+	MAX_LAYER_HEIGHT : REAL := 0.072;
+	LAYER_ACTION_START : STRING[10] := 'START';
+	LAYER_ACTION_RECOAT : STRING[10] := 'RECOAT';
+	LAYER_ACTION_PRINT : STRING[10] := 'PRINT';
+END_VAR
+VAR
+	gBuildDistributorApi : BuildDistributor_typ;
+END_VAR
+VAR RETAIN
+	Nonvolatile : PrintJobManagementState_typ;
+END_VAR
+VAR
+	gMaximumFocalLimit : REAL;
+	gMinimumFocalLimit : REAL;
+	gLdsFocalOffset : REAL;
+END_VAR
+(*PRINT PROCESS CONFIG*)
+VAR
+	gPrintProcessConfig : PrintProcessConfig_typ;
+	gPrintProcessConfigLoaded : BOOL;
+	gDerivedProcessParameters : ARRAY[1..DIGITAL_PCI_MAX_PARS] OF DerivedProcessParameters_typ; (*Final value to be used for parameters derived from PCI or HMI*)
+END_VAR
+VAR CONSTANT
+	DIGITAL_PCI_MAX_PARS : USINT := 9;
+	DIGITAL_PCI_MAX_LAYER_CHANGE : USINT := 8;
+END_VAR

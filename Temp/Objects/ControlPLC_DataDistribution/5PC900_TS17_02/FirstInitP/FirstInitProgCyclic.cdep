@@ -138,6 +138,12 @@ $(AS_TEMP_PATH)/includes/automation/typestyp.h
 $(AS_TEMP_PATH)/includes/automation/variablesvar.h
 $(AS_TEMP_PATH)/includes/processcontrol/vflcr/vflcrtyp.h
 $(AS_TEMP_PATH)/includes/processcontrol/vflcr/vflcrvar.h
+$(AS_TEMP_PATH)/includes/processcontrol/printjobmanagement/typestyp.h
+$(AS_TEMP_PATH)/includes/processcontrol/printjobmanagement/opcuatyp.h
+$(AS_TEMP_PATH)/includes/processcontrol/printjobmanagement/variablesvar.h
+$(AS_TEMP_PATH)/includes/processcontrol/printjobmanagement/buildinformationtyp.h
+$(AS_TEMP_PATH)/includes/processcontrol/printjobmanagement/recipemanagementvar.h
+$(AS_TEMP_PATH)/includes/processcontrol/printjobmanagement/recipemanagementtyp.h
 $(AS_TEMP_PATH)/includes/infrastructure/infrastructuretyp.h
 $(AS_TEMP_PATH)/includes/infrastructure/infrastructurevar.h
 $(AS_TEMP_PATH)/includes/infrastructure/revinfo/revinfovar.h

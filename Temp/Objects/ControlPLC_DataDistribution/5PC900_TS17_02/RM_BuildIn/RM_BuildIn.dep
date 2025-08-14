@@ -1,0 +1,16 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/astime/astime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipe.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipeError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipe.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RM_BuildInfo/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RM_BuildInfo/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildInformation.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
+$(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/mappServices/Recipies.mprecipexml
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Types.typ

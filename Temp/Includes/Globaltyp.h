@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755193313_1_
-#define _BUR_1755193313_1_
+#ifndef _BUR_1755198539_1_
+#define _BUR_1755198539_1_
 
 #include <bur/plctypes.h>
 
@@ -14,7 +14,9 @@ typedef enum MACHINE_OPERATIONS_ENUM
 } MACHINE_OPERATIONS_ENUM;
 
 typedef enum SYSTEM_GENERAL_STATUS_ENUM
-{	VFLCR_ERROR
+{	PRINT_JOB_MANAGER_ERROR,
+	BUILD_DISTRIBUTOR_ERROR,
+	VFLCR_ERROR
 } SYSTEM_GENERAL_STATUS_ENUM;
 
 typedef struct Machine_typ
@@ -37,5 +39,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1755193313_1_ */
+#endif /* _BUR_1755198539_1_ */
 

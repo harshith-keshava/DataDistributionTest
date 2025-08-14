@@ -1,0 +1,6 @@
+VAR
+	gSystemRecipeApi : SystemRecipeManager_typ;
+END_VAR
+VAR CONSTANT
+	MAX_NUM_OF_RECIPE_FILES : USINT := 40;
+END_VAR

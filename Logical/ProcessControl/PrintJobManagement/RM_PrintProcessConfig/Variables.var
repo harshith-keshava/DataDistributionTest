@@ -1,0 +1,8 @@
+VAR
+	fbRecipeXml_PrintProcessConfig : MpRecipeXml := (0);
+	fbRecipeRegPar_PrintConfig : MpRecipeRegPar := (0);
+	task : PrintProcessConfigTask_typ;
+	HMIInputs : HMIInputs_typ;
+	ii : USINT; (*Loop Var*)
+	jj : USINT; (*Loop Var*)
+END_VAR

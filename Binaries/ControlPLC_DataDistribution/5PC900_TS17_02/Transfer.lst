@@ -4,6 +4,10 @@
   <OperatingSystem Version="C4.92"/>
   <Hardware Target="SG4"/>
   <Operation Delete="RevInfo.br"/>
+  <Operation Delete="BuildDistr.br"/>
+  <Operation Delete="PrintJobMa.br"/>
+  <Operation Delete="RM_PrintPr.br"/>
+  <Operation Delete="RM_BuildIn.br"/>
   <Operation Delete="MachineMod.br"/>
   <Operation Delete="VFLCR_Syst.br"/>
   <Operation Delete="SFCControl.br"/>
@@ -24,7 +28,6 @@
   <Operation Delete="AsARCfg.br"/>
   <Operation Delete="axislib.br"/>
   <Operation Delete="VFValve.br"/>
-  <Operation Delete="MpRecipe.br"/>
   <Operation Delete="VF_COMMON.br"/>
   <Operation Delete="Finder.br"/>
   <Operation Delete="McPureVAx.br"/>
@@ -37,6 +40,7 @@
   <Operation Delete="CoTrace.br"/>
   <Operation Delete="SfDomain.br"/>
   <Operation Delete="mvLoader.br"/>
+  <Operation Delete="MpRecipe.br"/>
   <Operation Delete="piper.br"/>
   <Operation Delete="messagebox.br"/>
   <Operation Delete="hammers.br"/>
@@ -174,6 +178,7 @@
   <Operation Download="messagebox.br" Memory="UserROM"/>
   <Operation Download="piper.br" Memory="UserROM"/>
   <Operation Download="ToolBox.br" Memory="UserROM"/>
+  <Operation Download="MpRecipe.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
   <Operation Download="FWRules.br" Memory="UserROM"/>
@@ -204,7 +209,6 @@
   <Operation Download="McPureVAx.br" Memory="UserROM"/>
   <Operation Download="Finder.br" Memory="UserROM"/>
   <Operation Download="VF_COMMON.br" Memory="UserROM"/>
-  <Operation Download="MpRecipe.br" Memory="UserROM"/>
   <Operation Download="VFValve.br" Memory="UserROM"/>
   <Operation Download="axislib.br" Memory="UserROM"/>
   <Operation Download="AsARCfg.br" Memory="UserROM"/>
@@ -225,5 +229,9 @@
   <Operation Download="SFCControl.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Syst.br" Memory="UserROM"/>
   <Operation Download="MachineMod.br" Memory="UserROM"/>
+  <Operation Download="RM_BuildIn.br" Memory="UserROM"/>
+  <Operation Download="RM_PrintPr.br" Memory="UserROM"/>
+  <Operation Download="PrintJobMa.br" Memory="UserROM"/>
+  <Operation Download="BuildDistr.br" Memory="UserROM"/>
   <Operation Download="RevInfo.br" Memory="UserROM"/>
 </Transfer>

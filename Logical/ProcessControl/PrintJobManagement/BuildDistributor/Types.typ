@@ -1,0 +1,105 @@
+
+TYPE
+	AI_typ : 	STRUCT 
+		_ : USINT;
+	END_STRUCT;
+	AO_typ : 	STRUCT 
+		_ : BOOL;
+	END_STRUCT;
+	DI_typ : 	STRUCT 
+		_ : BOOL;
+	END_STRUCT;
+	DO_typ : 	STRUCT 
+		_ : BOOL;
+	END_STRUCT;
+	IO_typ : 	STRUCT 
+		do : DO_typ;
+		di : DI_typ;
+	END_STRUCT;
+	localInterfaceCommand_typ : 	STRUCT 
+		distributeLayerFile : BOOL;
+		startDistribution : BOOL;
+		abortDistribution : BOOL;
+	END_STRUCT;
+	localInterfaceInternal_typ : 	STRUCT 
+		PLCOpen : AtnPlcOpenStatus;
+		previousState : STATE;
+		newCommand : BOOL;
+		localLockout : BOOL;
+		subSystemStatus : ARRAY[0..10]OF STRING[80];
+		lastHeartbeatReceived : INT;
+		heartbeatTimer : TON;
+		atnPLCOpenCommandParameters : AtnPLCOpenWithParameters;
+		atnPLCOpenCommand : AtnPLCOpen;
+		fbTON_DistributionDelay : TON;
+		lastDistributedLayerNumber : UINT;
+		waitToRetry : TON;
+		retryAttempted : BOOL;
+	END_STRUCT;
+	localInterfaceParameters_typ : 	STRUCT 
+		layerNumberToDistribute : UINT;
+	END_STRUCT;
+	localInterfaceStatus_typ : 	STRUCT 
+		ready : BOOL;
+		state : STATE;
+		sequence : SEQUENCE;
+		lastErrorState : SEQUENCE;
+		buildDistributorConnected : BOOL;
+		statusMessage : STRING[vfALARMS_MAX_SNIPPET_STR_LENGTH];
+		missedHeartbeats : USINT;
+		lastErrorMessage : STRING[40];
+	END_STRUCT;
+	localInterface_typ : 	STRUCT 
+		command : localInterfaceCommand_typ;
+		status : localInterfaceStatus_typ;
+		internal : localInterfaceInternal_typ;
+		parameters : localInterfaceParameters_typ;
+	END_STRUCT;
+	SEQUENCE : 
+		(
+		SEQUENCE_IDLE,
+		SEQUENCE_DONE,
+		SEQUENCE_ERROR,
+		SEQUENCE_EXECUTE_START_DIST,
+		SEQUENCE_CHECK_DISTRIBUTOR_READY,
+		SEQUENCE_REQUEST_BUILD_INFO,
+		SEQUENCE_BUILD_INFO_READY,
+		SEQUENCE_LOAD_BUILD_FILE,
+		SEQUENCE_CHK_BUILD_INFO_VALID,
+		SEQUENCE_DELETE_LASER_FILES,
+		SEQUENCE_SET_DISTRIBUTION_NUMBER,
+		SEQUENCE_START_DISTRIBUTION,
+		SEQUENCE_VERIFY_DISTRIBUTION,
+		SEQUENCE_CALCULATE_PRINT_TIME,
+		SEQUENCE_DISTRIBUTION_STARTED,
+		SEQUENCE_REMAP_PIXELS,
+		SEQUENCE_ENABLE_LASER_AUTO,
+		SEQUENCE_LOAD_PCI_FILE,
+		SEQUENCE_PUBLISH_LOAD_DATA,
+		SEQUENCE_EXECUTE_GET_LAYER_FILES,
+		SEQUENCE_CHK_AXES_READY,
+		SEQUENCE_CHK_BUILD_INFO,
+		SEQUENCE_SET_DESIRED_LAYER,
+		SEQUENCE_DISTRIBUTION_DELAY,
+		SEQUENCE_REQUEST_DISTRIBUTION,
+		SEQUENCE_WAIT_FOR_FEEDBACK,
+		SEQUENCE_RETRY_AFTER_ERROR,
+		SEQUENCE_SET_CURRENT_LAYER,
+		SEQUENCE_MOVE_TO_CURRENT_LAYER,
+		SEQUENCE_EXECUTE_ABORT_DIST,
+		SEQUENCE_CHECK_DIST_READY_ABORT,
+		SEQUENCE_REQUEST_ABORT_DIST,
+		SEQUENCE_WAIT_DIST_ABORTED,
+		SEQUENCE_PUBLISH_ABORT_DATA
+		);
+	STATE : 
+		(
+		STATE_NOT_READY,
+		STATE_READY,
+		STATE_DONE,
+		STATE_ERROR,
+		STATE_START_DISTRIBUTION,
+		STATE_DISTRIBUTE_LAYER_FILE,
+		STATE_ABORT_DISTRIBUTION
+		);
+END_TYPE

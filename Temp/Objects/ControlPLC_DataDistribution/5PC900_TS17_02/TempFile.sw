@@ -19,6 +19,10 @@
     <Task Name="SFCControl" Source="Automation.SFCControl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="VFLCR_Syst" Source="ProcessControl.VFLCR.VFLCR_System.prg" Memory="UserROM" Description="                     " Language="IEC" Debugging="true" />
     <Task Name="MachineMod" Source="MachineControl.MachineMode.MachineMode.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="RM_BuildIn" Source="ProcessControl.PrintJobManagement.RM_BuildInfo.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="RM_PrintPr" Source="ProcessControl.PrintJobManagement.RM_PrintProcessConfig.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="PrintJobMa" Source="ProcessControl.PrintJobManagement.PrintJobManagement.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="BuildDistr" Source="ProcessControl.PrintJobManagement.BuildDistributor.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />

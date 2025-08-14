@@ -97,6 +97,12 @@ extern "C"
 #include <automation/variablesVAR.h>
 #include <processcontrol/vflcr/vflcrTYP.h>
 #include <processcontrol/vflcr/vflcrVAR.h>
+#include <processcontrol/printjobmanagement/typesTYP.h>
+#include <processcontrol/printjobmanagement/opcuaTYP.h>
+#include <processcontrol/printjobmanagement/variablesVAR.h>
+#include <processcontrol/printjobmanagement/buildinformationTYP.h>
+#include <processcontrol/printjobmanagement/recipemanagementVAR.h>
+#include <processcontrol/printjobmanagement/recipemanagementTYP.h>
 #include <infrastructure/infrastructureTYP.h>
 #include <infrastructure/infrastructureVAR.h>
 #include <infrastructure/revinfo/revinfoVAR.h>

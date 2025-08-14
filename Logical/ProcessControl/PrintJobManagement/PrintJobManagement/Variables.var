@@ -1,0 +1,15 @@
+VAR
+	newBuildJob : BOOL := 0;
+	task : localInterface_typ;
+	logSeqChange_0 : logStateChange;
+	logStateChange_0 : logStateChange;
+	messageHandler : MessageHandler_typ;
+	dCurrentState : REFERENCE TO PrintJobManagementState_typ;
+	layerNumberValue_string : STRING[8] := '';
+	layerNumber_string : STRING[8] := '';
+	Name : STRING[80];
+	auditEventString : STRING[255];
+	layerFilename_GCode : STRING[255];
+	currentLayerString : STRING[10];
+	command : AtnPLCOpen;
+END_VAR

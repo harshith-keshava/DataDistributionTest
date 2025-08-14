@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Types.typ</Object>
+    <Object Type="File">Opcua.typ</Object>
+    <Object Type="File">Variables.var</Object>
+    <Object Type="Program" Language="IEC" Description="Build Info Recipe management operations">RM_BuildInfo</Object>
+    <Object Type="Program" Language="IEC">RM_PrintProcessConfig</Object>
+    <Object Type="Program" Language="IEC" Description="Print job management operations">PrintJobManagement</Object>
+    <Object Type="Program" Language="IEC">BuildDistributor</Object>
+    <Object Type="File">BuildInformation.typ</Object>
+    <Object Type="File">RecipeManagement.var</Object>
+    <Object Type="File">RecipeManagement.typ</Object>
+  </Objects>
+</Package>

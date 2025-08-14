@@ -1,0 +1,7 @@
+VAR
+	IO : IO_typ;
+	task : localInterface_typ;
+	logSeqChange_0 : logStateChange;
+	logStateChange_0 : logStateChange;
+	Name : STRING[80];
+END_VAR

@@ -1,0 +1,13 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipe.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipe.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipeError.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RM_PrintProcessConfig/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RM_PrintProcessConfig/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildInformation.typ
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RecipeManagement.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RecipeManagement.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var

@@ -1,6 +1,7 @@
 c:\datadistributiontest\datadistributiontest\temp\includes\infrastructure\infrastructuretyp.h	C:\DataDistributionTest\DataDistributionTest\Logical\Libraries\Loupe\csvfilelib\CSVFileLib.var global,C:\DataDistributionTest\DataDistributionTest\Logical\Libraries\Loupe\persist\Persist.var global
 c:\lasercleanroomautomation\controlplc_lasercleanroom\temp\includes\globaltyp.h	C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\VFLCR\VFLCR.var global
 c:\datadistributiontest\datadistributiontest\temp\includes\globaltyp.h	C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR.var global
+c:\datadistributiontest\datadistributiontest\temp\includes\processcontrol\printjobmanagement\buildinformationtyp.h	C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\PrintJobManagement\Variables.var global
 c:\lasercleanroomautomation\controlplc_lasercleanroom\temp\includes\infrastructure\infrastructuretyp.h	C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Libraries\Loupe\csvfilelib\CSVFileLib.var global,C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Libraries\Loupe\persist\Persist.var global
 c:\datadistributiontest\datadistributiontest\temp\includes\processcontrol\vflcr\vflcrvar.h	C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR.typ global
 c:\lasercleanroomautomation\controlplc_lasercleanroom\temp\includes\processcontrol\vflcr\vflcrvar.h	C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\VFLCR\VFLCR.typ global

@@ -3,5 +3,6 @@
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package">VFLCR</Object>
+    <Object Type="Package">PrintJobManagement</Object>
   </Objects>
 </Package>

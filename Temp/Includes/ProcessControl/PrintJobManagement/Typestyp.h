@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755199075_12_
-#define _BUR_1755199075_12_
+#ifndef _BUR_1755200719_12_
+#define _BUR_1755200719_12_
 
 #include <bur/plctypes.h>
 
@@ -91,5 +91,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/PrintJobManagement/Types.ty
 __asm__(".previous");
 
 
-#endif /* _BUR_1755199075_12_ */
+#endif /* _BUR_1755200719_12_ */
 

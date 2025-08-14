@@ -1,0 +1,7 @@
+VAR
+	Command : AtnPLCOpenWithParameters;
+	OP_START_DISTRIBUTION : BOOL;
+	OP_ABORT_DISTRIBUTION : BOOL;
+	buildDistCommand : AtnPLCOpenWithParameters;
+	openLayerParameters : VFLCROpenLayerCommandPars_typ;
+END_VAR

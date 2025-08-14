@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755199075_16_
-#define _BUR_1755199075_16_
+#ifndef _BUR_1755200719_16_
+#define _BUR_1755200719_16_
 
 #include <bur/plctypes.h>
 
@@ -31,5 +31,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/PrintJobManagement/RecipeMa
 __asm__(".previous");
 
 
-#endif /* _BUR_1755199075_16_ */
+#endif /* _BUR_1755200719_16_ */
 

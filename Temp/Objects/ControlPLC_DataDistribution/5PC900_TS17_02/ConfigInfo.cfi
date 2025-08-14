@@ -114,14 +114,14 @@
     <Task
       Name="ManualPuls"
       Disable="false"
-      Source="Automation.ManualPulseLaserSFC"
+      Source="Automation.DataDistributionSFC"
       Language="IEC">
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Cyclic.sfc.var" />
       <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Types.typ" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Types.typ" />
       <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Variables.var" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Variables.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Init.st.var" />
       <File
@@ -132,8 +132,6 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Action.st.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\commands.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\PixelConvert.st.var" />
     </Task>
     <Task
       Name="SFCControl"

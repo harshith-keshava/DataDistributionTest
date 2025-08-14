@@ -16,13 +16,13 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="133996703984115538"
+    LastWriteTime="133996731348540261"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133996642596149038"
+    LastWriteTime="133996731406090837"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Package.pkg"
@@ -120,7 +120,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\Package.pkg"
     LogicalPath="Automation"
     Type="Package"
-    LastWriteTime="133996560242704250" />
+    LastWriteTime="133996728661920634" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\Types.typ"
     LogicalPath="Automation.Types.typ"
@@ -204,63 +204,57 @@
     LastWriteTime="133517913820486901"
     Private="false" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\IEC.prg"
-    LogicalPath="Automation.ManualPulseLaserSFC"
+    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\IEC.prg"
+    LogicalPath="Automation.DataDistributionSFC"
     Type="Program"
-    LastWriteTime="133988118769224265" />
+    LastWriteTime="133996731665922811" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Cyclic.sfc"
-    LogicalPath="Automation.ManualPulseLaserSFC.Cyclic.sfc"
+    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Cyclic.sfc"
+    LogicalPath="Automation.DataDistributionSFC.Cyclic.sfc"
     Type="File"
-    LastWriteTime="133996668891572495"
+    LastWriteTime="133996742593109545"
     Private="false" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Types.typ"
-    LogicalPath="Automation.ManualPulseLaserSFC.Types.typ"
+    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Types.typ"
+    LogicalPath="Automation.DataDistributionSFC.Types.typ"
     Type="File"
-    LastWriteTime="133996662355785363"
+    LastWriteTime="133996736710393172"
     Private="true" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Variables.var"
-    LogicalPath="Automation.ManualPulseLaserSFC.Variables.var"
+    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Variables.var"
+    LogicalPath="Automation.DataDistributionSFC.Variables.var"
     Type="File"
-    LastWriteTime="133988118769244213"
+    LastWriteTime="133996740056453175"
     Private="true" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Init.st"
-    LogicalPath="Automation.ManualPulseLaserSFC.Init.st"
+    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Init.st"
+    LogicalPath="Automation.DataDistributionSFC.Init.st"
     Type="File"
     LastWriteTime="133988118769234240"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\Common.var"
-    LogicalPath="Automation.ManualPulseLaserSFC.Common.var"
+    LogicalPath="Automation.DataDistributionSFC.Common.var"
     Type="File"
     LastWriteTime="133608596940943529"
     Private="true" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\PiperInterface.st"
-    LogicalPath="Automation.ManualPulseLaserSFC.PiperInterface.st"
+    LogicalPath="Automation.DataDistributionSFC.PiperInterface.st"
     Type="File"
     LastWriteTime="133547302228205478"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\Action.st"
-    LogicalPath="Automation.ManualPulseLaserSFC.Action.st"
+    LogicalPath="Automation.DataDistributionSFC.Action.st"
     Type="File"
     LastWriteTime="133601048703944288"
     Private="false" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\commands.st"
-    LogicalPath="Automation.ManualPulseLaserSFC.commands.st"
+    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\commands.st"
+    LogicalPath="Automation.DataDistributionSFC.commands.st"
     Type="File"
-    LastWriteTime="133988118769244213"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\PixelConvert.st"
-    LogicalPath="Automation.ManualPulseLaserSFC.PixelConvert.st"
-    Type="File"
-    LastWriteTime="133988118769234240"
+    LastWriteTime="133996731536130465"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\Package.pkg"
@@ -456,7 +450,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\PrintJobManagement\PrintJobManagement\Main.st"
     LogicalPath="ProcessControl.PrintJobManagement.PrintJobManagement.Main.st"
     Type="File"
-    LastWriteTime="133996720952947441"
+    LastWriteTime="133996735692890797"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\PrintJobManagement\PrintJobManagement\Types.typ"
@@ -643,7 +637,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\RevInfo\RevInfo.var"
     LogicalPath="Infrastructure.RevInfo.RevInfo.var"
     Type="File"
-    LastWriteTime="133996726678769813"
+    LastWriteTime="133996743133584144"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\IEC.prg"
@@ -5898,7 +5892,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.sw"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.Cpu.sw"
     Type="File"
-    LastWriteTime="133996671681331947"
+    LastWriteTime="133996728662987787"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.per"

@@ -2,8 +2,22 @@ VAR
 	START:BOOL:=FALSE;
 	_START:BOOL:=TRUE;
 	Step1:SFCStepType:=(0);
-	InitializeManualCalibration:BOOL:=FALSE;
-	_InitializeManualCalibration:BOOL:=FALSE;
+	CheckBuildInfo:BOOL:=FALSE;
+	_CheckBuildInfo:BOOL:=FALSE;
+	UpdateNextLayer:BOOL:=FALSE;
+	_UpdateNextLayer:BOOL:=FALSE;
+	CompletedAllLayers:BOOL:=FALSE;
+	_CompletedAllLayers:BOOL:=FALSE;
+	UpdateNextLayerglobally:BOOL:=FALSE;
+	_UpdateNextLayerglobally:BOOL:=FALSE;
+	RequestLayerFileTranf:BOOL:=FALSE;
+	_RequestLayerFileTranf:BOOL:=FALSE;
+	CheckLastDistributedLayer:BOOL:=FALSE;
+	_CheckLastDistributedLayer:BOOL:=FALSE;
+	OpenLayer:BOOL:=FALSE;
+	_OpenLayer:BOOL:=FALSE;
+	AbortLayer:BOOL:=FALSE;
+	_AbortLayer:BOOL:=FALSE;
 	FunctionblockCalls:SFCActionType:=(0);
 	Step1Active:SFCActionType:=(0);
 END_VAR

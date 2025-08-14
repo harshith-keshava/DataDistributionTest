@@ -156,7 +156,11 @@ PROGRAM _CYCLIC
 
 			END_CASE
 			
+		STATE_UPDATE_LAYER_NUMBER:
 			
+				Nonvolatile.currentLayerNumber := dCurrentState.currentLayerNumber;
+				task.internal.PLCOpen.status := ERR_OK;
+				task.status.state := STATE_READY;
 		
 	
 		STATE_VALIDATING_BUILD_INFO:

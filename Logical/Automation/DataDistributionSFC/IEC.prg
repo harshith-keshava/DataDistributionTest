@@ -10,6 +10,5 @@
     <File Reference="true">\Logical\Automation\SFCCommon\PiperInterface.st</File>
     <File Reference="true">\Logical\Automation\SFCCommon\Action.st</File>
     <File>commands.st</File>
-    <File>PixelConvert.st</File>
   </Files>
 </Program>

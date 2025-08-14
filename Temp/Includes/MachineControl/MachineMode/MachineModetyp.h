@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755199075_6_
-#define _BUR_1755199075_6_
+#ifndef _BUR_1755200719_6_
+#define _BUR_1755200719_6_
 
 #include <bur/plctypes.h>
 
@@ -80,5 +80,5 @@ __asm__(".ascii \"iecfile \\\"Logical/MachineControl/MachineMode/MachineMode.typ
 __asm__(".previous");
 
 
-#endif /* _BUR_1755199075_6_ */
+#endif /* _BUR_1755200719_6_ */
 

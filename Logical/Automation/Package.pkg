@@ -6,6 +6,6 @@
     <Object Type="File">Variables.var</Object>
     <Object Type="Program" Language="IEC">SFCControl</Object>
     <Object Type="Program" Language="IEC">SFCCommon</Object>
-    <Object Type="Program" Language="IEC">ManualPulseLaserSFC</Object>
+    <Object Type="Program" Language="IEC">DataDistributionSFC</Object>
   </Objects>
 </Package>

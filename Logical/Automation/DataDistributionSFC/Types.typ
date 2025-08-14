@@ -23,6 +23,7 @@ TYPE
 	END_STRUCT;
 	localInterfaceInternal_typ : 	STRUCT 
 		PLCOpen : AtnPlcOpenStatus;
+		nextLayerNumber : UINT;
 		newCommand : BOOL;
 	END_STRUCT;
 END_TYPE

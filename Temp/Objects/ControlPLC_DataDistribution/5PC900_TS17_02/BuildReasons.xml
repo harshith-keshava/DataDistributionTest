@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID=".mappView_Clean_TransferIatr_Client">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_TransferIatr_PLC">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_Data">
+  <Rule ID=".mappView_Clean_TransferData_PLC">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID=".mappView_Clean_Build">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_TransferIatr_Client">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Clean_Data">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID=".mappView_Clean_TransferData_Client">
@@ -18,34 +18,34 @@
   <Rule ID=".mappView_Clean_Media">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID=".mappView_Clean_TransferData_PLC">
+  <Rule ID=".mappView_Clean_TransferIatr_PLC">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\brease\iatc\brvisu\brease._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\index.html">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\brease\iat\build\jsbuild._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\transformations_copy._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\brease\iat\build\jsbuild._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\server\serverdiagnostics._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\types\area._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\duplicatebindingslistsetsfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\index.html">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\favicon.ico">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\widgets\changepassworddialog\meta\changepassworddialog_copied.markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\types\area._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\server\serverdiagnostics._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\duplicatebindingslistsetsfinder._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\duplicatethemesfinder._markerfile">
@@ -108,31 +108,31 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\_bur_pvdef.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\_bur_pvdef.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\a.out">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\a.out">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\_bur_pvdef.st.o">
@@ -141,7 +141,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\vflcr_ope1.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\cyclic.sfc.o">
@@ -150,31 +150,31 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\main.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\main.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\main.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\main.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\main.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\atndriver.ox">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\alarmwrap.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\vflcr_ope0.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\vflcr_ope1.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\vflcr_ope2.ox">
@@ -183,10 +183,10 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\vflcr_ope3.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\alarmwrap.ox">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\cyclic.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\cyclic.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\atndriver.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\main.st.o">
@@ -198,37 +198,31 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\printjobma.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\main.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\_bur_pvdef.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\printjobma.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\init.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\_bur_pvdef.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\_bur_pvdef.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\init.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\_bur_pvdef.st.o">
@@ -237,19 +231,25 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\a.out">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\a.out">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\_bur_pvdef.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\builddistr.ox">
@@ -258,55 +258,55 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashwac.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\sfccontrol.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\cyclic.c.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\init.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\cyclic.c.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\exit.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\machinemod.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\setalarm.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\vflcr_syst.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\ackalarm.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddalarm.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\manualpuls.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\_bur_pvdef.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddsnippet.c.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls\manualpuls.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\setalarm.c.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\sfccontrol.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\ackalarm.c.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod\machinemod.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddalarm.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\rm_buildin.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddreactionbyname.c.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddsnippet.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\a.out">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\vflcr_syst.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddreactionbyname.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1.br">
@@ -315,22 +315,22 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddreactionbyseverity.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\rm_printpr.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddaggregationbyname.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddaggregationbyseverity.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\rm_printpr.ox">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfsetdefaultmapping.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfcreatealarmsfaster.c.o">
@@ -342,22 +342,22 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vflookuporigin.c.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\errorapi.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vflookuporigin.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddnonescalatedreactionbyname.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarmedge.c.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap.br">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarmedge.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarmpersistent.c.o">
@@ -381,16 +381,16 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfparselaserstatefile.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_pulsetrain.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mpsfdommgr.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfdomdrv.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_pulsetrain.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfdomvis.br">
@@ -402,22 +402,22 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mcowebsc.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\udbdef.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata\tcdata.imx">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_pulsetrainhires.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\manualpuls.br">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata\tcdata.imx">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve\a.out">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfparsefixedeventfile.st.o">
@@ -426,16 +426,19 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_converttohex.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_isvalueinrange.st.o">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfsmrconnect.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_isvalueinrange.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_mpalarmxtoggle.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vflcrconnect.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_mpalarmxtoggle.st.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_controlvalue.st.o">
@@ -444,49 +447,46 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfsmrfilesetup.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_monitorvalue.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\helperfunctions.st.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarms.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\toolbox.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_filenamewithtimestamp.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve\vfvalve.ox">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\helperfunctions.st.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve.br">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarms.ox">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mcbase.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfdomain.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve\vfvalve.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\toolbox.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mpbase.br">
@@ -496,6 +496,9 @@
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\aszip.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\fileio.br">
@@ -510,22 +513,13 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\hmitools.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinemod.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\logthat.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ringbuflib.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vf_parser.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\piper.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\databuffer.br">
@@ -537,13 +531,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asiodiag.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sys_lib.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asbrstr.br">
@@ -552,7 +540,13 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\standard.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vf_parser.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asarlog.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\areventlog.br">
@@ -573,7 +567,13 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mcaxis.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common.ox">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mpalarmx.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin.br">
@@ -612,6 +612,9 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\omjson.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mpcom.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
@@ -636,13 +639,13 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\loopconr.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asbrmath.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\mprecipe.br">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\brsystem.br">
@@ -691,9 +694,6 @@
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashw.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma.br">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\aseth.br">
@@ -930,10 +930,10 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\window\meta\window_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\image\meta\image_copied.markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\laserpagemain._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\laserpagemain._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\image\meta\image_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\rectangle\meta\rectangle_copied.markerfile">
@@ -966,10 +966,10 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\textoutput\meta\textoutput_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusybrowsefiles._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\progressbar\meta\progressbar_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\progressbar\meta\progressbar_copied.markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusybrowsefiles._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\table\meta\table_copied.markerfile">
@@ -987,19 +987,16 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\logininfo\meta\logininfo_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\alarmspage._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\pushbutton\meta\pushbutton_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentsetupmode._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusymsg._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\alarmspage._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\navigationbutton\meta\navigationbutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentsetupmode._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenttransfermsg._markerfile">
@@ -1008,10 +1005,13 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\line\meta\line_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentmodulexchg._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\tabcontrol\meta\tabcontrol_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\tabcontrol\meta\tabcontrol_copied.markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\tabitem\meta\tabitem_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\password\meta\password_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentheaderland._markerfile">
@@ -1023,16 +1023,25 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentnavland._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\tabitem\meta\tabitem_copied.markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenttransfer._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenttransfer._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\loginbutton\meta\loginbutton_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\tableitemimagelist\meta\tableitemimagelist_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentdetails._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\laserpagemain.page._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentdetails._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentlogin._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusybrowsefiles\sfmp19_dialogbusybrowsefiles_styles.scss">
@@ -1041,70 +1050,43 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\alarmspage.page._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\password\meta\password_copied.markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentsetupmode.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusymsg\sfmp19_dialogbusymsg_styles.scss">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransfermsg\sfmp19_dialogtransfermsg_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentmodulexchg.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentsetupmode.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentackoppara._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\hmi.json">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\loginbutton\meta\loginbutton_copied.markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentconnect.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentheaderland.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\tableitemimagelist\meta\tableitemimagelist_copied.markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusybrowsefiles\sfmp19_dialogbusybrowsefiles_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\buttonbar\meta\buttonbar_copied.markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_connectlandpage.page._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_transferlandpage.page._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentlogin._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentconnect.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_connectlandpage.page._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusymsg\sfmp19_dialogbusymsg_styles.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusybrowsefiles\sfmp19_dialogbusybrowsefiles_styles.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransfermsg\sfmp19_dialogtransfermsg_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_modulexchglandpage.page._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_transferlandpage.page._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_setupmodelandpage.page._markerfile">
@@ -1113,19 +1095,22 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappview\laserpagemain.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentackoppara._markerfile">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogconnectdetails\sfmp19_dialogconnectdetails_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappview\alarmspage.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogconnectdetails\sfmp19_dialogconnectdetails_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentnavland.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransfermsg\sfmp19_dialogtransfermsg_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenttransfer.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentmodulexchg._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentheaderport._markerfile">
@@ -1140,73 +1125,64 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenttransferbrowse._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenttransfermsg.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentacksn._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentacksafeapp._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\.mappview_widgetsfinished._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentbusymsg.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusyconnect._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusydisconnect._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\validatebindings._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentbusybrowsefiles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogconnectdetails\sfmp19_dialogconnectdetails_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenterrormsg._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentacksafeop._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialoglogin\sfmp19_dialoglogin_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\duplicatebindingsfinder._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogackoppara\sfmp19_dialogackoppara_styles.scss">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenttransfermsg.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentlogin.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentnavport.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentacksn._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\.mappview_widgetsfinished._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentacksafeapp._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogconnectdetails\sfmp19_dialogconnectdetails_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusymsg._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusyconnect._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogackoppara\sfmp19_dialogackoppara_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\validatebindings._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialoglogin\sfmp19_dialoglogin_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentbusydisconnect._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentbusybrowsefiles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogackoppara\sfmp19_dialogackoppara_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_modulexchglandpage.page._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentheaderport.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_connectportpage.page._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransferbrowse\sfmp19_dialogtransferbrowse_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksn\sfmp19_dialogacksn_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeapp\sfmp19_dialogacksafeapp_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_transferportpage.page._markerfile">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialoglogin\sfmp19_dialoglogin_styles.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_modulexchgportpage.page._markerfile">
@@ -1215,19 +1191,25 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\sfmp171_setupmodeportpage.page._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusydisconnect\sfmp19_dialogbusydisconnect_styles.scss">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentmodulexchg.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusyconnect\sfmp19_dialogbusyconnect_styles.scss">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksn\sfmp19_dialogacksn_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentheaderport.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransferbrowse\sfmp19_dialogtransferbrowse_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentnavport.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenttransferbrowse.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogackoppara\sfmp19_dialogackoppara_styles.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusyconnect\sfmp19_dialogbusyconnect_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeapp\sfmp19_dialogacksafeapp_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentacksn.scss.css">
@@ -1236,16 +1218,22 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentacksafeapp.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransferbrowse\sfmp19_dialogtransferbrowse_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksn\sfmp19_dialogacksn_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeapp\sfmp19_dialogacksafeapp_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentbusyconnect.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenterrormsg._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusymsg\sfmp19_dialogbusymsg_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentbusymsg.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contentacksafeop._markerfile">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusydisconnect\sfmp19_dialogbusydisconnect_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentbusydisconnect.scss.css">
@@ -1257,28 +1245,19 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp171_contenteditoppara._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogtransferbrowse\sfmp19_dialogtransferbrowse_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksn\sfmp19_dialogacksn_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappsafety\sfmp17_contentprocess._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogerrormsg\sfmp19_dialogerrormsg_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeop\sfmp19_dialogacksafeop_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenterrormsg.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusydisconnect\sfmp19_dialogbusydisconnect_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentacksafeop.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\mappviewfiles.bin_binding_trans._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusyconnect\sfmp19_dialogbusyconnect_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\mappviewfiles.bin_binding_trans._markerfile">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\593551072.eventbinding">
@@ -1287,10 +1266,19 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\-1634026811.eventbinding">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeapp\sfmp19_dialogacksafeapp_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\-1355725498.eventbinding">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusymsg\sfmp19_dialogbusymsg_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\2135815872.eventbinding">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogbusydisconnect\sfmp19_dialogbusydisconnect_styles.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\-2014660516.eventbinding">
@@ -1299,13 +1287,19 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\-674592636.eventbinding">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogerrormsg\sfmp19_dialogerrormsg_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenterrormsg.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\-1723501490.eventbinding">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogerrormsg\sfmp19_dialogerrormsg_styles.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeop\sfmp19_dialogacksafeop_styles.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeop\sfmp19_dialogacksafeop_styles.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contentacksafeop.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\465670144.eventbinding">
@@ -1317,10 +1311,28 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\-734241044.eventbinding">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogeditoppara\sfmp19_dialogeditoppara_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenteditoppara.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogprocess\sfmp19_dialogprocess_styles.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp17_contentprocess.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\1501003399.eventbinding">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\1189300058.eventbinding">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogerrormsg\sfmp19_dialogerrormsg_styles.scss.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogacksafeop\sfmp19_dialogacksafeop_styles.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\157945538.scss">
@@ -1338,16 +1350,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\118132788.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogprocess\sfmp19_dialogprocess_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogeditoppara\sfmp19_dialogeditoppara_styles.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp171_contenteditoppara.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappsafety\sfmp17_contentprocess.scss.css">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogeditoppara\sfmp19_dialogeditoppara_styles.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1354067113.scss">
@@ -1359,13 +1362,19 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1398646705.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogprocess\sfmp19_dialogprocess_styles.scss.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\1597950609.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\2062906418.scss">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Rebuild.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\burtheme1\1570227076\-1912066981.scss">
@@ -1380,16 +1389,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\1573131073.scss">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\iew\sfmp17_visualizationland\dialogs\sfmp19_dialogeditoppara\sfmp19_dialogeditoppara_styles.scss.css">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\1004761169.scss">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\brease_core.css">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\sfmp14_burthemeflat1\132713741\-1805217693.scss">

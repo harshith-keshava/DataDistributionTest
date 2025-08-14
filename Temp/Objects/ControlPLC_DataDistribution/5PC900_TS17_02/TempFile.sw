@@ -15,7 +15,7 @@
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="atnDriver" Source="Infrastructure.atnDriver.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="ManualPuls" Source="Automation.ManualPulseLaserSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="ManualPuls" Source="Automation.DataDistributionSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="SFCControl" Source="Automation.SFCControl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="VFLCR_Syst" Source="ProcessControl.VFLCR.VFLCR_System.prg" Memory="UserROM" Description="                     " Language="IEC" Debugging="true" />
     <Task Name="MachineMod" Source="MachineControl.MachineMode.MachineMode.prg" Memory="UserROM" Language="IEC" Debugging="true" />

@@ -1,16 +1,16 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755199075_1_
-#define _BUR_1755199075_1_
+#ifndef _BUR_1755200719_1_
+#define _BUR_1755200719_1_
 
 #include <bur/plctypes.h>
 
 /* Datatypes and datatypes of function blocks */
 typedef enum MACHINE_OPERATIONS_ENUM
 {	MACH_OP_NONE,
-	MACH_OP_CALIBRATE_LASER,
-	MACH_OP_CALIBRATE_BEAM
+	MACH_OP_START_DISTRIBUTION,
+	MACH_OP_ABORT_DISTRIBUTION
 } MACHINE_OPERATIONS_ENUM;
 
 typedef enum SYSTEM_GENERAL_STATUS_ENUM
@@ -39,5 +39,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1755199075_1_ */
+#endif /* _BUR_1755200719_1_ */
 

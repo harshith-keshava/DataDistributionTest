@@ -11,8 +11,6 @@ $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/persist/Persist.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/tcpcomm/TCPComm.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/vartools/VarTools.var
-$(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.typ
-$(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.var
 $(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/Cpu.per
 $(AS_PROJECT_PATH)/Logical/Infrastructure/Infrastructure.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/persist/Persist.typ

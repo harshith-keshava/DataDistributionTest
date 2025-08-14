@@ -15,22 +15,6 @@
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\FirstInitProg\MachineAlarm.var" />
     </Task>
-    <Task
-      Name="VFPTR_Syst"
-      Disable="false"
-      Source="ProcessControl.VFLCR.VFPTR_System"
-      Language="IEC">
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFPTR_Syst\Main.st.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFPTR_System\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFPTR_System\Variables.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFPTR_System\PiperModule.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFPTR_Syst\PiperInterface.st.var" />
-    </Task>
   </TaskClass>
   <TaskClass
     Name="Cyclic#2">

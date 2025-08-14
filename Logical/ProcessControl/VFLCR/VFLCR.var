@@ -1,50 +1,13 @@
 (*Constants defining capabilities of each VF-LCR system...*)
-VAR CONSTANT
-	VFLCR_NUM_POWER_SUPPLIES : USINT := 3; (*Number of power supplies per standard VF-LCR rack*)
-	VFLCR_MAI_POWER_SUPPLIES : USINT := VFLCR_NUM_POWER_SUPPLIES-1;
-	VFLCR_NUM_LASERS : USINT := 21; (*Number of lasers per standard VF-LCR rack*)
-	VFLCR_MAI_LASERS : USINT := VFLCR_NUM_LASERS-1;
-	VFLCR_POWER_COMMAND_RESOLUTION : UINT := 255; (*Total number of discrete laser power levels that can be specified*)
-END_VAR
 (*Machine-specific constants...*)
 VAR CONSTANT
 	MACHINE_NUM_LASER_RACKS : USINT := 4; (*Number of VF-LCR controlled laser racks*)
 	MACHINE_MAI_LASER_RACKS : USINT := MACHINE_NUM_LASER_RACKS-1;
-	MACHINE_NUM_LASERS_PER_RACK : USINT := 21; (*Number of VF-LCR controlled lasers in each rack (max 21)*)
-	MACHINE_MAI_LASERS_PER_RACK : USINT := MACHINE_NUM_LASERS_PER_RACK-1;
-END_VAR
-VAR
-	MACHINE_NUM_LASERS_TOTAL : {REDUND_UNREPLICABLE} USINT := 50;
-	MACHINE_MAI_LASERS_TOTAL : {REDUND_UNREPLICABLE} USINT := 49;
-END_VAR
-VAR CONSTANT
-	MACHINE_NUM_POWER_SUPPLIES_TOTAL : USINT := 11;
-	MACHINE_MAI_POWER_SUPPLIES_TOTAL : USINT := MACHINE_NUM_POWER_SUPPLIES_TOTAL-1;
-END_VAR
-VAR
-	OPTICS_BOX_PIXEL_XY_OFFSET : {REDUND_UNREPLICABLE} REAL := 1; (*1 mm spacing between pixels [(1 cos(45deg)]*)
 END_VAR
 (*Test type constants*)
-VAR CONSTANT
-	NUM_VFLCR_TEST_TYPE : USINT := END_OF_VFLCR_TEST_TYPE;
-	MAI_VFLCR_TEST_TYPE : USINT := NUM_VFLCR_TEST_TYPE-1;
-END_VAR
 (*Rack/laser to pixel mapping and vice-versa...*)
-VAR
-	gmapRackLaser_to_Pixel : ARRAY[0..MACHINE_MAI_LASER_RACKS,0..MACHINE_MAI_LASERS_PER_RACK] OF USINT;
-	gmapPixel_to_Rack : ARRAY[0..100] OF USINT;
-	gmapPixel_to_Laser : ARRAY[0..100] OF USINT;
-END_VAR
 (*Global ATN interface*)
 VAR
 	gVFLCR : VFLCRApi_typ;
 	gLaserSnippets : LaserSnippets_typ;
-END_VAR
-VAR RETAIN
-	gManualPulseTypeSelected : VFLCR_TEST_TYPE;
-END_VAR
-(*globals for python handshake*)
-VAR
-	gOpcData_ToGen3CalibApp : OPCUAData_TO_Gen3CalibApp_typ := (0);
-	gOpcData_FromGen3CalibApp : OPCUAData_FROM_Gen3CalibApp_typ;
 END_VAR

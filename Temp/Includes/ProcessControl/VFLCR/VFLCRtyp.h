@@ -1,132 +1,21 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755184960_10_
-#define _BUR_1755184960_10_
+#ifndef _BUR_1755193313_10_
+#define _BUR_1755193313_10_
 
 #include <bur/plctypes.h>
 
 /* Datatypes and datatypes of function blocks */
-typedef enum VFLCR_LaserHardware_enum
-{	LH_undefined,
-	LH_Raycus_300W,
-	LH_nLight_525W
-} VFLCR_LaserHardware_enum;
-
-typedef enum VFLCR_TEST_TYPE
-{	VFLCR_TEST_TYPE_PIXEL_MAPPING,
-	VFLCR_TEST_TYPE_CALIBRATION,
-	VFLCR_TEST_TYPE_VERIFY_CLEAN,
-	VFLCR_TEST_TYPE_VERIFY_DIRTY,
-	VFLCR_TEST_TYPE_LOW_POWER_CHECK,
-	VFLCR_TEST_TYPE_SOMS,
-	VFLCR_TEST_TYPE_HIGH_POWER,
-	END_OF_VFLCR_TEST_TYPE
-} VFLCR_TEST_TYPE;
-
 typedef struct VFLCRApiCommand_typ
-{	plcstring enableLaserPowerSequence[81];
-	plcstring laserRackRemap[81];
-	plcstring forceMappingDone[81];
-	plcstring checkActivePixels[81];
-	plcstring enableModulation[81];
-	plcstring disableModulation[81];
-	plcstring enableDCPower[81];
-	plcstring disableDCPower[81];
-	plcstring enableLaserPower[81];
-	plcstring disableLaserPower[81];
-	plcstring enableLaserEmission[81];
-	plcstring disableLaserEmission[81];
-	plcstring resetHardwareError[81];
-	plcstring resetAllErrors[81];
-	plcstring enableAutoMode[81];
-	plcstring enableManualMode[81];
-	plcstring openLayer[81];
+{	plcstring openLayer[81];
 	plcstring abortLayer[81];
-	plcstring resetSoftwareError[81];
 	plcstring deleteLaserControlFiles[81];
-	plcstring deleteLUTFiles[81];
-	plcstring transferLUTFiles[81];
-	plcstring checkPixelOk[81];
-	plcstring checkMotionOk[81];
-	plcstring manualPulse[81];
-	plcstring manualPulseRack[81];
-	plcstring manualPulseAbort[81];
-	plcstring triggerDataCollection[81];
-	plcstring initializeDataCollection[81];
-	plcstring initializeCalibration[81];
-	plcstring initializeManualCalibration[81];
-	plcstring initializePixel[81];
-	plcstring initializePixelForFrame[81];
-	plcstring processPixel[81];
-	plcstring processCalibration[81];
-	plcstring uploadLUTs[81];
-	plcstring uploadTestData[81];
-	plcstring initializeOmsTestZaber1[81];
-	plcstring initializeOmsTestZaber2[81];
-	plcstring setZaber2PosAndExposure[81];
-	plcstring setZaber1Pos[81];
-	plcstring checkZaber2Homed[81];
-	plcstring checkZaber1Homed[81];
-	plcstring passRequiredMetaData[81];
-	plcstring passCompleteHandshake[81];
-	plcstring passAbortedHandshake[81];
-	plcstring captureFrame[81];
-	plcstring stopPulse[81];
-	plcstring startPulse[81];
-	plcstring passAbortedHandshakeWithoutAck[81];
 } VFLCRApiCommand_typ;
 
 typedef struct VFLCRApiStatus_typ
-{	plcstring remapEnabled[81];
-	plcstring pixelMappingHeaderInfo[81];
-	plcstring counterResetEnabled[81];
-	plcstring modulationEnabled[81];
-	plcstring userModulationEnabled[81];
-	plcstring encoderXSelected[81];
-	plcstring prepareTrajectory[81];
-	plcstring error[81];
-	plcstring subSystemsReady[81];
-	plcstring rackIgnored[81];
-	plcstring laserSafetyEnabled[81];
-	plcstring laserEmissionEnabled[81];
-	plcstring laserPowerEnabled[81];
-	plcstring dcPowerEnabled[81];
-	plcstring remapActive[81];
-	plcstring remapAlarmActive[81];
-	plcstring pixelMapped[81];
-	plcstring manualPulseActive[81];
-	plcstring OMSModeEnabled[81];
-	plcstring autoModeEnabled[81];
-	plcstring manualModeEnabled[81];
-	plcstring invalidPixelUsage[81];
-	plcstring readyToPrint[81];
-	plcstring layerOpen[81];
-	plcstring rackOnline[81];
-	plcstring usingGen3LaserCalibrationApp[81];
-	plcstring heartbeatLaserCalibrationAppOk[81];
-	plcstring calibrationConfigParOk[81];
-	plcbit pythonOpcuaControlEnabled;
-	unsigned char vfpMap[101][4];
-	unsigned long calibrationLUT[4];
-	plcbit mismatchedLUTs;
-	plcbit defaultLUT;
-	plcbit versionZeroLUT;
-	plcbit laserModulationEnabled;
-	plcbit frameCaptured;
-	plcbit manualContinuousModeEnabled;
-	unsigned char MaxNumberOfPixelsUsed;
+{	plcstring layerOpen[81];
 } VFLCRApiStatus_typ;
-
-typedef struct VFLCRApiInhibit_typ
-{	plcstring laserRackRemap[81];
-	plcstring modulation[81];
-	plcstring autoModulation[81];
-	plcstring dcPower[81];
-	plcstring laserPower[81];
-	plcstring laserEmission[81];
-	plcstring manualPulse[81];
-} VFLCRApiInhibit_typ;
 
 typedef struct VFLCRApiIO_typ
 {	plcstring rack[81];
@@ -185,26 +74,9 @@ typedef struct VFLCRApiAlarm_typ
 typedef struct VFLCRApi_typ
 {	struct VFLCRApiCommand_typ command;
 	struct VFLCRApiStatus_typ status;
-	struct VFLCRApiInhibit_typ inhibit;
 	struct VFLCRApiIO_typ IO;
 	struct VFLCRApiAlarm_typ alarm;
 } VFLCRApi_typ;
-
-typedef struct VFLCRManualPulseParameters_typ
-{	float safePowerLimit_W;
-	float availableLaserPower_W;
-	unsigned short startingPowerLevel;
-	unsigned char numPowerLevels;
-	unsigned char powerIncrementPerStep;
-	unsigned char numPulsesPerLevel;
-	unsigned short pulseOnTime_ms;
-	unsigned long pulseDelayTime_ms;
-	unsigned long pulseOffTime_ms;
-} VFLCRManualPulseParameters_typ;
-
-typedef struct VFLCRApiParameter_typ
-{	struct VFLCRManualPulseParameters_typ manualPulse;
-} VFLCRApiParameter_typ;
 
 typedef struct VFLCROpenLayerParameters_typ
 {	unsigned long selectedBuildLayout;
@@ -219,57 +91,6 @@ typedef struct VFLCROpenLayerCommandPars_typ
 typedef struct VFLCROpenLayerRackPars_typ
 {	unsigned char Rack;
 } VFLCROpenLayerRackPars_typ;
-
-typedef struct VFLCRInitializePixelCmdPars_typ
-{	unsigned char activePixelIndex;
-} VFLCRInitializePixelCmdPars_typ;
-
-typedef struct VFLCRInitCalibrationPars_typ
-{	enum VFLCR_TEST_TYPE testType;
-} VFLCRInitCalibrationPars_typ;
-
-typedef struct VFLCRUploadLUTsCmdPars_typ
-{	plcbit Calibrated;
-} VFLCRUploadLUTsCmdPars_typ;
-
-typedef struct VFLCRAdjustZaberAndExpoPars_typ
-{	float ZaberRelativePos_mm;
-	float ZaberAbsolutePos_mm;
-	plcbit ZaberHome;
-	plcbit ZaberMoveRelative;
-	plcbit ZaberMoveAbsolute;
-	float CameraExposure;
-} VFLCRAdjustZaberAndExpoPars_typ;
-
-typedef struct VFLCRDataCollectionCmdPars_typ
-{	enum VFLCR_TEST_TYPE TestType;
-	float CurrentPowerWatts;
-	struct VFLCRManualPulseParameters_typ LaserParameters;
-	unsigned char ActivePixel;
-} VFLCRDataCollectionCmdPars_typ;
-
-typedef struct VFLCRManualPulseRackPars_typ
-{	unsigned char Rack;
-	unsigned char Laser;
-} VFLCRManualPulseRackPars_typ;
-
-typedef struct VFLCRManualPulseCommandPars_typ
-{	struct VFLCRManualPulseRackPars_typ selection;
-	struct VFLCRManualPulseParameters_typ parameters;
-} VFLCRManualPulseCommandPars_typ;
-
-typedef struct LaserManualPulseStatus_typ
-{	unsigned char rackNumber;
-	unsigned char laserNumber;
-	unsigned char pixelNumber;
-	unsigned short numPulses;
-	unsigned short currentPowerLevel;
-	unsigned short safePowerLevel;
-	unsigned short maxFeedbackPower_W;
-	unsigned short currentStep;
-	float currentPower_W;
-	unsigned short feedbackPower_W;
-} LaserManualPulseStatus_typ;
 
 typedef struct LaserSnippets_typ
 {	unsigned char rackNumber;
@@ -294,5 +115,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/VFLCR/VFLCR.typ\\\" scope \
 __asm__(".previous");
 
 
-#endif /* _BUR_1755184960_10_ */
+#endif /* _BUR_1755193313_10_ */
 

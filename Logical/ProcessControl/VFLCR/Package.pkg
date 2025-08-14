@@ -3,9 +3,7 @@
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File">VFLCR.typ</Object>
-    <Object Type="File">OPCUA.typ</Object>
     <Object Type="File">VFLCR.var</Object>
-    <Object Type="Program" Language="IEC" Description="VF-PTR System Control">VFPTR_System</Object>
     <Object Type="Program" Language="IEC" Description="VF-LCR System Control">VFLCR_System</Object>
     <Object Type="Program" Language="IEC" Description="VF-LCR Operations">VFLCR_Operation</Object>
   </Objects>

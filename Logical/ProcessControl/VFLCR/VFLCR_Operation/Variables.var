@@ -8,7 +8,6 @@ VAR
 	index : USINT;
 	rackIndex : USINT;
 	laserIndex : USINT;
-	test : test_typ;
 	pixelIndex : USINT;
 	bitIndex : USINT;
 	scanMicrosec : UDINT;

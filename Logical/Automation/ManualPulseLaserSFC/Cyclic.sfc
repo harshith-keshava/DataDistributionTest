@@ -26,13 +26,12 @@ END_TRANSITION
 STEP InitializeManualCalibration:
 (* @LANGUAGE := 'st' *)
 // initialize app with manual pulse pars
-Command.Command := gVFLCR.command.initializeManualCalibration;
+//Command.Command := gVFLCR.command.initializeManualCalibration;
 
-Command.pParameters := ADR(gManualPulseTypeSelected);
-Command.sParameters := SIZEOF(gManualPulseTypeSelected);
 
-Command.Execute := TRUE;
-Command();
+
+//Command.Execute := TRUE;
+//Command();
 
 IF Command.Done THEN
 	StepDone := TRUE;
@@ -47,19 +46,8 @@ END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)
 (* @SFCCOMMENT := '' *)
-TRANSITION FROM InitializeManualCalibration TO IteratePixel:=
+TRANSITION FROM InitializeManualCalibration TO InitializeManualCalibration:=
 StepDone
-END_TRANSITION
-(* @SFCNOJUMP := 'IteratePixel' *)
-STEP IteratePixel:
-(* @LANGUAGE := 'st' *)
-task.parameters.pixelNum := task.parameters.pixelNum + 1;
-END_STEP
-(* @SFCMAXTIME := '' *)
-(* @SFCMINTIME := '' *)
-(* @SFCCOMMENT := '' *)
-TRANSITION FROM IteratePixel TO InitializeManualCalibration:=
-TRUE
 END_TRANSITION
 (* @SFCISJUMP := 'InitializeManualCalibration' *)
 END_PROGRAM

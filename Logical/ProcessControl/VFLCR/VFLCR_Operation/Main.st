@@ -139,9 +139,6 @@ PROGRAM _CYCLIC
 			
 		END_IF
 		
-		
-		
-		
 	END_IF //rackIgnored
 	
 	
@@ -161,11 +158,6 @@ PROGRAM _CYCLIC
 	brsmemset(ADR(task.command), 0, SIZEOF(task.command));
 	
 	task.internal.newCommand := FALSE;
-
-	
-	// Handle output IO
-	WriteOutputIO;
-	
 
 	
 END_PROGRAM

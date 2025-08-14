@@ -96,7 +96,6 @@ extern "C"
 #include <automation/typesTYP.h>
 #include <automation/variablesVAR.h>
 #include <processcontrol/vflcr/vflcrTYP.h>
-#include <processcontrol/vflcr/opcuaTYP.h>
 #include <processcontrol/vflcr/vflcrVAR.h>
 #include <infrastructure/infrastructureTYP.h>
 #include <infrastructure/infrastructureVAR.h>

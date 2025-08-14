@@ -14,7 +14,6 @@
   <Operation Delete="VFLCR_Ope2.br"/>
   <Operation Delete="VFLCR_Ope1.br"/>
   <Operation Delete="VFLCR_Ope0.br"/>
-  <Operation Delete="VFPTR_Syst.br"/>
   <Operation Delete="FirstInitP.br"/>
   <Operation Delete="SfDomVis.br"/>
   <Operation Delete="IotMqtt.br"/>
@@ -216,7 +215,6 @@
   <Operation Download="IotMqtt.br" Memory="UserROM"/>
   <Operation Download="SfDomVis.br" Memory="UserROM"/>
   <Operation Download="FirstInitP.br" Memory="UserROM"/>
-  <Operation Download="VFPTR_Syst.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope0.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope1.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope2.br" Memory="UserROM"/>

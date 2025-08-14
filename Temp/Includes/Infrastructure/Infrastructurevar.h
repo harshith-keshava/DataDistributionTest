@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755184960_14_
-#define _BUR_1755184960_14_
+#ifndef _BUR_1755193313_13_
+#define _BUR_1755193313_13_
 
 #include <bur/plctypes.h>
 
@@ -48,5 +48,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Infrastructure/Infrastructure.var\\\" scop
 __asm__(".previous");
 
 
-#endif /* _BUR_1755184960_14_ */
+#endif /* _BUR_1755193313_13_ */
 

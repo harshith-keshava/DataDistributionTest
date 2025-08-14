@@ -5,7 +5,6 @@
 <MainSFC>
 <STEP00002 NAME="START" CYCLIC="9"/>
 <STEP00006 NAME="InitializeManualCalibration" CYCLIC="10"/>
-<STEP00008 NAME="IteratePixel" CYCLIC="11"/>
 </MainSFC>
 <PiperModuleInterface USED="FALSE" NR="2">
 </PiperModuleInterface>

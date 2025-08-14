@@ -3,7 +3,6 @@
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
     <Task Name="FirstInitP" Source="Infrastructure.FirstInitProg.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
-    <Task Name="VFPTR_Syst" Source="ProcessControl.VFLCR.VFPTR_System.prg" Memory="UserROM" Description="VF-PTR System Control" Language="IEC" Debugging="true" />
     <Task Name="VFLCR_HMI" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2">

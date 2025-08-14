@@ -134,8 +134,6 @@ $(AS_TEMP_PATH)/includes/machinecontrol/machinecontroltyp.h
 $(AS_TEMP_PATH)/includes/machinecontrol/machinecontrolvar.h
 $(AS_TEMP_PATH)/includes/machinecontrol/machinemode/machinemodetyp.h
 $(AS_TEMP_PATH)/includes/machinecontrol/machinemode/machinemodevar.h
-$(AS_TEMP_PATH)/includes/machinecontrol/safety/safetytyp.h
-$(AS_TEMP_PATH)/includes/machinecontrol/safety/safetyvar.h
 $(AS_TEMP_PATH)/includes/automation/typestyp.h
 $(AS_TEMP_PATH)/includes/automation/variablesvar.h
 $(AS_TEMP_PATH)/includes/processcontrol/vflcr/vflcrtyp.h

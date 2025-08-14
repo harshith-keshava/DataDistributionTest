@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755183251_13_
-#define _BUR_1755183251_13_
+#ifndef _BUR_1755184960_11_
+#define _BUR_1755184960_11_
 
 #include <bur/plctypes.h>
 
@@ -126,5 +126,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/VFLCR/OPCUA.typ\\\" scope \
 __asm__(".previous");
 
 
-#endif /* _BUR_1755183251_13_ */
+#endif /* _BUR_1755184960_11_ */
 

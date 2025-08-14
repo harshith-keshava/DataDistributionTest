@@ -1,8 +1,6 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/sys_lib/sys_lib.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrStr/AsBrStr.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.typ
@@ -16,9 +14,8 @@ $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/PiperModule.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.typ
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Types.typ
-$(AS_PROJECT_PATH)/Logical/Infrastructure/Infrastructure.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.var
-$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
 $(AS_PROJECT_PATH)/Logical/Automation/Types.typ

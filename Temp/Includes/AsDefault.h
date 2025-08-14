@@ -93,8 +93,6 @@ extern "C"
 #include <machinecontrol/machinecontrolVAR.h>
 #include <machinecontrol/machinemode/machinemodeTYP.h>
 #include <machinecontrol/machinemode/machinemodeVAR.h>
-#include <machinecontrol/safety/safetyTYP.h>
-#include <machinecontrol/safety/safetyVAR.h>
 #include <automation/typesTYP.h>
 #include <automation/variablesVAR.h>
 #include <processcontrol/vflcr/vflcrTYP.h>

@@ -28,7 +28,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Package.pkg"
     LogicalPath="MachineControl"
     Type="Package"
-    LastWriteTime="133988118769264158" />
+    LastWriteTime="133996574701826356" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineControl.typ"
     LogicalPath="MachineControl.MachineControl.typ"
@@ -115,82 +115,6 @@
     LogicalPath="MachineControl.MachineMode.MachineMode.PiperInterface.st"
     Type="File"
     LastWriteTime="133535194854046493"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Package.pkg"
-    LogicalPath="MachineControl.Safety"
-    Type="Package"
-    LastWriteTime="133988118769274133" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety.typ"
-    LogicalPath="MachineControl.Safety.Safety.typ"
-    Type="File"
-    LastWriteTime="133988118769284107"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety.var"
-    LogicalPath="MachineControl.Safety.Safety.var"
-    Type="File"
-    LastWriteTime="133988118769284107"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\IEC.prg"
-    LogicalPath="MachineControl.Safety.Safety"
-    Type="Program"
-    LastWriteTime="133988118769294080" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SafeLogicTypes.typ"
-    LogicalPath="MachineControl.Safety.Safety.SafeLogicTypes.typ"
-    Type="File"
-    LastWriteTime="133988118769324001"
-    Private="true" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SafeDeviceTypes.typ"
-    LogicalPath="MachineControl.Safety.Safety.SafeDeviceTypes.typ"
-    Type="File"
-    LastWriteTime="133988118769314024"
-    Private="true" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Types.typ"
-    LogicalPath="MachineControl.Safety.Safety.Types.typ"
-    Type="File"
-    LastWriteTime="133988118769333971"
-    Private="true" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Variables.var"
-    LogicalPath="MachineControl.Safety.Safety.Variables.var"
-    Type="File"
-    LastWriteTime="133988118769343943"
-    Private="true" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\PiperModule.var"
-    LogicalPath="MachineControl.Safety.Safety.PiperModule.var"
-    Type="File"
-    LastWriteTime="133988118769314024"
-    Private="true" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Main.st"
-    LogicalPath="MachineControl.Safety.Safety.Main.st"
-    Type="File"
-    LastWriteTime="133988118769294080"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\PiperInterface.st"
-    LogicalPath="MachineControl.Safety.Safety.PiperInterface.st"
-    Type="File"
-    LastWriteTime="133988118769304052"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SubSequence.st"
-    LogicalPath="MachineControl.Safety.Safety.SubSequence.st"
-    Type="File"
-    LastWriteTime="133988118769333971"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Simulation.st"
-    LogicalPath="MachineControl.Safety.Safety.Simulation.st"
-    Type="File"
-    LastWriteTime="133988118769324001"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\Package.pkg"
@@ -410,7 +334,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_System\Main.st"
     LogicalPath="ProcessControl.VFLCR.VFLCR_System.Main.st"
     Type="File"
-    LastWriteTime="133988118769602134"
+    LastWriteTime="133996579486359228"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_System\Types.typ"
@@ -446,12 +370,12 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\IEC.prg"
     LogicalPath="ProcessControl.VFLCR.VFLCR_Operation"
     Type="Program"
-    LastWriteTime="133988118769512360" />
+    LastWriteTime="133996584268377554" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Main.st"
     LogicalPath="ProcessControl.VFLCR.VFLCR_Operation.Main.st"
     Type="File"
-    LastWriteTime="133988118769522348"
+    LastWriteTime="133996614333540183"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ"
@@ -466,12 +390,6 @@
     LastWriteTime="133988118769562241"
     Private="true" />
   <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\SubSequence.st"
-    LogicalPath="ProcessControl.VFLCR.VFLCR_Operation.SubSequence.st"
-    Type="File"
-    LastWriteTime="133988118769552267"
-    Private="false" />
-  <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Powerlink.st"
     LogicalPath="ProcessControl.VFLCR.VFLCR_Operation.Powerlink.st"
     Type="File"
@@ -481,7 +399,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Simulation.st"
     LogicalPath="ProcessControl.VFLCR.VFLCR_Operation.Simulation.st"
     Type="File"
-    LastWriteTime="133988118769542423"
+    LastWriteTime="133996577174831452"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\Package.pkg"
@@ -573,7 +491,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\RevInfo\RevInfo.var"
     LogicalPath="Infrastructure.RevInfo.RevInfo.var"
     Type="File"
-    LastWriteTime="133996568406801210"
+    LastWriteTime="133996614515380060"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\IEC.prg"
@@ -5823,12 +5741,12 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.pkg"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02"
     Type="Cpu"
-    LastWriteTime="133572467962379028" />
+    LastWriteTime="133996569408761053" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.sw"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.Cpu.sw"
     Type="File"
-    LastWriteTime="133996561644799057"
+    LastWriteTime="133996574702773790"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.per"

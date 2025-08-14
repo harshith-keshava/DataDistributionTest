@@ -132,7 +132,7 @@ PROGRAM _CYCLIC
 		
 		// Check for layer not being open
 		// EDGEPOS must be first so its internal fub always runs
-		IF EDGEPOS(IO.di.LayerClosed OR IO.di.LayerAborted OR IO.di.LayerError  OR task.command.abortLayer THEN
+		IF EDGEPOS(IO.di.LayerClosed OR IO.di.LayerAborted OR IO.di.LayerError OR task.command.abortLayer) THEN
 			
 			IO.do.OpenLayer := FALSE;
 			task.internal.PLCOpenOpenLayer.status := VFLCR_ERROR;

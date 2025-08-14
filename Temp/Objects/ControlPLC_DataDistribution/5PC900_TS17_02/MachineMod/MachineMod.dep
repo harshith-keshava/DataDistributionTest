@@ -2,7 +2,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/VF/ToolBox/ToolBox.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.var
-$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrStr/AsBrStr.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/LogThat.fun

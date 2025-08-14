@@ -46,8 +46,6 @@
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\SubSequence.st.var" />
-      <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\Powerlink.st.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\Simulation.st.var" />
@@ -63,8 +61,6 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ" />
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope1\SubSequence.st.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope1\Powerlink.st.var" />
       <InternalFile
@@ -82,8 +78,6 @@
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\SubSequence.st.var" />
-      <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\Powerlink.st.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\Simulation.st.var" />
@@ -99,8 +93,6 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ" />
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\SubSequence.st.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\Powerlink.st.var" />
       <InternalFile
@@ -208,30 +200,6 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\PiperModule.var" />
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\MachineMod\PiperInterface.st.var" />
-    </Task>
-    <Task
-      Name="Safety"
-      Disable="false"
-      Source="MachineControl.Safety.Safety"
-      Language="IEC">
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SafeLogicTypes.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SafeDeviceTypes.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Variables.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\PiperModule.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\Main.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\PiperInterface.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\SubSequence.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\Simulation.st.var" />
     </Task>
   </TaskClass>
   <TaskClass

@@ -62,7 +62,7 @@
 					<File Name="135210392.binding" Size="13531" HashValue="5629998DF02DD66B33037628D70BC8AB" ProjectDependent="1"/>
 					<File Name="1501003399.eventbinding" Size="6214" HashValue="9948E40471FF83425ACEBC073F2DAC15" ProjectDependent="1"/>
 					<File Name="179254715.binding" Size="644" HashValue="4F5A2E5334330C75369CE943B17412D3" ProjectDependent="1"/>
-					<File Name="2105325927.binding" Size="55611" HashValue="1B437910F89084E62EB3BD540245777F" ProjectDependent="1"/>
+					<File Name="2105325927.binding" Size="285" HashValue="CF34F4133517575E9E0BAFB5846C6D93" ProjectDependent="1"/>
 					<File Name="2135815872.eventbinding" Size="12661" HashValue="92F93CCC03536E91F3262C96723B8ABC" ProjectDependent="1"/>
 					<File Name="465670144.eventbinding" Size="9768" HashValue="FCED5FAB7E82B7F3D8444B6D0688DA7A" ProjectDependent="1"/>
 					<File Name="577050500.binding" Size="17967" HashValue="46657098AF5538BC1E44C22A0AA452CF" ProjectDependent="1"/>
@@ -1023,9 +1023,9 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1459547" HashValue="F4C6AF2D4D7C76B5A03EEDB8B74AFDAF" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="560083" HashValue="F86AB5A79B34A2FC3641C58B56E34CFD" ProjectDependent="1"/>
-							<File Name="BuRTheme1.min.css" Size="318922" HashValue="57A4F41ED499C308E2A4A2A8D0C6D560" ProjectDependent="1"/>
-							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="305376" HashValue="167E29DE342FEB319CED7A8BF25C8C9B" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="632891" HashValue="681F81B7DBA8DC732C8ECFA11DC95DAF" ProjectDependent="1"/>
+							<File Name="BuRTheme1.min.css" Size="309406" HashValue="38D82DEE4BB84F7575D7CA5DEAB1478C" ProjectDependent="1"/>
+							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="294571" HashValue="E91A949B938E50168061F37F2D5CE7DE" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -2783,7 +2783,7 @@
 						</Folder>
 						<Folder Name="mappView" ProjectDependent="1">
 							<File Name="AlarmsPage.html" Size="2589" HashValue="E626896A40610147B16E5CDE1B8B8F47" ProjectDependent="1"/>
-							<File Name="LaserPageMain.html" Size="91563" HashValue="F220A7A5925F9B214C3FBB4AD1CF2659" ProjectDependent="1"/>
+							<File Name="LaserPageMain.html" Size="312537" HashValue="95ADA27069234EC59B0FB9BC667212DA" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1">
@@ -4672,7 +4672,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="54175" HashValue="5A2B6558D120B6867DB090BF9A8BCDBF" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="118880" HashValue="03BE6B026BDBF206BA5B3DD4098FA76D" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.uanodeset" Size="82243" HashValue="0ACBFD2CC6F798E744AD06E6F537F33F" ProjectDependent="1"/>

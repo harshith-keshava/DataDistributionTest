@@ -279,49 +279,6 @@
           <Variable Name="enableManualContinuousMode" />
         </Variable>
       </Task>
-      <Task Name="Gen3Python">
-        <Variable Name="Configuration">
-          <Variable Name="Exists" />
-          <Variable Name="ComPortNumberZaber1Hmi" />
-        </Variable>
-      </Task>
-      <Task Name="LaserGen3S">
-        <Variable Name="autoMode" />
-        <Variable Name="task">
-          <Variable Name="internal">
-            <Variable Name="pixelMappingTestType" />
-            <Variable Name="somsTestType" />
-            <Variable Name="activePixelIndex" />
-            <Variable Name="activeZaber1Index" />
-            <Variable Name="activeZaber2Index" />
-            <Variable Name="showPopUp" />
-            <Variable Name="showNextPixel" />
-            <Variable Name="showSkipPixel" />
-            <Variable Name="showErrorMessage" />
-            <Variable Name="highPowerTestType" />
-          </Variable>
-          <Variable Name="command">
-            <Variable Name="stop" />
-          </Variable>
-        </Variable>
-        <Variable Name="OP_PIXEL_MAP" />
-        <Variable Name="OP_S_OMS_TEST" />
-        <Variable Name="Configuration">
-          <Variable Name="zaber2HeightArray" EnableArrayElements="True" />
-          <Variable Name="zaber2HeightCameraExpoArray" EnableArrayElements="True" />
-          <Variable Name="zaber2StepIndexSize_mm" />
-          <Variable Name="zaber1Position" />
-        </Variable>
-        <Variable Name="END_TEST" />
-        <Variable Name="NEXT_PIXEL" />
-        <Variable Name="SKIP_PIXEL" />
-        <Variable Name="STOP_HMI" />
-        <Variable Name="OP_CALIBRATE_LASER" />
-        <Variable Name="CLOSE_POPUP" />
-        <Variable Name="RETRY_POPUP" />
-        <Variable Name="OP_PIXEL_UPDATE" />
-        <Variable Name="OP_THERMAL_TEST" />
-      </Task>
       <Task Name="Safety">
         <Variable Name="task">
           <Variable Name="command">
@@ -395,72 +352,6 @@
         <Variable Name="END_TEST" />
         <Variable Name="NEXT_PIXEL" />
         <Variable Name="SKIP_PIXEL" />
-      </Task>
-      <Task Name="VFLCR_Pixe">
-        <Variable Name="task">
-          <Variable Name="status">
-            <Variable Name="remapActive" />
-            <Variable Name="pixelMapped" />
-            <Variable Name="allPixelsMapped" />
-          </Variable>
-          <Variable Name="command">
-            <Variable Name="laserRackRemap" />
-          </Variable>
-        </Variable>
-      </Task>
-      <Task Name="TempSensor">
-        <Variable Name="IO">
-          <Variable Name="ai">
-            <Variable Name="obTemp1">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp2">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp3">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp4">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp5">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp6">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp7">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp8">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp9">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp10">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp11">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="obTemp12">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="chillerTemp">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="chillerFlow">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="BatFlowTemp">
-              <Variable Name="ScaledValue" />
-            </Variable>
-            <Variable Name="BatFlowValue">
-              <Variable Name="ScaledValue" />
-            </Variable>
-          </Variable>
-        </Variable>
       </Task>
     </Module>
   </DefaultView>

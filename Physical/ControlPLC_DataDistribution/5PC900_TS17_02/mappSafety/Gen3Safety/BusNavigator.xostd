@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<osdd xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ethernet-powerlink.org/osdd osdd.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" Version="1.6" xmlns="http://www.ethernet-powerlink.org/osdd">
+  <Topology SafetyDomain="1">
+    <GeneratorDescription Name="AutomationStudio" Version="4.11.3.51" LanguageID="1">
+      <Info Name="ARVersion" Value="49203" />
+      <Info Name="SafetyRelease" Value="5.19.0" />
+      <Info Name="Communication" Value="/IF=tcpip /LOPO=11159 /SA=1 /COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.200.50 /REPO=11159 /ANSL=1 /PT=11169 /PORT=50000" />
+      <Info Name="mappSafetyPath" Value="C:\Users\hkeshavamurthy\AS411\AS\TechnologyPackages\mappSafety\5.19.0" />
+    </GeneratorDescription>
+    <SafetyConfigurationManager TransportSAddr="1">
+      <DeviceDescription Module="X20SLXxxx_110.SCM" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X20SLX210\2.4.1.1\OSDD\X20SLXxxx_SCM_2_4_1_1.xosdd]]></DeviceDescription>
+      <NodeDescription />
+    </SafetyConfigurationManager>
+    <SafetyNode SAddr="1">
+      <DeviceDescription Module="X20SLX210_110.MainSN" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X20SLX210\2.4.1.1\OSDD\\X20SLX210_2_4_1_1.xosdd]]></DeviceDescription>
+      <DesignConfiguration>
+        <ModuleSettings>
+          <SettingsGroup id="DataFromAs">
+            <Setting id="SafeDesigner" Value="" />
+          </SettingsGroup>
+        </ModuleSettings>
+      </DesignConfiguration>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="PLC" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF6.ST1" />
+        <Info Name="HWC_Revision" Value="2.4.1.1" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:50 AM" />
+        <Info Name="AS_Name" Value="X20SLX210" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="ProjectSL" Value="1" />
+        <Info Name="ExtendedSourceSL" Value="1" />
+        <Info Name="Description-de" Value="X20 SafeLOGIC Compact, 2xE, 24V, 1xKAT4" />
+        <Info Name="Description-en" Value="X20 SafeLOGIC Compact, 2xI, 24V, 1xCAT4" />
+        <Info Name="AsVariable" Value="BOOL00002,Safety:IO.safeLOGIC.Status.SafetyReset_EStops" />
+        <Info Name="AsVariable" Value="BOOL00003,Safety:IO.safeLOGIC.Status.EStopPressed" />
+        <Info Name="AsVariable" Value="BOOL10003,Safety:IO.safeLOGIC.Command.EnableLaserSafetyInterlock" />
+        <Info Name="AsVariable" Value="BOOL10002,Safety:IO.safeLOGIC.Command.RequestLaserSafetyReset" />
+        <Info Name="AsVariable" Value="BOOL10001,Safety:IO.safeLOGIC.Command.RequestMachineSafetyReset" />
+        <Info Name="AsVariable" Value="UINT1001,Safety:IO.safeLOGIC.Command.RacksEnabled" />
+        <Info Name="AsVariable" Value="UINT0001,Safety:IO.safeLOGIC.Status.SafetyProgramRevision" />
+        <Info Name="AsVariable" Value="BOOL00001,Safety:IO.safeLOGIC.Status.SafetySystemReady" />
+        <Info Name="AsVariable" Value="BOOL00005,Safety:IO.safeLOGIC.Status.SafetyReset_Lasers" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="DataExFromCpu" Direction="Input" OctetSize="20" IsSafe="false" />
+          <GenericTransport Name="DataExToCpu" Direction="Output" OctetSize="20" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="ToCPU_BOOL">
+          <Channel id="BOOL0">
+            <DataValue Type="Boolean">
+              <Transport Name="DataExToCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="16" NrOfDigits="4" />
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="ToCPU_UINT">
+          <Channel id="UINT0">
+            <DataValue Type="UInt16">
+              <Transport Name="DataExToCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="8" NrOfDigits="3" />
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_UINT">
+          <Channel id="MFWslxIN">
+            <DataValue Type="UInt16">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <VendorInfo>GeneratedBySafeFirmware="true"</VendorInfo>
+            <VendorInfo>IncludeInChannelCRC="1"</VendorInfo>
+            <VendorInfo>NotVisible="true"</VendorInfo>
+            <VendorInfo>Mappable="false"</VendorInfo>
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_BOOL">
+          <Channel id="BOOL1">
+            <DataValue Type="Boolean">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="8" NrOfDigits="4" />
+          </Channel>
+        </ChannelGroup>
+        <ChannelGroup id="FromCPU_UINT">
+          <Channel id="UINT1">
+            <DataValue Type="UInt16">
+              <Transport Name="DataExFromCpu" Index="0x00" />
+              <SODPosition Index="0x0" SubIndex="0x00" />
+            </DataValue>
+            <Repetition RangeMax="8" NrOfDigits="3" />
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+    <SafetyNode SAddr="2">
+      <DeviceDescription Module="X20SI8110_110" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X20SI8110\2.4.0.0\OSDD\\X20SI8110_2_4_0_0.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF6.ST2" />
+        <Info Name="HWC_Revision" Value="2.4.0.0" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:50 AM" />
+        <Info Name="AS_Name" Value="X20SI8110" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="Description-de" Value="X20 Safe Digital In, 8xE, 24V" />
+        <Info Name="Description-en" Value="X20 Safe Digital In, 8xI, 24V" />
+        <Info Name="AsVariable" Value="SafeTwoChannelOK0102,Safety:IO.SDI_EStopButton_ControlStation.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeTwoChannelOK0506,Safety:IO.SDI_EStopButton_SafetyLockoutBox.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeTwoChannelInput0506,Safety:IO.SDI_EStopButton_SafetyLockoutBox.DUAL_EVAL" />
+        <Info Name="AsVariable" Value="SafeTwoChannelInput0708,Safety:IO.SDI_EStopButton_HandHeld.DUAL_EVAL" />
+        <Info Name="AsVariable" Value="SafeTwoChannelInput0102,Safety:IO.SDI_EStopButton_ControlStation.DUAL_EVAL" />
+        <Info Name="AsVariable" Value="SafeTwoChannelOK0708,Safety:IO.SDI_EStopButton_HandHeld.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[0]" />
+      </NodeDescription>
+      <ChannelConfiguration />
+    </SafetyNode>
+    <SafetyNode SAddr="3">
+      <DeviceDescription Module="X20SC2432_110" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X20SC2432\2.5.0.0\OSDD\\X20SC2432_2_5_0_0.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF6.ST3" />
+        <Info Name="HWC_Revision" Value="2.5.0.0" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:50 AM" />
+        <Info Name="AS_Name" Value="X20SC2432" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="Description-de" Value="X20 Safe Digital 2xE 24V, 2xA Relais" />
+        <Info Name="Description-en" Value="X20 Safe Digital 2xI 24V, 2xO Relay" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="PDOo" Direction="Output" OctetSize="1" IsSafe="false" />
+          <GenericTransport Name="PDOi" Direction="Input" OctetSize="1" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="Output 01-02">
+          <Channel id="PhysicalStateOutput01">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput02">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+    <SafetyNode SAddr="41">
+      <DeviceDescription Module="X67SC4122.L12_110" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X67SC4122.L12\2.2.0.0\OSDD\\X67SC4122.L12_2_2_0_0.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF3.ST4.IF1.ST2" />
+        <Info Name="HWC_Revision" Value="2.2.0.0" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:52 AM" />
+        <Info Name="AS_Name" Value="CM402_SC_LaserRack1" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="Description-de" Value="X67 Safe Mischmodul, 8xE 24V, 4xA 24V 2A" />
+        <Info Name="Description-en" Value="X67 Safe Combined Module, 8xI 24V, 4xO 24V 2A" />
+        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[10]" />
+        <Info Name="AsVariable" Value="SafeDigitalInput01,Safety:IO.LaserSystem[0].SDI_RackPowerContactorA_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK02,Safety:IO.LaserSystem[0].SDI_RackPowerContactorB_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeInputOK03,Safety:IO.LaserSystem[0].SDI_VFLCR_SafetyRelayEDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeDigitalInput03,Safety:IO.LaserSystem[0].SDI_VFLCR_SafetyRelayEDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[0].SDI_RackPowerContactorA_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput03,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH1" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput02,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH2" />
+        <Info Name="AsVariable" Value="SafeOutputOK02,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[0].SDI_RackPowerContactorB_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH2" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="PDOo" Direction="Output" OctetSize="1" IsSafe="false" />
+          <GenericTransport Name="PDOi" Direction="Input" OctetSize="1" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="Output 01-04">
+          <Channel id="PhysicalStateOutput01">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput02">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput03">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput04">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+    <SafetyNode SAddr="42">
+      <DeviceDescription Module="X67SC4122.L12_110" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X67SC4122.L12\2.2.0.0\OSDD\\X67SC4122.L12_2_2_0_0.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF3.ST4.IF1.ST3" />
+        <Info Name="HWC_Revision" Value="2.2.0.0" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:52 AM" />
+        <Info Name="AS_Name" Value="CM403_SC_LaserRack2" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="Description-de" Value="X67 Safe Mischmodul, 8xE 24V, 4xA 24V 2A" />
+        <Info Name="Description-en" Value="X67 Safe Combined Module, 8xI 24V, 4xO 24V 2A" />
+        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[1].SDO_RackPowerContactor.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[1].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[11]" />
+        <Info Name="AsVariable" Value="SafeDigitalInput01,Safety:IO.LaserSystem[1].SDI_RackPowerContactorA_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK02,Safety:IO.LaserSystem[1].SDI_RackPowerContactorB_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeInputOK03,Safety:IO.LaserSystem[1].SDI_VFLCR_SafetyRelayEDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeDigitalInput03,Safety:IO.LaserSystem[1].SDI_VFLCR_SafetyRelayEDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[1].SDI_RackPowerContactorA_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput03,Safety:IO.LaserSystem[1].SDO_VFLCR_SafetyRelay.CH1" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput02,Safety:IO.LaserSystem[1].SDO_RackPowerContactor.CH2" />
+        <Info Name="AsVariable" Value="SafeOutputOK02,Safety:IO.LaserSystem[1].SDO_RackPowerContactor.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[1].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[1].SDI_RackPowerContactorB_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[1].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[1].SDO_VFLCR_SafetyRelay.CH2" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="PDOo" Direction="Output" OctetSize="1" IsSafe="false" />
+          <GenericTransport Name="PDOi" Direction="Input" OctetSize="1" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="Output 01-04">
+          <Channel id="PhysicalStateOutput01">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput02">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput03">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput04">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+    <SafetyNode SAddr="43">
+      <DeviceDescription Module="X67SC4122.L12_110" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X67SC4122.L12\2.2.0.0\OSDD\\X67SC4122.L12_2_2_0_0.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF3.ST4.IF1.ST4" />
+        <Info Name="HWC_Revision" Value="2.2.0.0" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:52 AM" />
+        <Info Name="AS_Name" Value="CM404_SC_LaserRack3" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="Description-de" Value="X67 Safe Mischmodul, 8xE 24V, 4xA 24V 2A" />
+        <Info Name="Description-en" Value="X67 Safe Combined Module, 8xI 24V, 4xO 24V 2A" />
+        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[12]" />
+        <Info Name="AsVariable" Value="SafeDigitalInput01,Safety:IO.LaserSystem[2].SDI_RackPowerContactorA_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK02,Safety:IO.LaserSystem[2].SDI_RackPowerContactorB_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeInputOK03,Safety:IO.LaserSystem[2].SDI_VFLCR_SafetyRelayEDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeDigitalInput03,Safety:IO.LaserSystem[2].SDI_VFLCR_SafetyRelayEDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[2].SDI_RackPowerContactorA_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput03,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH1" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput02,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH2" />
+        <Info Name="AsVariable" Value="SafeOutputOK02,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[2].SDI_RackPowerContactorB_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH2" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="PDOo" Direction="Output" OctetSize="1" IsSafe="false" />
+          <GenericTransport Name="PDOi" Direction="Input" OctetSize="1" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="Output 01-04">
+          <Channel id="PhysicalStateOutput01">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput02">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput03">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput04">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+    <SafetyNode SAddr="44">
+      <DeviceDescription Module="X67SC4122.L12_110" minOpenSafetyRelease="1.5"><![CDATA[C:\Users\hkeshavamurthy\AS411\AS\Hardware\Modules\X67SC4122.L12\2.2.0.0\OSDD\\X67SC4122.L12_2_2_0_0.xosdd]]></DeviceDescription>
+      <NodeDescription>
+        <Classification Type="Digital" />
+        <Classification Type="Input" />
+        <Classification Type="Output" />
+        <Classification Type="VendorSpecific">Safe</Classification>
+        <Classification Type="VendorSpecific">IO</Classification>
+        <Info Name="Interface" Value="IF3.ST4.IF1.ST5" />
+        <Info Name="HWC_Revision" Value="2.2.0.0" />
+        <Info Name="HWC_LastEdit" Value="9/8/2021 2:32:52 AM" />
+        <Info Name="AS_Name" Value="CM405_SC_LaserRack4" />
+        <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
+        <Info Name="Description-de" Value="X67 Safe Mischmodul, 8xE 24V, 4xA 24V 2A" />
+        <Info Name="Description-en" Value="X67 Safe Combined Module, 8xI 24V, 4xO 24V 2A" />
+        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[3].SDO_RackPowerContactor.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[3].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[13]" />
+        <Info Name="AsVariable" Value="SafeDigitalInput01,Safety:IO.LaserSystem[3].SDI_RackPowerContactorA_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK02,Safety:IO.LaserSystem[3].SDI_RackPowerContactorB_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeInputOK03,Safety:IO.LaserSystem[3].SDI_VFLCR_SafetyRelayEDM.SAFEOK" />
+        <Info Name="AsVariable" Value="SafeDigitalInput03,Safety:IO.LaserSystem[3].SDI_VFLCR_SafetyRelayEDM.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[3].SDI_RackPowerContactorA_EDM.SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput03,Safety:IO.LaserSystem[3].SDO_VFLCR_SafetyRelay.CH1" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput02,Safety:IO.LaserSystem[3].SDO_RackPowerContactor.CH2" />
+        <Info Name="AsVariable" Value="SafeOutputOK02,Safety:IO.LaserSystem[3].SDO_RackPowerContactor.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[3].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[3].SDI_RackPowerContactorB_EDM.CH1" />
+        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[3].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[3].SDO_VFLCR_SafetyRelay.CH2" />
+      </NodeDescription>
+      <ChannelConfiguration>
+        <DataTransport>
+          <GenericTransport Name="PDOo" Direction="Output" OctetSize="1" IsSafe="false" />
+          <GenericTransport Name="PDOi" Direction="Input" OctetSize="1" IsSafe="false" />
+        </DataTransport>
+        <ChannelGroup id="Output 01-04">
+          <Channel id="PhysicalStateOutput01">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput02">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput03">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+          <Channel id="PhysicalStateOutput04">
+            <DataValue Type="Boolean">
+              <Transport Name="PDOi" Index="0x00" />
+            </DataValue>
+          </Channel>
+        </ChannelGroup>
+      </ChannelConfiguration>
+    </SafetyNode>
+  </Topology>
+</osdd>

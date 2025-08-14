@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/toolbox/edgearray.c.o:
+$(AS_PROJECT_PATH)/logical/libraries/vf/toolbox/edgearray.c
+$(AS_GNU_INST_PATH)/4.9/i686-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i686-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/toolbox.h

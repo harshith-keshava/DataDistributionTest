@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="ControlPLC_DataDistribution.Hardware.hw" LastWriteTime="08/14/2025 10:52:09" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="5PC900_TS17_02" Type="X20CP1585" X="100" Y="100" />
+    <Module Name="PowerlinkHub_DCEnclosure" Type="0AC808.9-1" X="275" Y="285" />
+    <Module Name="VF-LCR" Type="FBE.VF-LCR System (version 04)" X="670" Y="541" />
+    <Module Name="VF-LCR1" Type="FBE.VF-LCR System (version 04)" X="215" Y="541" />
+    <Module Name="VF-LCR2" Type="FBE.VF-LCR System (version 04)" X="355" Y="541" />
+    <Module Name="VF-LCR3" Type="FBE.VF-LCR System (version 04)" X="495" Y="541" />
+  </Modules>
+  <Links>
+    <Link From="5PC900_TS17_02" To="PowerlinkHub_DCEnclosure" FromPort="IF3" ToPort="ETH5" IsRoutedByUser="False">
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="309" />
+      <Point X="274" Y="309" />
+      <Point X="301" Y="309" />
+      <Point X="301" Y="309" />
+    </Link>
+    <Link From="PowerlinkHub_DCEnclosure" To="VF-LCR" FromPort="ETH6" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="314" Y="309" />
+      <Point X="314" Y="309" />
+      <Point X="314" Y="329" />
+      <Point X="314" Y="612" />
+      <Point X="728" Y="612" />
+      <Point X="728" Y="592" />
+      <Point X="728" Y="585" />
+      <Point X="728" Y="585" />
+    </Link>
+    <Link From="VF-LCR" To="VF-LCR3" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="703" Y="585" />
+      <Point X="703" Y="585" />
+      <Point X="703" Y="592" />
+      <Point X="703" Y="605" />
+      <Point X="553" Y="605" />
+      <Point X="553" Y="592" />
+      <Point X="553" Y="585" />
+      <Point X="553" Y="585" />
+    </Link>
+    <Link From="VF-LCR1" To="VF-LCR2" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="273" Y="585" />
+      <Point X="273" Y="585" />
+      <Point X="273" Y="592" />
+      <Point X="273" Y="605" />
+      <Point X="388" Y="605" />
+      <Point X="388" Y="592" />
+      <Point X="388" Y="585" />
+      <Point X="388" Y="585" />
+    </Link>
+    <Link From="VF-LCR2" To="VF-LCR3" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="413" Y="585" />
+      <Point X="413" Y="585" />
+      <Point X="413" Y="592" />
+      <Point X="413" Y="605" />
+      <Point X="528" Y="605" />
+      <Point X="528" Y="592" />
+      <Point X="528" Y="585" />
+      <Point X="528" Y="585" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

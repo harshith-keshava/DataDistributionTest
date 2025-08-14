@@ -4,10 +4,10 @@
   IecNamingConventions="true"
   IecKeywordsAsStructureMembers="false"
   IecExtendedConstants="true"
-  LogicalDirectory="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\"
-  TempDirectory="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\"
+  LogicalDirectory="C:\DataDistributionTest\DataDistributionTest\Logical\"
+  TempDirectory="C:\DataDistributionTest\DataDistributionTest\Temp\"
   AutomationStudioVersion="4.11.3.51 SP"
   AutomationStudioEdition="Standard"
   BuildCrossReference="false"
-  ActiveConfiguration="APC910"
+  ActiveConfiguration="ControlPLC_DataDistribution"
   CreateAnsiCDeclarations="false" />

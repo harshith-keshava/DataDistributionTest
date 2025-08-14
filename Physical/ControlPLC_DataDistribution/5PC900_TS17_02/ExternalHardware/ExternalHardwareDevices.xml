@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalHardware>
+  <Modules>
+    <Module ModuleID="FBE.VF-LCR System (version 04)" Version="04" OrderNumber="VF-LCR">
+      <SourceFile OriginalFile="VF-LCR System (version 04).xdd" TranslationFile="XIEX09ZD.ext" />
+    </Module>
+  </Modules>
+</ExternalHardware>

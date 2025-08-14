@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+	
+    
+		
+		
+
+		
+		
+
+		
+		
+
+		
+		
+
+		
+		
+		
+		
+		<Content id="SfMP171_ContentModuleXCHG"><Binding mode="oneWay">
+			<Source xsi:type="variable" refId="SfMP182_sessionvar_EnableBtnAckExchange" attribute="value" />
+			<Target xsi:type="brease" refId="SfMP171_ContentModuleXCHG_SfMP171_btnNewSNAckn" attribute="enable" />
+		</Binding></Content>
+			
+			
+		
+		
+		
+		<Content id="SfMP171_ContentModuleXCHG"><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_NrOFUDIDMiss" attribute="value" />
+			<Target xsi:type="brease" refId="SfMP171_ContentModuleXCHG_SfMP171_numericOutExchangeUDID" attribute="value" />
+		</Binding></Content>
+			
+			
+		
+		
+		
+		<Content id="SfMP171_ContentModuleXCHG"><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_NrOfSN" attribute="value" />
+			<Target xsi:type="brease" refId="SfMP171_ContentModuleXCHG_SfMP171_numericOutExchangeNrSN" attribute="value" />
+		</Binding></Content>
+			
+			
+		
+		
+		
+		<Content id="SfMP171_ContentModuleXCHG"><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_NrOfFWMiss" attribute="value" />
+			<Target xsi:type="brease" refId="SfMP171_ContentModuleXCHG_SfMP171_numericOutExchangeFW" attribute="value" />
+		</Binding></Content>
+			
+			
+		
+    
+    
+	
+</BindingDefinition>

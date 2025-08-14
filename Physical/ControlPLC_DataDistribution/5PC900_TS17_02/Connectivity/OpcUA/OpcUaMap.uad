@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="8" ArVersion="C4.92">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="gConfiguration">
+          <Variable Name="machineIdentity">
+            <Variable Name="machineType" />
+            <Variable Name="machineGeneration" />
+            <Variable Name="factoryNumber" />
+            <Variable Name="factoryName" />
+            <Variable Name="machineNumber" />
+            <Variable Name="machineName" />
+          </Variable>
+        </Variable>
+        <Variable Name="gRevInfo_branchName" />
+        <Variable Name="gRevInfo_buildConfiguration" />
+        <Variable Name="gRevInfo_buildDate" />
+        <Variable Name="gRevInfo_builder" />
+        <Variable Name="gRevInfo_revision" />
+        <Variable Name="gRevInfo_revisionAuthor" />
+        <Variable Name="gRevInfo_revisionDate" />
+        <Variable Name="gRevInfo_uncommittedChanges" />
+        <Variable Name="gRevInfo_versionId" />
+        <Variable Name="gOpcData_FromGen3CalibApp">
+          <Variable Name="ErrorNum" />
+          <Variable Name="HeartbeatIn" />
+          <Variable Name="TestResult" />
+          <Variable Name="ExampleResult" />
+          <Variable Name="PixelResult" />
+          <Variable Name="PixelInitialized" />
+          <Variable Name="PixelCaptured" />
+          <Variable Name="PixelProcessed" />
+          <Variable Name="CalibrationProcessed" />
+          <Variable Name="CalibrationInitialized" />
+          <Variable Name="LUTsUploaded" />
+          <Variable Name="TestDataUploaded" />
+          <Variable Name="TestResultsDownloaded" />
+          <Variable Name="TestResultsParsed" />
+          <Variable Name="ErrorBucketNotExist" />
+          <Variable Name="ErrorS3Connection" />
+          <Variable Name="ErrorCaptureFailed" />
+          <Variable Name="MeasuredPower" />
+          <Variable Name="CommandedPower" />
+          <Variable Name="LaserTestStatus" />
+          <Variable Name="ErrorFrameCaptureFailed" />
+          <Variable Name="MetaDataWriterReady" />
+          <Variable Name="TestAbortProcessed" />
+          <Variable Name="TestCompleteProcessed" />
+          <Variable Name="AppMajorVersion" />
+          <Variable Name="AppMinorVersion" />
+          <Variable Name="AppPatchVersion" />
+          <Variable Name="FrameCaptureInstanceResponse" />
+          <Variable Name="Zaber1Homed" />
+          <Variable Name="Zaber2Homed" />
+          <Variable Name="Zaber1Position" />
+          <Variable Name="Zaber2Position" />
+          <Variable Name="BeamSpotXPosition" />
+          <Variable Name="BeamSpotYPosition" />
+          <Variable Name="NumberOfBeamSpots" />
+        </Variable>
+        <Variable Name="gOpcData_ToGen3CalibApp">
+          <Variable Name="ExampleCommand" />
+          <Variable Name="LaserParameters">
+            <Variable Name="safePowerLimit_W" />
+            <Variable Name="availableLaserPower_W" />
+            <Variable Name="startingPowerLevel" />
+            <Variable Name="numPowerLevels" />
+            <Variable Name="powerIncrementPerStep" />
+            <Variable Name="numPulsesPerLevel" />
+            <Variable Name="pulseOnTime_ms" />
+            <Variable Name="pulseDelayTime_ms" />
+            <Variable Name="pulseOffTime_ms" />
+          </Variable>
+          <Variable Name="ActivePixel" />
+          <Variable Name="HeartbeatOut" />
+          <Variable Name="MachineName" />
+          <Variable Name="FactoryName" />
+          <Variable Name="CurrentLUTID" />
+          <Variable Name="MachineIdentity" />
+          <Variable Name="BuildLotID" />
+          <Variable Name="ProcessPixel" />
+          <Variable Name="InitializePixel" />
+          <Variable Name="CapturePixel" />
+          <Variable Name="CurrentPowerWatts" />
+          <Variable Name="ProcessCalibration" />
+          <Variable Name="InitializeCalibration" />
+          <Variable Name="VFPMap" />
+          <Variable Name="TestType" />
+          <Variable Name="UploadCalibratedLUTs" />
+          <Variable Name="UploadLinearLUTs" />
+          <Variable Name="UploadTestData" />
+          <Variable Name="DownloadTestResults" />
+          <Variable Name="ParseTestResults" />
+          <Variable Name="CaptureFrame" />
+          <Variable Name="CaptureFrameInstance" />
+          <Variable Name="PyroMultiplicationFactor" />
+          <Variable Name="ComPortNumberZaber1" />
+          <Variable Name="ComPortNumberZaber2" />
+          <Variable Name="Zaber1Home" />
+          <Variable Name="Zaber2Home" />
+          <Variable Name="Zaber1GetHomeStatus" />
+          <Variable Name="Zaber2GetHomeStatus" />
+          <Variable Name="Zaber1RelativePos_mm" />
+          <Variable Name="Zaber1AbsolutePos_mm" />
+          <Variable Name="Zaber2RelativePos_mm" />
+          <Variable Name="Zaber2AbsolutePos_mm" />
+          <Variable Name="Zaber1MoveRelative" />
+          <Variable Name="Zaber1MoveAbsolute" />
+          <Variable Name="Zaber2MoveRelative" />
+          <Variable Name="Zaber2MoveAbsolute" />
+          <Variable Name="Zaber1GetPosFeedback" />
+          <Variable Name="Zaber2GetPosFeedback" />
+          <Variable Name="StartOMSTest" />
+          <Variable Name="OMSTestComplete" />
+          <Variable Name="OMSTestAborted" />
+          <Variable Name="ZOffset" />
+          <Variable Name="ScrewDistance1_23" />
+          <Variable Name="ScrewDistance2_3" />
+          <Variable Name="DateOfExpiryOfCalibration" />
+          <Variable Name="SOMSSerialNumber" />
+          <Variable Name="LaserPulseComplete" />
+        </Variable>
+      </GlobalVariables>
+      <Task Name="VFPTR_Syst">
+        <Variable Name="task">
+          <Variable Name="command">
+            <Variable Name="enableModulation" />
+            <Variable Name="disableModulation" />
+            <Variable Name="beginTrajectoryX" />
+            <Variable Name="beginTrajectoryY" />
+            <Variable Name="endTrajectory" />
+            <Variable Name="pulseCounterReset" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="VFLCR_Syst">
+        <Variable Name="task">
+          <Variable Name="command">
+            <Variable Name="enableAllLaserFunctions" />
+            <Variable Name="enableDCPower" />
+            <Variable Name="enableLaserPower" />
+            <Variable Name="enableLaserEmission" />
+            <Variable Name="disableDCPower" />
+            <Variable Name="disableLaserPower" />
+            <Variable Name="disableLaserEmission" />
+            <Variable Name="resetAllErrors" />
+            <Variable Name="initializeCalibration" />
+            <Variable Name="initializeManualCalibration" />
+            <Variable Name="manualPulse" />
+            <Variable Name="manualPulseAbort" />
+            <Variable Name="enableAutoMode" />
+            <Variable Name="enableManualMode" />
+            <Variable Name="openLayer" />
+            <Variable Name="abortLayer" />
+            <Variable Name="restoreManualPulsePars" />
+          </Variable>
+          <Variable Name="parameters">
+            <Variable Name="manualPulseRackNumber" />
+            <Variable Name="manualPulseLaserNumber" />
+            <Variable Name="openLayer" />
+            <Variable Name="testType" />
+          </Variable>
+          <Variable Name="status">
+            <Variable Name="cycleOKFailCount_PLK2" />
+            <Variable Name="syncOKFailCount_PLK2" />
+            <Variable Name="plkErrorDetected" />
+            <Variable Name="error" />
+            <Variable Name="errorStatus" />
+            <Variable Name="commandDone" />
+            <Variable Name="manualPulseActive" />
+            <Variable Name="manualPulseStatus" />
+            <Variable Name="manualPulseCalculations" />
+            <Variable Name="autoModeEnabled" />
+            <Variable Name="manualModeEnabled" />
+            <Variable Name="powerSequence" />
+            <Variable Name="statusMessage" />
+            <Variable Name="racksOnline" />
+          </Variable>
+          <Variable Name="internal">
+            <Variable Name="currentLaserPulsePars">
+              <Variable Name="safePowerLimit_W" />
+              <Variable Name="availableLaserPower_W" />
+              <Variable Name="startingPowerLevel" />
+              <Variable Name="numPowerLevels" />
+              <Variable Name="powerIncrementPerStep" />
+              <Variable Name="numPulsesPerLevel" />
+              <Variable Name="pulseOnTime_ms" />
+              <Variable Name="pulseDelayTime_ms" />
+              <Variable Name="pulseOffTime_ms" />
+            </Variable>
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="VFLCR_Ope0">
+        <Variable Name="task">
+          <Variable Name="status">
+            <Variable Name="dcPowerEnabled" />
+            <Variable Name="laserEmissionEnabled" />
+            <Variable Name="laserPowerEnabled" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="VFLCR_Ope1">
+        <Variable Name="task">
+          <Variable Name="status">
+            <Variable Name="dcPowerEnabled" />
+            <Variable Name="laserPowerEnabled" />
+            <Variable Name="laserEmissionEnabled" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="VFLCR_Ope2">
+        <Variable Name="task">
+          <Variable Name="status">
+            <Variable Name="dcPowerEnabled" />
+            <Variable Name="laserPowerEnabled" />
+            <Variable Name="laserEmissionEnabled" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="VFLCR_Ope3">
+        <Variable Name="task">
+          <Variable Name="status">
+            <Variable Name="dcPowerEnabled" />
+            <Variable Name="laserPowerEnabled" />
+            <Variable Name="laserEmissionEnabled" />
+          </Variable>
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

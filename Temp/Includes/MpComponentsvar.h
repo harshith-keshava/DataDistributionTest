@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1754338176_3_
-#define _BUR_1754338176_3_
+#ifndef _BUR_1755183251_3_
+#define _BUR_1755183251_3_
 
 #include <bur/plctypes.h>
 
@@ -53,12 +53,12 @@ _GLOBAL struct MpComIdentType alarm_Init;
 __asm__(".section \".plc\"");
 
 /* Used IEC files */
-__asm__(".ascii \"iecfile \\\"Temp/Includes/AS_TempDecl/APC910/GlobalComponents/MpComponents.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Temp/Includes/AS_TempDecl/ControlPLC_DataDistribution/GlobalComponents/MpComponents.var\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 
 __asm__(".previous");
 
 
-#endif /* _BUR_1754338176_3_ */
+#endif /* _BUR_1755183251_3_ */
 

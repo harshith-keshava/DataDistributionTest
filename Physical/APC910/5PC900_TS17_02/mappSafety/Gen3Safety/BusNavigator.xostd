@@ -173,23 +173,22 @@
         <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
         <Info Name="Description-de" Value="X67 Safe Mischmodul, 8xE 24V, 4xA 24V 2A" />
         <Info Name="Description-en" Value="X67 Safe Combined Module, 8xI 24V, 4xO 24V 2A" />
+        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[10]" />
         <Info Name="AsVariable" Value="SafeDigitalInput01,Safety:IO.LaserSystem[0].SDI_RackPowerContactorA_EDM.CH1" />
         <Info Name="AsVariable" Value="SafeInputOK02,Safety:IO.LaserSystem[0].SDI_RackPowerContactorB_EDM.SAFEOK" />
         <Info Name="AsVariable" Value="SafeInputOK03,Safety:IO.LaserSystem[0].SDI_VFLCR_SafetyRelayEDM.SAFEOK" />
-        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[0].SDI_RackPowerContactorA_EDM.SAFEOK" />
         <Info Name="AsVariable" Value="SafeDigitalInput03,Safety:IO.LaserSystem[0].SDI_VFLCR_SafetyRelayEDM.CH1" />
-        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
-        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
-        <Info Name="AsVariable" Value="SafeDigitalInput05,Safety:IO.Chiller1TemperatureOK" />
-        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH1_SAFEOK" />
-        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[10]" />
-        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[0].SDI_RackPowerContactorA_EDM.SAFEOK" />
         <Info Name="AsVariable" Value="PhysicalStateOutput03,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH1" />
-        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[0].SDI_RackPowerContactorB_EDM.CH1" />
         <Info Name="AsVariable" Value="PhysicalStateOutput02,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH2" />
         <Info Name="AsVariable" Value="SafeOutputOK02,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH2_SAFEOK" />
-        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH2" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[0].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[0].SDI_RackPowerContactorB_EDM.CH1" />
         <Info Name="AsVariable" Value="SafeDigitalInput07,Safety:IO.Chiller1Running" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH2" />
+        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[0].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
       </NodeDescription>
       <ChannelConfiguration>
         <DataTransport>
@@ -295,23 +294,22 @@
         <Info Name="FirstPublishedSafetyRelease" Value="5.4" />
         <Info Name="Description-de" Value="X67 Safe Mischmodul, 8xE 24V, 4xA 24V 2A" />
         <Info Name="Description-en" Value="X67 Safe Combined Module, 8xI 24V, 4xO 24V 2A" />
+        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
+        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[12]" />
         <Info Name="AsVariable" Value="SafeDigitalInput01,Safety:IO.LaserSystem[2].SDI_RackPowerContactorA_EDM.CH1" />
         <Info Name="AsVariable" Value="SafeInputOK02,Safety:IO.LaserSystem[2].SDI_RackPowerContactorB_EDM.SAFEOK" />
         <Info Name="AsVariable" Value="SafeInputOK03,Safety:IO.LaserSystem[2].SDI_VFLCR_SafetyRelayEDM.SAFEOK" />
-        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[2].SDI_RackPowerContactorA_EDM.SAFEOK" />
         <Info Name="AsVariable" Value="SafeDigitalInput03,Safety:IO.LaserSystem[2].SDI_VFLCR_SafetyRelayEDM.CH1" />
-        <Info Name="AsVariable" Value="SafeOutputOK03,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH1_SAFEOK" />
-        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
-        <Info Name="AsVariable" Value="SafeDigitalInput05,Safety:IO.Chiller2TemperatureOK" />
-        <Info Name="AsVariable" Value="SafeOutputOK01,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH1_SAFEOK" />
-        <Info Name="AsVariable" Value="SafeModuleOK,Safety:IO.safeLOGIC.SafeModuleOK[12]" />
-        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeInputOK01,Safety:IO.LaserSystem[2].SDI_RackPowerContactorA_EDM.SAFEOK" />
         <Info Name="AsVariable" Value="PhysicalStateOutput03,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH1" />
-        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[2].SDI_RackPowerContactorB_EDM.CH1" />
         <Info Name="AsVariable" Value="PhysicalStateOutput02,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH2" />
         <Info Name="AsVariable" Value="SafeOutputOK02,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH2_SAFEOK" />
-        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH2" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput01,Safety:IO.LaserSystem[2].SDO_RackPowerContactor.CH1" />
+        <Info Name="AsVariable" Value="SafeDigitalInput02,Safety:IO.LaserSystem[2].SDI_RackPowerContactorB_EDM.CH1" />
         <Info Name="AsVariable" Value="SafeDigitalInput07,Safety:IO.Chiller2Running" />
+        <Info Name="AsVariable" Value="PhysicalStateOutput04,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH2" />
+        <Info Name="AsVariable" Value="SafeOutputOK04,Safety:IO.LaserSystem[2].SDO_VFLCR_SafetyRelay.CH2_SAFEOK" />
       </NodeDescription>
       <ChannelConfiguration>
         <DataTransport>

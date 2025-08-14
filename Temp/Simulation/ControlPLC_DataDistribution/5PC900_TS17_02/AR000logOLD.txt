@@ -1,0 +1,21 @@
+Thu Aug 14 10:48:22 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Thu Aug 14 10:48:22 2025
+No ARsim registration found!
+
+Thu Aug 14 10:48:22 2025
+InstanceName: 00000f82e7cd7538
+
+Thu Aug 14 10:48:22 2025
+WorkingDirectory: C:\DataDistributionTest\DataDistributionTest\Temp\Simulation\ControlPLC_DataDistribution\5PC900_TS17_02\
+
+Thu Aug 14 10:48:22 2025
+COMMAND_COLDSTART
+
+Thu Aug 14 10:48:25 2025
+Version: C4.92
+
+Thu Aug 14 10:48:45 2025
+COMMAND_TERMINATE
+

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.11.3.51 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="FirstInitP"
+      Disable="false"
+      Source="Infrastructure.FirstInitProg"
+      Language="ANSIC">
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\FirstInitProg\FirstInitProg.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\FirstInitProg\FirstInitProg.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\FirstInitProg\MachineAlarm.var" />
+    </Task>
+    <Task
+      Name="VFPTR_Syst"
+      Disable="false"
+      Source="ProcessControl.VFLCR.VFPTR_System"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFPTR_Syst\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFPTR_System\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFPTR_System\Variables.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFPTR_System\PiperModule.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFPTR_Syst\PiperInterface.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="VFLCR_Ope0"
+      Disable="false"
+      Source="ProcessControl.VFLCR.VFLCR_Operation"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\Powerlink.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope0\Simulation.st.var" />
+    </Task>
+    <Task
+      Name="VFLCR_Ope1"
+      Disable="false"
+      Source="ProcessControl.VFLCR.VFLCR_Operation"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope1\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope1\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope1\Powerlink.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope1\Simulation.st.var" />
+    </Task>
+    <Task
+      Name="VFLCR_Ope2"
+      Disable="false"
+      Source="ProcessControl.VFLCR.VFLCR_Operation"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\Powerlink.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope2\Simulation.st.var" />
+    </Task>
+    <Task
+      Name="VFLCR_Ope3"
+      Disable="false"
+      Source="ProcessControl.VFLCR.VFLCR_Operation"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_Operation\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\Powerlink.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\Simulation.st.var" />
+    </Task>
+    <Task
+      Name="AlarmWrap"
+      Disable="false"
+      Source="Infrastructure.Alarms.AlarmWrap"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\AlarmWrap\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\Alarms\AlarmWrap\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\Alarms\AlarmWrap\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="atnDriver"
+      Disable="false"
+      Source="Infrastructure.atnDriver"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\atnDriver\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\Variables.var" />
+    </Task>
+    <Task
+      Name="ManualPuls"
+      Disable="false"
+      Source="Automation.ManualPulseLaserSFC"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Cyclic.sfc.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Init.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\Common.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\PiperInterface.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Action.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\commands.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\PixelConvert.st.var" />
+    </Task>
+    <Task
+      Name="SFCControl"
+      Disable="false"
+      Source="Automation.SFCControl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\SFCControl\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCControl\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCControl\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\SFCControl\PiperInterface.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCControl\PiperModule.var" />
+    </Task>
+    <Task
+      Name="VFLCR_Syst"
+      Disable="false"
+      Source="ProcessControl.VFLCR.VFLCR_System"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Syst\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_System\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_System\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Syst\PiperInterface.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\ProcessControl\VFLCR\VFLCR_System\PiperModule.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Syst\hmiHelper.st.var" />
+    </Task>
+    <Task
+      Name="MachineMod"
+      Disable="false"
+      Source="MachineControl.MachineMode.MachineMode"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\MachineMod\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\Variables.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\PiperModule.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\MachineMod\PiperInterface.st.var" />
+    </Task>
+    <Task
+      Name="Safety"
+      Disable="false"
+      Source="MachineControl.Safety.Safety"
+      Language="IEC">
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SafeLogicTypes.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\SafeDeviceTypes.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\Variables.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\Safety\Safety\PiperModule.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\Main.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\PiperInterface.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\Safety\Simulation.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="RevInfo"
+      Disable="false"
+      Source="Infrastructure.RevInfo.RevInfo"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\RevInfo\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\RevInfo\RevInfo\Variables.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

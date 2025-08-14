@@ -86,7 +86,6 @@ extern "C"
 };
 #endif
 
-#include <sfelementsVAR.h>
 #include <mpcomponentsVAR.h>
 #include <globalTYP.h>
 #include <globalVAR.h>
@@ -94,8 +93,13 @@ extern "C"
 #include <machinecontrol/machinecontrolVAR.h>
 #include <machinecontrol/machinemode/machinemodeTYP.h>
 #include <machinecontrol/machinemode/machinemodeVAR.h>
+#include <machinecontrol/safety/safetyTYP.h>
+#include <machinecontrol/safety/safetyVAR.h>
 #include <automation/typesTYP.h>
 #include <automation/variablesVAR.h>
+#include <processcontrol/vflcr/vflcrTYP.h>
+#include <processcontrol/vflcr/opcuaTYP.h>
+#include <processcontrol/vflcr/vflcrVAR.h>
 #include <infrastructure/infrastructureTYP.h>
 #include <infrastructure/infrastructureVAR.h>
 #include <infrastructure/revinfo/revinfoVAR.h>

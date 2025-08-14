@@ -1,0 +1,11 @@
+VAR
+	START:BOOL:=FALSE;
+	_START:BOOL:=TRUE;
+	Step1:SFCStepType:=(0);
+	InitializeManualCalibration:BOOL:=FALSE;
+	_InitializeManualCalibration:BOOL:=FALSE;
+	IteratePixel:BOOL:=FALSE;
+	_IteratePixel:BOOL:=FALSE;
+	FunctionblockCalls:SFCActionType:=(0);
+	Step1Active:SFCActionType:=(0);
+END_VAR

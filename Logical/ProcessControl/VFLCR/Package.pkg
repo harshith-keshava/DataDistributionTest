@@ -7,9 +7,6 @@
     <Object Type="File">VFLCR.var</Object>
     <Object Type="Program" Language="IEC" Description="VF-PTR System Control">VFPTR_System</Object>
     <Object Type="Program" Language="IEC" Description="VF-LCR System Control">VFLCR_System</Object>
-    <Object Type="Program" Language="IEC">VFLCR_PixelMapping</Object>
     <Object Type="Program" Language="IEC" Description="VF-LCR Operations">VFLCR_Operation</Object>
-    <Object Type="Program" Language="IEC">Gen3PythonLaserCalibration</Object>
-    <Object Type="Program" Language="IEC">VFLCR_Alarm</Object>
   </Objects>
 </Package>

@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
+$(AS_PROJECT_PATH)/Logical/Infrastructure/atnDriver/Variables.var
+$(AS_PROJECT_PATH)/Logical/Infrastructure/Infrastructure.var
+$(AS_PROJECT_PATH)/Logical/Infrastructure/Infrastructure.typ

@@ -1,0 +1,15 @@
+{
+  global:
+    GetNextString;
+    GetNextParameter;
+    FindNextLineStart;
+    FindNextTrajectoryStart;
+    GetSystemErrorText;
+    VfSMRFileSetup;
+    VfSMRConnect;
+    VfLCRConnect;
+    VfParseLaserStateFile;
+    VfParseFixedEventFile;
+  local:
+    *;
+ };

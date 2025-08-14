@@ -8,13 +8,13 @@ export AS_COMPANY_NAME :=
 export AS_USER_NAME := hkeshavamurthy
 export AS_PATH := C:/Users/hkeshavamurthy/AS411
 export AS_BIN_PATH := C:/Users/hkeshavamurthy/AS411/bin-en
-export AS_PROJECT_PATH := C:/LaserCleanroomAutomation/ControlPLC_LaserCleanroom
-export AS_PROJECT_NAME := ControlPLC_LaserCleanroom
+export AS_PROJECT_PATH := C:/DataDistributionTest/DataDistributionTest
+export AS_PROJECT_NAME := ControlPLC_DataDistribution
 export AS_SYSTEM_PATH := C:/Users/hkeshavamurthy/AS/System
 export AS_VC_PATH := C:/Users/hkeshavamurthy/AS411/AS/VC
-export AS_TEMP_PATH := C:/LaserCleanroomAutomation/ControlPLC_LaserCleanroom/Temp
+export AS_TEMP_PATH := C:/DataDistributionTest/DataDistributionTest/Temp
 export AS_CONFIGURATION := APC910
-export AS_BINARIES_PATH := C:/LaserCleanroomAutomation/ControlPLC_LaserCleanroom/Binaries
+export AS_BINARIES_PATH := C:/DataDistributionTest/DataDistributionTest/Binaries
 export AS_GNU_INST_PATH := C:/Users/hkeshavamurthy/AS411/AS/GnuInst/V4.1.2
 export AS_GNU_BIN_PATH := C:/Users/hkeshavamurthy/AS411/AS/GnuInst/V4.1.2/4.9/bin
 export AS_GNU_INST_PATH_SUB_MAKE := C:/Users/hkeshavamurthy/AS411/AS/GnuInst/V4.1.2
@@ -22,11 +22,11 @@ export AS_GNU_BIN_PATH_SUB_MAKE := C:/Users/hkeshavamurthy/AS411/AS/GnuInst/V4.1
 export AS_INSTALL_PATH := C:/Users/hkeshavamurthy/AS411
 export WIN32_AS_PATH := "C:\Users\hkeshavamurthy\AS411"
 export WIN32_AS_BIN_PATH := "C:\Users\hkeshavamurthy\AS411\bin-en"
-export WIN32_AS_PROJECT_PATH := "C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom"
+export WIN32_AS_PROJECT_PATH := "C:\DataDistributionTest\DataDistributionTest"
 export WIN32_AS_SYSTEM_PATH := "C:\Users\hkeshavamurthy\AS\System"
 export WIN32_AS_VC_PATH := "C:\Users\hkeshavamurthy\AS411\AS\VC"
-export WIN32_AS_TEMP_PATH := "C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp"
-export WIN32_AS_BINARIES_PATH := "C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Binaries"
+export WIN32_AS_TEMP_PATH := "C:\DataDistributionTest\DataDistributionTest\Temp"
+export WIN32_AS_BINARIES_PATH := "C:\DataDistributionTest\DataDistributionTest\Binaries"
 export WIN32_AS_GNU_INST_PATH := "C:\Users\hkeshavamurthy\AS411\AS\GnuInst\V4.1.2"
 export WIN32_AS_GNU_BIN_PATH := "C:\Users\hkeshavamurthy\AS411\AS\GnuInst\V4.1.2\bin"
 export WIN32_AS_INSTALL_PATH := "C:\Users\hkeshavamurthy\AS411"
@@ -35,5 +35,5 @@ export WIN32_AS_INSTALL_PATH := "C:\Users\hkeshavamurthy\AS411"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/ControlPLC_LaserCleanroom.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Rebuild'   
+	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/ControlPLC_DataDistribution.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Rebuild'   
 

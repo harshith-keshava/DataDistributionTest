@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Monitor>
+<InputFile>C:\DataDistributionTest\DataDistributionTest\Logical\Automation\ManualPulseLaserSFC\Cyclic.sfc</InputFile>
+<OutputFile>C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Cyclic.sfc.o</OutputFile>
+<MainSFC>
+<STEP00002 NAME="START" CYCLIC="9"/>
+<STEP00006 NAME="InitializeManualCalibration" CYCLIC="10"/>
+<STEP00008 NAME="IteratePixel" CYCLIC="11"/>
+</MainSFC>
+<PiperModuleInterface USED="FALSE" NR="2">
+</PiperModuleInterface>
+<FunctionblockCalls USED="TRUE" NR="1">
+</FunctionblockCalls>
+<Step1Active USED="TRUE" NR="6">
+</Step1Active>
+<SelectOperation USED="FALSE" NR="5">
+</SelectOperation>
+<ResetOperation USED="FALSE" NR="4">
+</ResetOperation>
+<PixelConvert USED="FALSE" NR="3">
+</PixelConvert>
+</Monitor>

@@ -2,7 +2,7 @@
 <?AutomationStudio FileVersion="4.9"?>
 <BR.AS.HardwareTopology>
   <TimeStamps>
-    <TimeStamp LogicalPath="APC910.Hardware.hw" LastWriteTime="06/07/2024 11:36:49" />
+    <TimeStamp LogicalPath="APC910.Hardware.hw" LastWriteTime="08/14/2025 10:46:02" />
   </TimeStamps>
   <Modules>
     <Module Name="5PC910.SX02-00" Type="5PC910.SX02-00" X="42" Y="-103" />
@@ -11,44 +11,11 @@
     <Module Name="5LS182.6-2a" Type="5LS182.6-2" X="106" Y="-28" />
     <Module Name="5LS182.6-2" Type="5LS182.6-2" X="106" Y="-57" />
     <Module Name="5PC900_TS17_02" Type="5PC900.TS17-02" X="101" Y="-93" />
-    <Module Name="X20Rack_ACEnclosure" Type="X20BB80" X="293" Y="-5" />
-    <Module Name="X20BM33c" Type="X20BM33" X="331" Y="-5" />
-    <Module Name="X20SLX210" Type="X20SLX210" X="331" Y="-5" />
-    <Module Name="X20TB52f" Type="X20TB52" X="344" Y="21" />
-    <Module Name="X20BM33" Type="X20BM33" X="357" Y="-5" />
-    <Module Name="X20SC0842" Type="X20SC0842" X="357" Y="-5" />
-    <Module Name="X20TB52a" Type="X20TB52" X="370" Y="21" />
-    <Module Name="X20TB52" Type="X20TB52" X="357" Y="21" />
-    <Module Name="X20BM01" Type="X20BM01" X="383" Y="-5" />
-    <Module Name="X20PS3300" Type="X20PS3300" X="383" Y="-5" />
-    <Module Name="X20TB12b" Type="X20TB12" X="383" Y="22" />
-    <Module Name="X20BM11k" Type="X20BM11" X="396" Y="-5" />
-    <Module Name="X20DI9371" Type="X20DI9371" X="396" Y="-5" />
-    <Module Name="X20TB12" Type="X20TB12" X="396" Y="22" />
-    <Module Name="X20BM11l" Type="X20BM11" X="409" Y="-5" />
-    <Module Name="X20DO9322" Type="X20DO9322" X="409" Y="-5" />
-    <Module Name="X20TB12n" Type="X20TB12" X="409" Y="22" />
-    <Module Name="X20BM11h" Type="X20BM11" X="422" Y="-5" />
-    <Module Name="X20AI4632" Type="X20AI4632" X="422" Y="-5" />
-    <Module Name="X20TB12k" Type="X20TB12" X="422" Y="22" />
-    <Module Name="X20PS9400" Type="X20PS9400" X="318" Y="-5" />
-    <Module Name="X20TB12a" Type="X20TB12" X="318" Y="22" />
-    <Module Name="X20BC0083" Type="X20BC0083" X="293" Y="-5" />
     <Module Name="PowerlinkHub_DCEnclosure" Type="0AC808.9-1" X="188" Y="247" />
-    <Module Name="CM401_LaserRacks_WaterPressureOK" Type="X67BC8321-1" X="352" Y="166" />
-    <Module Name="CM402_SC_LaserRack1" Type="X67SC4122.L12" X="455" Y="166" />
-    <Module Name="CM403_SC_LaserRack2" Type="X67SC4122.L12" X="558" Y="166" />
-    <Module Name="CM404_SC_LaserRack3" Type="X67SC4122.L12" X="661" Y="166" />
-    <Module Name="CM405_SC_LaserRack4" Type="X67SC4122.L12" X="764" Y="166" />
     <Module Name="VF-LCR4" Type="FBE.VF-LCR System (version 04)" X="381" Y="538" />
     <Module Name="VF-LCR3" Type="FBE.VF-LCR System (version 04)" X="-14" Y="538" />
     <Module Name="VF-LCR2" Type="FBE.VF-LCR System (version 04)" X="119" Y="538" />
     <Module Name="VF-LCR1" Type="FBE.VF-LCR System (version 04)" X="245" Y="538" />
-    <Module Name="CM101_CleanRoom_RemoteIO" Type="X67BC8321-1" X="347" Y="351" />
-    <Module Name="CM406_Clean_Room" Type="X67SC4122.L12" X="455" Y="351" />
-    <Module Name="X67AT1322" Type="X67AT1322" X="558" Y="366" />
-    <Module Name="X67AT1322a" Type="X67AT1322" X="783" Y="366" />
-    <Module Name="X67AT1322b" Type="X67AT1322" X="661" Y="366" />
   </Modules>
   <Links>
     <Link From="5LS182.6-2" To="PowerlinkHub_DCEnclosure" FromPort="IF1" ToPort="ETH1" IsRoutedByUser="False">
@@ -59,84 +26,6 @@
       <Point X="214.26033" Y="246.214874" />
       <Point X="214.26033" Y="258.214874" />
       <Point X="214.26033" Y="258.214874" />
-    </Link>
-    <Link From="CM401_LaserRacks_WaterPressureOK" To="PowerlinkHub_DCEnclosure" FromPort="PLK1" ToPort="ETH3" IsRoutedByUser="False">
-      <Point X="240.26033" Y="258.214874" />
-      <Point X="240.26033" Y="258.214874" />
-      <Point X="240.26033" Y="246.214874" />
-      <Point X="240.26033" Y="178.214874" />
-      <Point X="351.2603" Y="178.214874" />
-      <Point X="362.2603" Y="178.214874" />
-      <Point X="362.2603" Y="178.214874" />
-    </Link>
-    <Link From="CM401_LaserRacks_WaterPressureOK" To="CM402_SC_LaserRack1" FromPort="IF1" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="394.2603" Y="178.214874" />
-      <Point X="394.2603" Y="178.214874" />
-      <Point X="406.2603" Y="178.214874" />
-      <Point X="454.2603" Y="178.214874" />
-      <Point X="465.2603" Y="178.214874" />
-      <Point X="465.2603" Y="178.214874" />
-    </Link>
-    <Link From="CM101_CleanRoom_RemoteIO" To="PowerlinkHub_DCEnclosure" FromPort="PLK1" ToPort="ETH7" IsRoutedByUser="False">
-      <Point X="240" Y="271" />
-      <Point X="240" Y="271" />
-      <Point X="240" Y="291" />
-      <Point X="240" Y="363" />
-      <Point X="346" Y="363" />
-      <Point X="357" Y="363" />
-      <Point X="357" Y="363" />
-    </Link>
-    <Link From="CM101_CleanRoom_RemoteIO" To="CM406_Clean_Room" FromPort="IF1" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="389" Y="363" />
-      <Point X="389" Y="363" />
-      <Point X="401" Y="363" />
-      <Point X="454" Y="363" />
-      <Point X="465" Y="363" />
-      <Point X="465" Y="363" />
-    </Link>
-    <Link From="CM402_SC_LaserRack1" To="CM403_SC_LaserRack2" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="497.2603" Y="178.214874" />
-      <Point X="497.2603" Y="178.214874" />
-      <Point X="509.2603" Y="178.214874" />
-      <Point X="557.2603" Y="178.214874" />
-      <Point X="568.2603" Y="178.214874" />
-      <Point X="568.2603" Y="178.214874" />
-    </Link>
-    <Link From="CM403_SC_LaserRack2" To="CM404_SC_LaserRack3" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="600.2603" Y="178.214874" />
-      <Point X="600.2603" Y="178.214874" />
-      <Point X="612.2603" Y="178.214874" />
-      <Point X="660.2603" Y="178.214874" />
-      <Point X="671.2603" Y="178.214874" />
-      <Point X="671.2603" Y="178.214874" />
-    </Link>
-    <Link From="CM404_SC_LaserRack3" To="CM405_SC_LaserRack4" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="703.2603" Y="178.214874" />
-      <Point X="703.2603" Y="178.214874" />
-      <Point X="715.2603" Y="178.214874" />
-      <Point X="763.2603" Y="178.214874" />
-      <Point X="774.2603" Y="178.214874" />
-      <Point X="774.2603" Y="178.214874" />
-    </Link>
-    <Link From="CM406_Clean_Room" To="X67AT1322" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="497" Y="363" />
-      <Point X="497" Y="363" />
-      <Point X="509" Y="363" />
-      <Point X="515" Y="363" />
-      <Point X="515" Y="378.5" />
-      <Point X="557" Y="378.5" />
-      <Point X="568" Y="378.5" />
-      <Point X="568" Y="378.5" />
-    </Link>
-    <Link From="PowerlinkHub_DCEnclosure" To="X20BC0083" FromPort="ETH2" ToPort="PLK1" IsRoutedByUser="False">
-      <Point X="307.2603" Y="69.2148743" />
-      <Point X="299.0103" Y="69.2148743" />
-      <Point X="299.0103" Y="94.2148743" />
-      <Point X="299.0103" Y="99.2148743" />
-      <Point X="227.26033" Y="99.2148743" />
-      <Point X="227.26033" Y="246.214874" />
-      <Point X="227.26033" Y="258.214874" />
-      <Point X="227.26033" Y="258.214874" />
     </Link>
     <Link From="PowerlinkHub_DCEnclosure" To="VF-LCR4" FromPort="ETH6" ToPort="PLK2" IsRoutedByUser="False">
       <Point X="227" Y="271" />
@@ -177,22 +66,6 @@
       <Point X="44" Y="589" />
       <Point X="44" Y="582" />
       <Point X="44" Y="582" />
-    </Link>
-    <Link From="X67AT1322" To="X67AT1322b" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
-      <Point X="600" Y="378" />
-      <Point X="600" Y="378" />
-      <Point X="612" Y="378" />
-      <Point X="660" Y="378" />
-      <Point X="671" Y="378" />
-      <Point X="671" Y="378" />
-    </Link>
-    <Link From="X67AT1322a" To="X67AT1322b" FromPort="X2X1" ToPort="X2X2" IsRoutedByUser="False">
-      <Point X="793" Y="378" />
-      <Point X="793" Y="378" />
-      <Point X="782" Y="378" />
-      <Point X="715" Y="378" />
-      <Point X="703" Y="378" />
-      <Point X="703" Y="378" />
     </Link>
   </Links>
   <InfoElements />

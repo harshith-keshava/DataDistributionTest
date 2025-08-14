@@ -1,116 +1,19 @@
 
 PROGRAM _INIT
 	
-	brsitoa(Configuration.rackIndex + 1, ADR(moduleName));
+	//brsitoa(Configuration.rackIndex + 1, ADR(moduleName));
 	moduleName := CONCAT('VF-LCR Rack ', moduleName);
 		
-	//Commands
-	subscribePLCOpen(gVFLCR.command.enableDCPower, moduleName, task.command.enableDCPower, task.internal.PLCOpenEnableDCPower);
-	subscribePLCOpen(gVFLCR.command.disableDCPower, moduleName, task.command.disableDCPower, task.internal.PLCOpenDisableDCPower);
-	subscribePLCOpen(gVFLCR.command.enableLaserPower, moduleName, task.command.enableLaserPower, task.internal.PLCOpenEnableLaserPower);
-	subscribePLCOpen(gVFLCR.command.disableLaserPower, moduleName, task.command.disableLaserPower, task.internal.PLCOpenDisableLaserPower);
-	subscribePLCOpen(gVFLCR.command.enableLaserEmission, moduleName, task.command.enableLaserEmission, task.internal.PLCOpenEnableLaserEmission);
-	subscribePLCOpen(gVFLCR.command.disableLaserEmission, moduleName, task.command.disableLaserEmission, task.internal.PLCOpenDisableLaserEmission);
-	subscribePLCOpen(gVFLCR.command.checkActivePixels, moduleName, task.command.checkActivePixels, task.internal.PLCOpenPixelCheck);
-	subscribePLCOpen(gVFLCR.command.manualPulseAbort, moduleName, task.command.abortManualPulse, task.internal.PLCOpenManualPulse);
-	
-	subscribePLCOpenWithParameters(gVFLCR.command.manualPulseRack, moduleName, ADR(task.internal.manualPulseCommandParameters), SIZEOF(task.internal.manualPulseCommandParameters), task.command.startManualPulseRack, task.internal.PLCOpenManualPulse);
-	
-	subscribePLCOpen(gVFLCR.command.resetHardwareError, moduleName, task.command.resetHardwareError, task.internal.PLCOpenResetHardwareError);
-	subscribePLCOpen(gVFLCR.command.enableAutoMode, moduleName, task.command.enableAutoMode, task.internal.PLCOpenEnableAutoMode);
-	subscribePLCOpen(gVFLCR.command.enableManualMode, moduleName, task.command.enableManualMode, task.internal.PLCOpenEnableManualMode);
+
 	subscribePLCOpenWithParameters(gVFLCR.command.openLayer, moduleName, ADR(task.internal.openLayerCommandParameters), SIZEOF(task.internal.openLayerCommandParameters),task.command.openLayer, task.internal.PLCOpenOpenLayer);
 	subscribePLCOpen(gVFLCR.command.abortLayer, moduleName, task.command.abortLayer, task.internal.PLCOpenAbortLayer);
-	subscribePLCOpen(gVFLCR.command.resetSoftwareError, moduleName, task.command.resetSoftwareError, task.internal.PLCOpenResetSoftwareError);
+	
 	subscribePLCOpen(gVFLCR.command.deleteLaserControlFiles, moduleName, task.command.deleteLaserControlFiles, task.internal.PLCOpenDeleteLaserControlFiles);
-	subscribePLCOpen(gVFLCR.command.deleteLUTFiles, moduleName, task.command.deleteLUTFiles, task.internal.PLCOpenDeleteLUTFiles);
-	subscribePLCOpen(gVFLCR.command.transferLUTFiles, moduleName, task.command.transferLUTFiles, task.internal.PLCOpenLoadLUT);
-	//continuouos mode	
-	subscribePLCOpen(gVFLCR.command.startPulse, moduleName, task.command.startPulse, task.internal.PLCOpenStartPulse);
-	subscribePLCOpen(gVFLCR.command.stopPulse, moduleName, task.command.stopPulse, task.internal.PLCOpenStopPulse);
-	
-	subscribeCommandBool(gVFLCR.command.resetAllErrors, moduleName, task.command.resetHardwareError);
-	subscribeCommandBool(gVFLCR.command.resetAllErrors, moduleName, task.command.resetSoftwareError);
-	
-	// Statuses
-	registerStateBool(gVFLCR.status.rackIgnored, moduleName, task.status.rackIgnored);
-	registerStateExt1(gVFLCR.status.laserSafetyEnabled, CONCAT(moduleName, ' Laser Safety Enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.laserSafetyEnabled);
-	registerStateExt1(gVFLCR.status.laserEmissionEnabled, CONCAT(moduleName, ' Laser Emission Enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.laserEmissionEnabled);
-	registerStateExt1(gVFLCR.status.laserPowerEnabled, CONCAT(moduleName, ' Laser Power Enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.laserPowerEnabled);
-	registerStateExt1(gVFLCR.status.dcPowerEnabled, CONCAT(moduleName, ' DC Power enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.dcPowerEnabled);
-	registerStateExt1(gVFLCR.status.OMSModeEnabled, CONCAT(moduleName, ' OMS Mode Enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.OMSModeEnabled);
-	registerStateExt1(gVFLCR.status.manualModeEnabled, CONCAT(moduleName, ' Manual Mode Enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.manualModeEnabled);
-	registerStateExt1(gVFLCR.status.autoModeEnabled, CONCAT(moduleName, ' Auto Mode Enabled'), task.status.message, 0,0, task.status.rackIgnored, task.status.autoModeEnabled);
-	registerStateExt1(gVFLCR.status.invalidPixelUsage, CONCAT(moduleName, ' Invalid Pixel Usage'), task.status.message, 0,0, task.status.rackIgnored, task.status.invalidPixelUsage);
-	registerStateExt1(gVFLCR.status.manualPulseActive, CONCAT(moduleName, ' Manual Pulse Active'), task.status.message, ADR(task.status.manualPulseStatus), SIZEOF(task.status.manualPulseStatus), task.status.rackIgnored, task.status.manualPulseActive);
-	registerStateExt1(gVFLCR.status.readyToPrint, CONCAT(moduleName, ' Ready to Print'), task.status.message, 0,0, task.status.rackIgnored, task.status.readyToPrint);
 
-	registerStateExt1(gVFLCR.status.layerOpen, CONCAT(moduleName, ' Layer Open'), task.status.message, 0,0, task.status.rackIgnored, task.status.layerOpen);
-	
-	registerStateExt1(gVFLCR.status.error, CONCAT(moduleName, ' Comm Error'), task.status.message, 0,0, task.status.rackIgnored, task.status.commsError);
-	registerStateExt1(gVFLCR.status.error, CONCAT(moduleName, ' Fatal Error'), task.status.message, 0,0, task.status.rackIgnored, task.status.laserFatalError);
-	registerStateExt1(gVFLCR.status.error, CONCAT(moduleName, ' Hardware Error'), task.status.message, 0,0, task.status.rackIgnored, task.status.laserHardwareError);
-	registerStateExt1(gVFLCR.status.error, CONCAT(moduleName, ' Watchdog Error'), task.status.message, 0,0, task.status.rackIgnored, task.status.laserWatchdogError);
-	registerStateExt1(gVFLCR.status.error, CONCAT(moduleName, ' Power Supply Error'), task.status.message, 0,0, task.status.rackIgnored, task.status.powerSupplyError);
-	
-	
-	registerStateBool(gVFLCR.status.rackOnline, moduleName, task.status.commsOK);
-	
-	// inhibit firing above 2% O2
-		//registerStateBool(gVFLCR.inhibit.laserEmission, CONCAT(moduleName, 'O2 Content Above 2%'), task.internal.o2Unsafe);
-	// Register IO
-	registerStateParameters(gVFLCR.IO.rack, moduleName, ADR(IO), SIZEOF(IO));
-	
-	// Set command timeouts
-	task.internal.enableManualModeTON.PT := T#5s;
-	task.internal.enableAutoModeTON.PT := T#5s;
 	task.internal.abortLayerTON.PT := T#5s;
-	task.internal.resetSoftwareErrorTON.PT := T#5s;
-	task.internal.transferLUTFilesTON.PT := T#5s;
 	task.internal.deleteLaserControlFilesTON.PT := T#5s;
-	task.internal.deleteLUTFilesTON.PT := T#5s;
 	task.internal.openLayerTON.PT := T#5s;
 	
-	// On program init, disable all lasers, force current layer to be aborted, and disable both AUTO and MANUAL modes.
-	ShutDownIO;
-	
-	RTInfo_0(enable := TRUE);
-	
-	IF gSimulation THEN
-		test.command.initLaserState := TRUE;
-		test.command.initOperationalState := TRUE;
-		test.command.initSystemState := TRUE;
-		Configuration.laserHardware := LH_nLight_525W;
-	END_IF
-
-	
-	Configuration.laserHardware := LH_nLight_525W;
-	IO.raw.oIndirectRegisterRequestAddress := 16#4000_0000;
-	task.command.enableManualMode := TRUE;
-	
-	//Continuous Mode variables initialised
-	
-	task.CMM.actualContinuousPeriod[0] := 100;
-	task.CMM.actualContinuousPeriod[1] := 100;
-	task.CMM.actualContinuousPeriod[2] := 100;
-	task.CMM.actualContinuousPeriod[3] := 100;
-	task.CMM.actualContinuousPeriod[4] := 100;
-	task.CMM.actualContinuousPeriod[5] := 100;
-	task.CMM.actualContinuousPeriod[6] := 100;
-	task.CMM.actualContinuousPeriod[7] := 100;
-	task.CMM.actualContinuousPeriod[8] := 100;
-	task.CMM.actualContinuousPeriod[9] := 100;
-	task.CMM.actualContinuousPeriod[10] := 100;
-	task.CMM.actualContinuousPeriod[11] := 100;
-	task.CMM.actualContinuousPeriod[12] := 100;
-	task.CMM.actualContinuousPeriod[13] := 100;
-	task.CMM.actualContinuousPeriod[14] := 100;
-	task.CMM.actualContinuousPeriod[15] := 100;
-	task.CMM.actualContinuousPeriod[16] := 100;
-	task.CMM.actualContinuousPeriod[17] := 100;
-	task.CMM.actualContinuousPeriod[18] := 100;
-	task.CMM.actualContinuousPeriod[19] := 100;
-	task.CMM.actualContinuousPeriod[20] := 100;
 	
 END_PROGRAM
 

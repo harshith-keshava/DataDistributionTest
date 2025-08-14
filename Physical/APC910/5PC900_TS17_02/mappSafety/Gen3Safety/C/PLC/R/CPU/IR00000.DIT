@@ -1,0 +1,460 @@
+(*
+T: RESOURCE CPU
+FW: NO
+CI#: 0
+QSL: 75
+QVE: 75
+QVPC: 75
+QPar: 0
+QFBI: 0
+*)
+@V 1 2 0
+cmd_RequestMachineSafetyReset	1	VAR_GLOBAL	@TYP:1
+%NSIX 0.0		     
+
+;
+
+@V 1 3 0
+cmd_RequestLaserSafetyReset	2	VAR_GLOBAL	@TYP:1
+%NSIX 0.1		     
+
+;
+
+@V 1 4 0
+cmd_EnableLaserSafety	3	VAR_GLOBAL	@TYP:1
+%NSIX 0.2		     
+
+;
+
+@V 1 6 0
+EStop_ControlStation	4	VAR_GLOBAL	@TYP:43
+%SIX 17.0		     
+
+;
+
+@V 1 7 0
+EStop_SafetyLockoutBox	5	VAR_GLOBAL	@TYP:43
+%SIX 17.2		     
+
+;
+
+@V 1 8 0
+EStop_HandHeld	6	VAR_GLOBAL	@TYP:43
+%SIX 17.3		     
+
+;
+
+@V 1 10 0
+VFLCRRacksEnabled	7	VAR_GLOBAL	@TYP:18
+%NSIW 2		     
+
+;
+
+@V 1 11 0
+Rack1_PowerContactor_CH1	8	VAR_GLOBAL	@TYP:43
+%SQX 4.0		     
+
+;
+
+@V 1 12 0
+Rack2_PowerContactor_CH1	9	VAR_GLOBAL	@TYP:43
+%SQX 6.0		     
+
+;
+
+@V 1 13 0
+Rack3_PowerContactor_CH1	10	VAR_GLOBAL	@TYP:43
+%SQX 8.0		     
+
+;
+
+@V 1 14 0
+Rack4_PowerContactor_CH1	11	VAR_GLOBAL	@TYP:43
+%SQX 10.0		     
+
+;
+
+@V 1 15 0
+Rack1_PowerContactor_CH2	12	VAR_GLOBAL	@TYP:43
+%SQX 4.1		     
+
+;
+
+@V 1 16 0
+Rack2_PowerContactor_CH2	13	VAR_GLOBAL	@TYP:43
+%SQX 6.1		     
+
+;
+
+@V 1 17 0
+Rack3_PowerContactor_CH2	14	VAR_GLOBAL	@TYP:43
+%SQX 8.1		     
+
+;
+
+@V 1 18 0
+Rack4_PowerContactor_CH2	15	VAR_GLOBAL	@TYP:43
+%SQX 10.1		     
+
+;
+
+@V 1 19 0
+Rack1_PowerContactor_CH1_EDM	16	VAR_GLOBAL	@TYP:43
+%SIX 20.0		     
+
+;
+
+@V 1 20 0
+Rack2_PowerContactor_CH1_EDM	17	VAR_GLOBAL	@TYP:43
+%SIX 24.0		     
+
+;
+
+@V 1 21 0
+Rack3_PowerContactor_CH1_EDM	18	VAR_GLOBAL	@TYP:43
+%SIX 28.0		     
+
+;
+
+@V 1 22 0
+Rack4_PowerContactor_CH1_EDM	19	VAR_GLOBAL	@TYP:43
+%SIX 32.0		     
+
+;
+
+@V 1 23 0
+Rack1_PowerContactor_CH2_EDM	20	VAR_GLOBAL	@TYP:43
+%SIX 20.1		     
+
+;
+
+@V 1 24 0
+Rack2_PowerContactor_CH2_EDM	21	VAR_GLOBAL	@TYP:43
+%SIX 24.1		     
+
+;
+
+@V 1 25 0
+Rack3_PowerContactor_CH2_EDM	22	VAR_GLOBAL	@TYP:43
+%SIX 28.1		     
+
+;
+
+@V 1 26 0
+Rack4_PowerContactor_CH2_EDM	23	VAR_GLOBAL	@TYP:43
+%SIX 32.1		     
+
+;
+
+@V 1 27 0
+VFLCR1_SafetyRelay_CH1	24	VAR_GLOBAL	@TYP:43
+%SQX 4.2		     
+
+;
+
+@V 1 28 0
+VFLCR2_SafetyRelay_CH1	25	VAR_GLOBAL	@TYP:43
+%SQX 6.2		     
+
+;
+
+@V 1 29 0
+VFLCR3_SafetyRelay_CH1	26	VAR_GLOBAL	@TYP:43
+%SQX 8.2		     
+
+;
+
+@V 1 30 0
+VFLCR4_SafetyRelay_CH1	27	VAR_GLOBAL	@TYP:43
+%SQX 10.2		     
+
+;
+
+@V 1 31 0
+VFLCR1_SafetyRelay_CH2	28	VAR_GLOBAL	@TYP:43
+%SQX 4.3		     
+
+;
+
+@V 1 32 0
+VFLCR2_SafetyRelay_CH2	29	VAR_GLOBAL	@TYP:43
+%SQX 6.3		     
+
+;
+
+@V 1 33 0
+VFLCR3_SafetyRelay_CH2	30	VAR_GLOBAL	@TYP:43
+%SQX 8.3		     
+
+;
+
+@V 1 34 0
+VFLCR4_SafetyRelay_CH2	31	VAR_GLOBAL	@TYP:43
+%SQX 10.3		     
+
+;
+
+@V 1 35 0
+VFLCR1_SafetyRelay_EDM	32	VAR_GLOBAL	@TYP:43
+%SIX 20.2		     
+
+;
+
+@V 1 36 0
+VFLCR2_SafetyRelay_EDM	33	VAR_GLOBAL	@TYP:43
+%SIX 24.2		     
+
+;
+
+@V 1 37 0
+VFLCR3_SafetyRelay_EDM	34	VAR_GLOBAL	@TYP:43
+%SIX 28.2		     
+
+;
+
+@V 1 38 0
+VFLCR4_SafetyRelay_EDM	35	VAR_GLOBAL	@TYP:43
+%SIX 32.2		     
+
+;
+
+@V 1 40 0
+SM2_OK	36	VAR_GLOBAL	@TYP:43
+%SIX 4.0		     
+
+;
+
+@V 1 41 0
+SM41_OK	37	VAR_GLOBAL	@TYP:43
+%SIX 4.1		     
+
+;
+
+@V 1 42 0
+SM42_OK	38	VAR_GLOBAL	@TYP:43
+%SIX 4.2		     
+
+;
+
+@V 1 43 0
+SM43_OK	39	VAR_GLOBAL	@TYP:43
+%SIX 4.3		     
+
+;
+
+@V 1 44 0
+SM44_OK	40	VAR_GLOBAL	@TYP:43
+%SIX 4.4		     
+
+;
+
+@V 1 45 0
+SM60_OK	41	VAR_GLOBAL	@TYP:43
+%SIX 4.5		     
+
+;
+
+@V 1 47 0
+SM41_Release	42	VAR_GLOBAL	@TYP:1
+%NSQX 21.0		     
+
+;
+
+@V 1 48 0
+SM42_Release	43	VAR_GLOBAL	@TYP:1
+%NSQX 22.0		     
+
+;
+
+@V 1 49 0
+SM43_Release	44	VAR_GLOBAL	@TYP:1
+%NSQX 23.0		     
+
+;
+
+@V 1 50 0
+SM44_Release	45	VAR_GLOBAL	@TYP:1
+%NSQX 24.0		     
+
+;
+
+@V 1 52 0
+status_SafetyProgramRevision	46	VAR_GLOBAL	@TYP:18
+%NSQW 2		     
+
+;
+
+@V 1 53 0
+status_SafetySystemReady	47	VAR_GLOBAL	@TYP:1
+%NSQX 0.0		     
+
+;
+
+@V 1 54 0
+status_SafetyReset_EStops	48	VAR_GLOBAL	@TYP:1
+%NSQX 0.1		     
+
+;
+
+@V 1 55 0
+status_SafetyReset_Lasers	49	VAR_GLOBAL	@TYP:1
+%NSQX 0.4		     
+
+;
+
+@V 1 56 0
+status_EStopPressed	50	VAR_GLOBAL	@TYP:1
+%NSQX 0.2		     
+
+;
+
+@V 1 57 0
+status_FBK_Error_EStop	51	VAR_GLOBAL	@TYP:1
+%NSQX 0.3		     
+
+;
+
+@V 1 58 0
+status_FBK_Error_Laser	52	VAR_GLOBAL	@TYP:1
+%NSQX 0.5		     
+
+;
+
+@V 1 59 0
+status_FBK_Error_LaserEDM	53	VAR_GLOBAL	@TYP:1
+%NSQX 0.6		     
+
+;
+
+@V 1 60 0
+status_FBKERR_LaserEDM1	54	VAR_GLOBAL	@TYP:1
+%NSQX 0.7		     
+
+;
+
+@V 1 61 0
+status_FBKERR_LaserEDM2	55	VAR_GLOBAL	@TYP:1
+%NSQX 1.0		     
+
+;
+
+@V 1 62 0
+status_FBKERR_LaserEDM3	56	VAR_GLOBAL	@TYP:1
+%NSQX 1.1		     
+
+;
+
+@V 1 63 0
+status_FBKERR_LaserEDM4	57	VAR_GLOBAL	@TYP:1
+%NSQX 1.2		     
+
+;
+
+@V 1 64 0
+status_FBK_Diag_EStop	58	VAR_GLOBAL	@TYP:18
+%NSQW 10		     
+
+;
+
+@V 1 65 0
+status_FBK_Diag_Laser	59	VAR_GLOBAL	@TYP:18
+%NSQW 4		     
+
+;
+
+@V 1 66 0
+status_FBK_Diag_LaserEDM1	60	VAR_GLOBAL	@TYP:18
+%NSQW 6		     
+
+;
+
+@V 1 67 0
+status_FBK_Diag_LaserEDM2	61	VAR_GLOBAL	@TYP:18
+%NSQW 8		     
+
+;
+
+@V 1 68 0
+status_FBK_Diag_LaserEDM3	62	VAR_GLOBAL	@TYP:18
+%NSQW 12		     
+
+;
+
+@V 1 69 0
+status_FBK_Diag_LaserEDM4	63	VAR_GLOBAL	@TYP:18
+%NSQW 14		     
+
+;
+
+@V 1 70 0
+EStop_LaserControlRoom	64	VAR_GLOBAL	@TYP:43
+%SIX 8.2		     
+
+;
+
+@V 1 71 0
+IO_DoorInterlock	65	VAR_GLOBAL	@TYP:43
+%SIX 37.4		     
+
+;
+
+@V 1 72 0
+Chiller1TemperatureOK	66	VAR_GLOBAL	@TYP:43
+%SIX 20.4		     
+
+;
+
+@V 1 73 0
+Chiller2TemperatureOK	67	VAR_GLOBAL	@TYP:43
+%SIX 28.4		     
+
+;
+
+@V 1 74 0
+IO_DoorInterlock1	68	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 75 0
+O_DoorInterlock2	69	VAR_GLOBAL	@TYP:43
+%SIX 38.0		     
+
+;
+
+@V 1 76 0
+IO_DoorInterlock2	70	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 77 0
+Chiller1Running	71	VAR_GLOBAL	@TYP:43
+%SIX 20.6		     
+
+;
+
+@V 1 78 0
+Chiller2Running	72	VAR_GLOBAL	@TYP:43
+%SIX 28.6		     
+
+;
+
+@V 1 79 0
+BatOBFlow_IO	73	VAR_GLOBAL	@TYP:43
+%SIX 37.5		     
+
+;
+
+@V 1 80 0
+ChillerRunning1	74	VAR_GLOBAL	@TYP:43
+		     
+
+;
+
+@V 1 81 0
+ChillerRunning2	75	VAR_GLOBAL	@TYP:43
+		     
+
+;
+

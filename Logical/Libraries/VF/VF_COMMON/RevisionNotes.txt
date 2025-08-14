@@ -1,0 +1,79 @@
+****************************************************************************************************
+IMPORTANT: Always update the library version number in the library Properties 'Details' tab.
+****************************************************************************************************
+
+Version 2.01 - 1/9/23, W. Stebler
+----------------------------------
+- VF_Common_MonitoredValue: Added delay to RawValueIsValid input to ensure that disconnected sensors with
+  dithering inputs are viewed as invalid.
+
+Version 2.00 - 11/16/22, L. Sullivan
+----------------------------------
+- Add missing LoopConR lib to dependecy list
+- Add AsBrMath lib to dependency list
+- Swtich from floor() to brmfloor()
+- Switch from strlen() -> brsstrlen() in VF_COMMON_FileNameWithTimestamp
+- Rename VF_COMMON_ControlValue_typ and cfg so it doesn't conflict with the VF_COMMON_ControlValue FUB def
+
+Version 1.11 - 12/11/21, W. Stebler
+----------------------------------
+- Addition of VF_COMMON_DataTypes_enum, VF_COMMON_DatabaseValueCfg_typ, and VF_COMMON_DatabaseValue_typ
+  in support of machine data collection.
+
+Version 1.10 - 10/25/21, W. Stebler
+----------------------------------
+- VF_COMMON_MpAlarmXToggle: Corrected a major bug in the logic of this function that would allow
+  alarms to disappear from the alarm list after being acknowledged even if the condition was still active.
+  This only occured in instances where the alarm was set up to support multiple instances.
+
+Version 1.09 - 8/22/21, W. Stebler
+----------------------------------
+- VF_COMMON_ControlValueCfg_typ and VF_COMMON_MonitoredValueCfg_typ now contain DB_Name[] and DisplayName[] properties;
+  DB_Name[] replaces the original Name[] peroperty.  DB_CrossReference replaces oroginal PDB_CrossReference.
+
+Version 1.08 - 6/23/21, W. Stebler
+----------------------------------
+- Added FileNameWithTimestamp function block which returns a filename with timestamp suffix.
+
+Version 1.07 - 4/12/21, W. Stebler
+----------------------------------
+- Added ControlValue and MonitorValue function blocks.
+- Added MTData and LoopCont libraries as dependencies required by these two new functions.
+
+Version 1.06 - 1/29/21, W. Stebler
+----------------------------------
+- Improved function block comments.
+- Added library dependencies required to support MpAlarmX.
+- Moved MpAlarmXToggle and CheckAtPosition functions from original location in VF_UTIL library.
+- CheckAtPosition renamed to IsValueInRange as this is more generally useful for comparisons.
+
+Version 1.05 - 1/18/21, W. Stebler
+----------------------------------
+- Removed obsolete CalibratePixelPower function block.
+
+Version 1.04 - 11/16/20, W. Stebler
+----------------------------------
+- Added function ConvertToHex which converts a UDINT value to its equivalent hexidecimal string.
+	You'd think this capabilty would exist in one of the B&R libraries, but I coudn't find it.
+
+Version 1.03 - 10/6/20, W. Stebler
+----------------------------------
+- Added explicit conversions to REAL data type in CalibratePixelPower (to avoid compiler warning messages).
+
+Version 1.02 - 10/1/20, W. Stebler
+----------------------------------
+- Added function TON_ScanMicrosec which implements the TON function but wiht a minimum resolution of
+	the calling task scan time, rather than the 10msec minimum imposed by the B&R TON function block.
+- Added function PulseTrainHiRes which uses the above function to produce pulse trains with ON/OFF resolution
+	of the calling task scan time.
+- PulseTrainHiRes time Delay, ON, OFF parameters have been changed back to milliseconds and are converted
+	internally to microseconds.
+
+Version 1.01 - 8/27/20, R. Singh
+----------------------------------
+- Added VF_COMMON_CalibratePixelPower function. It uses 2nd order polynomial equation to calibrate power setpoint of every pixel in laser array
+
+Version 1.00 - 8/25/20, W. Stebler
+----------------------------------
+- Original version.  The PulseTrain function block was relocated from VF_UTIL library to this generic library.
+

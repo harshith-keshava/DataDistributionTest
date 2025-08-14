@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Monitor>
+<InputFile>C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Automation\LaserGen3SFC\Cyclic.sfc</InputFile>
+<OutputFile>C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\ControlPLC_LaserCleanroom_APC910\5PC900_TS17_02\LaserGen3S\Cyclic.sfc.o</OutputFile>
+<MainSFC>
+<STEP00002 NAME="START" CYCLIC="9"/>
+<STEP00007 NAME="CheckOMSOkay" CYCLIC="10"/>
+<STEP00009 NAME="CheckLaserManualMode1" CYCLIC="11"/>
+<STEP00011 NAME="InitializeTest" CYCLIC="12"/>
+<STEP00013 NAME="CheckZaberHomed" CYCLIC="13"/>
+<STEP00015 NAME="InitializePulseSettings" CYCLIC="14"/>
+<STEP00017 NAME="SetZaber2Stage_Exposure" ENTRY="15" CYCLIC="16"/>
+<STEP00019 NAME="PromptUser_AutoMode" ENTRY="17" CYCLIC="18" EXIT="19"/>
+<STEP00024 NAME="TestAbortedHandshakeMetaWriter" CYCLIC="20"/>
+<STEP00027 NAME="CheckPixelOkay1" CYCLIC="21"/>
+<STEP00029 NAME="SetZaber1Stage" ENTRY="22" CYCLIC="23"/>
+<STEP00031 NAME="InitializePixelForFrame" CYCLIC="24"/>
+<STEP00033 NAME="PassRequiredMetaData" CYCLIC="25"/>
+<STEP00035 NAME="ManualPulseAndCaptureData1" ENTRY="26" CYCLIC="27" EXIT="28"/>
+<STEP00039 NAME="IteratePixel1" CYCLIC="29"/>
+<STEP00045 NAME="TestCompleteHandshakeMetaWriter" CYCLIC="30"/>
+<STEP00049 NAME="CheckOMSOkay1" CYCLIC="31"/>
+<STEP00051 NAME="CheckLaserManualMode11" CYCLIC="32"/>
+<STEP00053 NAME="CheckInitialPixelMap" CYCLIC="33"/>
+<STEP00055 NAME="InitializeTest1" CYCLIC="34"/>
+<STEP00057 NAME="CheckZaberHomed1" CYCLIC="35"/>
+<STEP00059 NAME="InitializePulseSettings1" CYCLIC="36"/>
+<STEP00061 NAME="SetZaber2Stage_Exposure1" ENTRY="37" CYCLIC="38"/>
+<STEP00063 NAME="SetZaber1Stage1" ENTRY="39" CYCLIC="40"/>
+<STEP00065 NAME="PromptUser_AutoMode1" ENTRY="41" CYCLIC="42" EXIT="43"/>
+<STEP00070 NAME="TestAbortedHandshakeMetaWriter1" CYCLIC="44"/>
+<STEP00073 NAME="InitializePixelForFrame1" CYCLIC="45"/>
+<STEP00075 NAME="PassRequiredMetaData1" CYCLIC="46"/>
+<STEP00077 NAME="ManualPulseAndCaptureData11" ENTRY="47" CYCLIC="48" EXIT="49"/>
+<STEP00081 NAME="CheckPixelPass" CYCLIC="50"/>
+<STEP00085 NAME="IteratePixel11" CYCLIC="51"/>
+<STEP00091 NAME="TestCompleteHandshake" CYCLIC="52"/>
+</MainSFC>
+<PiperModuleInterface USED="FALSE" NR="2">
+</PiperModuleInterface>
+<FunctionblockCalls USED="TRUE" NR="1">
+</FunctionblockCalls>
+<Step1Active USED="TRUE" NR="6">
+</Step1Active>
+<SelectOperation USED="FALSE" NR="5">
+</SelectOperation>
+<ResetOperation USED="FALSE" NR="4">
+</ResetOperation>
+<PixelConvert USED="TRUE" NR="3">
+</PixelConvert>
+</Monitor>

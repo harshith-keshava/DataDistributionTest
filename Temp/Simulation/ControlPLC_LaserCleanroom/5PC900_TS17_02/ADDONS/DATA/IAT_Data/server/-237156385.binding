@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+	
+
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexSafeOSState" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetSafeOSState" attribute="value" />
+		</Binding></Session>
+
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetSafeOSState" attribute="value" />
+			<Target xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_Safe_OS_State_Status" attribute="value" />
+		</Binding></Session>
+
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexAttentionMsg_Header" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetAttentionMsgHeader" attribute="value" />
+		</Binding></Session>
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexTransferDialogMsg" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetTransferDialogMsg" attribute="value" />
+		</Binding></Session>
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexInfoTxtHeader" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetInfoTextHeader" attribute="value" />
+		</Binding></Session>
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexButtonTxtAckSN_FW" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetButtonTextAckSN_FW" attribute="value" />
+		</Binding></Session>
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexErrorDialogMsg" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetErrorMsgDialog" attribute="value" />
+		</Binding></Session>
+
+		
+		<Session><Binding mode="oneWay">
+			<Source xsi:type="opcUa" refId="&quot;urn:B&amp;R/Diagnosis/mappCockpit&quot;|String|SfDomVis.OPC_IndexTxtOptionNotInUse" attribute="value" />
+			<Target xsi:type="snippet" refId="SfMP148_snippetLabel_SnippetOptionNotInUse" attribute="value" />
+		</Binding></Session>
+
+	
+</BindingDefinition>

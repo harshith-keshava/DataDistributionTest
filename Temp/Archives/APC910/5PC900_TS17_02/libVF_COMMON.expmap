@@ -1,0 +1,14 @@
+{
+  global:
+    VF_COMMON_TON_ScanMicrosec;
+    VF_COMMON_PulseTrain;
+    VF_COMMON_PulseTrainHiRes;
+    VF_COMMON_ConvertToHex;
+    VF_COMMON_IsValueInRange;
+    VF_COMMON_MpAlarmXToggle;
+    VF_COMMON_ControlValue;
+    VF_COMMON_MonitorValue;
+    VF_COMMON_FileNameWithTimestamp;
+  local:
+    *;
+ };

@@ -1,0 +1,49 @@
+{
+  "_from": "@loupeteam/logthat@>=0.5.0 <=0.5.9",
+  "_id": "@loupeteam/logthat@0.5.1",
+  "_inBundle": false,
+  "_integrity": "sha512-HGKZuZxNL6NVnpLG09BbWp7NQ6i+7wdOMoWLj5PO730ELX0Xs35xKGyGLf/mWiIXKE9tjvZxkyBTgbgZbIt6ew==",
+  "_location": "/@loupeteam/logthat",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@loupeteam/logthat@>=0.5.0 <=0.5.9",
+    "name": "@loupeteam/logthat",
+    "escapedName": "@loupeteam%2flogthat",
+    "scope": "@loupeteam",
+    "rawSpec": ">=0.5.0 <=0.5.9",
+    "saveSpec": null,
+    "fetchSpec": ">=0.5.0 <=0.5.9"
+  },
+  "_requiredBy": [
+    "/@loupeteam/csvfilelib",
+    "/@loupeteam/hmitools"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@loupeteam/logthat/0.5.1/a6a0b2d6b20ae36504e3bb1f93abfc66eabd83a7",
+  "_shasum": "a6a0b2d6b20ae36504e3bb1f93abfc66eabd83a7",
+  "_spec": "@loupeteam/logthat@>=0.5.0 <=0.5.9",
+  "_where": "C:\\Projects\\ControlPLC_Gen3_Rev0\\Gen3\\ControlPLC_Gen3_Rev0\\node_modules\\@loupeteam\\csvfilelib",
+  "author": {
+    "name": "Loupe"
+  },
+  "bugs": {
+    "url": "https://github.com/loupeteam/logthat/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@loupeteam/stringext": ">=0.14.1"
+  },
+  "deprecated": false,
+  "description": "Loupe's logthat library for Automation Runtime",
+  "homepage": "https://loupeteam.github.io/Sandbox/libraries/logthat.html",
+  "keywords": [],
+  "license": "Loupe Software License Agreement",
+  "name": "@loupeteam/logthat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loupeteam/logthat.git"
+  },
+  "scripts": {},
+  "version": "0.5.1"
+}

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Anonymous" Type="User">
+    <Property ID="UserID" Value="1" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="admin" Type="User">
+    <Property ID="UserID" Value="2" />
+    <Property ID="Password" Value="EGbAcr/sc0fazOikF4W2oUhWQVybKeZvrULerAwBipLoTjNTOXE=" Description="VFopc" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="Administrators" />
+    </Group>
+  </Element>
+  <Element ID="safety" Type="User">
+    <Property ID="UserID" Value="3" />
+    <Property ID="Password" Value="qKVv/3SXIRj7Y15TXVa9WN958VrYd8G+ASCn3NyAf6IUw/pFgWE=" Description="VFsafety" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="SystemCommissioners" />
+    </Group>
+  </Element>
+  <Element ID="DataCollector" Type="User">
+    <Property ID="UserID" Value="4" />
+    <Property ID="Password" Value="+QtOk43c2phRsx2S04ixEFVjFtLtrrwXYtY52ODD0HCAyyN34Nw=" Description="VFdata" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="DataCollectors" />
+    </Group>
+  </Element>
+  <Element ID="Key1" Type="User">
+    <Property ID="UserID" Value="11" />
+    <Property ID="Password" Value="xZ2eGZWu1WzgZNFKaT+r3iDS2pNSSpff0nL1n0Y9s57liQKlFII=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel1" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="ManufacturingEng" Type="User">
+    <Property ID="UserID" Value="12" />
+    <Property ID="Password" Value="FHwiLy5fRVnsx37GKsHKJLylNu9pzWceHho2UNAnret4bGYp3Eo=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel2" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Key3" Type="User">
+    <Property ID="UserID" Value="13" />
+    <Property ID="Password" Value="r97UY2UIsYfYQWfapZ7/hvFk4oV8VdVtgkLD5zP1ZhDqKkwMhvs=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel3" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Key4" Type="User">
+    <Property ID="UserID" Value="14" />
+    <Property ID="Password" Value="acdpsvpdFcR9BvqfEUPE8XadIWVZSNB3mTokkU1O3RASLQ1x+78=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel4" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Key5" Type="User">
+    <Property ID="UserID" Value="15" />
+    <Property ID="Password" Value="ulzoWxobZgsAv6Y1JiVz7NWvzUPg2ZecNt9XVEvFv1ZO433ILos=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel5" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Key6" Type="User">
+    <Property ID="UserID" Value="16" />
+    <Property ID="Password" Value="H6c434Xze7RMgBWhbYpkK1NaTCcGp3/G8943yfbpmSLoqj9eq7U=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel6" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="MechanicalEng" Type="User">
+    <Property ID="UserID" Value="17" />
+    <Property ID="Password" Value="TmvQFQigqkS7JDQoEOs4MUaBvaVnEQKq5zhAmsBzto2m+3cGE8Q=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel7" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Key8" Type="User">
+    <Property ID="UserID" Value="18" />
+    <Property ID="Password" Value="5zVXgsWTx/hjFd3qi3NzPSuqIT/EkWKsfLZUjCMhbXLwZ2kU9To=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel8" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="Key9" Type="User">
+    <Property ID="UserID" Value="19" />
+    <Property ID="Password" Value="Sd468gkjc/IrqGtDQZ/s5ldgS0VtCZKcyCEEdeRYg1Ms4EHwzO0=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel9" />
+      <Property ID="Role[2]" Value="Everyone" />
+    </Group>
+  </Element>
+  <Element ID="ControlsEng" Type="User" Description="Controls Engineer">
+    <Property ID="UserID" Value="20" />
+    <Property ID="Password" Value="+FvhYateBmHmRdNVQNSoVkVKpFJkmqlLzGrSoIwNen3m0RC3HFQ=" />
+    <Group ID="Roles">
+      <Property ID="Role[1]" Value="AccessLevel10" />
+      <Property ID="Role[2]" Value="Everyone" />
+      <Property ID="Role[3]" Value="Administrators" />
+    </Group>
+  </Element>
+</Configuration>

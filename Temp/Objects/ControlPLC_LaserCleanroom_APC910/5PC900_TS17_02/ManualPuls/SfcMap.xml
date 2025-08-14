@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Monitor>
+<InputFile>C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Automation\ManualPulseLaserSFC\Cyclic.sfc</InputFile>
+<OutputFile>C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\ControlPLC_LaserCleanroom_APC910\5PC900_TS17_02\ManualPuls\Cyclic.sfc.o</OutputFile>
+<MainSFC>
+<STEP00002 NAME="START" CYCLIC="9"/>
+<STEP00004 NAME="Step1" ENTRY="10"/>
+<STEP00007 NAME="InitializeManualCalibration1" CYCLIC="11"/>
+<STEP00009 NAME="CheckCanCalibrate1" CYCLIC="12"/>
+<STEP00011 NAME="PulseLaser1" CYCLIC="13"/>
+<STEP00013 NAME="NextOperation1" CYCLIC="14"/>
+<STEP00016 NAME="SkipPixel1" CYCLIC="15"/>
+<STEP00023 NAME="IteratePixel1" CYCLIC="16"/>
+<STEP00026 NAME="InitializeManualCalibration" CYCLIC="17"/>
+<STEP00028 NAME="CheckCanCalibrate" CYCLIC="18"/>
+<STEP00030 NAME="PulseLaser" CYCLIC="19"/>
+<STEP00032 NAME="NextOperation" CYCLIC="20"/>
+<STEP00035 NAME="SkipPixel" CYCLIC="21"/>
+<STEP00042 NAME="IteratePixel" CYCLIC="22"/>
+</MainSFC>
+<PiperModuleInterface USED="FALSE" NR="2">
+</PiperModuleInterface>
+<FunctionblockCalls USED="TRUE" NR="1">
+</FunctionblockCalls>
+<Step1Active USED="TRUE" NR="6">
+</Step1Active>
+<SelectOperation USED="FALSE" NR="5">
+</SelectOperation>
+<ResetOperation USED="FALSE" NR="4">
+</ResetOperation>
+<PixelConvert USED="TRUE" NR="3">
+</PixelConvert>
+</Monitor>

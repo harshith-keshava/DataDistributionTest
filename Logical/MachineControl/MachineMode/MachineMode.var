@@ -1,0 +1,3 @@
+VAR
+	gMachineModeApi : MachineModeApi;
+END_VAR

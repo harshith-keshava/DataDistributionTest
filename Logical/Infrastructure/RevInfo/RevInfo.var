@@ -1,0 +1,14 @@
+(* RevInfo.var 2.0.0 *)
+VAR CONSTANT
+	gRevInfo_revision : STRING[80] := '5609d9c';
+	revision : STRING[80] := '5609d9c';
+	gRevInfo_revisionDate : STRING[80] := '2024-04-03 10:25:55 -0400';
+	gRevInfo_revisionAuthor : STRING[80] := 'Harshith';
+	gRevInfo_branchName : STRING[80] := 'feature/deleteUnwanted';
+	gRevInfo_uncommittedChanges : STRING[80] := ' 40 files changed, 23 insertions(+), 753 deletions(-)';
+	gRevInfo_buildDate  : STRING[80] := '2024-04-03 11:03:06 -0400';
+	gRevInfo_buildConfiguration : STRING[80] := 'ControlPLC_LaserCleanroom';
+	buildConfiguration : STRING[80] := 'ControlPLC_LaserCleanroom';
+	gRevInfo_builder : STRING[80] := 'hkeshavamurthy';
+	gRevInfo_versionId : STRING[80] := '5609d9c';
+END_VAR

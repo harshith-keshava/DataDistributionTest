@@ -1,0 +1,53 @@
+(*Shared parser constants*)
+VAR CONSTANT
+	vfp_MAX_CHARS_PER_STRING_VALUE : UINT := 60; (*Maximum characters allowed for any string value*)
+	vfp_MAX_CHARS_PER_NUMERIC_VALUE : UINT := 30; (*Maximum characters allowed for any numeric value (including decimal point, negative sign, delimiter)*)
+	fvp_FIRST_TRAJECTORY_NUMBER : UINT := 10; (*Trajectories start at N0010 and increment by 10 (N0010, N0020, N0030,...)*)
+	fvp_TRAJECTORY_NUMBER_INCREMENT : USINT := 10;
+END_VAR
+(*Laser State File (LSF) parser constants*)
+VAR CONSTANT
+	vfp_LSF_FILE_READ_BUFFER_SIZE : UDINT := 341000; (*> maximum single trajectory (1630 values * 11 bytes * 19 lasers)*)
+	vfp_LSF_TRAJECTORY_FIFO_SIZE : USINT := 4;
+	vfp_LSF_NUM_LASERS_PER_SYSTEM : UINT := 19;
+	vfp_LSF_MAX_32BIT_VAL_PER_TRAJ : UINT := 1630; (*52000 events / 32 bits = 1625 (+ 5 extra for padding)*)
+	vfp_LSF_MAX_CHARS_PER_32BIT_VAL : UINT := 11; (*Maximum characters allowed for a laser state event (10 digit value + delimiter) [10 digits required to represent max UDINT value of 4,294,967,295]*)
+	vfp_LSF_MAX_CHARS_PER_HEADER : UINT := 300; (*Maximum characters allowed for a single trajectory header information*)
+END_VAR
+(*Fixed Event File (FEF) parser constants*)
+VAR CONSTANT
+	vfp_FEF_FILE_READ_BUFFER_SIZE : UDINT := 200;
+	vfp_FEF_TRAJECTORY_FIFO_SIZE : USINT := 100;
+	vfp_FEF_MASTER_AXIS_X : USINT := 1;
+	vfp_FEF_MASTER_AXIS_Y : USINT := 2;
+	vfp_FEF_MAX_X_Y_POSN_MM : LREAL := 960.0;
+END_VAR
+(*Common parser ASCII character codes*)
+VAR CONSTANT
+	vfp_CHAR_CARRIAGE_RETURN : USINT := 13; (*Carriage Return ASCII char*)
+	vfp_CHAR_LINE_FEED : USINT := 10; (*Line Feed ASCII char*)
+	vfp_CHAR_SPACE : USINT := 32; (*Space ASCII char*)
+	vfp_CHAR_COMMA : USINT := 44; (*',' ASCII char*)
+	vfp_CHAR_DECIMAL_POINT : USINT := 46; (*'.' ASCII char*)
+	vfp_CHAR_DIGIT_0 : USINT := 48; (*'0' ASCII char*)
+	vfp_CHAR_DIGIT_9 : USINT := 57; (*'9' ASCII char*)
+	vfp_CHAR_EQUALS : USINT := 61; (*'=' ASCII char*)
+	vfp_CHAR_TRAJECTORY_HDR : USINT := 78; (*'N' ASCII char*)
+END_VAR
+(*Common parser return codes*)
+VAR CONSTANT
+	vfp_ERR_OK : UINT := 50000;
+	vfp_ERR_EOL_REACHED : UINT := 50001;
+	vfp_ERR_NO_MORE_LINES : UINT := 50002;
+	vfp_ERR_NULL_POINTER : UINT := 50003;
+	vfp_ERR_INVALID_PARAMETER : UINT := 50004;
+	vfp_ERR_NO_DELIMITER : UINT := 50005;
+	vfp_ERR_MISSING_DATA : UINT := 50006;
+	vfp_ERR_NON_NUMERICAL : UINT := 50007;
+	vfp_ERR_WRONG_NUM_STATES : UINT := 50008;
+	vfp_ERR_BAD_HEADER : UINT := 50009;
+	vfp_ERR_HEADER_INVALID_NUM_TRAJ : UINT := 50010;
+	vfp_ERR_BUFFER_SIZE : UINT := 50040;
+	vfp_ERR_FATAL_SYSTEM_ERROR : UINT := 50050;
+END_VAR
+(**)

@@ -1,0 +1,37 @@
+/* Automation Studio generated header file */
+/* Do not edit ! */
+
+#ifndef _BUR_1754338176_6_
+#define _BUR_1754338176_6_
+
+#include <bur/plctypes.h>
+
+/* Constants */
+#ifdef _REPLACE_CONST
+#else
+#endif
+
+
+/* Variables */
+_GLOBAL struct MachineAlarms_type gMachineAlarms;
+_GLOBAL enum MODE_MACHINE_ENUM gRequestedMode;
+_GLOBAL enum MODE_MACHINE_ENUM gActiveMode;
+_GLOBAL_RETAIN plctime BootTime;
+_GLOBAL struct Piper_typ gMachine;
+
+
+
+
+
+__asm__(".section \".plc\"");
+
+/* Used IEC files */
+__asm__(".ascii \"iecfile \\\"Logical/MachineControl/MachineControl.var\\\" scope \\\"global\\\"\\n\"");
+
+/* Exported library functions and function blocks */
+
+__asm__(".previous");
+
+
+#endif /* _BUR_1754338176_6_ */
+

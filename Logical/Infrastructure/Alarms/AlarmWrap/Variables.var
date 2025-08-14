@@ -1,0 +1,21 @@
+VAR
+	wrapper : {REDUND_UNREPLICABLE} errWrap_typ;
+	selectedIndex : UDINT;
+	selectedName : STRING[80];
+	prevSelectedIndex : UDINT;
+	activeAlarmSeverity : ARRAY[0..ERRWRAP_MAI_ERRORS_DISP] OF STRING[20];
+	i : INT;
+	dAlarmComponent : REFERENCE TO vfAlarms_Component_typ;
+	pAlarmComponent : {REDUND_UNREPLICABLE} UDINT;
+	sAlarmComponent : {REDUND_UNREPLICABLE} UDINT;
+	newLink : {REDUND_UNREPLICABLE} MpComIdentType;
+	coreNames : ARRAY[0..25] OF STRING[80];
+	coreAlarmsPresent : ARRAY[0..25] OF BOOL;
+	oldLink : MpComIdentType;
+	IO : IO_typ;
+	_operatorStationAckAll : BOOL;
+	blinkLED : Blink;
+	displayAble : INT;
+	snippet : STRING[80];
+	dSelectedAlarmCore : REFERENCE TO MpAlarmXCore;
+END_VAR

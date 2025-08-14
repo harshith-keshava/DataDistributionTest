@@ -1,0 +1,7341 @@
+#LaserPageMain_TEST {
+  top: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_TEST {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_TEST {
+  width: 1680px;
+}
+
+#LaserPageMain_TEST {
+  height: 1020px;
+}
+
+#LaserPageMain_TEST {
+  z-index: 0;
+}
+
+#LaserPageMain_TabItem1_breaseTabItemTab.tabItem {
+  width: 100px;
+}
+
+#LaserPageMain_TabItem1_breaseTabItemTab.tabItem {
+  height: 30px;
+}
+
+#LaserPageMain_TabItem1 {
+  z-index: 0;
+}
+
+#LaserPageMain_GroupBox1 {
+  top: 20px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox1 {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox1 {
+  width: 1720px;
+}
+
+#LaserPageMain_GroupBox1 {
+  height: 980px;
+}
+
+#LaserPageMain_GroupBox1 {
+  z-index: 0;
+}
+
+#LaserPageMain_GroupBox1 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox1 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox1 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox1 > .header > svg {
+  fill: black;
+}
+
+#LaserPageMain_GroupBox1 > .header span {
+  font-size: 15px;
+}
+
+#LaserPageMain_GroupBox1 > .header {
+  height: 35px;
+}
+
+#LaserPageMain_GroupBox2 {
+  top: 14px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox2 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox2 {
+  width: 901px;
+}
+
+#LaserPageMain_GroupBox2 {
+  height: 326px;
+}
+
+#LaserPageMain_GroupBox2 {
+  z-index: 0;
+}
+
+#LaserPageMain_GroupBox2 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox2 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox2 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_Rack16 {
+  top: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack16 {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack16 {
+  width: 100px;
+}
+
+#LaserPageMain_Rack16 {
+  height: 40px;
+}
+
+#LaserPageMain_Rack16 {
+  z-index: 0;
+}
+
+#LaserPageMain_Rack16 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Rack16 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Label92 {
+  top: 60px;
+  position: absolute;
+}
+
+#LaserPageMain_Label92 {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_Label92 {
+  width: 100px;
+}
+
+#LaserPageMain_Label92 {
+  height: 40px;
+}
+
+#LaserPageMain_Label92 {
+  z-index: 1;
+}
+
+#LaserPageMain_Label92 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Label92 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Rack17 {
+  top: 120px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack17 {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack17 {
+  width: 100px;
+}
+
+#LaserPageMain_Rack17 {
+  height: 40px;
+}
+
+#LaserPageMain_Rack17 {
+  z-index: 2;
+}
+
+#LaserPageMain_Rack17 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Rack17 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Label93 {
+  top: 180px;
+  position: absolute;
+}
+
+#LaserPageMain_Label93 {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_Label93 {
+  width: 100px;
+}
+
+#LaserPageMain_Label93 {
+  height: 40px;
+}
+
+#LaserPageMain_Label93 {
+  z-index: 3;
+}
+
+#LaserPageMain_Label93 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Label93 {
+  font-weight: bold;
+}
+
+#LaserPageMain_StatusLEDGreen19 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen19 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen19 {
+  top: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen19 {
+  left: 240px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen19 {
+  z-index: 4;
+}
+
+#LaserPageMain_StatusLEDGreen20 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen20 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen20 {
+  top: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen20 {
+  left: 480px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen20 {
+  z-index: 5;
+}
+
+#LaserPageMain_StatusLEDGreen21 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen21 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen21 {
+  top: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen21 {
+  left: 720px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen21 {
+  z-index: 6;
+}
+
+#LaserPageMain_StatusLEDGreen22 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen22 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen22 {
+  top: 60px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen22 {
+  left: 240px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen22 {
+  z-index: 7;
+}
+
+#LaserPageMain_StatusLEDGreen23 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen23 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen23 {
+  top: 60px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen23 {
+  left: 480px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen23 {
+  z-index: 8;
+}
+
+#LaserPageMain_StatusLEDGreen24 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen24 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen24 {
+  top: 60px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen24 {
+  left: 720px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen24 {
+  z-index: 9;
+}
+
+#LaserPageMain_StatusLEDGreen25 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen25 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen25 {
+  top: 120px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen25 {
+  left: 240px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen25 {
+  z-index: 10;
+}
+
+#LaserPageMain_StatusLEDGreen26 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen26 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen26 {
+  top: 120px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen26 {
+  left: 480px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen26 {
+  z-index: 11;
+}
+
+#LaserPageMain_StatusLEDGreen27 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen27 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen27 {
+  top: 120px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen27 {
+  left: 720px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen27 {
+  z-index: 12;
+}
+
+#LaserPageMain_StatusLEDGreen28 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen28 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen28 {
+  top: 180px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen28 {
+  left: 240px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen28 {
+  z-index: 13;
+}
+
+#LaserPageMain_StatusLEDGreen29 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen29 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen29 {
+  top: 180px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen29 {
+  left: 480px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen29 {
+  z-index: 14;
+}
+
+#LaserPageMain_StatusLEDGreen30 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen30 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen30 {
+  top: 180px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen30 {
+  left: 720px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen30 {
+  z-index: 15;
+}
+
+#LaserPageMain_ToggleButton1 {
+  top: 224px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton1 {
+  left: 39px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton1 {
+  width: 323px;
+}
+
+#LaserPageMain_ToggleButton1 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton1 {
+  z-index: 16;
+}
+
+#LaserPageMain_ToggleButton2 {
+  top: 224px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton2 {
+  left: 399px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton2 {
+  width: 323px;
+}
+
+#LaserPageMain_ToggleButton2 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton2 {
+  z-index: 17;
+}
+
+#LaserPageMain_GroupBox5 {
+  top: 354px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox5 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox5 {
+  width: 860px;
+}
+
+#LaserPageMain_GroupBox5 {
+  height: 300px;
+}
+
+#LaserPageMain_GroupBox5 {
+  z-index: 1;
+}
+
+#LaserPageMain_GroupBox5 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox5 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox5 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_NumericInput15 {
+  width: 100px;
+}
+
+#LaserPageMain_NumericInput15 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput15 {
+  top: 411px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput15 {
+  left: 1298px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput15 {
+  z-index: 0;
+}
+
+#LaserPageMain_PushButton11 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton11 {
+  left: 119px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton11 {
+  width: 241px;
+}
+
+#LaserPageMain_PushButton11 {
+  height: 62px;
+}
+
+#LaserPageMain_PushButton11 {
+  z-index: 1;
+}
+
+#LaserPageMain_PushButton12 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton12 {
+  left: 399px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton12 {
+  width: 241px;
+}
+
+#LaserPageMain_PushButton12 {
+  height: 63px;
+}
+
+#LaserPageMain_PushButton12 {
+  z-index: 2;
+}
+
+#LaserPageMain_PushButton13 {
+  top: 78px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton13 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton13 {
+  width: 221px;
+}
+
+#LaserPageMain_PushButton13 {
+  height: 62px;
+}
+
+#LaserPageMain_PushButton13 {
+  z-index: 3;
+}
+
+#LaserPageMain_ToggleButton14 {
+  top: 184px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton14 {
+  left: 199px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton14 {
+  width: 181px;
+}
+
+#LaserPageMain_ToggleButton14 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton14 {
+  z-index: 4;
+}
+
+#LaserPageMain_ToggleButton15 {
+  top: 184px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton15 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton15 {
+  width: 161px;
+}
+
+#LaserPageMain_ToggleButton15 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton15 {
+  z-index: 5;
+}
+
+#LaserPageMain_Rack32 {
+  top: 78px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack32 {
+  left: 739px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack32 {
+  width: 140px;
+}
+
+#LaserPageMain_Rack32 {
+  height: 45px;
+}
+
+#LaserPageMain_Rack32 {
+  z-index: 6;
+}
+
+#LaserPageMain_Rack32 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack32 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Rack33 {
+  top: 178px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack33 {
+  left: 579px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack33 {
+  width: 160px;
+}
+
+#LaserPageMain_Rack33 {
+  height: 42px;
+}
+
+#LaserPageMain_Rack33 {
+  z-index: 7;
+}
+
+#LaserPageMain_Rack33 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack33 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Rack37 {
+  top: 178px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack37 {
+  left: 719px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack37 {
+  width: 181px;
+}
+
+#LaserPageMain_Rack37 {
+  height: 42px;
+}
+
+#LaserPageMain_Rack37 {
+  z-index: 8;
+}
+
+#LaserPageMain_Rack37 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack37 {
+  font-weight: bold;
+}
+
+#LaserPageMain_NumericOutput1 {
+  width: 100px;
+}
+
+#LaserPageMain_NumericOutput1 {
+  top: 118px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput1 {
+  left: 719px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput1 {
+  height: 36px;
+}
+
+#LaserPageMain_NumericOutput1 {
+  z-index: 9;
+}
+
+#LaserPageMain_NumericOutput2 {
+  width: 100px;
+}
+
+#LaserPageMain_NumericOutput2 {
+  top: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput2 {
+  left: 579px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput2 {
+  height: 36px;
+}
+
+#LaserPageMain_NumericOutput2 {
+  z-index: 10;
+}
+
+#LaserPageMain_NumericOutput3 {
+  width: 100px;
+}
+
+#LaserPageMain_NumericOutput3 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericOutput3 {
+  top: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput3 {
+  left: 719px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput3 {
+  z-index: 11;
+}
+
+#LaserPageMain_PushButton17 {
+  top: 78px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton17 {
+  left: 259px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton17 {
+  width: 221px;
+}
+
+#LaserPageMain_PushButton17 {
+  height: 62px;
+}
+
+#LaserPageMain_PushButton17 {
+  z-index: 12;
+}
+
+#LaserPageMain_PushButton18 {
+  top: 78px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton18 {
+  left: 499px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton18 {
+  width: 221px;
+}
+
+#LaserPageMain_PushButton18 {
+  height: 62px;
+}
+
+#LaserPageMain_PushButton18 {
+  z-index: 13;
+}
+
+#LaserPageMain_ToggleButton17 {
+  top: 184px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton17 {
+  left: 399px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton17 {
+  width: 161px;
+}
+
+#LaserPageMain_ToggleButton17 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton17 {
+  z-index: 14;
+}
+
+#LaserPageMain_GroupBox6 {
+  top: 14px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox6 {
+  left: 939px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox6 {
+  width: 721px;
+}
+
+#LaserPageMain_GroupBox6 {
+  height: 206px;
+}
+
+#LaserPageMain_GroupBox6 {
+  z-index: 2;
+}
+
+#LaserPageMain_GroupBox6 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox6 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox6 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_StatusLEDGreen34 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen34 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen34 {
+  top: 103px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen34 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen34 {
+  z-index: 0;
+}
+
+#LaserPageMain_StatusLEDRed2 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDRed2 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDRed2 {
+  top: 23px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDRed2 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDRed2 {
+  z-index: 1;
+}
+
+#LaserPageMain_ToggleButton8 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton8 {
+  left: 239px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton8 {
+  width: 221px;
+}
+
+#LaserPageMain_ToggleButton8 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton8 {
+  z-index: 2;
+}
+
+#LaserPageMain_ToggleButton9 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton9 {
+  left: 239px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton9 {
+  width: 221px;
+}
+
+#LaserPageMain_ToggleButton9 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton9 {
+  z-index: 3;
+}
+
+#LaserPageMain_ToggleButton10 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton10 {
+  left: 479px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton10 {
+  width: 221px;
+}
+
+#LaserPageMain_ToggleButton10 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton10 {
+  z-index: 4;
+}
+
+#LaserPageMain_GroupBox7 {
+  top: 674px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox7 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox7 {
+  width: 1141px;
+}
+
+#LaserPageMain_GroupBox7 {
+  height: 180px;
+}
+
+#LaserPageMain_GroupBox7 {
+  z-index: 3;
+}
+
+#LaserPageMain_GroupBox7 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox7 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox7 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_NumericInput17 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput17 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput17 {
+  left: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput17 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput17 {
+  z-index: 0;
+}
+
+#LaserPageMain_Rack20 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack20 {
+  left: 18px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack20 {
+  width: 160px;
+}
+
+#LaserPageMain_Rack20 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack20 {
+  z-index: 1;
+}
+
+#LaserPageMain_Rack20 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack20 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput18 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput18 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput18 {
+  left: 518px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput18 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput18 {
+  z-index: 2;
+}
+
+#LaserPageMain_Rack21 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack21 {
+  left: 318px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack21 {
+  width: 102px;
+}
+
+#LaserPageMain_Rack21 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack21 {
+  z-index: 3;
+}
+
+#LaserPageMain_Rack21 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack21 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput19 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput19 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput19 {
+  left: 798px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput19 {
+  width: 82px;
+}
+
+#LaserPageMain_NumericInput19 {
+  z-index: 4;
+}
+
+#LaserPageMain_Rack22 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack22 {
+  left: 618px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack22 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack22 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack22 {
+  z-index: 5;
+}
+
+#LaserPageMain_Rack22 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack22 {
+  font-weight: normal;
+}
+
+#LaserPageMain_Rack23 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack23 {
+  left: 898px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack23 {
+  width: 142px;
+}
+
+#LaserPageMain_Rack23 {
+  height: 37px;
+}
+
+#LaserPageMain_Rack23 {
+  z-index: 6;
+}
+
+#LaserPageMain_Rack23 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack23 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput20 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput20 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput20 {
+  left: 1038px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput20 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput20 {
+  z-index: 7;
+}
+
+#LaserPageMain_NumericInput21 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput21 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput21 {
+  left: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput21 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput21 {
+  z-index: 8;
+}
+
+#LaserPageMain_Rack24 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack24 {
+  left: 18px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack24 {
+  width: 231px;
+}
+
+#LaserPageMain_Rack24 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack24 {
+  z-index: 9;
+}
+
+#LaserPageMain_Rack24 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack24 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput22 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput22 {
+  left: 519px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput22 {
+  width: 77px;
+}
+
+#LaserPageMain_NumericInput22 {
+  height: 36px;
+}
+
+#LaserPageMain_NumericInput22 {
+  z-index: 10;
+}
+
+#LaserPageMain_Rack25 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack25 {
+  left: 318px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack25 {
+  width: 200px;
+}
+
+#LaserPageMain_Rack25 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack25 {
+  z-index: 11;
+}
+
+#LaserPageMain_Rack25 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack25 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput23 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput23 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput23 {
+  left: 798px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput23 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput23 {
+  z-index: 12;
+}
+
+#LaserPageMain_Rack26 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack26 {
+  left: 618px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack26 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack26 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack26 {
+  z-index: 13;
+}
+
+#LaserPageMain_Rack26 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack26 {
+  font-weight: normal;
+}
+
+#LaserPageMain_Rack27 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack27 {
+  left: 898px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack27 {
+  width: 61px;
+}
+
+#LaserPageMain_Rack27 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack27 {
+  z-index: 14;
+}
+
+#LaserPageMain_Rack27 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack27 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput24 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput24 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput24 {
+  left: 1038px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput24 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput24 {
+  z-index: 15;
+}
+
+#LaserPageMain_NumericInput25 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput25 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput25 {
+  left: 219px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput25 {
+  width: 77px;
+}
+
+#LaserPageMain_NumericInput25 {
+  z-index: 16;
+}
+
+#LaserPageMain_Rack28 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack28 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack28 {
+  width: 194px;
+}
+
+#LaserPageMain_Rack28 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack28 {
+  z-index: 17;
+}
+
+#LaserPageMain_Rack28 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack28 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput26 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput26 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput26 {
+  left: 519px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput26 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput26 {
+  z-index: 18;
+}
+
+#LaserPageMain_Rack29 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack29 {
+  left: 319px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack29 {
+  width: 181px;
+}
+
+#LaserPageMain_Rack29 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack29 {
+  z-index: 19;
+}
+
+#LaserPageMain_Rack29 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack29 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput27 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput27 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput27 {
+  left: 799px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput27 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput27 {
+  z-index: 20;
+}
+
+#LaserPageMain_Rack30 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack30 {
+  left: 619px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack30 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack30 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack30 {
+  z-index: 21;
+}
+
+#LaserPageMain_Rack30 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack30 {
+  font-weight: normal;
+}
+
+#LaserPageMain_Rack31 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack31 {
+  left: 899px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack31 {
+  width: 177px;
+}
+
+#LaserPageMain_Rack31 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack31 {
+  z-index: 22;
+}
+
+#LaserPageMain_Rack31 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack31 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput28 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput28 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput28 {
+  left: 1039px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput28 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput28 {
+  z-index: 23;
+}
+
+#LaserPageMain_TabItem2_breaseTabItemTab.tabItem {
+  width: 100px;
+}
+
+#LaserPageMain_TabItem2_breaseTabItemTab.tabItem {
+  height: 30px;
+}
+
+#LaserPageMain_TabItem2 {
+  z-index: 2;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  top: 30px;
+  position: absolute;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  width: 1680px;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  height: 1000px;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  z-index: 0;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  border-width: 3px;
+}
+
+#LaserPageMain_AlarmsGroupBox > .header {
+  border-width: 3px;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  border-radius: 25px;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  background-color: lightgray;
+}
+
+#LaserPageMain_AlarmsGroupBox {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_AlarmsGroupBox > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_AlarmsGroupBox > .header span {
+  font-size: 75px;
+}
+
+#LaserPageMain_AlarmsGroupBox > .header {
+  height: 95px;
+}
+
+#LaserPageMain_Label4 {
+  height: 30px;
+}
+
+#LaserPageMain_Label4 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Label4 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label4 {
+  width: 23px;
+}
+
+#LaserPageMain_Label4 {
+  z-index: 4;
+}
+
+#LaserPageMain_Label5 {
+  height: 30px;
+}
+
+#LaserPageMain_Label5 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_Label5 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label5 {
+  width: 23px;
+}
+
+#LaserPageMain_Label5 {
+  z-index: 5;
+}
+
+#LaserPageMain_Label6 {
+  height: 30px;
+}
+
+#LaserPageMain_Label6 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_Label6 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label6 {
+  width: 23px;
+}
+
+#LaserPageMain_Label6 {
+  z-index: 6;
+}
+
+#LaserPageMain_Label7 {
+  height: 30px;
+}
+
+#LaserPageMain_Label7 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_Label7 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label7 {
+  width: 23px;
+}
+
+#LaserPageMain_Label7 {
+  z-index: 7;
+}
+
+#LaserPageMain_Label8 {
+  height: 30px;
+}
+
+#LaserPageMain_Label8 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_Label8 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label8 {
+  width: 23px;
+}
+
+#LaserPageMain_Label8 {
+  z-index: 8;
+}
+
+#LaserPageMain_Label9 {
+  height: 30px;
+}
+
+#LaserPageMain_Label9 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_Label9 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label9 {
+  width: 23px;
+}
+
+#LaserPageMain_Label9 {
+  z-index: 9;
+}
+
+#LaserPageMain_Label10 {
+  height: 30px;
+}
+
+#LaserPageMain_Label10 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_Label10 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label10 {
+  width: 23px;
+}
+
+#LaserPageMain_Label10 {
+  z-index: 10;
+}
+
+#LaserPageMain_Label11 {
+  height: 30px;
+}
+
+#LaserPageMain_Label11 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_Label11 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label11 {
+  width: 23px;
+}
+
+#LaserPageMain_Label11 {
+  z-index: 11;
+}
+
+#LaserPageMain_Label12 {
+  height: 30px;
+}
+
+#LaserPageMain_Label12 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_Label12 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label12 {
+  width: 23px;
+}
+
+#LaserPageMain_Label12 {
+  z-index: 12;
+}
+
+#LaserPageMain_Label13 {
+  height: 30px;
+}
+
+#LaserPageMain_Label13 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_Label13 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label13 {
+  width: 23px;
+}
+
+#LaserPageMain_Label13 {
+  z-index: 13;
+}
+
+#LaserPageMain_Label14 {
+  height: 30px;
+}
+
+#LaserPageMain_Label14 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_Label14 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label14 {
+  width: 23px;
+}
+
+#LaserPageMain_Label14 {
+  z-index: 14;
+}
+
+#LaserPageMain_Label15 {
+  height: 30px;
+}
+
+#LaserPageMain_Label15 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_Label15 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label15 {
+  width: 23px;
+}
+
+#LaserPageMain_Label15 {
+  z-index: 15;
+}
+
+#LaserPageMain_Label16 {
+  height: 30px;
+}
+
+#LaserPageMain_Label16 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_Label16 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label16 {
+  width: 23px;
+}
+
+#LaserPageMain_Label16 {
+  z-index: 16;
+}
+
+#LaserPageMain_Label17 {
+  height: 30px;
+}
+
+#LaserPageMain_Label17 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_Label17 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label17 {
+  width: 23px;
+}
+
+#LaserPageMain_Label17 {
+  z-index: 17;
+}
+
+#LaserPageMain_Label18 {
+  height: 30px;
+}
+
+#LaserPageMain_Label18 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_Label18 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label18 {
+  width: 23px;
+}
+
+#LaserPageMain_Label18 {
+  z-index: 18;
+}
+
+#LaserPageMain_Label19 {
+  height: 30px;
+}
+
+#LaserPageMain_Label19 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_Label19 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label19 {
+  width: 23px;
+}
+
+#LaserPageMain_Label19 {
+  z-index: 19;
+}
+
+#LaserPageMain_Label20 {
+  height: 30px;
+}
+
+#LaserPageMain_Label20 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_Label20 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label20 {
+  width: 23px;
+}
+
+#LaserPageMain_Label20 {
+  z-index: 20;
+}
+
+#LaserPageMain_Label21 {
+  height: 30px;
+}
+
+#LaserPageMain_Label21 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_Label21 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label21 {
+  width: 23px;
+}
+
+#LaserPageMain_Label21 {
+  z-index: 21;
+}
+
+#LaserPageMain_Label22 {
+  height: 30px;
+}
+
+#LaserPageMain_Label22 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_Label22 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label22 {
+  width: 23px;
+}
+
+#LaserPageMain_Label22 {
+  z-index: 22;
+}
+
+#LaserPageMain_Label23 {
+  height: 30px;
+}
+
+#LaserPageMain_Label23 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_Label23 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label23 {
+  width: 23px;
+}
+
+#LaserPageMain_Label23 {
+  z-index: 23;
+}
+
+#LaserPageMain_Label24 {
+  height: 30px;
+}
+
+#LaserPageMain_Label24 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_Label24 {
+  left: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_Label24 {
+  width: 23px;
+}
+
+#LaserPageMain_Label24 {
+  z-index: 24;
+}
+
+#LaserPageMain_Label25 {
+  height: 30px;
+}
+
+#LaserPageMain_Label25 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Label25 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label25 {
+  width: 23px;
+}
+
+#LaserPageMain_Label25 {
+  z-index: 25;
+}
+
+#LaserPageMain_Label26 {
+  height: 30px;
+}
+
+#LaserPageMain_Label26 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_Label26 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label26 {
+  width: 23px;
+}
+
+#LaserPageMain_Label26 {
+  z-index: 26;
+}
+
+#LaserPageMain_Label27 {
+  height: 30px;
+}
+
+#LaserPageMain_Label27 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_Label27 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label27 {
+  width: 23px;
+}
+
+#LaserPageMain_Label27 {
+  z-index: 27;
+}
+
+#LaserPageMain_Label28 {
+  height: 30px;
+}
+
+#LaserPageMain_Label28 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_Label28 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label28 {
+  width: 23px;
+}
+
+#LaserPageMain_Label28 {
+  z-index: 28;
+}
+
+#LaserPageMain_Label29 {
+  height: 30px;
+}
+
+#LaserPageMain_Label29 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_Label29 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label29 {
+  width: 23px;
+}
+
+#LaserPageMain_Label29 {
+  z-index: 29;
+}
+
+#LaserPageMain_Label30 {
+  height: 30px;
+}
+
+#LaserPageMain_Label30 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_Label30 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label30 {
+  width: 23px;
+}
+
+#LaserPageMain_Label30 {
+  z-index: 30;
+}
+
+#LaserPageMain_Label31 {
+  height: 30px;
+}
+
+#LaserPageMain_Label31 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_Label31 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label31 {
+  width: 23px;
+}
+
+#LaserPageMain_Label31 {
+  z-index: 31;
+}
+
+#LaserPageMain_Label32 {
+  height: 30px;
+}
+
+#LaserPageMain_Label32 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_Label32 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label32 {
+  width: 23px;
+}
+
+#LaserPageMain_Label32 {
+  z-index: 32;
+}
+
+#LaserPageMain_Label33 {
+  height: 30px;
+}
+
+#LaserPageMain_Label33 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_Label33 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label33 {
+  width: 23px;
+}
+
+#LaserPageMain_Label33 {
+  z-index: 33;
+}
+
+#LaserPageMain_Label34 {
+  height: 30px;
+}
+
+#LaserPageMain_Label34 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_Label34 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label34 {
+  width: 23px;
+}
+
+#LaserPageMain_Label34 {
+  z-index: 34;
+}
+
+#LaserPageMain_Label35 {
+  height: 30px;
+}
+
+#LaserPageMain_Label35 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_Label35 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label35 {
+  width: 23px;
+}
+
+#LaserPageMain_Label35 {
+  z-index: 35;
+}
+
+#LaserPageMain_Label36 {
+  height: 30px;
+}
+
+#LaserPageMain_Label36 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_Label36 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label36 {
+  width: 23px;
+}
+
+#LaserPageMain_Label36 {
+  z-index: 36;
+}
+
+#LaserPageMain_Label37 {
+  height: 30px;
+}
+
+#LaserPageMain_Label37 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_Label37 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label37 {
+  width: 23px;
+}
+
+#LaserPageMain_Label37 {
+  z-index: 37;
+}
+
+#LaserPageMain_Label38 {
+  height: 30px;
+}
+
+#LaserPageMain_Label38 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_Label38 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label38 {
+  width: 23px;
+}
+
+#LaserPageMain_Label38 {
+  z-index: 38;
+}
+
+#LaserPageMain_Label39 {
+  height: 30px;
+}
+
+#LaserPageMain_Label39 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_Label39 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label39 {
+  width: 23px;
+}
+
+#LaserPageMain_Label39 {
+  z-index: 39;
+}
+
+#LaserPageMain_Label40 {
+  height: 30px;
+}
+
+#LaserPageMain_Label40 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_Label40 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label40 {
+  width: 23px;
+}
+
+#LaserPageMain_Label40 {
+  z-index: 40;
+}
+
+#LaserPageMain_Label41 {
+  height: 30px;
+}
+
+#LaserPageMain_Label41 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_Label41 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label41 {
+  width: 23px;
+}
+
+#LaserPageMain_Label41 {
+  z-index: 41;
+}
+
+#LaserPageMain_Label42 {
+  height: 30px;
+}
+
+#LaserPageMain_Label42 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_Label42 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label42 {
+  width: 23px;
+}
+
+#LaserPageMain_Label42 {
+  z-index: 42;
+}
+
+#LaserPageMain_Label43 {
+  height: 30px;
+}
+
+#LaserPageMain_Label43 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_Label43 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label43 {
+  width: 23px;
+}
+
+#LaserPageMain_Label43 {
+  z-index: 43;
+}
+
+#LaserPageMain_Label44 {
+  height: 30px;
+}
+
+#LaserPageMain_Label44 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_Label44 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label44 {
+  width: 23px;
+}
+
+#LaserPageMain_Label44 {
+  z-index: 44;
+}
+
+#LaserPageMain_Label45 {
+  height: 30px;
+}
+
+#LaserPageMain_Label45 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_Label45 {
+  left: 457px;
+  position: absolute;
+}
+
+#LaserPageMain_Label45 {
+  width: 23px;
+}
+
+#LaserPageMain_Label45 {
+  z-index: 45;
+}
+
+#LaserPageMain_Label46 {
+  height: 30px;
+}
+
+#LaserPageMain_Label46 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Label46 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label46 {
+  width: 23px;
+}
+
+#LaserPageMain_Label46 {
+  z-index: 46;
+}
+
+#LaserPageMain_Label47 {
+  height: 30px;
+}
+
+#LaserPageMain_Label47 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_Label47 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label47 {
+  width: 23px;
+}
+
+#LaserPageMain_Label47 {
+  z-index: 47;
+}
+
+#LaserPageMain_Label48 {
+  height: 30px;
+}
+
+#LaserPageMain_Label48 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_Label48 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label48 {
+  width: 23px;
+}
+
+#LaserPageMain_Label48 {
+  z-index: 48;
+}
+
+#LaserPageMain_Label49 {
+  height: 30px;
+}
+
+#LaserPageMain_Label49 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_Label49 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label49 {
+  width: 23px;
+}
+
+#LaserPageMain_Label49 {
+  z-index: 49;
+}
+
+#LaserPageMain_Label50 {
+  height: 30px;
+}
+
+#LaserPageMain_Label50 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_Label50 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label50 {
+  width: 23px;
+}
+
+#LaserPageMain_Label50 {
+  z-index: 50;
+}
+
+#LaserPageMain_Label51 {
+  height: 30px;
+}
+
+#LaserPageMain_Label51 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_Label51 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label51 {
+  width: 23px;
+}
+
+#LaserPageMain_Label51 {
+  z-index: 51;
+}
+
+#LaserPageMain_Label52 {
+  height: 30px;
+}
+
+#LaserPageMain_Label52 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_Label52 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label52 {
+  width: 23px;
+}
+
+#LaserPageMain_Label52 {
+  z-index: 52;
+}
+
+#LaserPageMain_Label53 {
+  height: 30px;
+}
+
+#LaserPageMain_Label53 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_Label53 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label53 {
+  width: 23px;
+}
+
+#LaserPageMain_Label53 {
+  z-index: 53;
+}
+
+#LaserPageMain_Label54 {
+  height: 30px;
+}
+
+#LaserPageMain_Label54 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_Label54 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label54 {
+  width: 23px;
+}
+
+#LaserPageMain_Label54 {
+  z-index: 54;
+}
+
+#LaserPageMain_Label55 {
+  height: 30px;
+}
+
+#LaserPageMain_Label55 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_Label55 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label55 {
+  width: 23px;
+}
+
+#LaserPageMain_Label55 {
+  z-index: 55;
+}
+
+#LaserPageMain_Label56 {
+  height: 30px;
+}
+
+#LaserPageMain_Label56 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_Label56 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label56 {
+  width: 23px;
+}
+
+#LaserPageMain_Label56 {
+  z-index: 56;
+}
+
+#LaserPageMain_Label57 {
+  height: 30px;
+}
+
+#LaserPageMain_Label57 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_Label57 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label57 {
+  width: 23px;
+}
+
+#LaserPageMain_Label57 {
+  z-index: 57;
+}
+
+#LaserPageMain_Label58 {
+  height: 30px;
+}
+
+#LaserPageMain_Label58 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_Label58 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label58 {
+  width: 23px;
+}
+
+#LaserPageMain_Label58 {
+  z-index: 58;
+}
+
+#LaserPageMain_Label59 {
+  height: 30px;
+}
+
+#LaserPageMain_Label59 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_Label59 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label59 {
+  width: 23px;
+}
+
+#LaserPageMain_Label59 {
+  z-index: 59;
+}
+
+#LaserPageMain_Label60 {
+  height: 30px;
+}
+
+#LaserPageMain_Label60 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_Label60 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label60 {
+  width: 23px;
+}
+
+#LaserPageMain_Label60 {
+  z-index: 60;
+}
+
+#LaserPageMain_Label61 {
+  height: 30px;
+}
+
+#LaserPageMain_Label61 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_Label61 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label61 {
+  width: 23px;
+}
+
+#LaserPageMain_Label61 {
+  z-index: 61;
+}
+
+#LaserPageMain_Label62 {
+  height: 30px;
+}
+
+#LaserPageMain_Label62 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_Label62 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label62 {
+  width: 23px;
+}
+
+#LaserPageMain_Label62 {
+  z-index: 62;
+}
+
+#LaserPageMain_Label63 {
+  height: 30px;
+}
+
+#LaserPageMain_Label63 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_Label63 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label63 {
+  width: 23px;
+}
+
+#LaserPageMain_Label63 {
+  z-index: 63;
+}
+
+#LaserPageMain_Label64 {
+  height: 30px;
+}
+
+#LaserPageMain_Label64 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_Label64 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label64 {
+  width: 23px;
+}
+
+#LaserPageMain_Label64 {
+  z-index: 64;
+}
+
+#LaserPageMain_Label65 {
+  height: 30px;
+}
+
+#LaserPageMain_Label65 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_Label65 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label65 {
+  width: 23px;
+}
+
+#LaserPageMain_Label65 {
+  z-index: 65;
+}
+
+#LaserPageMain_Label66 {
+  height: 30px;
+}
+
+#LaserPageMain_Label66 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_Label66 {
+  left: 797px;
+  position: absolute;
+}
+
+#LaserPageMain_Label66 {
+  width: 23px;
+}
+
+#LaserPageMain_Label66 {
+  z-index: 66;
+}
+
+#LaserPageMain_Label67 {
+  height: 30px;
+}
+
+#LaserPageMain_Label67 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Label67 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label67 {
+  width: 23px;
+}
+
+#LaserPageMain_Label67 {
+  z-index: 67;
+}
+
+#LaserPageMain_Label68 {
+  height: 30px;
+}
+
+#LaserPageMain_Label68 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_Label68 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label68 {
+  width: 23px;
+}
+
+#LaserPageMain_Label68 {
+  z-index: 68;
+}
+
+#LaserPageMain_Label69 {
+  height: 30px;
+}
+
+#LaserPageMain_Label69 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_Label69 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label69 {
+  width: 23px;
+}
+
+#LaserPageMain_Label69 {
+  z-index: 69;
+}
+
+#LaserPageMain_Label70 {
+  height: 30px;
+}
+
+#LaserPageMain_Label70 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_Label70 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label70 {
+  width: 23px;
+}
+
+#LaserPageMain_Label70 {
+  z-index: 70;
+}
+
+#LaserPageMain_Label71 {
+  height: 30px;
+}
+
+#LaserPageMain_Label71 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_Label71 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label71 {
+  width: 23px;
+}
+
+#LaserPageMain_Label71 {
+  z-index: 71;
+}
+
+#LaserPageMain_Label72 {
+  height: 30px;
+}
+
+#LaserPageMain_Label72 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_Label72 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label72 {
+  width: 23px;
+}
+
+#LaserPageMain_Label72 {
+  z-index: 72;
+}
+
+#LaserPageMain_Label73 {
+  height: 30px;
+}
+
+#LaserPageMain_Label73 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_Label73 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label73 {
+  width: 23px;
+}
+
+#LaserPageMain_Label73 {
+  z-index: 73;
+}
+
+#LaserPageMain_Label74 {
+  height: 30px;
+}
+
+#LaserPageMain_Label74 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_Label74 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label74 {
+  width: 23px;
+}
+
+#LaserPageMain_Label74 {
+  z-index: 74;
+}
+
+#LaserPageMain_Label75 {
+  height: 30px;
+}
+
+#LaserPageMain_Label75 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_Label75 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label75 {
+  width: 23px;
+}
+
+#LaserPageMain_Label75 {
+  z-index: 75;
+}
+
+#LaserPageMain_Label76 {
+  height: 30px;
+}
+
+#LaserPageMain_Label76 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_Label76 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label76 {
+  width: 23px;
+}
+
+#LaserPageMain_Label76 {
+  z-index: 76;
+}
+
+#LaserPageMain_Label77 {
+  height: 30px;
+}
+
+#LaserPageMain_Label77 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_Label77 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label77 {
+  width: 23px;
+}
+
+#LaserPageMain_Label77 {
+  z-index: 77;
+}
+
+#LaserPageMain_Label78 {
+  height: 30px;
+}
+
+#LaserPageMain_Label78 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_Label78 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label78 {
+  width: 23px;
+}
+
+#LaserPageMain_Label78 {
+  z-index: 78;
+}
+
+#LaserPageMain_Label79 {
+  height: 30px;
+}
+
+#LaserPageMain_Label79 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_Label79 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label79 {
+  width: 23px;
+}
+
+#LaserPageMain_Label79 {
+  z-index: 79;
+}
+
+#LaserPageMain_Label80 {
+  height: 30px;
+}
+
+#LaserPageMain_Label80 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_Label80 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label80 {
+  width: 23px;
+}
+
+#LaserPageMain_Label80 {
+  z-index: 80;
+}
+
+#LaserPageMain_Label81 {
+  height: 30px;
+}
+
+#LaserPageMain_Label81 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_Label81 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label81 {
+  width: 23px;
+}
+
+#LaserPageMain_Label81 {
+  z-index: 81;
+}
+
+#LaserPageMain_Label82 {
+  height: 30px;
+}
+
+#LaserPageMain_Label82 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_Label82 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label82 {
+  width: 23px;
+}
+
+#LaserPageMain_Label82 {
+  z-index: 82;
+}
+
+#LaserPageMain_Label83 {
+  height: 30px;
+}
+
+#LaserPageMain_Label83 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_Label83 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label83 {
+  width: 23px;
+}
+
+#LaserPageMain_Label83 {
+  z-index: 83;
+}
+
+#LaserPageMain_Label84 {
+  height: 30px;
+}
+
+#LaserPageMain_Label84 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_Label84 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label84 {
+  width: 23px;
+}
+
+#LaserPageMain_Label84 {
+  z-index: 84;
+}
+
+#LaserPageMain_Label85 {
+  height: 30px;
+}
+
+#LaserPageMain_Label85 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_Label85 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label85 {
+  width: 23px;
+}
+
+#LaserPageMain_Label85 {
+  z-index: 85;
+}
+
+#LaserPageMain_Label86 {
+  height: 30px;
+}
+
+#LaserPageMain_Label86 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_Label86 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label86 {
+  width: 23px;
+}
+
+#LaserPageMain_Label86 {
+  z-index: 86;
+}
+
+#LaserPageMain_Label87 {
+  height: 30px;
+}
+
+#LaserPageMain_Label87 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_Label87 {
+  left: 1157px;
+  position: absolute;
+}
+
+#LaserPageMain_Label87 {
+  width: 23px;
+}
+
+#LaserPageMain_Label87 {
+  z-index: 87;
+}
+
+#LaserPageMain_TextOutput1 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput1 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput1 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput1 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput1 {
+  z-index: 88;
+}
+
+#LaserPageMain_TextOutput2 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput2 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput2 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput2 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput2 {
+  z-index: 89;
+}
+
+#LaserPageMain_TextOutput3 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput3 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput3 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput3 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput3 {
+  z-index: 90;
+}
+
+#LaserPageMain_TextOutput4 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput4 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput4 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput4 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput4 {
+  z-index: 91;
+}
+
+#LaserPageMain_TextOutput5 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput5 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput5 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput5 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput5 {
+  z-index: 92;
+}
+
+#LaserPageMain_TextOutput6 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput6 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput6 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput6 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput6 {
+  z-index: 93;
+}
+
+#LaserPageMain_TextOutput7 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput7 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput7 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput7 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput7 {
+  z-index: 94;
+}
+
+#LaserPageMain_TextOutput8 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput8 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput8 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput8 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput8 {
+  z-index: 95;
+}
+
+#LaserPageMain_TextOutput9 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput9 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput9 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput9 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput9 {
+  z-index: 96;
+}
+
+#LaserPageMain_TextOutput10 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput10 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput10 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput10 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput10 {
+  z-index: 97;
+}
+
+#LaserPageMain_TextOutput11 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput11 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput11 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput11 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput11 {
+  z-index: 98;
+}
+
+#LaserPageMain_TextOutput12 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput12 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput12 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput12 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput12 {
+  z-index: 99;
+}
+
+#LaserPageMain_TextOutput13 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput13 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput13 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput13 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput13 {
+  z-index: 100;
+}
+
+#LaserPageMain_TextOutput14 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput14 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput14 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput14 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput14 {
+  z-index: 101;
+}
+
+#LaserPageMain_TextOutput15 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput15 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput15 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput15 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput15 {
+  z-index: 102;
+}
+
+#LaserPageMain_TextOutput16 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput16 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput16 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput16 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput16 {
+  z-index: 103;
+}
+
+#LaserPageMain_TextOutput17 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput17 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput17 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput17 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput17 {
+  z-index: 104;
+}
+
+#LaserPageMain_TextOutput18 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput18 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput18 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput18 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput18 {
+  z-index: 105;
+}
+
+#LaserPageMain_TextOutput19 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput19 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput19 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput19 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput19 {
+  z-index: 106;
+}
+
+#LaserPageMain_TextOutput20 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput20 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput20 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput20 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput20 {
+  z-index: 107;
+}
+
+#LaserPageMain_TextOutput21 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput21 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput21 {
+  left: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput21 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput21 {
+  z-index: 108;
+}
+
+#LaserPageMain_TextOutput22 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput22 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput22 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput22 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput22 {
+  z-index: 109;
+}
+
+#LaserPageMain_TextOutput23 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput23 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput23 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput23 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput23 {
+  z-index: 110;
+}
+
+#LaserPageMain_TextOutput24 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput24 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput24 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput24 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput24 {
+  z-index: 111;
+}
+
+#LaserPageMain_TextOutput25 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput25 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput25 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput25 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput25 {
+  z-index: 112;
+}
+
+#LaserPageMain_TextOutput26 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput26 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput26 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput26 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput26 {
+  z-index: 113;
+}
+
+#LaserPageMain_TextOutput27 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput27 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput27 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput27 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput27 {
+  z-index: 114;
+}
+
+#LaserPageMain_TextOutput28 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput28 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput28 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput28 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput28 {
+  z-index: 115;
+}
+
+#LaserPageMain_TextOutput29 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput29 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput29 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput29 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput29 {
+  z-index: 116;
+}
+
+#LaserPageMain_TextOutput30 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput30 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput30 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput30 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput30 {
+  z-index: 117;
+}
+
+#LaserPageMain_TextOutput31 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput31 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput31 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput31 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput31 {
+  z-index: 118;
+}
+
+#LaserPageMain_TextOutput32 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput32 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput32 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput32 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput32 {
+  z-index: 119;
+}
+
+#LaserPageMain_TextOutput33 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput33 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput33 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput33 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput33 {
+  z-index: 120;
+}
+
+#LaserPageMain_TextOutput34 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput34 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput34 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput34 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput34 {
+  z-index: 121;
+}
+
+#LaserPageMain_TextOutput35 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput35 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput35 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput35 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput35 {
+  z-index: 122;
+}
+
+#LaserPageMain_TextOutput36 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput36 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput36 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput36 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput36 {
+  z-index: 123;
+}
+
+#LaserPageMain_TextOutput37 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput37 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput37 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput37 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput37 {
+  z-index: 124;
+}
+
+#LaserPageMain_TextOutput38 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput38 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput38 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput38 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput38 {
+  z-index: 125;
+}
+
+#LaserPageMain_TextOutput39 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput39 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput39 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput39 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput39 {
+  z-index: 126;
+}
+
+#LaserPageMain_TextOutput40 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput40 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput40 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput40 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput40 {
+  z-index: 127;
+}
+
+#LaserPageMain_TextOutput41 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput41 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput41 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput41 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput41 {
+  z-index: 128;
+}
+
+#LaserPageMain_TextOutput42 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput42 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput42 {
+  left: 537px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput42 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput42 {
+  z-index: 129;
+}
+
+#LaserPageMain_TextOutput43 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput43 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput43 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput43 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput43 {
+  z-index: 130;
+}
+
+#LaserPageMain_TextOutput44 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput44 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput44 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput44 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput44 {
+  z-index: 131;
+}
+
+#LaserPageMain_TextOutput45 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput45 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput45 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput45 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput45 {
+  z-index: 132;
+}
+
+#LaserPageMain_TextOutput46 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput46 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput46 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput46 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput46 {
+  z-index: 133;
+}
+
+#LaserPageMain_TextOutput47 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput47 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput47 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput47 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput47 {
+  z-index: 134;
+}
+
+#LaserPageMain_TextOutput48 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput48 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput48 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput48 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput48 {
+  z-index: 135;
+}
+
+#LaserPageMain_TextOutput49 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput49 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput49 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput49 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput49 {
+  z-index: 136;
+}
+
+#LaserPageMain_TextOutput50 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput50 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput50 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput50 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput50 {
+  z-index: 137;
+}
+
+#LaserPageMain_TextOutput51 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput51 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput51 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput51 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput51 {
+  z-index: 138;
+}
+
+#LaserPageMain_TextOutput52 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput52 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput52 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput52 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput52 {
+  z-index: 139;
+}
+
+#LaserPageMain_TextOutput53 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput53 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput53 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput53 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput53 {
+  z-index: 140;
+}
+
+#LaserPageMain_TextOutput54 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput54 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput54 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput54 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput54 {
+  z-index: 141;
+}
+
+#LaserPageMain_TextOutput55 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput55 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput55 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput55 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput55 {
+  z-index: 142;
+}
+
+#LaserPageMain_TextOutput56 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput56 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput56 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput56 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput56 {
+  z-index: 143;
+}
+
+#LaserPageMain_TextOutput57 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput57 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput57 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput57 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput57 {
+  z-index: 144;
+}
+
+#LaserPageMain_TextOutput58 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput58 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput58 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput58 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput58 {
+  z-index: 145;
+}
+
+#LaserPageMain_TextOutput59 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput59 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput59 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput59 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput59 {
+  z-index: 146;
+}
+
+#LaserPageMain_TextOutput60 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput60 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput60 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput60 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput60 {
+  z-index: 147;
+}
+
+#LaserPageMain_TextOutput61 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput61 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput61 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput61 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput61 {
+  z-index: 148;
+}
+
+#LaserPageMain_TextOutput62 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput62 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput62 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput62 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput62 {
+  z-index: 149;
+}
+
+#LaserPageMain_TextOutput63 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput63 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput63 {
+  left: 897px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput63 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput63 {
+  z-index: 150;
+}
+
+#LaserPageMain_TextOutput64 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput64 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput64 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput64 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput64 {
+  z-index: 151;
+}
+
+#LaserPageMain_TextOutput65 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput65 {
+  top: 47px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput65 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput65 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput65 {
+  z-index: 152;
+}
+
+#LaserPageMain_TextOutput66 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput66 {
+  top: 87px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput66 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput66 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput66 {
+  z-index: 153;
+}
+
+#LaserPageMain_TextOutput67 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput67 {
+  top: 127px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput67 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput67 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput67 {
+  z-index: 154;
+}
+
+#LaserPageMain_TextOutput68 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput68 {
+  top: 167px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput68 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput68 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput68 {
+  z-index: 155;
+}
+
+#LaserPageMain_TextOutput69 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput69 {
+  top: 207px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput69 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput69 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput69 {
+  z-index: 156;
+}
+
+#LaserPageMain_TextOutput70 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput70 {
+  top: 247px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput70 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput70 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput70 {
+  z-index: 157;
+}
+
+#LaserPageMain_TextOutput71 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput71 {
+  top: 287px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput71 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput71 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput71 {
+  z-index: 158;
+}
+
+#LaserPageMain_TextOutput72 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput72 {
+  top: 327px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput72 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput72 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput72 {
+  z-index: 159;
+}
+
+#LaserPageMain_TextOutput73 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput73 {
+  top: 367px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput73 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput73 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput73 {
+  z-index: 160;
+}
+
+#LaserPageMain_TextOutput74 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput74 {
+  top: 407px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput74 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput74 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput74 {
+  z-index: 161;
+}
+
+#LaserPageMain_TextOutput75 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput75 {
+  top: 447px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput75 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput75 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput75 {
+  z-index: 162;
+}
+
+#LaserPageMain_TextOutput76 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput76 {
+  top: 487px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput76 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput76 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput76 {
+  z-index: 163;
+}
+
+#LaserPageMain_TextOutput77 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput77 {
+  top: 527px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput77 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput77 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput77 {
+  z-index: 164;
+}
+
+#LaserPageMain_TextOutput78 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput78 {
+  top: 567px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput78 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput78 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput78 {
+  z-index: 165;
+}
+
+#LaserPageMain_TextOutput79 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput79 {
+  top: 607px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput79 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput79 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput79 {
+  z-index: 166;
+}
+
+#LaserPageMain_TextOutput80 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput80 {
+  top: 647px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput80 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput80 {
+  height: 33px;
+}
+
+#LaserPageMain_TextOutput80 {
+  z-index: 167;
+}
+
+#LaserPageMain_TextOutput81 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput81 {
+  top: 687px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput81 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput81 {
+  height: 27px;
+}
+
+#LaserPageMain_TextOutput81 {
+  z-index: 168;
+}
+
+#LaserPageMain_TextOutput82 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput82 {
+  top: 727px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput82 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput82 {
+  height: 20px;
+}
+
+#LaserPageMain_TextOutput82 {
+  z-index: 169;
+}
+
+#LaserPageMain_TextOutput83 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput83 {
+  top: 767px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput83 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput83 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput83 {
+  z-index: 170;
+}
+
+#LaserPageMain_TextOutput84 {
+  width: 100px;
+}
+
+#LaserPageMain_TextOutput84 {
+  top: 807px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput84 {
+  left: 1257px;
+  position: absolute;
+}
+
+#LaserPageMain_TextOutput84 {
+  height: 17px;
+}
+
+#LaserPageMain_TextOutput84 {
+  z-index: 171;
+}
+
+#LaserPageMain_Rectangle7 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle7 {
+  left: 17px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle7 {
+  width: 297px;
+}
+
+#LaserPageMain_Rectangle7 {
+  height: 833px;
+}
+
+#LaserPageMain_Rectangle7 {
+  z-index: 3;
+}
+
+#LaserPageMain_Rectangle8 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle8 {
+  left: 397px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle8 {
+  width: 297px;
+}
+
+#LaserPageMain_Rectangle8 {
+  height: 833px;
+}
+
+#LaserPageMain_Rectangle8 {
+  z-index: 2;
+}
+
+#LaserPageMain_Rectangle9 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle9 {
+  left: 1077px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle9 {
+  width: 297px;
+}
+
+#LaserPageMain_Rectangle9 {
+  height: 833px;
+}
+
+#LaserPageMain_Rectangle9 {
+  z-index: 0;
+}
+
+#LaserPageMain_Rectangle10 {
+  top: 7px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle10 {
+  left: 717px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle10 {
+  width: 297px;
+}
+
+#LaserPageMain_Rectangle10 {
+  height: 833px;
+}
+
+#LaserPageMain_Rectangle10 {
+  z-index: 1;
+}
+
+#LaserPageMain_Label88 {
+  height: 30px;
+}
+
+#LaserPageMain_Label88 {
+  top: 65px;
+  position: absolute;
+}
+
+#LaserPageMain_Label88 {
+  left: 60px;
+  position: absolute;
+}
+
+#LaserPageMain_Label88 {
+  width: 160px;
+}
+
+#LaserPageMain_Label88 {
+  z-index: 1;
+}
+
+#LaserPageMain_Label88 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Label88 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Label89 {
+  height: 30px;
+}
+
+#LaserPageMain_Label89 {
+  top: 65px;
+  position: absolute;
+}
+
+#LaserPageMain_Label89 {
+  left: 460px;
+  position: absolute;
+}
+
+#LaserPageMain_Label89 {
+  width: 160px;
+}
+
+#LaserPageMain_Label89 {
+  z-index: 2;
+}
+
+#LaserPageMain_Label89 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Label89 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Label90 {
+  height: 30px;
+}
+
+#LaserPageMain_Label90 {
+  top: 65px;
+  position: absolute;
+}
+
+#LaserPageMain_Label90 {
+  left: 800px;
+  position: absolute;
+}
+
+#LaserPageMain_Label90 {
+  width: 160px;
+}
+
+#LaserPageMain_Label90 {
+  z-index: 3;
+}
+
+#LaserPageMain_Label90 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Label90 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Label91 {
+  height: 30px;
+}
+
+#LaserPageMain_Label91 {
+  top: 65px;
+  position: absolute;
+}
+
+#LaserPageMain_Label91 {
+  left: 1160px;
+  position: absolute;
+}
+
+#LaserPageMain_Label91 {
+  width: 160px;
+}
+
+#LaserPageMain_Label91 {
+  z-index: 4;
+}
+
+#LaserPageMain_Label91 {
+  font-size: 20px;
+}
+
+#LaserPageMain_Label91 {
+  font-weight: bold;
+}
+
+#LaserPageMain_TabItem3_breaseTabItemTab.tabItem {
+  width: 100px;
+}
+
+#LaserPageMain_TabItem3_breaseTabItemTab.tabItem {
+  height: 30px;
+}
+
+#LaserPageMain_TabItem3 {
+  z-index: 1;
+}
+
+#LaserPageMain_GroupBox10 {
+  top: 10px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox10 {
+  left: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox10 {
+  width: 1720px;
+}
+
+#LaserPageMain_GroupBox10 {
+  height: 980px;
+}
+
+#LaserPageMain_GroupBox10 {
+  z-index: 0;
+}
+
+#LaserPageMain_GroupBox10 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox10 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox10 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox10 > .header > svg {
+  fill: black;
+}
+
+#LaserPageMain_GroupBox10 > .header span {
+  font-size: 15px;
+}
+
+#LaserPageMain_GroupBox10 > .header {
+  height: 35px;
+}
+
+#LaserPageMain_GroupBox14 {
+  top: 20px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox14 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox14 {
+  width: 860px;
+}
+
+#LaserPageMain_GroupBox14 {
+  height: 340px;
+}
+
+#LaserPageMain_GroupBox14 {
+  z-index: 0;
+}
+
+#LaserPageMain_GroupBox14 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox14 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox14 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_NumericInput37 {
+  width: 100px;
+}
+
+#LaserPageMain_NumericInput37 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput37 {
+  top: 411px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput37 {
+  left: 1298px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput37 {
+  z-index: 0;
+}
+
+#LaserPageMain_ToggleButton26 {
+  top: 228px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton26 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton26 {
+  width: 323px;
+}
+
+#LaserPageMain_ToggleButton26 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton26 {
+  z-index: 1;
+}
+
+#LaserPageMain_StatusLEDGreen52 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen52 {
+  top: 248px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen52 {
+  left: 419px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen52 {
+  width: 130px;
+}
+
+#LaserPageMain_StatusLEDGreen52 {
+  z-index: 2;
+}
+
+#LaserPageMain_StatusLEDGreen53 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen53 {
+  top: 248px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen53 {
+  left: 599px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen53 {
+  width: 130px;
+}
+
+#LaserPageMain_StatusLEDGreen53 {
+  z-index: 3;
+}
+
+#LaserPageMain_NumericInput14 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput14 {
+  top: 168px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput14 {
+  left: 540px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput14 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput14 {
+  z-index: 5;
+}
+
+#LaserPageMain_Rack18 {
+  top: 128px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack18 {
+  left: 479px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack18 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack18 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack18 {
+  z-index: 6;
+}
+
+#LaserPageMain_Rack18 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack18 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Rack19 {
+  top: 128px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack19 {
+  left: 659px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack19 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack19 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack19 {
+  z-index: 7;
+}
+
+#LaserPageMain_Rack19 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack19 {
+  font-weight: bold;
+}
+
+#LaserPageMain_NumericInput16 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput16 {
+  top: 168px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput16 {
+  left: 699px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput16 {
+  width: 79px;
+}
+
+#LaserPageMain_NumericInput16 {
+  z-index: 8;
+}
+
+#LaserPageMain_ToggleButton16 {
+  top: 28px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton16 {
+  left: 59px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton16 {
+  width: 221px;
+}
+
+#LaserPageMain_ToggleButton16 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton16 {
+  z-index: 9;
+}
+
+#LaserPageMain_NumericInput31 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput31 {
+  top: 68px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput31 {
+  left: 379px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput31 {
+  width: 67px;
+}
+
+#LaserPageMain_NumericInput31 {
+  z-index: 10;
+}
+
+#LaserPageMain_Rack34 {
+  top: 28px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack34 {
+  left: 339px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack34 {
+  width: 127px;
+}
+
+#LaserPageMain_Rack34 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack34 {
+  z-index: 11;
+}
+
+#LaserPageMain_Rack34 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack34 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Rack36 {
+  top: 28px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack36 {
+  left: 599px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack36 {
+  width: 60px;
+}
+
+#LaserPageMain_Rack36 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack36 {
+  z-index: 12;
+}
+
+#LaserPageMain_Rack36 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack36 {
+  font-weight: bold;
+}
+
+#LaserPageMain_Rectangle1 {
+  height: 100px;
+}
+
+#LaserPageMain_Rectangle1 {
+  top: 8px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle1 {
+  left: -1px;
+  position: absolute;
+}
+
+#LaserPageMain_Rectangle1 {
+  width: 860px;
+}
+
+#LaserPageMain_Rectangle1 {
+  z-index: 4;
+}
+
+#LaserPageMain_Rack38 {
+  top: 128px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack38 {
+  left: 319px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack38 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack38 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack38 {
+  z-index: 13;
+}
+
+#LaserPageMain_Rack38 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack38 {
+  font-weight: bold;
+}
+
+#LaserPageMain_NumericInput35 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput35 {
+  top: 168px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput35 {
+  left: 359px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput35 {
+  width: 79px;
+}
+
+#LaserPageMain_NumericInput35 {
+  z-index: 14;
+}
+
+#LaserPageMain_NumericOutput4 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericOutput4 {
+  top: 68px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput4 {
+  left: 499px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput4 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericOutput4 {
+  z-index: 15;
+}
+
+#LaserPageMain_NumericOutput5 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericOutput5 {
+  top: 68px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput5 {
+  left: 579px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericOutput5 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericOutput5 {
+  z-index: 16;
+}
+
+#LaserPageMain_Rack39 {
+  top: 28px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack39 {
+  left: 519px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack39 {
+  width: 60px;
+}
+
+#LaserPageMain_Rack39 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack39 {
+  z-index: 17;
+}
+
+#LaserPageMain_Rack39 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack39 {
+  font-weight: bold;
+}
+
+#LaserPageMain_GroupBox16 {
+  top: 464px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox16 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox16 {
+  width: 1140px;
+}
+
+#LaserPageMain_GroupBox16 {
+  height: 236px;
+}
+
+#LaserPageMain_GroupBox16 {
+  z-index: 1;
+}
+
+#LaserPageMain_GroupBox16 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox16 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox16 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_NumericInput46 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput46 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput46 {
+  left: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput46 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput46 {
+  z-index: 0;
+}
+
+#LaserPageMain_Rack50 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack50 {
+  left: 18px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack50 {
+  width: 160px;
+}
+
+#LaserPageMain_Rack50 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack50 {
+  z-index: 1;
+}
+
+#LaserPageMain_Rack50 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack50 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput47 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput47 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput47 {
+  left: 518px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput47 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput47 {
+  z-index: 2;
+}
+
+#LaserPageMain_Rack51 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack51 {
+  left: 318px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack51 {
+  width: 102px;
+}
+
+#LaserPageMain_Rack51 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack51 {
+  z-index: 3;
+}
+
+#LaserPageMain_Rack51 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack51 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput48 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput48 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput48 {
+  left: 798px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput48 {
+  width: 82px;
+}
+
+#LaserPageMain_NumericInput48 {
+  z-index: 4;
+}
+
+#LaserPageMain_Rack52 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack52 {
+  left: 618px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack52 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack52 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack52 {
+  z-index: 5;
+}
+
+#LaserPageMain_Rack52 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack52 {
+  font-weight: normal;
+}
+
+#LaserPageMain_Rack53 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack53 {
+  left: 898px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack53 {
+  width: 142px;
+}
+
+#LaserPageMain_Rack53 {
+  height: 37px;
+}
+
+#LaserPageMain_Rack53 {
+  z-index: 6;
+}
+
+#LaserPageMain_Rack53 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack53 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput49 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput49 {
+  top: 4px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput49 {
+  left: 1038px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput49 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput49 {
+  z-index: 7;
+}
+
+#LaserPageMain_NumericInput50 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput50 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput50 {
+  left: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput50 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput50 {
+  z-index: 8;
+}
+
+#LaserPageMain_Rack54 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack54 {
+  left: 18px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack54 {
+  width: 231px;
+}
+
+#LaserPageMain_Rack54 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack54 {
+  z-index: 9;
+}
+
+#LaserPageMain_Rack54 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack54 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput51 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput51 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput51 {
+  left: 518px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput51 {
+  width: 77px;
+}
+
+#LaserPageMain_NumericInput51 {
+  z-index: 10;
+}
+
+#LaserPageMain_Rack55 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack55 {
+  left: 318px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack55 {
+  width: 200px;
+}
+
+#LaserPageMain_Rack55 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack55 {
+  z-index: 11;
+}
+
+#LaserPageMain_Rack55 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack55 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput52 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput52 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput52 {
+  left: 798px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput52 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput52 {
+  z-index: 12;
+}
+
+#LaserPageMain_Rack56 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack56 {
+  left: 618px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack56 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack56 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack56 {
+  z-index: 13;
+}
+
+#LaserPageMain_Rack56 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack56 {
+  font-weight: normal;
+}
+
+#LaserPageMain_Rack57 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack57 {
+  left: 898px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack57 {
+  width: 61px;
+}
+
+#LaserPageMain_Rack57 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack57 {
+  z-index: 14;
+}
+
+#LaserPageMain_Rack57 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack57 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput53 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput53 {
+  top: 44px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput53 {
+  left: 1038px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput53 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput53 {
+  z-index: 15;
+}
+
+#LaserPageMain_NumericInput54 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput54 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput54 {
+  left: 219px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput54 {
+  width: 77px;
+}
+
+#LaserPageMain_NumericInput54 {
+  z-index: 16;
+}
+
+#LaserPageMain_Rack58 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack58 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack58 {
+  width: 194px;
+}
+
+#LaserPageMain_Rack58 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack58 {
+  z-index: 17;
+}
+
+#LaserPageMain_Rack58 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack58 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput55 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput55 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput55 {
+  left: 519px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput55 {
+  width: 80px;
+}
+
+#LaserPageMain_NumericInput55 {
+  z-index: 18;
+}
+
+#LaserPageMain_Rack59 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack59 {
+  left: 319px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack59 {
+  width: 181px;
+}
+
+#LaserPageMain_Rack59 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack59 {
+  z-index: 19;
+}
+
+#LaserPageMain_Rack59 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack59 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput56 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput56 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput56 {
+  left: 799px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput56 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput56 {
+  z-index: 20;
+}
+
+#LaserPageMain_Rack60 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack60 {
+  left: 619px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack60 {
+  width: 180px;
+}
+
+#LaserPageMain_Rack60 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack60 {
+  z-index: 21;
+}
+
+#LaserPageMain_Rack60 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack60 {
+  font-weight: normal;
+}
+
+#LaserPageMain_Rack61 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack61 {
+  left: 899px;
+  position: absolute;
+}
+
+#LaserPageMain_Rack61 {
+  width: 177px;
+}
+
+#LaserPageMain_Rack61 {
+  height: 34px;
+}
+
+#LaserPageMain_Rack61 {
+  z-index: 22;
+}
+
+#LaserPageMain_Rack61 {
+  font-size: 18px;
+}
+
+#LaserPageMain_Rack61 {
+  font-weight: normal;
+}
+
+#LaserPageMain_NumericInput57 {
+  height: 30px;
+}
+
+#LaserPageMain_NumericInput57 {
+  top: 84px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput57 {
+  left: 1039px;
+  position: absolute;
+}
+
+#LaserPageMain_NumericInput57 {
+  width: 81px;
+}
+
+#LaserPageMain_NumericInput57 {
+  z-index: 23;
+}
+
+#LaserPageMain_ToggleButton27 {
+  top: 124px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton27 {
+  left: 379px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton27 {
+  width: 323px;
+}
+
+#LaserPageMain_ToggleButton27 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton27 {
+  z-index: 24;
+}
+
+#LaserPageMain_GroupBox3 {
+  top: 24px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox3 {
+  left: 899px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox3 {
+  width: 501px;
+}
+
+#LaserPageMain_GroupBox3 {
+  height: 366px;
+}
+
+#LaserPageMain_GroupBox3 {
+  z-index: 2;
+}
+
+#LaserPageMain_GroupBox3 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_GroupBox3 {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_GroupBox3 > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#LaserPageMain_ToggleButton4 {
+  top: 17px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton4 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton4 {
+  width: 263px;
+}
+
+#LaserPageMain_ToggleButton4 {
+  height: 57px;
+}
+
+#LaserPageMain_ToggleButton4 {
+  z-index: 0;
+}
+
+#LaserPageMain_ToggleButton5 {
+  top: 97px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton5 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton5 {
+  width: 263px;
+}
+
+#LaserPageMain_ToggleButton5 {
+  height: 57px;
+}
+
+#LaserPageMain_ToggleButton5 {
+  z-index: 1;
+}
+
+#LaserPageMain_ToggleButton6 {
+  top: 177px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton6 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton6 {
+  width: 263px;
+}
+
+#LaserPageMain_ToggleButton6 {
+  height: 57px;
+}
+
+#LaserPageMain_ToggleButton6 {
+  z-index: 2;
+}
+
+#LaserPageMain_StatusLEDGreen31 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen31 {
+  top: 38px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen31 {
+  left: 319px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen31 {
+  width: 183px;
+}
+
+#LaserPageMain_StatusLEDGreen31 {
+  z-index: 3;
+}
+
+#LaserPageMain_StatusLEDGreen32 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen32 {
+  top: 98px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen32 {
+  left: 319px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen32 {
+  width: 183px;
+}
+
+#LaserPageMain_StatusLEDGreen32 {
+  z-index: 4;
+}
+
+#LaserPageMain_StatusLEDGreen33 {
+  width: 220px;
+}
+
+#LaserPageMain_StatusLEDGreen33 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen33 {
+  top: 218px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen33 {
+  left: 319px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen33 {
+  z-index: 5;
+}
+
+#LaserPageMain_ToggleButton7 {
+  top: 257px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton7 {
+  left: 19px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton7 {
+  width: 263px;
+}
+
+#LaserPageMain_ToggleButton7 {
+  height: 57px;
+}
+
+#LaserPageMain_ToggleButton7 {
+  z-index: 6;
+}
+
+#LaserPageMain_GroupBox18 {
+  top: 10px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox18 {
+  left: 960px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox18 {
+  width: 440px;
+}
+
+#LaserPageMain_GroupBox18 {
+  height: 164px;
+}
+
+#LaserPageMain_GroupBox18 {
+  z-index: 1;
+}
+
+#LaserPageMain_GroupBox18 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_ToggleButton36 {
+  top: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton36 {
+  left: 18px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton36 {
+  width: 122px;
+}
+
+#LaserPageMain_ToggleButton36 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton36 {
+  z-index: 0;
+}
+
+#LaserPageMain_ToggleButton37 {
+  top: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton37 {
+  left: 158px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton37 {
+  width: 122px;
+}
+
+#LaserPageMain_ToggleButton37 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton37 {
+  z-index: 1;
+}
+
+#LaserPageMain_ToggleButton38 {
+  top: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton38 {
+  left: 298px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton38 {
+  width: 122px;
+}
+
+#LaserPageMain_ToggleButton38 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton38 {
+  z-index: 2;
+}
+
+#LaserPageMain_Label96 {
+  height: 30px;
+}
+
+#LaserPageMain_Label96 {
+  top: 17px;
+  position: absolute;
+}
+
+#LaserPageMain_Label96 {
+  left: 98px;
+  position: absolute;
+}
+
+#LaserPageMain_Label96 {
+  width: 242px;
+}
+
+#LaserPageMain_Label96 {
+  z-index: 3;
+}
+
+#LaserPageMain_Label96 {
+  font-weight: bold;
+}
+
+#LaserPageMain_GroupBox17 {
+  top: 10px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox17 {
+  left: 500px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox17 {
+  width: 440px;
+}
+
+#LaserPageMain_GroupBox17 {
+  height: 164px;
+}
+
+#LaserPageMain_GroupBox17 {
+  z-index: 2;
+}
+
+#LaserPageMain_GroupBox17 {
+  background-color: lightgray;
+}
+
+#LaserPageMain_ToggleButton33 {
+  top: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton33 {
+  left: 18px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton33 {
+  width: 122px;
+}
+
+#LaserPageMain_ToggleButton33 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton33 {
+  z-index: 0;
+}
+
+#LaserPageMain_ToggleButton34 {
+  top: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton34 {
+  left: 158px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton34 {
+  width: 122px;
+}
+
+#LaserPageMain_ToggleButton34 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton34 {
+  z-index: 1;
+}
+
+#LaserPageMain_ToggleButton35 {
+  top: 57px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton35 {
+  left: 298px;
+  position: absolute;
+}
+
+#LaserPageMain_ToggleButton35 {
+  width: 122px;
+}
+
+#LaserPageMain_ToggleButton35 {
+  height: 60px;
+}
+
+#LaserPageMain_ToggleButton35 {
+  z-index: 2;
+}
+
+#LaserPageMain_Label3 {
+  height: 30px;
+}
+
+#LaserPageMain_Label3 {
+  top: 17px;
+  position: absolute;
+}
+
+#LaserPageMain_Label3 {
+  left: 98px;
+  position: absolute;
+}
+
+#LaserPageMain_Label3 {
+  width: 242px;
+}
+
+#LaserPageMain_Label3 {
+  z-index: 3;
+}
+
+#LaserPageMain_Label3 {
+  font-weight: bold;
+}

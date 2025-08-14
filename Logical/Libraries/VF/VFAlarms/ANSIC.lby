@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="0.01.0" SubType="ANSIC" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">VFAlarms.fun</File>
+    <File>vfAddAlarm.c</File>
+    <File>vfAddSnippet.c</File>
+    <File>vfAddReactionByName.c</File>
+    <File>vfAddReactionBySeverity.c</File>
+    <File>vfAddAggregationByName.c</File>
+    <File>vfAddAggregationBySeverity.c</File>
+    <File>vfSetDefaultMapping.c</File>
+    <File>vfCreateAlarmsFaster.c</File>
+    <File>vfAddLogOriginMapping.c</File>
+    <File>vfLookupOrigin.c</File>
+    <File>vfAddNonEscalatedReactionByName.c</File>
+    <File>vfAlarmEdge.c</File>
+    <File>vfAlarmPersistent.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="MpCom" />
+    <Dependency ObjectName="AsXml" />
+    <Dependency ObjectName="fiowrap" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="MpAlarmX" />
+  </Dependencies>
+</Library>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+<Content id="AlarmsPage"><Binding mode="twoWay">
+<Source xsi:type="mapp" refId="gAlarmXCore" attribute="link" />
+<Target xsi:type="brease" refId="AlarmsPage_AlarmList1" attribute="mpLink" />
+</Binding></Content>
+
+
+
+<Content id="AlarmsPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gUI.Alarms.ResetAlarms" attribute="value" />
+<Target xsi:type="brease" refId="AlarmsPage_ResetAlarms_Button" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gUI.Alarms.ResetAlarms" attribute="editable" />
+<Target xsi:type="brease" refId="AlarmsPage_ResetAlarms_Button" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="AlarmsPage"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gUI.Alarms.groupBoxStyle" attribute="value" />
+<Target xsi:type="brease" refId="AlarmsPage_AlarmsGroupBox" attribute="style" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

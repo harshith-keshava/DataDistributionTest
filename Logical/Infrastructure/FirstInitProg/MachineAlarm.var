@@ -1,0 +1,4 @@
+VAR
+	alarmData : vfAlarms_Data_typ;
+	persistErrorID : UINT;
+END_VAR

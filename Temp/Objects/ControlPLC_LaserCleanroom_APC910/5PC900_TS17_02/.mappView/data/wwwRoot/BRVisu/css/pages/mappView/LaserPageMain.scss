@@ -1,0 +1,5094 @@
+﻿@import "mixins.scss";
+#LaserPageMain_TEST {
+	@include elemTop(0);
+}
+#LaserPageMain_TEST {
+	@include elemLeft(0);
+}
+#LaserPageMain_TEST {
+	@include elemWidth(1680);
+}
+#LaserPageMain_TEST {
+	@include elemHeight(1020);
+}
+#LaserPageMain_TEST {
+		z-index: 0;
+}
+#LaserPageMain_TabItem1_breaseTabItemTab {
+	&.tabItem{
+	@include elemWidth(100);
+	}
+}
+#LaserPageMain_TabItem1_breaseTabItemTab {
+	&.tabItem{
+	@include elemHeight(30);
+	}
+}
+#LaserPageMain_TabItem1 {
+		z-index: 0;
+}
+#LaserPageMain_GroupBox1 {
+	@include elemTop(20);
+}
+#LaserPageMain_GroupBox1 {
+	@include elemLeft(0);
+}
+#LaserPageMain_GroupBox1 {
+	@include elemWidth(1720);
+}
+#LaserPageMain_GroupBox1 {
+	@include elemHeight(980);
+}
+#LaserPageMain_GroupBox1 {
+		z-index: 0;
+}
+#LaserPageMain_GroupBox1 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox1 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox1 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_GroupBox1 {
+	> .header > svg{
+		fill: rgba(0, 0, 0, 1);
+	}
+}
+#LaserPageMain_GroupBox1 {
+	> .header span{
+		font-size: 15px;
+	}
+}
+#LaserPageMain_GroupBox1 {
+	> .header{
+	height: 15px + 20px;
+	}
+}
+#LaserPageMain_GroupBox2 {
+	@include elemTop(14);
+}
+#LaserPageMain_GroupBox2 {
+	@include elemLeft(19);
+}
+#LaserPageMain_GroupBox2 {
+	@include elemWidth(901);
+}
+#LaserPageMain_GroupBox2 {
+	@include elemHeight(326);
+}
+#LaserPageMain_GroupBox2 {
+		z-index: 0;
+}
+#LaserPageMain_GroupBox2 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox2 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox2 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_Rack16 {
+	@include elemTop(0);
+}
+#LaserPageMain_Rack16 {
+	@include elemLeft(0);
+}
+#LaserPageMain_Rack16 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_Rack16 {
+	@include elemAutoHeight(40);
+}
+#LaserPageMain_Rack16 {
+		z-index: 0;
+}
+#LaserPageMain_Rack16 {
+		font-size: 20px;
+}
+#LaserPageMain_Rack16 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Label92 {
+	@include elemTop(60);
+}
+#LaserPageMain_Label92 {
+	@include elemLeft(0);
+}
+#LaserPageMain_Label92 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_Label92 {
+	@include elemAutoHeight(40);
+}
+#LaserPageMain_Label92 {
+		z-index: 1;
+}
+#LaserPageMain_Label92 {
+		font-size: 20px;
+}
+#LaserPageMain_Label92 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Rack17 {
+	@include elemTop(120);
+}
+#LaserPageMain_Rack17 {
+	@include elemLeft(0);
+}
+#LaserPageMain_Rack17 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_Rack17 {
+	@include elemAutoHeight(40);
+}
+#LaserPageMain_Rack17 {
+		z-index: 2;
+}
+#LaserPageMain_Rack17 {
+		font-size: 20px;
+}
+#LaserPageMain_Rack17 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Label93 {
+	@include elemTop(180);
+}
+#LaserPageMain_Label93 {
+	@include elemLeft(0);
+}
+#LaserPageMain_Label93 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_Label93 {
+	@include elemAutoHeight(40);
+}
+#LaserPageMain_Label93 {
+		z-index: 3;
+}
+#LaserPageMain_Label93 {
+		font-size: 20px;
+}
+#LaserPageMain_Label93 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_StatusLEDGreen19 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen19 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen19 {
+	@include elemTop(0);
+}
+#LaserPageMain_StatusLEDGreen19 {
+	@include elemLeft(240);
+}
+#LaserPageMain_StatusLEDGreen19 {
+		z-index: 4;
+}
+#LaserPageMain_StatusLEDGreen20 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen20 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen20 {
+	@include elemTop(0);
+}
+#LaserPageMain_StatusLEDGreen20 {
+	@include elemLeft(480);
+}
+#LaserPageMain_StatusLEDGreen20 {
+		z-index: 5;
+}
+#LaserPageMain_StatusLEDGreen21 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen21 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen21 {
+	@include elemTop(0);
+}
+#LaserPageMain_StatusLEDGreen21 {
+	@include elemLeft(720);
+}
+#LaserPageMain_StatusLEDGreen21 {
+		z-index: 6;
+}
+#LaserPageMain_StatusLEDGreen22 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen22 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen22 {
+	@include elemTop(60);
+}
+#LaserPageMain_StatusLEDGreen22 {
+	@include elemLeft(240);
+}
+#LaserPageMain_StatusLEDGreen22 {
+		z-index: 7;
+}
+#LaserPageMain_StatusLEDGreen23 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen23 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen23 {
+	@include elemTop(60);
+}
+#LaserPageMain_StatusLEDGreen23 {
+	@include elemLeft(480);
+}
+#LaserPageMain_StatusLEDGreen23 {
+		z-index: 8;
+}
+#LaserPageMain_StatusLEDGreen24 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen24 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen24 {
+	@include elemTop(60);
+}
+#LaserPageMain_StatusLEDGreen24 {
+	@include elemLeft(720);
+}
+#LaserPageMain_StatusLEDGreen24 {
+		z-index: 9;
+}
+#LaserPageMain_StatusLEDGreen25 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen25 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen25 {
+	@include elemTop(120);
+}
+#LaserPageMain_StatusLEDGreen25 {
+	@include elemLeft(240);
+}
+#LaserPageMain_StatusLEDGreen25 {
+		z-index: 10;
+}
+#LaserPageMain_StatusLEDGreen26 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen26 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen26 {
+	@include elemTop(120);
+}
+#LaserPageMain_StatusLEDGreen26 {
+	@include elemLeft(480);
+}
+#LaserPageMain_StatusLEDGreen26 {
+		z-index: 11;
+}
+#LaserPageMain_StatusLEDGreen27 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen27 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen27 {
+	@include elemTop(120);
+}
+#LaserPageMain_StatusLEDGreen27 {
+	@include elemLeft(720);
+}
+#LaserPageMain_StatusLEDGreen27 {
+		z-index: 12;
+}
+#LaserPageMain_StatusLEDGreen28 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen28 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen28 {
+	@include elemTop(180);
+}
+#LaserPageMain_StatusLEDGreen28 {
+	@include elemLeft(240);
+}
+#LaserPageMain_StatusLEDGreen28 {
+		z-index: 13;
+}
+#LaserPageMain_StatusLEDGreen29 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen29 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen29 {
+	@include elemTop(180);
+}
+#LaserPageMain_StatusLEDGreen29 {
+	@include elemLeft(480);
+}
+#LaserPageMain_StatusLEDGreen29 {
+		z-index: 14;
+}
+#LaserPageMain_StatusLEDGreen30 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen30 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen30 {
+	@include elemTop(180);
+}
+#LaserPageMain_StatusLEDGreen30 {
+	@include elemLeft(720);
+}
+#LaserPageMain_StatusLEDGreen30 {
+		z-index: 15;
+}
+#LaserPageMain_ToggleButton1 {
+	@include elemTop(224);
+}
+#LaserPageMain_ToggleButton1 {
+	@include elemLeft(39);
+}
+#LaserPageMain_ToggleButton1 {
+	@include elemAutoWidth(323);
+}
+#LaserPageMain_ToggleButton1 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton1 {
+		z-index: 16;
+}
+#LaserPageMain_ToggleButton2 {
+	@include elemTop(224);
+}
+#LaserPageMain_ToggleButton2 {
+	@include elemLeft(399);
+}
+#LaserPageMain_ToggleButton2 {
+	@include elemAutoWidth(323);
+}
+#LaserPageMain_ToggleButton2 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton2 {
+		z-index: 17;
+}
+#LaserPageMain_GroupBox5 {
+	@include elemTop(354);
+}
+#LaserPageMain_GroupBox5 {
+	@include elemLeft(19);
+}
+#LaserPageMain_GroupBox5 {
+	@include elemWidth(860);
+}
+#LaserPageMain_GroupBox5 {
+	@include elemHeight(300);
+}
+#LaserPageMain_GroupBox5 {
+		z-index: 1;
+}
+#LaserPageMain_GroupBox5 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox5 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox5 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_NumericInput15 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_NumericInput15 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput15 {
+	@include elemTop(411);
+}
+#LaserPageMain_NumericInput15 {
+	@include elemLeft(1298);
+}
+#LaserPageMain_NumericInput15 {
+		z-index: 0;
+}
+#LaserPageMain_PushButton11 {
+	@include elemTop(4);
+}
+#LaserPageMain_PushButton11 {
+	@include elemLeft(119);
+}
+#LaserPageMain_PushButton11 {
+	@include elemAutoWidth(241);
+}
+#LaserPageMain_PushButton11 {
+	@include elemAutoHeight(62);
+}
+#LaserPageMain_PushButton11 {
+		z-index: 1;
+}
+#LaserPageMain_PushButton12 {
+	@include elemTop(4);
+}
+#LaserPageMain_PushButton12 {
+	@include elemLeft(399);
+}
+#LaserPageMain_PushButton12 {
+	@include elemAutoWidth(241);
+}
+#LaserPageMain_PushButton12 {
+	@include elemAutoHeight(63);
+}
+#LaserPageMain_PushButton12 {
+		z-index: 2;
+}
+#LaserPageMain_PushButton13 {
+	@include elemTop(78);
+}
+#LaserPageMain_PushButton13 {
+	@include elemLeft(19);
+}
+#LaserPageMain_PushButton13 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_PushButton13 {
+	@include elemAutoHeight(62);
+}
+#LaserPageMain_PushButton13 {
+		z-index: 3;
+}
+#LaserPageMain_ToggleButton14 {
+	@include elemTop(184);
+}
+#LaserPageMain_ToggleButton14 {
+	@include elemLeft(199);
+}
+#LaserPageMain_ToggleButton14 {
+	@include elemAutoWidth(181);
+}
+#LaserPageMain_ToggleButton14 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton14 {
+		z-index: 4;
+}
+#LaserPageMain_ToggleButton15 {
+	@include elemTop(184);
+}
+#LaserPageMain_ToggleButton15 {
+	@include elemLeft(19);
+}
+#LaserPageMain_ToggleButton15 {
+	@include elemAutoWidth(161);
+}
+#LaserPageMain_ToggleButton15 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton15 {
+		z-index: 5;
+}
+#LaserPageMain_Rack32 {
+	@include elemTop(78);
+}
+#LaserPageMain_Rack32 {
+	@include elemLeft(739);
+}
+#LaserPageMain_Rack32 {
+	@include elemAutoWidth(140);
+}
+#LaserPageMain_Rack32 {
+	@include elemAutoHeight(45);
+}
+#LaserPageMain_Rack32 {
+		z-index: 6;
+}
+#LaserPageMain_Rack32 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack32 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Rack33 {
+	@include elemTop(178);
+}
+#LaserPageMain_Rack33 {
+	@include elemLeft(579);
+}
+#LaserPageMain_Rack33 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Rack33 {
+	@include elemAutoHeight(42);
+}
+#LaserPageMain_Rack33 {
+		z-index: 7;
+}
+#LaserPageMain_Rack33 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack33 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Rack37 {
+	@include elemTop(178);
+}
+#LaserPageMain_Rack37 {
+	@include elemLeft(719);
+}
+#LaserPageMain_Rack37 {
+	@include elemAutoWidth(181);
+}
+#LaserPageMain_Rack37 {
+	@include elemAutoHeight(42);
+}
+#LaserPageMain_Rack37 {
+		z-index: 8;
+}
+#LaserPageMain_Rack37 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack37 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_NumericOutput1 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_NumericOutput1 {
+	@include elemTop(118);
+}
+#LaserPageMain_NumericOutput1 {
+	@include elemLeft(719);
+}
+#LaserPageMain_NumericOutput1 {
+	@include elemAutoHeight(36);
+}
+#LaserPageMain_NumericOutput1 {
+		z-index: 9;
+}
+#LaserPageMain_NumericOutput2 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_NumericOutput2 {
+	@include elemTop(218);
+}
+#LaserPageMain_NumericOutput2 {
+	@include elemLeft(579);
+}
+#LaserPageMain_NumericOutput2 {
+	@include elemAutoHeight(36);
+}
+#LaserPageMain_NumericOutput2 {
+		z-index: 10;
+}
+#LaserPageMain_NumericOutput3 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_NumericOutput3 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericOutput3 {
+	@include elemTop(218);
+}
+#LaserPageMain_NumericOutput3 {
+	@include elemLeft(719);
+}
+#LaserPageMain_NumericOutput3 {
+		z-index: 11;
+}
+#LaserPageMain_PushButton17 {
+	@include elemTop(78);
+}
+#LaserPageMain_PushButton17 {
+	@include elemLeft(259);
+}
+#LaserPageMain_PushButton17 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_PushButton17 {
+	@include elemAutoHeight(62);
+}
+#LaserPageMain_PushButton17 {
+		z-index: 12;
+}
+#LaserPageMain_PushButton18 {
+	@include elemTop(78);
+}
+#LaserPageMain_PushButton18 {
+	@include elemLeft(499);
+}
+#LaserPageMain_PushButton18 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_PushButton18 {
+	@include elemAutoHeight(62);
+}
+#LaserPageMain_PushButton18 {
+		z-index: 13;
+}
+#LaserPageMain_ToggleButton17 {
+	@include elemTop(184);
+}
+#LaserPageMain_ToggleButton17 {
+	@include elemLeft(399);
+}
+#LaserPageMain_ToggleButton17 {
+	@include elemAutoWidth(161);
+}
+#LaserPageMain_ToggleButton17 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton17 {
+		z-index: 14;
+}
+#LaserPageMain_GroupBox6 {
+	@include elemTop(14);
+}
+#LaserPageMain_GroupBox6 {
+	@include elemLeft(939);
+}
+#LaserPageMain_GroupBox6 {
+	@include elemWidth(721);
+}
+#LaserPageMain_GroupBox6 {
+	@include elemHeight(206);
+}
+#LaserPageMain_GroupBox6 {
+		z-index: 2;
+}
+#LaserPageMain_GroupBox6 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox6 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox6 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_StatusLEDGreen34 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen34 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen34 {
+	@include elemTop(103);
+}
+#LaserPageMain_StatusLEDGreen34 {
+	@include elemLeft(19);
+}
+#LaserPageMain_StatusLEDGreen34 {
+		z-index: 0;
+}
+#LaserPageMain_StatusLEDRed2 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDRed2 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDRed2 {
+	@include elemTop(23);
+}
+#LaserPageMain_StatusLEDRed2 {
+	@include elemLeft(19);
+}
+#LaserPageMain_StatusLEDRed2 {
+		z-index: 1;
+}
+#LaserPageMain_ToggleButton8 {
+	@include elemTop(4);
+}
+#LaserPageMain_ToggleButton8 {
+	@include elemLeft(239);
+}
+#LaserPageMain_ToggleButton8 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_ToggleButton8 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton8 {
+		z-index: 2;
+}
+#LaserPageMain_ToggleButton9 {
+	@include elemTop(84);
+}
+#LaserPageMain_ToggleButton9 {
+	@include elemLeft(239);
+}
+#LaserPageMain_ToggleButton9 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_ToggleButton9 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton9 {
+		z-index: 3;
+}
+#LaserPageMain_ToggleButton10 {
+	@include elemTop(84);
+}
+#LaserPageMain_ToggleButton10 {
+	@include elemLeft(479);
+}
+#LaserPageMain_ToggleButton10 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_ToggleButton10 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton10 {
+		z-index: 4;
+}
+#LaserPageMain_GroupBox7 {
+	@include elemTop(674);
+}
+#LaserPageMain_GroupBox7 {
+	@include elemLeft(19);
+}
+#LaserPageMain_GroupBox7 {
+	@include elemWidth(1141);
+}
+#LaserPageMain_GroupBox7 {
+	@include elemHeight(180);
+}
+#LaserPageMain_GroupBox7 {
+		z-index: 3;
+}
+#LaserPageMain_GroupBox7 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox7 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox7 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_NumericInput17 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput17 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput17 {
+	@include elemLeft(218);
+}
+#LaserPageMain_NumericInput17 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput17 {
+		z-index: 0;
+}
+#LaserPageMain_Rack20 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack20 {
+	@include elemLeft(18);
+}
+#LaserPageMain_Rack20 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Rack20 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack20 {
+		z-index: 1;
+}
+#LaserPageMain_Rack20 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack20 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput18 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput18 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput18 {
+	@include elemLeft(518);
+}
+#LaserPageMain_NumericInput18 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput18 {
+		z-index: 2;
+}
+#LaserPageMain_Rack21 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack21 {
+	@include elemLeft(318);
+}
+#LaserPageMain_Rack21 {
+	@include elemAutoWidth(102);
+}
+#LaserPageMain_Rack21 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack21 {
+		z-index: 3;
+}
+#LaserPageMain_Rack21 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack21 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput19 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput19 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput19 {
+	@include elemLeft(798);
+}
+#LaserPageMain_NumericInput19 {
+	@include elemAutoWidth(82);
+}
+#LaserPageMain_NumericInput19 {
+		z-index: 4;
+}
+#LaserPageMain_Rack22 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack22 {
+	@include elemLeft(618);
+}
+#LaserPageMain_Rack22 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack22 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack22 {
+		z-index: 5;
+}
+#LaserPageMain_Rack22 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack22 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_Rack23 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack23 {
+	@include elemLeft(898);
+}
+#LaserPageMain_Rack23 {
+	@include elemAutoWidth(142);
+}
+#LaserPageMain_Rack23 {
+	@include elemAutoHeight(37);
+}
+#LaserPageMain_Rack23 {
+		z-index: 6;
+}
+#LaserPageMain_Rack23 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack23 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput20 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput20 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput20 {
+	@include elemLeft(1038);
+}
+#LaserPageMain_NumericInput20 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput20 {
+		z-index: 7;
+}
+#LaserPageMain_NumericInput21 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput21 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput21 {
+	@include elemLeft(218);
+}
+#LaserPageMain_NumericInput21 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput21 {
+		z-index: 8;
+}
+#LaserPageMain_Rack24 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack24 {
+	@include elemLeft(18);
+}
+#LaserPageMain_Rack24 {
+	@include elemAutoWidth(231);
+}
+#LaserPageMain_Rack24 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack24 {
+		z-index: 9;
+}
+#LaserPageMain_Rack24 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack24 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput22 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput22 {
+	@include elemLeft(519);
+}
+#LaserPageMain_NumericInput22 {
+	@include elemAutoWidth(77);
+}
+#LaserPageMain_NumericInput22 {
+	@include elemAutoHeight(36);
+}
+#LaserPageMain_NumericInput22 {
+		z-index: 10;
+}
+#LaserPageMain_Rack25 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack25 {
+	@include elemLeft(318);
+}
+#LaserPageMain_Rack25 {
+	@include elemAutoWidth(200);
+}
+#LaserPageMain_Rack25 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack25 {
+		z-index: 11;
+}
+#LaserPageMain_Rack25 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack25 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput23 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput23 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput23 {
+	@include elemLeft(798);
+}
+#LaserPageMain_NumericInput23 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput23 {
+		z-index: 12;
+}
+#LaserPageMain_Rack26 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack26 {
+	@include elemLeft(618);
+}
+#LaserPageMain_Rack26 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack26 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack26 {
+		z-index: 13;
+}
+#LaserPageMain_Rack26 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack26 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_Rack27 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack27 {
+	@include elemLeft(898);
+}
+#LaserPageMain_Rack27 {
+	@include elemAutoWidth(61);
+}
+#LaserPageMain_Rack27 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack27 {
+		z-index: 14;
+}
+#LaserPageMain_Rack27 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack27 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput24 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput24 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput24 {
+	@include elemLeft(1038);
+}
+#LaserPageMain_NumericInput24 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput24 {
+		z-index: 15;
+}
+#LaserPageMain_NumericInput25 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput25 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput25 {
+	@include elemLeft(219);
+}
+#LaserPageMain_NumericInput25 {
+	@include elemAutoWidth(77);
+}
+#LaserPageMain_NumericInput25 {
+		z-index: 16;
+}
+#LaserPageMain_Rack28 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack28 {
+	@include elemLeft(19);
+}
+#LaserPageMain_Rack28 {
+	@include elemAutoWidth(194);
+}
+#LaserPageMain_Rack28 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack28 {
+		z-index: 17;
+}
+#LaserPageMain_Rack28 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack28 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput26 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput26 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput26 {
+	@include elemLeft(519);
+}
+#LaserPageMain_NumericInput26 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput26 {
+		z-index: 18;
+}
+#LaserPageMain_Rack29 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack29 {
+	@include elemLeft(319);
+}
+#LaserPageMain_Rack29 {
+	@include elemAutoWidth(181);
+}
+#LaserPageMain_Rack29 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack29 {
+		z-index: 19;
+}
+#LaserPageMain_Rack29 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack29 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput27 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput27 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput27 {
+	@include elemLeft(799);
+}
+#LaserPageMain_NumericInput27 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput27 {
+		z-index: 20;
+}
+#LaserPageMain_Rack30 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack30 {
+	@include elemLeft(619);
+}
+#LaserPageMain_Rack30 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack30 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack30 {
+		z-index: 21;
+}
+#LaserPageMain_Rack30 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack30 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_Rack31 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack31 {
+	@include elemLeft(899);
+}
+#LaserPageMain_Rack31 {
+	@include elemAutoWidth(177);
+}
+#LaserPageMain_Rack31 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack31 {
+		z-index: 22;
+}
+#LaserPageMain_Rack31 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack31 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput28 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput28 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput28 {
+	@include elemLeft(1039);
+}
+#LaserPageMain_NumericInput28 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput28 {
+		z-index: 23;
+}
+#LaserPageMain_TabItem2_breaseTabItemTab {
+	&.tabItem{
+	@include elemWidth(100);
+	}
+}
+#LaserPageMain_TabItem2_breaseTabItemTab {
+	&.tabItem{
+	@include elemHeight(30);
+	}
+}
+#LaserPageMain_TabItem2 {
+		z-index: 2;
+}
+#LaserPageMain_AlarmsGroupBox {
+	@include elemTop(30);
+}
+#LaserPageMain_AlarmsGroupBox {
+	@include elemLeft(0);
+}
+#LaserPageMain_AlarmsGroupBox {
+	@include elemWidth(1680);
+}
+#LaserPageMain_AlarmsGroupBox {
+	@include elemHeight(1000);
+}
+#LaserPageMain_AlarmsGroupBox {
+		z-index: 0;
+}
+#LaserPageMain_AlarmsGroupBox {
+		border-width: 3px;
+}
+#LaserPageMain_AlarmsGroupBox {
+	> .header{
+		border-width: 3px;
+	}
+}
+#LaserPageMain_AlarmsGroupBox {
+	@include border-radius(25px);
+}
+#LaserPageMain_AlarmsGroupBox {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_AlarmsGroupBox {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_AlarmsGroupBox {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_AlarmsGroupBox {
+	> .header span{
+		font-size: 75px;
+	}
+}
+#LaserPageMain_AlarmsGroupBox {
+	> .header{
+	height: 75px + 20px;
+	}
+}
+#LaserPageMain_Label4 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label4 {
+	@include elemTop(7);
+}
+#LaserPageMain_Label4 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label4 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label4 {
+		z-index: 4;
+}
+#LaserPageMain_Label5 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label5 {
+	@include elemTop(47);
+}
+#LaserPageMain_Label5 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label5 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label5 {
+		z-index: 5;
+}
+#LaserPageMain_Label6 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label6 {
+	@include elemTop(87);
+}
+#LaserPageMain_Label6 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label6 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label6 {
+		z-index: 6;
+}
+#LaserPageMain_Label7 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label7 {
+	@include elemTop(127);
+}
+#LaserPageMain_Label7 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label7 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label7 {
+		z-index: 7;
+}
+#LaserPageMain_Label8 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label8 {
+	@include elemTop(167);
+}
+#LaserPageMain_Label8 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label8 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label8 {
+		z-index: 8;
+}
+#LaserPageMain_Label9 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label9 {
+	@include elemTop(207);
+}
+#LaserPageMain_Label9 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label9 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label9 {
+		z-index: 9;
+}
+#LaserPageMain_Label10 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label10 {
+	@include elemTop(247);
+}
+#LaserPageMain_Label10 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label10 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label10 {
+		z-index: 10;
+}
+#LaserPageMain_Label11 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label11 {
+	@include elemTop(287);
+}
+#LaserPageMain_Label11 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label11 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label11 {
+		z-index: 11;
+}
+#LaserPageMain_Label12 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label12 {
+	@include elemTop(327);
+}
+#LaserPageMain_Label12 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label12 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label12 {
+		z-index: 12;
+}
+#LaserPageMain_Label13 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label13 {
+	@include elemTop(367);
+}
+#LaserPageMain_Label13 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label13 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label13 {
+		z-index: 13;
+}
+#LaserPageMain_Label14 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label14 {
+	@include elemTop(407);
+}
+#LaserPageMain_Label14 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label14 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label14 {
+		z-index: 14;
+}
+#LaserPageMain_Label15 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label15 {
+	@include elemTop(447);
+}
+#LaserPageMain_Label15 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label15 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label15 {
+		z-index: 15;
+}
+#LaserPageMain_Label16 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label16 {
+	@include elemTop(487);
+}
+#LaserPageMain_Label16 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label16 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label16 {
+		z-index: 16;
+}
+#LaserPageMain_Label17 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label17 {
+	@include elemTop(527);
+}
+#LaserPageMain_Label17 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label17 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label17 {
+		z-index: 17;
+}
+#LaserPageMain_Label18 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label18 {
+	@include elemTop(567);
+}
+#LaserPageMain_Label18 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label18 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label18 {
+		z-index: 18;
+}
+#LaserPageMain_Label19 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label19 {
+	@include elemTop(607);
+}
+#LaserPageMain_Label19 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label19 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label19 {
+		z-index: 19;
+}
+#LaserPageMain_Label20 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label20 {
+	@include elemTop(647);
+}
+#LaserPageMain_Label20 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label20 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label20 {
+		z-index: 20;
+}
+#LaserPageMain_Label21 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label21 {
+	@include elemTop(687);
+}
+#LaserPageMain_Label21 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label21 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label21 {
+		z-index: 21;
+}
+#LaserPageMain_Label22 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label22 {
+	@include elemTop(727);
+}
+#LaserPageMain_Label22 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label22 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label22 {
+		z-index: 22;
+}
+#LaserPageMain_Label23 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label23 {
+	@include elemTop(767);
+}
+#LaserPageMain_Label23 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label23 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label23 {
+		z-index: 23;
+}
+#LaserPageMain_Label24 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label24 {
+	@include elemTop(807);
+}
+#LaserPageMain_Label24 {
+	@include elemLeft(57);
+}
+#LaserPageMain_Label24 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label24 {
+		z-index: 24;
+}
+#LaserPageMain_Label25 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label25 {
+	@include elemTop(7);
+}
+#LaserPageMain_Label25 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label25 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label25 {
+		z-index: 25;
+}
+#LaserPageMain_Label26 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label26 {
+	@include elemTop(47);
+}
+#LaserPageMain_Label26 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label26 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label26 {
+		z-index: 26;
+}
+#LaserPageMain_Label27 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label27 {
+	@include elemTop(87);
+}
+#LaserPageMain_Label27 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label27 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label27 {
+		z-index: 27;
+}
+#LaserPageMain_Label28 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label28 {
+	@include elemTop(127);
+}
+#LaserPageMain_Label28 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label28 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label28 {
+		z-index: 28;
+}
+#LaserPageMain_Label29 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label29 {
+	@include elemTop(167);
+}
+#LaserPageMain_Label29 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label29 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label29 {
+		z-index: 29;
+}
+#LaserPageMain_Label30 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label30 {
+	@include elemTop(207);
+}
+#LaserPageMain_Label30 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label30 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label30 {
+		z-index: 30;
+}
+#LaserPageMain_Label31 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label31 {
+	@include elemTop(247);
+}
+#LaserPageMain_Label31 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label31 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label31 {
+		z-index: 31;
+}
+#LaserPageMain_Label32 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label32 {
+	@include elemTop(287);
+}
+#LaserPageMain_Label32 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label32 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label32 {
+		z-index: 32;
+}
+#LaserPageMain_Label33 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label33 {
+	@include elemTop(327);
+}
+#LaserPageMain_Label33 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label33 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label33 {
+		z-index: 33;
+}
+#LaserPageMain_Label34 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label34 {
+	@include elemTop(367);
+}
+#LaserPageMain_Label34 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label34 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label34 {
+		z-index: 34;
+}
+#LaserPageMain_Label35 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label35 {
+	@include elemTop(407);
+}
+#LaserPageMain_Label35 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label35 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label35 {
+		z-index: 35;
+}
+#LaserPageMain_Label36 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label36 {
+	@include elemTop(447);
+}
+#LaserPageMain_Label36 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label36 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label36 {
+		z-index: 36;
+}
+#LaserPageMain_Label37 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label37 {
+	@include elemTop(487);
+}
+#LaserPageMain_Label37 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label37 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label37 {
+		z-index: 37;
+}
+#LaserPageMain_Label38 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label38 {
+	@include elemTop(527);
+}
+#LaserPageMain_Label38 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label38 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label38 {
+		z-index: 38;
+}
+#LaserPageMain_Label39 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label39 {
+	@include elemTop(567);
+}
+#LaserPageMain_Label39 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label39 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label39 {
+		z-index: 39;
+}
+#LaserPageMain_Label40 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label40 {
+	@include elemTop(607);
+}
+#LaserPageMain_Label40 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label40 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label40 {
+		z-index: 40;
+}
+#LaserPageMain_Label41 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label41 {
+	@include elemTop(647);
+}
+#LaserPageMain_Label41 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label41 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label41 {
+		z-index: 41;
+}
+#LaserPageMain_Label42 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label42 {
+	@include elemTop(687);
+}
+#LaserPageMain_Label42 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label42 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label42 {
+		z-index: 42;
+}
+#LaserPageMain_Label43 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label43 {
+	@include elemTop(727);
+}
+#LaserPageMain_Label43 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label43 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label43 {
+		z-index: 43;
+}
+#LaserPageMain_Label44 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label44 {
+	@include elemTop(767);
+}
+#LaserPageMain_Label44 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label44 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label44 {
+		z-index: 44;
+}
+#LaserPageMain_Label45 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label45 {
+	@include elemTop(807);
+}
+#LaserPageMain_Label45 {
+	@include elemLeft(457);
+}
+#LaserPageMain_Label45 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label45 {
+		z-index: 45;
+}
+#LaserPageMain_Label46 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label46 {
+	@include elemTop(7);
+}
+#LaserPageMain_Label46 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label46 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label46 {
+		z-index: 46;
+}
+#LaserPageMain_Label47 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label47 {
+	@include elemTop(47);
+}
+#LaserPageMain_Label47 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label47 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label47 {
+		z-index: 47;
+}
+#LaserPageMain_Label48 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label48 {
+	@include elemTop(87);
+}
+#LaserPageMain_Label48 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label48 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label48 {
+		z-index: 48;
+}
+#LaserPageMain_Label49 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label49 {
+	@include elemTop(127);
+}
+#LaserPageMain_Label49 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label49 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label49 {
+		z-index: 49;
+}
+#LaserPageMain_Label50 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label50 {
+	@include elemTop(167);
+}
+#LaserPageMain_Label50 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label50 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label50 {
+		z-index: 50;
+}
+#LaserPageMain_Label51 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label51 {
+	@include elemTop(207);
+}
+#LaserPageMain_Label51 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label51 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label51 {
+		z-index: 51;
+}
+#LaserPageMain_Label52 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label52 {
+	@include elemTop(247);
+}
+#LaserPageMain_Label52 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label52 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label52 {
+		z-index: 52;
+}
+#LaserPageMain_Label53 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label53 {
+	@include elemTop(287);
+}
+#LaserPageMain_Label53 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label53 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label53 {
+		z-index: 53;
+}
+#LaserPageMain_Label54 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label54 {
+	@include elemTop(327);
+}
+#LaserPageMain_Label54 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label54 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label54 {
+		z-index: 54;
+}
+#LaserPageMain_Label55 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label55 {
+	@include elemTop(367);
+}
+#LaserPageMain_Label55 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label55 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label55 {
+		z-index: 55;
+}
+#LaserPageMain_Label56 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label56 {
+	@include elemTop(407);
+}
+#LaserPageMain_Label56 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label56 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label56 {
+		z-index: 56;
+}
+#LaserPageMain_Label57 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label57 {
+	@include elemTop(447);
+}
+#LaserPageMain_Label57 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label57 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label57 {
+		z-index: 57;
+}
+#LaserPageMain_Label58 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label58 {
+	@include elemTop(487);
+}
+#LaserPageMain_Label58 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label58 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label58 {
+		z-index: 58;
+}
+#LaserPageMain_Label59 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label59 {
+	@include elemTop(527);
+}
+#LaserPageMain_Label59 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label59 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label59 {
+		z-index: 59;
+}
+#LaserPageMain_Label60 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label60 {
+	@include elemTop(567);
+}
+#LaserPageMain_Label60 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label60 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label60 {
+		z-index: 60;
+}
+#LaserPageMain_Label61 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label61 {
+	@include elemTop(607);
+}
+#LaserPageMain_Label61 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label61 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label61 {
+		z-index: 61;
+}
+#LaserPageMain_Label62 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label62 {
+	@include elemTop(647);
+}
+#LaserPageMain_Label62 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label62 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label62 {
+		z-index: 62;
+}
+#LaserPageMain_Label63 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label63 {
+	@include elemTop(687);
+}
+#LaserPageMain_Label63 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label63 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label63 {
+		z-index: 63;
+}
+#LaserPageMain_Label64 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label64 {
+	@include elemTop(727);
+}
+#LaserPageMain_Label64 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label64 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label64 {
+		z-index: 64;
+}
+#LaserPageMain_Label65 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label65 {
+	@include elemTop(767);
+}
+#LaserPageMain_Label65 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label65 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label65 {
+		z-index: 65;
+}
+#LaserPageMain_Label66 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label66 {
+	@include elemTop(807);
+}
+#LaserPageMain_Label66 {
+	@include elemLeft(797);
+}
+#LaserPageMain_Label66 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label66 {
+		z-index: 66;
+}
+#LaserPageMain_Label67 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label67 {
+	@include elemTop(7);
+}
+#LaserPageMain_Label67 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label67 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label67 {
+		z-index: 67;
+}
+#LaserPageMain_Label68 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label68 {
+	@include elemTop(47);
+}
+#LaserPageMain_Label68 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label68 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label68 {
+		z-index: 68;
+}
+#LaserPageMain_Label69 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label69 {
+	@include elemTop(87);
+}
+#LaserPageMain_Label69 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label69 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label69 {
+		z-index: 69;
+}
+#LaserPageMain_Label70 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label70 {
+	@include elemTop(127);
+}
+#LaserPageMain_Label70 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label70 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label70 {
+		z-index: 70;
+}
+#LaserPageMain_Label71 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label71 {
+	@include elemTop(167);
+}
+#LaserPageMain_Label71 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label71 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label71 {
+		z-index: 71;
+}
+#LaserPageMain_Label72 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label72 {
+	@include elemTop(207);
+}
+#LaserPageMain_Label72 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label72 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label72 {
+		z-index: 72;
+}
+#LaserPageMain_Label73 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label73 {
+	@include elemTop(247);
+}
+#LaserPageMain_Label73 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label73 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label73 {
+		z-index: 73;
+}
+#LaserPageMain_Label74 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label74 {
+	@include elemTop(287);
+}
+#LaserPageMain_Label74 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label74 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label74 {
+		z-index: 74;
+}
+#LaserPageMain_Label75 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label75 {
+	@include elemTop(327);
+}
+#LaserPageMain_Label75 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label75 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label75 {
+		z-index: 75;
+}
+#LaserPageMain_Label76 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label76 {
+	@include elemTop(367);
+}
+#LaserPageMain_Label76 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label76 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label76 {
+		z-index: 76;
+}
+#LaserPageMain_Label77 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label77 {
+	@include elemTop(407);
+}
+#LaserPageMain_Label77 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label77 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label77 {
+		z-index: 77;
+}
+#LaserPageMain_Label78 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label78 {
+	@include elemTop(447);
+}
+#LaserPageMain_Label78 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label78 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label78 {
+		z-index: 78;
+}
+#LaserPageMain_Label79 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label79 {
+	@include elemTop(487);
+}
+#LaserPageMain_Label79 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label79 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label79 {
+		z-index: 79;
+}
+#LaserPageMain_Label80 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label80 {
+	@include elemTop(527);
+}
+#LaserPageMain_Label80 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label80 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label80 {
+		z-index: 80;
+}
+#LaserPageMain_Label81 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label81 {
+	@include elemTop(567);
+}
+#LaserPageMain_Label81 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label81 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label81 {
+		z-index: 81;
+}
+#LaserPageMain_Label82 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label82 {
+	@include elemTop(607);
+}
+#LaserPageMain_Label82 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label82 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label82 {
+		z-index: 82;
+}
+#LaserPageMain_Label83 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label83 {
+	@include elemTop(647);
+}
+#LaserPageMain_Label83 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label83 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label83 {
+		z-index: 83;
+}
+#LaserPageMain_Label84 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label84 {
+	@include elemTop(687);
+}
+#LaserPageMain_Label84 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label84 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label84 {
+		z-index: 84;
+}
+#LaserPageMain_Label85 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label85 {
+	@include elemTop(727);
+}
+#LaserPageMain_Label85 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label85 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label85 {
+		z-index: 85;
+}
+#LaserPageMain_Label86 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label86 {
+	@include elemTop(767);
+}
+#LaserPageMain_Label86 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label86 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label86 {
+		z-index: 86;
+}
+#LaserPageMain_Label87 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label87 {
+	@include elemTop(807);
+}
+#LaserPageMain_Label87 {
+	@include elemLeft(1157);
+}
+#LaserPageMain_Label87 {
+	@include elemAutoWidth(23);
+}
+#LaserPageMain_Label87 {
+		z-index: 87;
+}
+#LaserPageMain_TextOutput1 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput1 {
+	@include elemTop(7);
+}
+#LaserPageMain_TextOutput1 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput1 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput1 {
+		z-index: 88;
+}
+#LaserPageMain_TextOutput2 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput2 {
+	@include elemTop(47);
+}
+#LaserPageMain_TextOutput2 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput2 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput2 {
+		z-index: 89;
+}
+#LaserPageMain_TextOutput3 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput3 {
+	@include elemTop(87);
+}
+#LaserPageMain_TextOutput3 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput3 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput3 {
+		z-index: 90;
+}
+#LaserPageMain_TextOutput4 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput4 {
+	@include elemTop(127);
+}
+#LaserPageMain_TextOutput4 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput4 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput4 {
+		z-index: 91;
+}
+#LaserPageMain_TextOutput5 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput5 {
+	@include elemTop(167);
+}
+#LaserPageMain_TextOutput5 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput5 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput5 {
+		z-index: 92;
+}
+#LaserPageMain_TextOutput6 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput6 {
+	@include elemTop(207);
+}
+#LaserPageMain_TextOutput6 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput6 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput6 {
+		z-index: 93;
+}
+#LaserPageMain_TextOutput7 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput7 {
+	@include elemTop(247);
+}
+#LaserPageMain_TextOutput7 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput7 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput7 {
+		z-index: 94;
+}
+#LaserPageMain_TextOutput8 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput8 {
+	@include elemTop(287);
+}
+#LaserPageMain_TextOutput8 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput8 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput8 {
+		z-index: 95;
+}
+#LaserPageMain_TextOutput9 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput9 {
+	@include elemTop(327);
+}
+#LaserPageMain_TextOutput9 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput9 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput9 {
+		z-index: 96;
+}
+#LaserPageMain_TextOutput10 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput10 {
+	@include elemTop(367);
+}
+#LaserPageMain_TextOutput10 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput10 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput10 {
+		z-index: 97;
+}
+#LaserPageMain_TextOutput11 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput11 {
+	@include elemTop(407);
+}
+#LaserPageMain_TextOutput11 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput11 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput11 {
+		z-index: 98;
+}
+#LaserPageMain_TextOutput12 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput12 {
+	@include elemTop(447);
+}
+#LaserPageMain_TextOutput12 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput12 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput12 {
+		z-index: 99;
+}
+#LaserPageMain_TextOutput13 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput13 {
+	@include elemTop(487);
+}
+#LaserPageMain_TextOutput13 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput13 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput13 {
+		z-index: 100;
+}
+#LaserPageMain_TextOutput14 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput14 {
+	@include elemTop(527);
+}
+#LaserPageMain_TextOutput14 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput14 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput14 {
+		z-index: 101;
+}
+#LaserPageMain_TextOutput15 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput15 {
+	@include elemTop(567);
+}
+#LaserPageMain_TextOutput15 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput15 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput15 {
+		z-index: 102;
+}
+#LaserPageMain_TextOutput16 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput16 {
+	@include elemTop(607);
+}
+#LaserPageMain_TextOutput16 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput16 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput16 {
+		z-index: 103;
+}
+#LaserPageMain_TextOutput17 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput17 {
+	@include elemTop(647);
+}
+#LaserPageMain_TextOutput17 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput17 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput17 {
+		z-index: 104;
+}
+#LaserPageMain_TextOutput18 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput18 {
+	@include elemTop(687);
+}
+#LaserPageMain_TextOutput18 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput18 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput18 {
+		z-index: 105;
+}
+#LaserPageMain_TextOutput19 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput19 {
+	@include elemTop(727);
+}
+#LaserPageMain_TextOutput19 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput19 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput19 {
+		z-index: 106;
+}
+#LaserPageMain_TextOutput20 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput20 {
+	@include elemTop(767);
+}
+#LaserPageMain_TextOutput20 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput20 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput20 {
+		z-index: 107;
+}
+#LaserPageMain_TextOutput21 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput21 {
+	@include elemTop(807);
+}
+#LaserPageMain_TextOutput21 {
+	@include elemLeft(177);
+}
+#LaserPageMain_TextOutput21 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput21 {
+		z-index: 108;
+}
+#LaserPageMain_TextOutput22 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput22 {
+	@include elemTop(7);
+}
+#LaserPageMain_TextOutput22 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput22 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput22 {
+		z-index: 109;
+}
+#LaserPageMain_TextOutput23 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput23 {
+	@include elemTop(47);
+}
+#LaserPageMain_TextOutput23 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput23 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput23 {
+		z-index: 110;
+}
+#LaserPageMain_TextOutput24 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput24 {
+	@include elemTop(87);
+}
+#LaserPageMain_TextOutput24 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput24 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput24 {
+		z-index: 111;
+}
+#LaserPageMain_TextOutput25 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput25 {
+	@include elemTop(127);
+}
+#LaserPageMain_TextOutput25 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput25 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput25 {
+		z-index: 112;
+}
+#LaserPageMain_TextOutput26 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput26 {
+	@include elemTop(167);
+}
+#LaserPageMain_TextOutput26 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput26 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput26 {
+		z-index: 113;
+}
+#LaserPageMain_TextOutput27 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput27 {
+	@include elemTop(207);
+}
+#LaserPageMain_TextOutput27 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput27 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput27 {
+		z-index: 114;
+}
+#LaserPageMain_TextOutput28 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput28 {
+	@include elemTop(247);
+}
+#LaserPageMain_TextOutput28 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput28 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput28 {
+		z-index: 115;
+}
+#LaserPageMain_TextOutput29 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput29 {
+	@include elemTop(287);
+}
+#LaserPageMain_TextOutput29 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput29 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput29 {
+		z-index: 116;
+}
+#LaserPageMain_TextOutput30 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput30 {
+	@include elemTop(327);
+}
+#LaserPageMain_TextOutput30 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput30 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput30 {
+		z-index: 117;
+}
+#LaserPageMain_TextOutput31 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput31 {
+	@include elemTop(367);
+}
+#LaserPageMain_TextOutput31 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput31 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput31 {
+		z-index: 118;
+}
+#LaserPageMain_TextOutput32 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput32 {
+	@include elemTop(407);
+}
+#LaserPageMain_TextOutput32 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput32 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput32 {
+		z-index: 119;
+}
+#LaserPageMain_TextOutput33 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput33 {
+	@include elemTop(447);
+}
+#LaserPageMain_TextOutput33 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput33 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput33 {
+		z-index: 120;
+}
+#LaserPageMain_TextOutput34 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput34 {
+	@include elemTop(487);
+}
+#LaserPageMain_TextOutput34 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput34 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput34 {
+		z-index: 121;
+}
+#LaserPageMain_TextOutput35 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput35 {
+	@include elemTop(527);
+}
+#LaserPageMain_TextOutput35 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput35 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput35 {
+		z-index: 122;
+}
+#LaserPageMain_TextOutput36 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput36 {
+	@include elemTop(567);
+}
+#LaserPageMain_TextOutput36 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput36 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput36 {
+		z-index: 123;
+}
+#LaserPageMain_TextOutput37 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput37 {
+	@include elemTop(607);
+}
+#LaserPageMain_TextOutput37 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput37 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput37 {
+		z-index: 124;
+}
+#LaserPageMain_TextOutput38 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput38 {
+	@include elemTop(647);
+}
+#LaserPageMain_TextOutput38 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput38 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput38 {
+		z-index: 125;
+}
+#LaserPageMain_TextOutput39 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput39 {
+	@include elemTop(687);
+}
+#LaserPageMain_TextOutput39 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput39 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput39 {
+		z-index: 126;
+}
+#LaserPageMain_TextOutput40 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput40 {
+	@include elemTop(727);
+}
+#LaserPageMain_TextOutput40 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput40 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput40 {
+		z-index: 127;
+}
+#LaserPageMain_TextOutput41 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput41 {
+	@include elemTop(767);
+}
+#LaserPageMain_TextOutput41 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput41 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput41 {
+		z-index: 128;
+}
+#LaserPageMain_TextOutput42 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput42 {
+	@include elemTop(807);
+}
+#LaserPageMain_TextOutput42 {
+	@include elemLeft(537);
+}
+#LaserPageMain_TextOutput42 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput42 {
+		z-index: 129;
+}
+#LaserPageMain_TextOutput43 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput43 {
+	@include elemTop(7);
+}
+#LaserPageMain_TextOutput43 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput43 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput43 {
+		z-index: 130;
+}
+#LaserPageMain_TextOutput44 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput44 {
+	@include elemTop(47);
+}
+#LaserPageMain_TextOutput44 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput44 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput44 {
+		z-index: 131;
+}
+#LaserPageMain_TextOutput45 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput45 {
+	@include elemTop(87);
+}
+#LaserPageMain_TextOutput45 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput45 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput45 {
+		z-index: 132;
+}
+#LaserPageMain_TextOutput46 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput46 {
+	@include elemTop(127);
+}
+#LaserPageMain_TextOutput46 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput46 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput46 {
+		z-index: 133;
+}
+#LaserPageMain_TextOutput47 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput47 {
+	@include elemTop(167);
+}
+#LaserPageMain_TextOutput47 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput47 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput47 {
+		z-index: 134;
+}
+#LaserPageMain_TextOutput48 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput48 {
+	@include elemTop(207);
+}
+#LaserPageMain_TextOutput48 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput48 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput48 {
+		z-index: 135;
+}
+#LaserPageMain_TextOutput49 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput49 {
+	@include elemTop(247);
+}
+#LaserPageMain_TextOutput49 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput49 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput49 {
+		z-index: 136;
+}
+#LaserPageMain_TextOutput50 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput50 {
+	@include elemTop(287);
+}
+#LaserPageMain_TextOutput50 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput50 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput50 {
+		z-index: 137;
+}
+#LaserPageMain_TextOutput51 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput51 {
+	@include elemTop(327);
+}
+#LaserPageMain_TextOutput51 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput51 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput51 {
+		z-index: 138;
+}
+#LaserPageMain_TextOutput52 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput52 {
+	@include elemTop(367);
+}
+#LaserPageMain_TextOutput52 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput52 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput52 {
+		z-index: 139;
+}
+#LaserPageMain_TextOutput53 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput53 {
+	@include elemTop(407);
+}
+#LaserPageMain_TextOutput53 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput53 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput53 {
+		z-index: 140;
+}
+#LaserPageMain_TextOutput54 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput54 {
+	@include elemTop(447);
+}
+#LaserPageMain_TextOutput54 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput54 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput54 {
+		z-index: 141;
+}
+#LaserPageMain_TextOutput55 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput55 {
+	@include elemTop(487);
+}
+#LaserPageMain_TextOutput55 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput55 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput55 {
+		z-index: 142;
+}
+#LaserPageMain_TextOutput56 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput56 {
+	@include elemTop(527);
+}
+#LaserPageMain_TextOutput56 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput56 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput56 {
+		z-index: 143;
+}
+#LaserPageMain_TextOutput57 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput57 {
+	@include elemTop(567);
+}
+#LaserPageMain_TextOutput57 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput57 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput57 {
+		z-index: 144;
+}
+#LaserPageMain_TextOutput58 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput58 {
+	@include elemTop(607);
+}
+#LaserPageMain_TextOutput58 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput58 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput58 {
+		z-index: 145;
+}
+#LaserPageMain_TextOutput59 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput59 {
+	@include elemTop(647);
+}
+#LaserPageMain_TextOutput59 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput59 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput59 {
+		z-index: 146;
+}
+#LaserPageMain_TextOutput60 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput60 {
+	@include elemTop(687);
+}
+#LaserPageMain_TextOutput60 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput60 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput60 {
+		z-index: 147;
+}
+#LaserPageMain_TextOutput61 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput61 {
+	@include elemTop(727);
+}
+#LaserPageMain_TextOutput61 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput61 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput61 {
+		z-index: 148;
+}
+#LaserPageMain_TextOutput62 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput62 {
+	@include elemTop(767);
+}
+#LaserPageMain_TextOutput62 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput62 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput62 {
+		z-index: 149;
+}
+#LaserPageMain_TextOutput63 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput63 {
+	@include elemTop(807);
+}
+#LaserPageMain_TextOutput63 {
+	@include elemLeft(897);
+}
+#LaserPageMain_TextOutput63 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput63 {
+		z-index: 150;
+}
+#LaserPageMain_TextOutput64 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput64 {
+	@include elemTop(7);
+}
+#LaserPageMain_TextOutput64 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput64 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput64 {
+		z-index: 151;
+}
+#LaserPageMain_TextOutput65 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput65 {
+	@include elemTop(47);
+}
+#LaserPageMain_TextOutput65 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput65 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput65 {
+		z-index: 152;
+}
+#LaserPageMain_TextOutput66 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput66 {
+	@include elemTop(87);
+}
+#LaserPageMain_TextOutput66 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput66 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput66 {
+		z-index: 153;
+}
+#LaserPageMain_TextOutput67 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput67 {
+	@include elemTop(127);
+}
+#LaserPageMain_TextOutput67 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput67 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput67 {
+		z-index: 154;
+}
+#LaserPageMain_TextOutput68 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput68 {
+	@include elemTop(167);
+}
+#LaserPageMain_TextOutput68 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput68 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput68 {
+		z-index: 155;
+}
+#LaserPageMain_TextOutput69 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput69 {
+	@include elemTop(207);
+}
+#LaserPageMain_TextOutput69 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput69 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput69 {
+		z-index: 156;
+}
+#LaserPageMain_TextOutput70 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput70 {
+	@include elemTop(247);
+}
+#LaserPageMain_TextOutput70 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput70 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput70 {
+		z-index: 157;
+}
+#LaserPageMain_TextOutput71 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput71 {
+	@include elemTop(287);
+}
+#LaserPageMain_TextOutput71 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput71 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput71 {
+		z-index: 158;
+}
+#LaserPageMain_TextOutput72 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput72 {
+	@include elemTop(327);
+}
+#LaserPageMain_TextOutput72 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput72 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput72 {
+		z-index: 159;
+}
+#LaserPageMain_TextOutput73 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput73 {
+	@include elemTop(367);
+}
+#LaserPageMain_TextOutput73 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput73 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput73 {
+		z-index: 160;
+}
+#LaserPageMain_TextOutput74 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput74 {
+	@include elemTop(407);
+}
+#LaserPageMain_TextOutput74 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput74 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput74 {
+		z-index: 161;
+}
+#LaserPageMain_TextOutput75 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput75 {
+	@include elemTop(447);
+}
+#LaserPageMain_TextOutput75 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput75 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput75 {
+		z-index: 162;
+}
+#LaserPageMain_TextOutput76 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput76 {
+	@include elemTop(487);
+}
+#LaserPageMain_TextOutput76 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput76 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput76 {
+		z-index: 163;
+}
+#LaserPageMain_TextOutput77 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput77 {
+	@include elemTop(527);
+}
+#LaserPageMain_TextOutput77 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput77 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput77 {
+		z-index: 164;
+}
+#LaserPageMain_TextOutput78 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput78 {
+	@include elemTop(567);
+}
+#LaserPageMain_TextOutput78 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput78 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput78 {
+		z-index: 165;
+}
+#LaserPageMain_TextOutput79 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput79 {
+	@include elemTop(607);
+}
+#LaserPageMain_TextOutput79 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput79 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput79 {
+		z-index: 166;
+}
+#LaserPageMain_TextOutput80 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput80 {
+	@include elemTop(647);
+}
+#LaserPageMain_TextOutput80 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput80 {
+	@include elemAutoHeight(33);
+}
+#LaserPageMain_TextOutput80 {
+		z-index: 167;
+}
+#LaserPageMain_TextOutput81 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput81 {
+	@include elemTop(687);
+}
+#LaserPageMain_TextOutput81 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput81 {
+	@include elemAutoHeight(27);
+}
+#LaserPageMain_TextOutput81 {
+		z-index: 168;
+}
+#LaserPageMain_TextOutput82 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput82 {
+	@include elemTop(727);
+}
+#LaserPageMain_TextOutput82 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput82 {
+	@include elemAutoHeight(20);
+}
+#LaserPageMain_TextOutput82 {
+		z-index: 169;
+}
+#LaserPageMain_TextOutput83 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput83 {
+	@include elemTop(767);
+}
+#LaserPageMain_TextOutput83 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput83 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput83 {
+		z-index: 170;
+}
+#LaserPageMain_TextOutput84 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_TextOutput84 {
+	@include elemTop(807);
+}
+#LaserPageMain_TextOutput84 {
+	@include elemLeft(1257);
+}
+#LaserPageMain_TextOutput84 {
+	@include elemAutoHeight(17);
+}
+#LaserPageMain_TextOutput84 {
+		z-index: 171;
+}
+#LaserPageMain_Rectangle7 {
+	@include elemTop(7);
+}
+#LaserPageMain_Rectangle7 {
+	@include elemLeft(17);
+}
+#LaserPageMain_Rectangle7 {
+	@include elemWidth(297);
+}
+#LaserPageMain_Rectangle7 {
+	@include elemHeight(833);
+}
+#LaserPageMain_Rectangle7 {
+		z-index: 3;
+}
+#LaserPageMain_Rectangle8 {
+	@include elemTop(7);
+}
+#LaserPageMain_Rectangle8 {
+	@include elemLeft(397);
+}
+#LaserPageMain_Rectangle8 {
+	@include elemWidth(297);
+}
+#LaserPageMain_Rectangle8 {
+	@include elemHeight(833);
+}
+#LaserPageMain_Rectangle8 {
+		z-index: 2;
+}
+#LaserPageMain_Rectangle9 {
+	@include elemTop(7);
+}
+#LaserPageMain_Rectangle9 {
+	@include elemLeft(1077);
+}
+#LaserPageMain_Rectangle9 {
+	@include elemWidth(297);
+}
+#LaserPageMain_Rectangle9 {
+	@include elemHeight(833);
+}
+#LaserPageMain_Rectangle9 {
+		z-index: 0;
+}
+#LaserPageMain_Rectangle10 {
+	@include elemTop(7);
+}
+#LaserPageMain_Rectangle10 {
+	@include elemLeft(717);
+}
+#LaserPageMain_Rectangle10 {
+	@include elemWidth(297);
+}
+#LaserPageMain_Rectangle10 {
+	@include elemHeight(833);
+}
+#LaserPageMain_Rectangle10 {
+		z-index: 1;
+}
+#LaserPageMain_Label88 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label88 {
+	@include elemTop(65);
+}
+#LaserPageMain_Label88 {
+	@include elemLeft(60);
+}
+#LaserPageMain_Label88 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Label88 {
+		z-index: 1;
+}
+#LaserPageMain_Label88 {
+		font-size: 20px;
+}
+#LaserPageMain_Label88 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Label89 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label89 {
+	@include elemTop(65);
+}
+#LaserPageMain_Label89 {
+	@include elemLeft(460);
+}
+#LaserPageMain_Label89 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Label89 {
+		z-index: 2;
+}
+#LaserPageMain_Label89 {
+		font-size: 20px;
+}
+#LaserPageMain_Label89 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Label90 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label90 {
+	@include elemTop(65);
+}
+#LaserPageMain_Label90 {
+	@include elemLeft(800);
+}
+#LaserPageMain_Label90 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Label90 {
+		z-index: 3;
+}
+#LaserPageMain_Label90 {
+		font-size: 20px;
+}
+#LaserPageMain_Label90 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Label91 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label91 {
+	@include elemTop(65);
+}
+#LaserPageMain_Label91 {
+	@include elemLeft(1160);
+}
+#LaserPageMain_Label91 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Label91 {
+		z-index: 4;
+}
+#LaserPageMain_Label91 {
+		font-size: 20px;
+}
+#LaserPageMain_Label91 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_TabItem3_breaseTabItemTab {
+	&.tabItem{
+	@include elemWidth(100);
+	}
+}
+#LaserPageMain_TabItem3_breaseTabItemTab {
+	&.tabItem{
+	@include elemHeight(30);
+	}
+}
+#LaserPageMain_TabItem3 {
+		z-index: 1;
+}
+#LaserPageMain_GroupBox10 {
+	@include elemTop(10);
+}
+#LaserPageMain_GroupBox10 {
+	@include elemLeft(0);
+}
+#LaserPageMain_GroupBox10 {
+	@include elemWidth(1720);
+}
+#LaserPageMain_GroupBox10 {
+	@include elemHeight(980);
+}
+#LaserPageMain_GroupBox10 {
+		z-index: 0;
+}
+#LaserPageMain_GroupBox10 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox10 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox10 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_GroupBox10 {
+	> .header > svg{
+		fill: rgba(0, 0, 0, 1);
+	}
+}
+#LaserPageMain_GroupBox10 {
+	> .header span{
+		font-size: 15px;
+	}
+}
+#LaserPageMain_GroupBox10 {
+	> .header{
+	height: 15px + 20px;
+	}
+}
+#LaserPageMain_GroupBox14 {
+	@include elemTop(20);
+}
+#LaserPageMain_GroupBox14 {
+	@include elemLeft(19);
+}
+#LaserPageMain_GroupBox14 {
+	@include elemWidth(860);
+}
+#LaserPageMain_GroupBox14 {
+	@include elemHeight(340);
+}
+#LaserPageMain_GroupBox14 {
+		z-index: 0;
+}
+#LaserPageMain_GroupBox14 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox14 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox14 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_NumericInput37 {
+	@include elemAutoWidth(100);
+}
+#LaserPageMain_NumericInput37 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput37 {
+	@include elemTop(411);
+}
+#LaserPageMain_NumericInput37 {
+	@include elemLeft(1298);
+}
+#LaserPageMain_NumericInput37 {
+		z-index: 0;
+}
+#LaserPageMain_ToggleButton26 {
+	@include elemTop(228);
+}
+#LaserPageMain_ToggleButton26 {
+	@include elemLeft(19);
+}
+#LaserPageMain_ToggleButton26 {
+	@include elemAutoWidth(323);
+}
+#LaserPageMain_ToggleButton26 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton26 {
+		z-index: 1;
+}
+#LaserPageMain_StatusLEDGreen52 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen52 {
+	@include elemTop(248);
+}
+#LaserPageMain_StatusLEDGreen52 {
+	@include elemLeft(419);
+}
+#LaserPageMain_StatusLEDGreen52 {
+	@include elemAutoWidth(130);
+}
+#LaserPageMain_StatusLEDGreen52 {
+		z-index: 2;
+}
+#LaserPageMain_StatusLEDGreen53 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen53 {
+	@include elemTop(248);
+}
+#LaserPageMain_StatusLEDGreen53 {
+	@include elemLeft(599);
+}
+#LaserPageMain_StatusLEDGreen53 {
+	@include elemAutoWidth(130);
+}
+#LaserPageMain_StatusLEDGreen53 {
+		z-index: 3;
+}
+#LaserPageMain_NumericInput14 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput14 {
+	@include elemTop(168);
+}
+#LaserPageMain_NumericInput14 {
+	@include elemLeft(540);
+}
+#LaserPageMain_NumericInput14 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput14 {
+		z-index: 5;
+}
+#LaserPageMain_Rack18 {
+	@include elemTop(128);
+}
+#LaserPageMain_Rack18 {
+	@include elemLeft(479);
+}
+#LaserPageMain_Rack18 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack18 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack18 {
+		z-index: 6;
+}
+#LaserPageMain_Rack18 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack18 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Rack19 {
+	@include elemTop(128);
+}
+#LaserPageMain_Rack19 {
+	@include elemLeft(659);
+}
+#LaserPageMain_Rack19 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack19 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack19 {
+		z-index: 7;
+}
+#LaserPageMain_Rack19 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack19 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_NumericInput16 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput16 {
+	@include elemTop(168);
+}
+#LaserPageMain_NumericInput16 {
+	@include elemLeft(699);
+}
+#LaserPageMain_NumericInput16 {
+	@include elemAutoWidth(79);
+}
+#LaserPageMain_NumericInput16 {
+		z-index: 8;
+}
+#LaserPageMain_ToggleButton16 {
+	@include elemTop(28);
+}
+#LaserPageMain_ToggleButton16 {
+	@include elemLeft(59);
+}
+#LaserPageMain_ToggleButton16 {
+	@include elemAutoWidth(221);
+}
+#LaserPageMain_ToggleButton16 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton16 {
+		z-index: 9;
+}
+#LaserPageMain_NumericInput31 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput31 {
+	@include elemTop(68);
+}
+#LaserPageMain_NumericInput31 {
+	@include elemLeft(379);
+}
+#LaserPageMain_NumericInput31 {
+	@include elemAutoWidth(67);
+}
+#LaserPageMain_NumericInput31 {
+		z-index: 10;
+}
+#LaserPageMain_Rack34 {
+	@include elemTop(28);
+}
+#LaserPageMain_Rack34 {
+	@include elemLeft(339);
+}
+#LaserPageMain_Rack34 {
+	@include elemAutoWidth(127);
+}
+#LaserPageMain_Rack34 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack34 {
+		z-index: 11;
+}
+#LaserPageMain_Rack34 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack34 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Rack36 {
+	@include elemTop(28);
+}
+#LaserPageMain_Rack36 {
+	@include elemLeft(599);
+}
+#LaserPageMain_Rack36 {
+	@include elemAutoWidth(60);
+}
+#LaserPageMain_Rack36 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack36 {
+		z-index: 12;
+}
+#LaserPageMain_Rack36 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack36 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_Rectangle1 {
+	@include elemHeight(100);
+}
+#LaserPageMain_Rectangle1 {
+	@include elemTop(8);
+}
+#LaserPageMain_Rectangle1 {
+	@include elemLeft(-1);
+}
+#LaserPageMain_Rectangle1 {
+	@include elemWidth(860);
+}
+#LaserPageMain_Rectangle1 {
+		z-index: 4;
+}
+#LaserPageMain_Rack38 {
+	@include elemTop(128);
+}
+#LaserPageMain_Rack38 {
+	@include elemLeft(319);
+}
+#LaserPageMain_Rack38 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack38 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack38 {
+		z-index: 13;
+}
+#LaserPageMain_Rack38 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack38 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_NumericInput35 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput35 {
+	@include elemTop(168);
+}
+#LaserPageMain_NumericInput35 {
+	@include elemLeft(359);
+}
+#LaserPageMain_NumericInput35 {
+	@include elemAutoWidth(79);
+}
+#LaserPageMain_NumericInput35 {
+		z-index: 14;
+}
+#LaserPageMain_NumericOutput4 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericOutput4 {
+	@include elemTop(68);
+}
+#LaserPageMain_NumericOutput4 {
+	@include elemLeft(499);
+}
+#LaserPageMain_NumericOutput4 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericOutput4 {
+		z-index: 15;
+}
+#LaserPageMain_NumericOutput5 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericOutput5 {
+	@include elemTop(68);
+}
+#LaserPageMain_NumericOutput5 {
+	@include elemLeft(579);
+}
+#LaserPageMain_NumericOutput5 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericOutput5 {
+		z-index: 16;
+}
+#LaserPageMain_Rack39 {
+	@include elemTop(28);
+}
+#LaserPageMain_Rack39 {
+	@include elemLeft(519);
+}
+#LaserPageMain_Rack39 {
+	@include elemAutoWidth(60);
+}
+#LaserPageMain_Rack39 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack39 {
+		z-index: 17;
+}
+#LaserPageMain_Rack39 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack39 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_GroupBox16 {
+	@include elemTop(464);
+}
+#LaserPageMain_GroupBox16 {
+	@include elemLeft(19);
+}
+#LaserPageMain_GroupBox16 {
+	@include elemWidth(1140);
+}
+#LaserPageMain_GroupBox16 {
+	@include elemHeight(236);
+}
+#LaserPageMain_GroupBox16 {
+		z-index: 1;
+}
+#LaserPageMain_GroupBox16 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox16 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox16 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_NumericInput46 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput46 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput46 {
+	@include elemLeft(218);
+}
+#LaserPageMain_NumericInput46 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput46 {
+		z-index: 0;
+}
+#LaserPageMain_Rack50 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack50 {
+	@include elemLeft(18);
+}
+#LaserPageMain_Rack50 {
+	@include elemAutoWidth(160);
+}
+#LaserPageMain_Rack50 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack50 {
+		z-index: 1;
+}
+#LaserPageMain_Rack50 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack50 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput47 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput47 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput47 {
+	@include elemLeft(518);
+}
+#LaserPageMain_NumericInput47 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput47 {
+		z-index: 2;
+}
+#LaserPageMain_Rack51 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack51 {
+	@include elemLeft(318);
+}
+#LaserPageMain_Rack51 {
+	@include elemAutoWidth(102);
+}
+#LaserPageMain_Rack51 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack51 {
+		z-index: 3;
+}
+#LaserPageMain_Rack51 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack51 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput48 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput48 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput48 {
+	@include elemLeft(798);
+}
+#LaserPageMain_NumericInput48 {
+	@include elemAutoWidth(82);
+}
+#LaserPageMain_NumericInput48 {
+		z-index: 4;
+}
+#LaserPageMain_Rack52 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack52 {
+	@include elemLeft(618);
+}
+#LaserPageMain_Rack52 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack52 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack52 {
+		z-index: 5;
+}
+#LaserPageMain_Rack52 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack52 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_Rack53 {
+	@include elemTop(4);
+}
+#LaserPageMain_Rack53 {
+	@include elemLeft(898);
+}
+#LaserPageMain_Rack53 {
+	@include elemAutoWidth(142);
+}
+#LaserPageMain_Rack53 {
+	@include elemAutoHeight(37);
+}
+#LaserPageMain_Rack53 {
+		z-index: 6;
+}
+#LaserPageMain_Rack53 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack53 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput49 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput49 {
+	@include elemTop(4);
+}
+#LaserPageMain_NumericInput49 {
+	@include elemLeft(1038);
+}
+#LaserPageMain_NumericInput49 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput49 {
+		z-index: 7;
+}
+#LaserPageMain_NumericInput50 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput50 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput50 {
+	@include elemLeft(218);
+}
+#LaserPageMain_NumericInput50 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput50 {
+		z-index: 8;
+}
+#LaserPageMain_Rack54 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack54 {
+	@include elemLeft(18);
+}
+#LaserPageMain_Rack54 {
+	@include elemAutoWidth(231);
+}
+#LaserPageMain_Rack54 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack54 {
+		z-index: 9;
+}
+#LaserPageMain_Rack54 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack54 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput51 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput51 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput51 {
+	@include elemLeft(518);
+}
+#LaserPageMain_NumericInput51 {
+	@include elemAutoWidth(77);
+}
+#LaserPageMain_NumericInput51 {
+		z-index: 10;
+}
+#LaserPageMain_Rack55 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack55 {
+	@include elemLeft(318);
+}
+#LaserPageMain_Rack55 {
+	@include elemAutoWidth(200);
+}
+#LaserPageMain_Rack55 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack55 {
+		z-index: 11;
+}
+#LaserPageMain_Rack55 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack55 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput52 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput52 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput52 {
+	@include elemLeft(798);
+}
+#LaserPageMain_NumericInput52 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput52 {
+		z-index: 12;
+}
+#LaserPageMain_Rack56 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack56 {
+	@include elemLeft(618);
+}
+#LaserPageMain_Rack56 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack56 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack56 {
+		z-index: 13;
+}
+#LaserPageMain_Rack56 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack56 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_Rack57 {
+	@include elemTop(44);
+}
+#LaserPageMain_Rack57 {
+	@include elemLeft(898);
+}
+#LaserPageMain_Rack57 {
+	@include elemAutoWidth(61);
+}
+#LaserPageMain_Rack57 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack57 {
+		z-index: 14;
+}
+#LaserPageMain_Rack57 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack57 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput53 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput53 {
+	@include elemTop(44);
+}
+#LaserPageMain_NumericInput53 {
+	@include elemLeft(1038);
+}
+#LaserPageMain_NumericInput53 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput53 {
+		z-index: 15;
+}
+#LaserPageMain_NumericInput54 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput54 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput54 {
+	@include elemLeft(219);
+}
+#LaserPageMain_NumericInput54 {
+	@include elemAutoWidth(77);
+}
+#LaserPageMain_NumericInput54 {
+		z-index: 16;
+}
+#LaserPageMain_Rack58 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack58 {
+	@include elemLeft(19);
+}
+#LaserPageMain_Rack58 {
+	@include elemAutoWidth(194);
+}
+#LaserPageMain_Rack58 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack58 {
+		z-index: 17;
+}
+#LaserPageMain_Rack58 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack58 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput55 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput55 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput55 {
+	@include elemLeft(519);
+}
+#LaserPageMain_NumericInput55 {
+	@include elemAutoWidth(80);
+}
+#LaserPageMain_NumericInput55 {
+		z-index: 18;
+}
+#LaserPageMain_Rack59 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack59 {
+	@include elemLeft(319);
+}
+#LaserPageMain_Rack59 {
+	@include elemAutoWidth(181);
+}
+#LaserPageMain_Rack59 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack59 {
+		z-index: 19;
+}
+#LaserPageMain_Rack59 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack59 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput56 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput56 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput56 {
+	@include elemLeft(799);
+}
+#LaserPageMain_NumericInput56 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput56 {
+		z-index: 20;
+}
+#LaserPageMain_Rack60 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack60 {
+	@include elemLeft(619);
+}
+#LaserPageMain_Rack60 {
+	@include elemAutoWidth(180);
+}
+#LaserPageMain_Rack60 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack60 {
+		z-index: 21;
+}
+#LaserPageMain_Rack60 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack60 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_Rack61 {
+	@include elemTop(84);
+}
+#LaserPageMain_Rack61 {
+	@include elemLeft(899);
+}
+#LaserPageMain_Rack61 {
+	@include elemAutoWidth(177);
+}
+#LaserPageMain_Rack61 {
+	@include elemAutoHeight(34);
+}
+#LaserPageMain_Rack61 {
+		z-index: 22;
+}
+#LaserPageMain_Rack61 {
+		font-size: 18px;
+}
+#LaserPageMain_Rack61 {
+	@include font-weight-bold(false);
+}
+#LaserPageMain_NumericInput57 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_NumericInput57 {
+	@include elemTop(84);
+}
+#LaserPageMain_NumericInput57 {
+	@include elemLeft(1039);
+}
+#LaserPageMain_NumericInput57 {
+	@include elemAutoWidth(81);
+}
+#LaserPageMain_NumericInput57 {
+		z-index: 23;
+}
+#LaserPageMain_ToggleButton27 {
+	@include elemTop(124);
+}
+#LaserPageMain_ToggleButton27 {
+	@include elemLeft(379);
+}
+#LaserPageMain_ToggleButton27 {
+	@include elemAutoWidth(323);
+}
+#LaserPageMain_ToggleButton27 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton27 {
+		z-index: 24;
+}
+#LaserPageMain_GroupBox3 {
+	@include elemTop(24);
+}
+#LaserPageMain_GroupBox3 {
+	@include elemLeft(899);
+}
+#LaserPageMain_GroupBox3 {
+	@include elemWidth(501);
+}
+#LaserPageMain_GroupBox3 {
+	@include elemHeight(366);
+}
+#LaserPageMain_GroupBox3 {
+		z-index: 2;
+}
+#LaserPageMain_GroupBox3 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_GroupBox3 {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#LaserPageMain_GroupBox3 {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#LaserPageMain_ToggleButton4 {
+	@include elemTop(17);
+}
+#LaserPageMain_ToggleButton4 {
+	@include elemLeft(19);
+}
+#LaserPageMain_ToggleButton4 {
+	@include elemAutoWidth(263);
+}
+#LaserPageMain_ToggleButton4 {
+	@include elemAutoHeight(57);
+}
+#LaserPageMain_ToggleButton4 {
+		z-index: 0;
+}
+#LaserPageMain_ToggleButton5 {
+	@include elemTop(97);
+}
+#LaserPageMain_ToggleButton5 {
+	@include elemLeft(19);
+}
+#LaserPageMain_ToggleButton5 {
+	@include elemAutoWidth(263);
+}
+#LaserPageMain_ToggleButton5 {
+	@include elemAutoHeight(57);
+}
+#LaserPageMain_ToggleButton5 {
+		z-index: 1;
+}
+#LaserPageMain_ToggleButton6 {
+	@include elemTop(177);
+}
+#LaserPageMain_ToggleButton6 {
+	@include elemLeft(19);
+}
+#LaserPageMain_ToggleButton6 {
+	@include elemAutoWidth(263);
+}
+#LaserPageMain_ToggleButton6 {
+	@include elemAutoHeight(57);
+}
+#LaserPageMain_ToggleButton6 {
+		z-index: 2;
+}
+#LaserPageMain_StatusLEDGreen31 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen31 {
+	@include elemTop(38);
+}
+#LaserPageMain_StatusLEDGreen31 {
+	@include elemLeft(319);
+}
+#LaserPageMain_StatusLEDGreen31 {
+	@include elemAutoWidth(183);
+}
+#LaserPageMain_StatusLEDGreen31 {
+		z-index: 3;
+}
+#LaserPageMain_StatusLEDGreen32 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen32 {
+	@include elemTop(98);
+}
+#LaserPageMain_StatusLEDGreen32 {
+	@include elemLeft(319);
+}
+#LaserPageMain_StatusLEDGreen32 {
+	@include elemAutoWidth(183);
+}
+#LaserPageMain_StatusLEDGreen32 {
+		z-index: 4;
+}
+#LaserPageMain_StatusLEDGreen33 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen33 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen33 {
+	@include elemTop(218);
+}
+#LaserPageMain_StatusLEDGreen33 {
+	@include elemLeft(319);
+}
+#LaserPageMain_StatusLEDGreen33 {
+		z-index: 5;
+}
+#LaserPageMain_ToggleButton7 {
+	@include elemTop(257);
+}
+#LaserPageMain_ToggleButton7 {
+	@include elemLeft(19);
+}
+#LaserPageMain_ToggleButton7 {
+	@include elemAutoWidth(263);
+}
+#LaserPageMain_ToggleButton7 {
+	@include elemAutoHeight(57);
+}
+#LaserPageMain_ToggleButton7 {
+		z-index: 6;
+}
+#LaserPageMain_GroupBox18 {
+	@include elemTop(10);
+}
+#LaserPageMain_GroupBox18 {
+	@include elemLeft(960);
+}
+#LaserPageMain_GroupBox18 {
+	@include elemWidth(440);
+}
+#LaserPageMain_GroupBox18 {
+	@include elemHeight(164);
+}
+#LaserPageMain_GroupBox18 {
+		z-index: 1;
+}
+#LaserPageMain_GroupBox18 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_ToggleButton36 {
+	@include elemTop(57);
+}
+#LaserPageMain_ToggleButton36 {
+	@include elemLeft(18);
+}
+#LaserPageMain_ToggleButton36 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_ToggleButton36 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton36 {
+		z-index: 0;
+}
+#LaserPageMain_ToggleButton37 {
+	@include elemTop(57);
+}
+#LaserPageMain_ToggleButton37 {
+	@include elemLeft(158);
+}
+#LaserPageMain_ToggleButton37 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_ToggleButton37 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton37 {
+		z-index: 1;
+}
+#LaserPageMain_ToggleButton38 {
+	@include elemTop(57);
+}
+#LaserPageMain_ToggleButton38 {
+	@include elemLeft(298);
+}
+#LaserPageMain_ToggleButton38 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_ToggleButton38 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton38 {
+		z-index: 2;
+}
+#LaserPageMain_Label96 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label96 {
+	@include elemTop(17);
+}
+#LaserPageMain_Label96 {
+	@include elemLeft(98);
+}
+#LaserPageMain_Label96 {
+	@include elemAutoWidth(242);
+}
+#LaserPageMain_Label96 {
+		z-index: 3;
+}
+#LaserPageMain_Label96 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_GroupBox17 {
+	@include elemTop(10);
+}
+#LaserPageMain_GroupBox17 {
+	@include elemLeft(500);
+}
+#LaserPageMain_GroupBox17 {
+	@include elemWidth(440);
+}
+#LaserPageMain_GroupBox17 {
+	@include elemHeight(164);
+}
+#LaserPageMain_GroupBox17 {
+		z-index: 2;
+}
+#LaserPageMain_GroupBox17 {
+		background-color: rgba(211, 211, 211, 1);
+}
+#LaserPageMain_ToggleButton33 {
+	@include elemTop(57);
+}
+#LaserPageMain_ToggleButton33 {
+	@include elemLeft(18);
+}
+#LaserPageMain_ToggleButton33 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_ToggleButton33 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton33 {
+		z-index: 0;
+}
+#LaserPageMain_ToggleButton34 {
+	@include elemTop(57);
+}
+#LaserPageMain_ToggleButton34 {
+	@include elemLeft(158);
+}
+#LaserPageMain_ToggleButton34 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_ToggleButton34 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton34 {
+		z-index: 1;
+}
+#LaserPageMain_ToggleButton35 {
+	@include elemTop(57);
+}
+#LaserPageMain_ToggleButton35 {
+	@include elemLeft(298);
+}
+#LaserPageMain_ToggleButton35 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_ToggleButton35 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_ToggleButton35 {
+		z-index: 2;
+}
+#LaserPageMain_Label3 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label3 {
+	@include elemTop(17);
+}
+#LaserPageMain_Label3 {
+	@include elemLeft(98);
+}
+#LaserPageMain_Label3 {
+	@include elemAutoWidth(242);
+}
+#LaserPageMain_Label3 {
+		z-index: 3;
+}
+#LaserPageMain_Label3 {
+	@include font-weight-bold(true);
+}

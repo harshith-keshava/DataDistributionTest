@@ -1,0 +1,21 @@
+
+TYPE
+	AtnTerminal_typ : 	STRUCT 
+		Command : STRING[80];
+		Console : ARRAY[0..100]OF STRING[80];
+		Overflow : ARRAY[0..10]OF STRING[80]; (*:D*)
+	END_STRUCT;
+	PERM_enum : 
+		(
+		PERM_CONFIGURATION,
+		PERM_HOME_DATA,
+		PERM_
+		);
+	SplitConfig_typ : 	STRUCT 
+		taskDataValid : ARRAY[0..CSV_MAI_VARLIST]OF BOOL;
+		taskCount : USINT;
+		configList : ARRAY[0..CSV_MAI_VARLIST]OF STRING[PERSIST_STRLEN_VARNAME];
+		logFilename : ARRAY[0..CSV_MAI_VARLIST]OF STRING[CSV_STRLEN_FILENAME];
+		configFilename : ARRAY[0..CSV_MAI_VARLIST]OF STRING[CSV_STRLEN_FILENAME];
+	END_STRUCT;
+END_TYPE

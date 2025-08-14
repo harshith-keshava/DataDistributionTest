@@ -1,0 +1,3 @@
+c:\lasercleanroomautomation\controlplc_lasercleanroom\temp\includes\globaltyp.h	C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\VFLCR\VFLCR.var global
+c:\lasercleanroomautomation\controlplc_lasercleanroom\temp\includes\processcontrol\vflcr\vflcrvar.h	C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\VFLCR\VFLCR.typ global
+c:\lasercleanroomautomation\controlplc_lasercleanroom\temp\includes\infrastructure\infrastructuretyp.h	C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Libraries\Loupe\csvfilelib\CSVFileLib.var global,C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Libraries\Loupe\persist\Persist.var global

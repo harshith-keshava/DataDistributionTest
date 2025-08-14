@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="ControlPLC_LaserCleanroom.Hardware.hw" LastWriteTime="04/10/2024 12:43:14" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="5PC900_TS17_02" Type="X20CP1585" X="100" Y="100" />
+    <Module Name="X20BM33c" Type="X20BM33" X="250" Y="100" />
+    <Module Name="X20SLX210" Type="X20SLX210" X="250" Y="100" />
+    <Module Name="X20TB52f" Type="X20TB52" X="263" Y="126" />
+    <Module Name="X20BM13a" Type="X20BM13" X="276" Y="100" />
+    <Module Name="X20SI8110" Type="X20SI8110" X="276" Y="100" />
+    <Module Name="X20TB52b" Type="X20TB52" X="276" Y="126" />
+    <Module Name="X20BM33a" Type="X20BM33" X="289" Y="100" />
+    <Module Name="X20SC2432" Type="X20SC2432" X="289" Y="100" />
+    <Module Name="X20TB52a" Type="X20TB52" X="289" Y="126" />
+    <Module Name="X20BM11k" Type="X20BM11" X="315" Y="100" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="315" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="315" Y="127" />
+    <Module Name="X20BM11l" Type="X20BM11" X="328" Y="100" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="328" Y="100" />
+    <Module Name="X20TB12n" Type="X20TB12" X="328" Y="127" />
+    <Module Name="X20BM11h" Type="X20BM11" X="341" Y="100" />
+    <Module Name="X20AO4622" Type="X20AO4622" X="341" Y="100" />
+    <Module Name="X20TB12k" Type="X20TB12" X="341" Y="127" />
+    <Module Name="X20BM11m" Type="X20BM11" X="354" Y="100" />
+    <Module Name="X20DS1119" Type="X20DS1119" X="354" Y="100" />
+    <Module Name="X20TB12o" Type="X20TB12" X="354" Y="127" />
+    <Module Name="PowerlinkHub_DCEnclosure" Type="0AC808.9-1" X="275" Y="285" />
+    <Module Name="CM401_LaserRacks_WaterPressureOK" Type="X67BC8321-1" X="736" Y="200" />
+    <Module Name="CM402_SC_LaserRack1" Type="X67SC4122.L12" X="604" Y="326" />
+    <Module Name="CM403_SC_LaserRack2" Type="X67SC4122.L12" X="707" Y="326" />
+    <Module Name="CM404_SC_LaserRack3" Type="X67SC4122.L12" X="810" Y="326" />
+    <Module Name="CM405_SC_LaserRack4" Type="X67SC4122.L12" X="913" Y="326" />
+    <Module Name="VF-LCR" Type="FBE.VF-LCR System (version 04)" X="670" Y="541" />
+    <Module Name="VF-LCR1" Type="FBE.VF-LCR System (version 04)" X="215" Y="541" />
+    <Module Name="VF-LCR2" Type="FBE.VF-LCR System (version 04)" X="355" Y="541" />
+    <Module Name="VF-LCR3" Type="FBE.VF-LCR System (version 04)" X="495" Y="541" />
+  </Modules>
+  <Links>
+    <Link From="5PC900_TS17_02" To="PowerlinkHub_DCEnclosure" FromPort="IF3" ToPort="ETH5" IsRoutedByUser="False">
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="309" />
+      <Point X="274" Y="309" />
+      <Point X="301" Y="309" />
+      <Point X="301" Y="309" />
+    </Link>
+    <Link From="CM401_LaserRacks_WaterPressureOK" To="PowerlinkHub_DCEnclosure" FromPort="PLK1" ToPort="ETH3" IsRoutedByUser="False">
+      <Point X="746" Y="212" />
+      <Point X="746" Y="212" />
+      <Point X="735" Y="212" />
+      <Point X="327" Y="212" />
+      <Point X="327" Y="284" />
+      <Point X="327" Y="296" />
+      <Point X="327" Y="296" />
+    </Link>
+    <Link From="CM401_LaserRacks_WaterPressureOK" To="CM402_SC_LaserRack1" FromPort="IF1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="778" Y="212" />
+      <Point X="778" Y="212" />
+      <Point X="790" Y="212" />
+      <Point X="795" Y="212" />
+      <Point X="795" Y="295" />
+      <Point X="595" Y="295" />
+      <Point X="595" Y="338" />
+      <Point X="603" Y="338" />
+      <Point X="614" Y="338" />
+      <Point X="614" Y="338" />
+    </Link>
+    <Link From="CM402_SC_LaserRack1" To="CM403_SC_LaserRack2" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="646" Y="338" />
+      <Point X="646" Y="338" />
+      <Point X="658" Y="338" />
+      <Point X="706" Y="338" />
+      <Point X="717" Y="338" />
+      <Point X="717" Y="338" />
+    </Link>
+    <Link From="CM403_SC_LaserRack2" To="CM404_SC_LaserRack3" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="749" Y="338" />
+      <Point X="749" Y="338" />
+      <Point X="761" Y="338" />
+      <Point X="809" Y="338" />
+      <Point X="820" Y="338" />
+      <Point X="820" Y="338" />
+    </Link>
+    <Link From="CM404_SC_LaserRack3" To="CM405_SC_LaserRack4" FromPort="X2X2" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="852" Y="338" />
+      <Point X="852" Y="338" />
+      <Point X="864" Y="338" />
+      <Point X="912" Y="338" />
+      <Point X="923" Y="338" />
+      <Point X="923" Y="338" />
+    </Link>
+    <Link From="PowerlinkHub_DCEnclosure" To="VF-LCR" FromPort="ETH6" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="314" Y="309" />
+      <Point X="314" Y="309" />
+      <Point X="314" Y="329" />
+      <Point X="314" Y="612" />
+      <Point X="728" Y="612" />
+      <Point X="728" Y="592" />
+      <Point X="728" Y="585" />
+      <Point X="728" Y="585" />
+    </Link>
+    <Link From="VF-LCR1" To="VF-LCR2" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="273" Y="585" />
+      <Point X="273" Y="585" />
+      <Point X="273" Y="592" />
+      <Point X="273" Y="605" />
+      <Point X="388" Y="605" />
+      <Point X="388" Y="592" />
+      <Point X="388" Y="585" />
+      <Point X="388" Y="585" />
+    </Link>
+    <Link From="VF-LCR" To="VF-LCR3" FromPort="PLK1" ToPort="PLK2" IsRoutedByUser="False">
+      <Point X="703" Y="585" />
+      <Point X="703" Y="585" />
+      <Point X="703" Y="592" />
+      <Point X="703" Y="605" />
+      <Point X="553" Y="605" />
+      <Point X="553" Y="592" />
+      <Point X="553" Y="585" />
+      <Point X="553" Y="585" />
+    </Link>
+    <Link From="VF-LCR2" To="VF-LCR3" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="413" Y="585" />
+      <Point X="413" Y="585" />
+      <Point X="413" Y="592" />
+      <Point X="413" Y="605" />
+      <Point X="528" Y="605" />
+      <Point X="528" Y="592" />
+      <Point X="528" Y="585" />
+      <Point X="528" Y="585" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

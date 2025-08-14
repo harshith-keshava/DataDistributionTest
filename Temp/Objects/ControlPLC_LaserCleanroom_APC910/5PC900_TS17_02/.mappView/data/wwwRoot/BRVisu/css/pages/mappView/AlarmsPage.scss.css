@@ -1,0 +1,153 @@
+#AlarmsPage_AlarmsGroupBox {
+  top: 20px;
+  position: absolute;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  left: 20px;
+  position: absolute;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  width: 1680px;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  height: 1000px;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  z-index: 0;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  border-width: 3px;
+}
+
+#AlarmsPage_AlarmsGroupBox > .header {
+  border-width: 3px;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  border-radius: 25px;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  background-color: lightgray;
+}
+
+#AlarmsPage_AlarmsGroupBox {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#AlarmsPage_AlarmsGroupBox > .header {
+  border-color: rgba(95, 95, 95, 0.5);
+}
+
+#AlarmsPage_AlarmsGroupBox > .header span {
+  font-size: 75px;
+}
+
+#AlarmsPage_AlarmsGroupBox > .header {
+  height: 95px;
+}
+
+#AlarmsPage_AlarmList1 {
+  top: 0px;
+  position: absolute;
+}
+
+#AlarmsPage_AlarmList1 {
+  left: 0px;
+  position: absolute;
+}
+
+#AlarmsPage_AlarmList1 {
+  width: 1680px;
+}
+
+#AlarmsPage_AlarmList1 {
+  height: 1000px;
+}
+
+#AlarmsPage_AlarmList1 {
+  z-index: 0;
+}
+
+#AlarmsPage_AlarmList1.breaseTableWidget {
+  border-width: 0px;
+}
+
+#AlarmsPage_AlarmList1.breaseTableWidget {
+  border-color: rgba(221, 221, 221, 0);
+}
+
+#AlarmsPage_AlarmListItem1 {
+  width: 320px;
+}
+
+#AlarmsPage_AlarmListItem1 {
+  z-index: 0;
+}
+
+#AlarmsPage_AlarmListItem2 {
+  width: 100px;
+}
+
+#AlarmsPage_AlarmListItem2 {
+  z-index: 1;
+}
+
+#AlarmsPage_AlarmListItem3 {
+  width: 220px;
+}
+
+#AlarmsPage_AlarmListItem3 {
+  z-index: 2;
+}
+
+#AlarmsPage_AlarmListItem4 {
+  width: 960px;
+}
+
+#AlarmsPage_AlarmListItem4 {
+  z-index: 3;
+}
+
+#AlarmsPage_AlarmListItem5 {
+  width: 100px;
+}
+
+#AlarmsPage_AlarmListItem5 {
+  z-index: 4;
+}
+
+#AlarmsPage_ResetAlarms_Button {
+  top: 40px;
+  position: absolute;
+}
+
+#AlarmsPage_ResetAlarms_Button {
+  left: 40px;
+  position: absolute;
+}
+
+#AlarmsPage_ResetAlarms_Button {
+  width: 200px;
+}
+
+#AlarmsPage_ResetAlarms_Button {
+  height: 60px;
+}
+
+#AlarmsPage_ResetAlarms_Button {
+  z-index: 1;
+}
+
+#AlarmsPage_ResetAlarms_Button:not(.active):not(.checked) {
+  border-width: 1px;
+}
+
+#AlarmsPage_ResetAlarms_Button.disabled {
+  border-width: 1px;
+}

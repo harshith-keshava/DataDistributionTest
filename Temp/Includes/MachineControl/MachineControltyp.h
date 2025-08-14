@@ -1,0 +1,108 @@
+/* Automation Studio generated header file */
+/* Do not edit ! */
+
+#ifndef _BUR_1754338176_5_
+#define _BUR_1754338176_5_
+
+#include <bur/plctypes.h>
+
+/* Datatypes and datatypes of function blocks */
+typedef enum SUBSTATES
+{	SUB_STATE_INIT,
+	SUB_STATE_RESET_DRIVE_ERRORS,
+	SUB_BOOTING_INIT_FILE_DEVICES,
+	SUB_STATE_BOOTING_PERM_DATA,
+	SUB_STATE_BOOTING_POSITION_CTRL,
+	SUB_STATE_BOOTING_MOTION_FILTERS,
+	SUB_STATE_BOOTING_WAIT_FOR_HOME,
+	SUB_STATE_BOOTING_CLEAR_VIRT_REF,
+	SUB_STATE_BOOTING_SW_LIMITS1,
+	SUB_STATE_BOOTING_SW_LIMITS2,
+	SUB_STATE_BOOTING_WAIT_FOR_PSU,
+	SUB_STATE_STARTING_CHECK_REF,
+	SUB_STATE_STARTING_SET_LIMITS,
+	SUB_STATE_RESETTING_RESET_SAFETY,
+	SUB_STATE_RESETTING_HOPPER,
+	SUB_STATE_PSU_POWER,
+	SUB_STATE_SERVO_POWER_GROUP1,
+	SUB_STATE_SERVO_DEPOWER_GROUP1,
+	SUB_STATE_SERVO_POWER_GROUP2,
+	SUB_STATE_SERVO_DEPOWER_GROUP2,
+	SUB_STATE_SERVO_POWER_GROUP3,
+	SUB_STATE_SERVO_DEPOWER_GROUP3,
+	SUB_STATE_SERVO_POWER_ALL,
+	SUB_STATE_SERVO_HOME,
+	SUB_STATE_SERVO_HOME_DONE,
+	SUB_STATE_GEAR_IN,
+	SUB_STATE_CHECK_CHILLER,
+	SUB_STATE_CHECK_HOME,
+	SUB_STATE_SERVO_PROMPT,
+	SUB_STATE_GH_RECOVER,
+	SUB_STATE_GH_MOVE_GANTRY,
+	SUB_STATE_GANTRY_PROMPT,
+	SUB_STATE_GANTRY_PARK,
+	SUB_STATE_RECOATER_PROMPT,
+	SUB_STATE_RECOATER_PARK,
+	SUB_STATE_CONFIRM_PUMPS_WANTED,
+	SUB_STATE_RESETTING_START_PUMPS,
+	SUB_STATE_CONFIRM_LASERS_WANTED,
+	SUB_STATE_RESETTING_LASERS_ON,
+	SUB_STATE_START_SFC,
+	SUB_STATE_EXITING_INIT,
+	SUB_STATE_EXITING_CLEANUP,
+	SUB_STATE_STOPPING_STOP_CNC,
+	SUB_STATE_CLEARING_PROMPT_USER,
+	SUB_STATE_CLEARING_START_PROGRAM,
+	SUB_STATE_CLEARING_WAIT_FINISH,
+	SUB_STATE_DISABLE_AXIS_ENAGAGE,
+	SUB_STATE_SERVO_STOP,
+	SUB_STATE_SERVO_POWER_OFF,
+	SUB_STATE_PSU_POWER_OFF,
+	SUB_STATE_BACKUP_HOME_DATA,
+	SUB_STATE_STOP_DISABLE_MOTORS,
+	SUB_STATE_DEPOWER_LASERS,
+	SUB_STATE_STOP_PUMPS
+} SUBSTATES;
+
+typedef struct MachineAlarms_Configuration_type
+{	plcstring MACHINE_CONFIG_ALARM[81];
+} MachineAlarms_Configuration_type;
+
+typedef struct MachineAlarms_type
+{	struct vfAlarms_Component_typ components;
+	struct MachineAlarms_Configuration_type configuration;
+	plcstring commandStatus[10][81];
+	plcstring messageStatus[81];
+	struct vfAlarms_Instance_type MACHINE_ALARM;
+	struct vfAlarms_Instance_type REFERENCE_REQUIRED;
+	struct vfAlarms_Instance_type PERMMEM_DATA_RESTORED;
+	struct vfAlarms_Instance_type PERMMEM_FILE_ERROR;
+	struct vfAlarms_Instance_type PERMMEM_PERSISTER_ERROR;
+	struct vfAlarms_Instance_type PERMMEM_PERSISTER_SIZE_CHANGED;
+	struct vfAlarms_Instance_type SPLIT_CONFIG_LOAD_FAIL;
+	struct vfAlarms_Instance_type PERMMEM_PERSISTER_DATA_INVALID;
+	struct vfAlarms_Instance_type FILE_LINK_ERROR;
+	struct vfAlarms_Instance_type AUTOMATION_FAIL;
+	struct vfAlarms_Instance_type AUTOMATION_FAIL_COMMAND;
+	struct vfAlarms_Instance_type PACKML_STOP;
+	struct vfAlarms_Instance_type PACKML_ABORT;
+	struct vfAlarms_Instance_type AUTOMATION_CHECK_FAIL;
+} MachineAlarms_type;
+
+
+
+
+
+
+__asm__(".section \".plc\"");
+
+/* Used IEC files */
+__asm__(".ascii \"iecfile \\\"Logical/MachineControl/MachineControl.typ\\\" scope \\\"global\\\"\\n\"");
+
+/* Exported library functions and function blocks */
+
+__asm__(".previous");
+
+
+#endif /* _BUR_1754338176_5_ */
+

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Minimum calculated cycle time." Type="fbtc">
+    <Group ID="PLK[0]">
+      <Property ID="Address" Value="SL1.IF1" />
+      <Property ID="CycleTime" Value="302" />
+      <Property ID="WorstCaseCycleTime" Value="544" />
+      <Property ID="AdjustedCycleTime" Value="800" />
+      <Group ID="MN_details">
+        <Property ID="Name" Value="5LS182.6-2.IF1" />
+        <Property ID="SoC" Value="7" />
+        <Property ID="Broadcast" Value="0" />
+        <Property ID="SoA" Value="7" />
+        <Property ID="ASend" Value="59" />
+        <Property ID="AsynchronTimeout" Value="9" />
+        <Property ID="MTUsize" Value="300" />
+        <Property ID="BroadcastSize" Value="0" />
+        <Property ID="MultiplexingPrescale" Value="8" />
+      </Group>
+      <Group ID="CN[0]">
+        <Property ID="HubLevel" Value="2" />
+        <Property ID="CableLength" Value="20" />
+        <Property ID="ResponseTimeout" Value="4" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="CM101_CleanRoom_RemoteIO" />
+          <Property ID="NodeNumber" Value="1" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="53" />
+          <Property ID="OutputDataSize" Value="16" />
+          <Property ID="PollRequest" Value="9" />
+          <Property ID="PollResponse" Value="10" />
+          <Property ID="NodeTime" Value="40" />
+          <Property ID="Address" Value="SL1.IF1.ST1" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+        <Group ID="CN_X2X[0]">
+          <Property ID="NumberOfStations" Value="4" />
+          <Property ID="TotalCableLength" Value="40" />
+          <Property ID="InputDataSize" Value="54" />
+          <Property ID="OutputDataSize" Value="16" />
+          <Property ID="Address" Value="SL1.IF1.ST1.IF1" />
+          <Property ID="CycleTime" Value="263" />
+          <Property ID="AdjustedCycleTime" Value="800" />
+        </Group>
+      </Group>
+      <Group ID="CN[1]">
+        <Property ID="HubLevel" Value="2" />
+        <Property ID="CableLength" Value="20" />
+        <Property ID="ResponseTimeout" Value="4" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="CM401_LaserRacks_WaterPressureOK" />
+          <Property ID="NodeNumber" Value="4" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="86" />
+          <Property ID="OutputDataSize" Value="64" />
+          <Property ID="PollRequest" Value="11" />
+          <Property ID="PollResponse" Value="13" />
+          <Property ID="NodeTime" Value="45" />
+          <Property ID="Address" Value="SL1.IF1.ST4" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+        <Group ID="CN_X2X[0]">
+          <Property ID="NumberOfStations" Value="4" />
+          <Property ID="TotalCableLength" Value="40" />
+          <Property ID="InputDataSize" Value="86" />
+          <Property ID="OutputDataSize" Value="64" />
+          <Property ID="Address" Value="SL1.IF1.ST4.IF1" />
+          <Property ID="CycleTime" Value="313" />
+          <Property ID="AdjustedCycleTime" Value="800" />
+        </Group>
+      </Group>
+      <Group ID="CN[2]">
+        <Property ID="HubLevel" Value="2" />
+        <Property ID="CableLength" Value="20" />
+        <Property ID="ResponseTimeout" Value="4" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="X20BC0083" />
+          <Property ID="NodeNumber" Value="8" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="72" />
+          <Property ID="OutputDataSize" Value="46" />
+          <Property ID="PollRequest" Value="10" />
+          <Property ID="PollResponse" Value="12" />
+          <Property ID="NodeTime" Value="43" />
+          <Property ID="Address" Value="SL1.IF1.ST8" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+        <Group ID="CN_X2X[0]">
+          <Property ID="NumberOfStations" Value="7" />
+          <Property ID="TotalCableLength" Value="0" />
+          <Property ID="InputDataSize" Value="72" />
+          <Property ID="OutputDataSize" Value="46" />
+          <Property ID="Address" Value="SL1.IF1.ST8.IF1" />
+          <Property ID="CycleTime" Value="292" />
+          <Property ID="AdjustedCycleTime" Value="800" />
+        </Group>
+      </Group>
+      <Group ID="CN[3]">
+        <Property ID="HubLevel" Value="3" />
+        <Property ID="CableLength" Value="30" />
+        <Property ID="ResponseTimeout" Value="6" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="VF-LCR1" />
+          <Property ID="NodeNumber" Value="51" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="312" />
+          <Property ID="OutputDataSize" Value="64" />
+          <Property ID="PollRequest" Value="12" />
+          <Property ID="PollResponse" Value="32" />
+          <Property ID="NodeTime" Value="88" />
+          <Property ID="Address" Value="SL1.IF1.ST51" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+      </Group>
+      <Group ID="CN[4]">
+        <Property ID="HubLevel" Value="4" />
+        <Property ID="CableLength" Value="40" />
+        <Property ID="ResponseTimeout" Value="7" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="VF-LCR2" />
+          <Property ID="NodeNumber" Value="52" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="312" />
+          <Property ID="OutputDataSize" Value="64" />
+          <Property ID="PollRequest" Value="13" />
+          <Property ID="PollResponse" Value="33" />
+          <Property ID="NodeTime" Value="88" />
+          <Property ID="Address" Value="SL1.IF1.ST52" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+      </Group>
+      <Group ID="CN[5]">
+        <Property ID="HubLevel" Value="5" />
+        <Property ID="CableLength" Value="50" />
+        <Property ID="ResponseTimeout" Value="9" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="VF-LCR3" />
+          <Property ID="NodeNumber" Value="53" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="312" />
+          <Property ID="OutputDataSize" Value="64" />
+          <Property ID="PollRequest" Value="14" />
+          <Property ID="PollResponse" Value="34" />
+          <Property ID="NodeTime" Value="88" />
+          <Property ID="Address" Value="SL1.IF1.ST53" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+      </Group>
+      <Group ID="CN[6]">
+        <Property ID="HubLevel" Value="2" />
+        <Property ID="CableLength" Value="20" />
+        <Property ID="ResponseTimeout" Value="4" />
+        <Group ID="CN_details">
+          <Property ID="ModuleName" Value="VF-LCR4" />
+          <Property ID="NodeNumber" Value="54" />
+          <Property ID="ModeOfOperation" Value="Polling" />
+          <Property ID="InputDataSize" Value="312" />
+          <Property ID="OutputDataSize" Value="64" />
+          <Property ID="PollRequest" Value="11" />
+          <Property ID="PollResponse" Value="31" />
+          <Property ID="NodeTime" Value="88" />
+          <Property ID="Address" Value="SL1.IF1.ST54" />
+          <Property ID="MaxInputDataSize" Value="1490" />
+        </Group>
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

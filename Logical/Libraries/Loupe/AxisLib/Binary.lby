@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="4.02.0" SubType="Binary" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>AxisLib.html</File>
+    <File>AxisLib.md</File>
+    <File>VersionHistory.txt</File>
+    <File Description="Exported data types">Types.typ</File>
+    <File Description="Exported constants">Constants.var</File>
+    <File Description="Exported functions and function blocks">AxisLib.fun</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="McAxis" FromVersion="5.15.1" ToVersion="5.19.3" />
+    <Dependency ObjectName="McAcpAx" FromVersion="5.15.1" ToVersion="5.19.3" />
+    <Dependency ObjectName="McBase" FromVersion="5.19.3" ToVersion="5.19.3" />
+    <Dependency ObjectName="AsBrStr" FromVersion="0.00.0" />
+    <Dependency ObjectName="McBase" FromVersion="5.19.3" ToVersion="5.19.3" />
+    <Dependency ObjectName="AsBrStr" FromVersion="0.00.0" />
+  </Dependencies>
+</Library>

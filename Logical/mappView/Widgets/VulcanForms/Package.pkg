@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package SubType="WidgetLibrary" PackageType="WidgetLibrary" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Widget Library Description">Description.widgetlibrary</Object>
+    <Object Type="Package" Description="Resources">Resources</Object>
+    <Object Type="File">StatusPower.derivedwidget</Object>
+    <Object Type="File">StatusLightBulb.derivedwidget</Object>
+    <Object Type="File">StatusBall.derivedwidget</Object>
+    <Object Type="File">StatusBall_Inverted.derivedwidget</Object>
+    <Object Type="File">StatusBallTarget.derivedwidget</Object>
+    <Object Type="File">StatusLocationTarget.derivedwidget</Object>
+    <Object Type="File">StatusBlackCheck.derivedwidget</Object>
+    <Object Type="File">StatusBlueCheck.derivedwidget</Object>
+    <Object Type="File">StatusGreenCheck.derivedwidget</Object>
+    <Object Type="File">StatusLightGreenCheck.derivedwidget</Object>
+    <Object Type="File">StatusLEDRed.derivedwidget</Object>
+    <Object Type="File">StatusLEDYellow.derivedwidget</Object>
+    <Object Type="File">StatusLEDGreen.derivedwidget</Object>
+    <Object Type="File">StatusLEDBlue.derivedwidget</Object>
+    <Object Type="File">StatusRunning.derivedwidget</Object>
+    <Object Type="File">StatusMoving.derivedwidget</Object>
+    <Object Type="File">StatusQuestion.derivedwidget</Object>
+    <Object Type="File">StatusAlarm.derivedwidget</Object>
+    <Object Type="File">StatusWarn.derivedwidget</Object>
+  </Objects>
+</Package>

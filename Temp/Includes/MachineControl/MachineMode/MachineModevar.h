@@ -1,0 +1,33 @@
+/* Automation Studio generated header file */
+/* Do not edit ! */
+
+#ifndef _BUR_1754338176_8_
+#define _BUR_1754338176_8_
+
+#include <bur/plctypes.h>
+
+/* Constants */
+#ifdef _REPLACE_CONST
+#else
+#endif
+
+
+/* Variables */
+_GLOBAL struct MachineModeApi gMachineModeApi;
+
+
+
+
+
+__asm__(".section \".plc\"");
+
+/* Used IEC files */
+__asm__(".ascii \"iecfile \\\"Logical/MachineControl/MachineMode/MachineMode.var\\\" scope \\\"global\\\"\\n\"");
+
+/* Exported library functions and function blocks */
+
+__asm__(".previous");
+
+
+#endif /* _BUR_1754338176_8_ */
+

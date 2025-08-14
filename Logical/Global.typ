@@ -1,0 +1,116 @@
+
+TYPE
+	Machine_typ : 	STRUCT 
+		operation : MACHINE_OPERATIONS_ENUM;
+		_previousOperation : MACHINE_OPERATIONS_ENUM;
+	END_STRUCT;
+	MACHINE_OPERATIONS_ENUM : 
+		(
+		MACH_OP_NONE,
+		MACH_OP_HOME_ALL,
+		MACH_OP_LOAD_VOLUME,
+		MACH_OP_PREPARE_NEXT_LAYER,
+		MACH_OP_RECOAT_CURRENT_LAYER,
+		MACH_OP_PRINT_CURRENT_LAYER,
+		MACH_OP_UNLOAD_VOLUME,
+		MACH_OP_HOME_SINGLE,
+		MACH_OP_CALIBRATE_LASER,
+		MACH_OP_CALIBRATE_BEAM,
+		MACH_OP_OMS_TEST,
+		MACH_OP_MANUAL_CALIBRATE_LASER,
+		MACH_OP_MANUAL_CALIBRATE_BEAM,
+		MACH_OP_CLEAN_GASHEAD,
+		MACH_OP_SCRAPE,
+		MACH_OP_PA_DISTRIBUTE,
+		MACH_OP_PA_RECOAT,
+		MACH_OP_PA_PRINT,
+		MACH_OP_PREPARE_BUILD_PLATE,
+		MACH_OP_REFILL_RECOATER,
+		MACH_OP_IMAGE_LAYER,
+		MACH_OP_PA_LOP,
+		MACH_OP_PREPARE_ALIGNMENT,
+		MACH_OP_CLEANING_BLADE,
+		MACH_OP_REFILL_MH_FULL,
+		MACH_OP_REFILL_OH_FULL,
+		MACH_OP_FLUSH_MH_POWDER,
+		MACH_OP_DRYRUN_CURRENT_LAYER
+		);
+	stateEnum : 	STRUCT 
+		machineHasBuildVolume : STRING[80];
+		selectedSideIsYPos : STRING[80];
+	END_STRUCT;
+	SYSTEM_GENERAL_STATUS_ENUM : 
+		(
+		STATUS_START := 1000,
+		ERR_INHIBITED,
+		AXIS_ERROR,
+		CNC_ERROR,
+		GAS_ERROR,
+		SAFETY_ERROR,
+		BUILD_DISTRIBUTOR_ERROR,
+		MQTT_ERROR,
+		HERDING_ERROR,
+		HOPPER_ERROR,
+		PUMPS_ERROR,
+		VISION_ERROR,
+		COOLING_ERROR,
+		RECOATER_ERROR,
+		LIFT_ERROR,
+		SHROUD_LIFT_ERROR,
+		PLATE_LATCH_ERROR,
+		PRINT_JOB_MANAGER_ERROR,
+		SHUTTLE_ERROR,
+		GRIPPER_ERROR,
+		VFLCR_ERROR,
+		PIXELMAP_ERROR,
+		GEAR_ERROR,
+		POD_ERROR,
+		LEVELING_ERROR,
+		SFC_NOT_READY,
+		POWDER_SYSTEM_ERROR,
+		PURGE_ERROR,
+		MACHINE_MODE_ERROR
+		);
+	MI_MachineType_enum : 
+		(
+		MACHINE_TYPE_UNKNOWN := 0,
+		MACHINE_TYPE_PRINTER := 1
+		);
+	MI_MachineGeneration_enum : 
+		(
+		MACHINE_GENERATION_UNKNOWN := 0,
+		MACHINE_GENERATION_BETA := 1,
+		MACHINE_GENERATION_GEN2 := 2,
+		MACHINE_GENERATION_GEN3 := 3
+		);
+	MI_FactoryNumber_enum : 
+		(
+		FACTORY_UNKNOWN := 0,
+		FACTORY_HQ := 1,
+		FACTORY_VULCAN_ONE := 2
+		);
+	GlobalConfiguration_typ : 	STRUCT 
+		machineIdentity : PM_MachineIdentity_typ;
+	END_STRUCT;
+	PM_MachineIdentity_typ : 	STRUCT 
+		machineType : MI_MachineType_enum; (*ex: 0=invalid, 1=Printer, 2=Furnace, ...*)
+		machineGeneration : MI_MachineGeneration_enum; (*ex: 0=invalid, 1=GENERATION_BETA, 2=GENERATION_GEN2, ...*)
+		factoryNumber : MI_FactoryNumber_enum; (*ex: 0=invalid, 1=HQ, 2=VULCAN_ONE, ...*)
+		factoryName : STRING[40]; (*ex: HQ, VulcanOne, ...*)
+		machineNumber : UINT; (*ex: 0=invalid, 1..N (repeat in each factory)*)
+		machineName : STRING[40]; (*ex: BETA, GEN2, DP1, DP2, DP3...*)
+	END_STRUCT;
+	CommissioningSettings_typ : 	STRUCT 
+		laserControlSystem : CSettings_LaserControl_typ;
+	END_STRUCT;
+	VFLCR_RackConfig_typ : 	STRUCT 
+		ignoreChiller : BOOL;
+		ignorePowerSupply : ARRAY[0..VFLCR_NUM_POWER_SUPPLIES]OF BOOL;
+		ignoreLaser : ARRAY[0..VFLCR_NUM_LASERS]OF BOOL;
+		highTempDisableRack : BOOL;
+	END_STRUCT;
+	CSettings_LaserControl_typ : 	STRUCT 
+		rackEnable : ARRAY[0..MACHINE_NUM_LASER_RACKS]OF BOOL;
+		rackConfig : ARRAY[0..MACHINE_NUM_LASER_RACKS]OF VFLCR_RackConfig_typ;
+	END_STRUCT;
+END_TYPE

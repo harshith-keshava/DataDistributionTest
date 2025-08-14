@@ -1,0 +1,27 @@
+{
+  global:
+    vfAddSnippet;
+    vfAddAggregationBySeverity;
+    vfAddAggregationByName;
+    vfAddReactionBySeverity;
+    vfAddReactionByName;
+    vfAddNonEscalatedReactionByName;
+    vfSetDefaultMapping;
+    vfAddAlarm;
+    vfAddAlarmTextScope;
+    vfCreateAlarmsFaster;
+    vfAddLogOriginMapping;
+    vfLookupOrigin;
+    vfSetDefaultMappingApi;
+    vfAddAlarmApi;
+    vfAddAlarmTextScopeApi;
+    vfAddAggregationByNameApi;
+    vfAlarmPersistent;
+    vfAlarmPersistentId;
+    vfAlarmPersistentSnippetId;
+    vfAlarmPersistentSnippet;
+    vfAlarmEdge;
+    vfAlarmEdgeSnippet;
+  local:
+    *;
+ };

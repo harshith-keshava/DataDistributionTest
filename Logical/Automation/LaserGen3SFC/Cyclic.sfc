@@ -1,0 +1,1586 @@
+PROGRAM _CYCLIC
+<?AutomationStudio FileVersion="4.9"?>
+INITIAL_STEP START:
+(* @LANGUAGE := 'st' *)
+
+SFCReset := FALSE;
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM START TO Step1:=
+TRUE
+END_TRANSITION
+(* @SFCNOJUMP := 'Step1' *)
+IEC_STEP Step1:
+FunctionblockCalls(S);
+Step1Active(N);
+PixelConvert(S);
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM Step1 TO IteratePixels:=
+OP_CALIBRATE_LASER
+END_TRANSITION
+(* @SFCNOJUMP := 'IteratePixels' *)
+TRANSITION FROM Step1 TO CheckLaserModulationOMS:=
+OP_S_OMS_TEST
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckLaserModulationOMS' *)
+STEP CheckLaserModulationOMS:
+(* @LANGUAGE := 'st' *)
+OP_S_OMS_TEST := FALSE;
+task.internal.activeZaber2Index := 0;
+
+StepDone := TRUE;
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM CheckLaserModulationOMS TO InitializeZaberX:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializeZaberX' *)
+STEP InitializeZaberX:
+(* @LANGUAGE := 'st' *)
+OP_CALIBRATE_LASER := FALSE;
+// initialize test
+// init meta writer; Zome Zaber 
+
+Command.Command := gVFLCR.command.initializeOmsTestZaber1;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+	
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.activeZaber2Index := 0;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM InitializeZaberX TO InitializeZaberZ:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializeZaberZ' *)
+STEP InitializeZaberZ:
+(* @LANGUAGE := 'st' *)
+OP_CALIBRATE_LASER := FALSE;
+// initialize test
+// init meta writer; Zome Zaber 
+
+Command.Command := gVFLCR.command.initializeOmsTestZaber2;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+	
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.activeZaber2Index := 0;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM InitializeZaberZ TO CheckIfZaberXHomed:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckIfZaberXHomed' *)
+STEP CheckIfZaberXHomed:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.checkZaber1Homed;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM CheckIfZaberXHomed TO CheckIfZaberZHomed:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckIfZaberZHomed' *)
+STEP CheckIfZaberZHomed:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.checkZaber2Homed;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM CheckIfZaberZHomed TO InitializePulseSettings:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializePulseSettings' *)
+STEP InitializePulseSettings:
+(* @LANGUAGE := 'st' *)
+// initialize app with manual pulse pars; Will create directories for calibration test as well- Should be ok; Assuming data backup of last test to Nas is done by then
+Command.Command := gVFLCR.command.initializeCalibration;
+
+Command.pParameters := ADR(gManualPulseTypeSelected);
+Command.sParameters := SIZEOF(gManualPulseTypeSelected);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM InitializePulseSettings TO SetZaberStageZExposure:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'SetZaberStageZExposure' *)
+STEP SetZaberStageZExposure:
+(* @LANGUAGE := 'st' *)
+
+// Set Zaber height and camera exposure
+Command.Command := gVFLCR.command.setZaber2PosAndExposure;
+
+Command.pParameters := ADR(task.internal.adjustZaber2AndCamera);
+Command.sParameters := SIZEOF(task.internal.adjustZaber2AndCamera);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.activePixelIndex := 0;
+
+brsmemset( ADR(task.internal.adjustZaber2AndCamera), 0, SIZEOF(task.internal.adjustZaber2AndCamera) );
+
+task.internal.adjustZaber2AndCamera.ZaberAbsolutePos_mm := Configuration.zaber2HeightArray[task.internal.activeZaber2Index];
+task.internal.adjustZaber2AndCamera.ZaberMoveAbsolute := TRUE ;
+task.internal.adjustZaber2AndCamera.CameraExposure := Configuration.zaber2HeightCameraExpoArray[task.internal.activeZaber2Index];
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM SetZaberStageZExposure TO PromptUser_AutoMode:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'PromptUser_AutoMode' *)
+STEP PromptUser_AutoMode:
+(* @LANGUAGE := 'st' *)
+
+IF NOT autoMode THEN
+	
+	task.internal.showPopUp := TRUE;
+	task.internal.showNextPixel := TRUE;
+	task.internal.showSkipPixel:= TRUE;
+
+
+	IF task.internal.showPopUp THEN
+		
+		IF task.internal.activePixelIndex >= MACHINE_NUM_LASERS_TOTAL THEN
+		
+			task.internal.showNextPixel := FALSE;
+			task.internal.showSkipPixel:= FALSE;
+		
+		
+		ELSIF gVFLCR.status.vfpMap[task.internal.activePixelIndex , 1] = FALSE THEN
+			
+			// pixel is disabled
+			//task.internal.msgId := TRUE;
+			task.internal.showNextPixel := FALSE;	
+		
+			
+		ELSE
+		
+			// pixel is enabled
+			//task.internal.msgId := TRUE;
+			task.internal.showSkipPixel:= FALSE;
+			
+		END_IF
+	
+	END_IF
+	
+	IF task.internal.showPopUp <> 0 THEN
+		
+	
+		
+	END_IF
+	
+	//	IF messageHandler.cancel THEN
+	//		messageHandler.cancel := 0;
+	//		task.internal.msgId := FALSE;
+	//		SFCReset := TRUE;
+	//		gMachine.IN.CMD.Stop:= TRUE;
+	//	END_IF
+	
+	//Once a selection is made we are good
+	IF NEXT_PIXEL OR SKIP_PIXEL OR END_TEST THEN
+	
+		task.internal.showPopUp := FALSE;
+		task.internal.showSkipPixel:= FALSE;
+		task.internal.showNextPixel := FALSE;
+		
+	END_IF
+ELSE
+	IF gVFLCR.status.vfpMap[task.internal.activePixelIndex, 1] = FALSE THEN
+		SKIP_PIXEL := TRUE;
+	ELSE
+		NEXT_PIXEL := TRUE;
+	END_IF
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.showPopUp := 0;
+NEXT_PIXEL := FALSE;
+SKIP_PIXEL := FALSE;
+END_TEST := FALSE;
+
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+NEXT_PIXEL := FALSE;
+SKIP_PIXEL := FALSE;
+END_TEST := FALSE;
+END_ACTION
+TRANSITION FROM PromptUser_AutoMode TO CheckPixelOkay1:=
+NEXT_PIXEL
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckPixelOkay1' *)
+TRANSITION FROM PromptUser_AutoMode TO IteratePixel1:=
+SKIP_PIXEL
+END_TRANSITION
+(* @SFCISJUMP := 'IteratePixel1' *)
+TRANSITION FROM PromptUser_AutoMode TO TestAbortedHandshakeMetaWriter:=
+END_TEST
+END_TRANSITION
+(* @SFCNOJUMP := 'TestAbortedHandshakeMetaWriter' *)
+STEP TestAbortedHandshakeMetaWriter:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.passAbortedHandshake;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM TestAbortedHandshakeMetaWriter TO Step1:=
+TRUE
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+STEP CheckPixelOkay1:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.checkMotionOk;
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	StepDone := FALSE;	
+END_IF
+
+
+
+
+
+
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM CheckPixelOkay1 TO SetZaberX_Stage:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'SetZaberX_Stage' *)
+STEP SetZaberX_Stage:
+(* @LANGUAGE := 'st' *)
+
+// Set Zaber height and camera exposure
+Command.Command := gVFLCR.command.setZaber1Pos;
+
+Command.pParameters := ADR(task.internal.adjustZaber1);
+Command.sParameters := SIZEOF(task.internal.adjustZaber1);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+
+
+brsmemset( ADR(task.internal.adjustZaber1), 0, SIZEOF(task.internal.adjustZaber1) );
+
+task.internal.adjustZaber1.ZaberAbsolutePos_mm := Configuration.zaber1Position + ((task.internal.activePixelIndex+1) * OPTICS_BOX_PIXEL_XY_OFFSET) ;
+task.internal.adjustZaber1.ZaberMoveAbsolute := TRUE ;
+
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM SetZaberX_Stage TO PromptUser_AutoMode3:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'PromptUser_AutoMode3' *)
+STEP PromptUser_AutoMode3:
+(* @LANGUAGE := 'st' *)
+
+IF NOT autoMode THEN
+	
+	task.internal.pausePopUp := TRUE;
+	task.internal.continuePopUp := TRUE;
+	task.internal.cancelPopUp := TRUE;
+
+	
+	IF task.internal.pausePopUp <> 0 THEN
+
+	END_IF
+	
+	
+	//Once a selection is made we are good
+	IF CONTINUE_MAN_TEST OR CANCEL_TEST THEN
+	
+		task.internal.pausePopUp := FALSE;
+		task.internal.continuePopUp:= FALSE;
+		task.internal.cancelPopUp := FALSE;
+		
+	END_IF
+ELSE
+	CONTINUE_MAN_TEST := TRUE;
+	task.internal.pausePopUp := FALSE;
+	task.internal.continuePopUp:= FALSE;
+	task.internal.cancelPopUp := FALSE;
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.pausePopUp := 0;
+CONTINUE_MAN_TEST := FALSE;
+CANCEL_TEST := FALSE;
+
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+CONTINUE_MAN_TEST := FALSE;
+CANCEL_TEST := FALSE;
+END_ACTION
+TRANSITION FROM PromptUser_AutoMode3 TO InitializePixelForFrame:=
+CONTINUE_MAN_TEST
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializePixelForFrame' *)
+TRANSITION FROM PromptUser_AutoMode3 TO Step1:=
+CANCEL_TEST
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+STEP InitializePixelForFrame:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.initializePixelForFrame;
+
+task.internal.initializePixelParameters.activePixelIndex := task.internal.activePixelIndex;
+
+Command.pParameters := ADR(task.internal.initializePixelParameters);
+Command.sParameters := SIZEOF(task.internal.initializePixelParameters);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM InitializePixelForFrame TO PassRequiredMetaData:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'PassRequiredMetaData' *)
+STEP PassRequiredMetaData:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.passRequiredMetaData;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM PassRequiredMetaData TO ManualPulseAndCaptureData1:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'ManualPulseAndCaptureData1' *)
+STEP ManualPulseAndCaptureData1:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.manualPulse;
+
+Command.pParameters := ADR(task.internal.manualPulse);
+Command.sParameters := SIZEOF(task.internal.manualPulse);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	task.internal.failedImageCaptureRetry := 0;
+	Command.Execute := FALSE;
+	Command();
+ELSIF Command.Error THEN
+	IF task.internal.failedImageCaptureRetry < task.internal.numOfRetries THEN
+		StepRetry := TRUE;
+		task.internal.failedImageCaptureRetry := task.internal.failedImageCaptureRetry +1;
+		Command.Execute := FALSE;
+		Command();
+	ELSE
+		task.internal.failedImageCaptureRetry := 0;		
+		StepDone := FALSE;
+		StepRetry := FALSE;
+		StepPopExit := TRUE;
+		Command.Execute := FALSE;
+		Command();
+	END_IF	
+ELSE
+	StepDone := FALSE;
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.numOfRetries := 4; 
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepRetry := FALSE;
+StepDone := FALSE;
+StepPopExit := FALSE;
+END_ACTION
+TRANSITION FROM ManualPulseAndCaptureData1 TO IteratePixel1:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'IteratePixel1' *)
+TRANSITION FROM ManualPulseAndCaptureData1 TO ManualPulseAndCaptureData1:=
+StepRetry
+END_TRANSITION
+(* @SFCISJUMP := 'ManualPulseAndCaptureData1' *)
+TRANSITION FROM ManualPulseAndCaptureData1 TO CheckRetryOrQuit:=
+StepPopExit
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckRetryOrQuit' *)
+STEP CheckRetryOrQuit:
+(* @LANGUAGE := 'st' *)
+task.internal.showErrorMessage := TRUE;
+
+IF task.internal.showErrorMessage <> 0 THEN
+		
+	 
+		
+END_IF 
+
+
+IF CLOSE_POPUP  THEN
+	
+	task.internal.showErrorMessage := FALSE;
+	endTest :=TRUE;
+	StepRetry:=FALSE;
+		
+END_IF
+
+IF RETRY_POPUP  THEN
+		
+	task.internal.showErrorMessage := FALSE;
+	StepRetry:=TRUE;
+	endTest :=FALSE;
+		
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+endTest := FALSE;
+StepRetry := FALSE;
+END_ACTION
+TRANSITION FROM CheckRetryOrQuit TO ManualPulseAndCaptureData1:=
+StepRetry
+END_TRANSITION
+(* @SFCISJUMP := 'ManualPulseAndCaptureData1' *)
+TRANSITION FROM CheckRetryOrQuit TO Step1:=
+endTest
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+STEP IteratePixel1:
+(* @LANGUAGE := 'st' *)
+task.internal.activePixelIndex := task.internal.activePixelIndex + 1;
+ 
+IF task.internal.activePixelIndex >= MACHINE_NUM_LASERS_TOTAL THEN
+	IF  task.internal.activeZaber2Index < 10 THEN // 0-10 point reading with 5 being zero offset position and 5 reading on either side
+		zaberZIteration := TRUE;
+		task.internal.activeZaber2Index := task.internal.activeZaber2Index + 1;
+	ELSE
+		endTest := TRUE;
+	END_IF	
+ELSE
+	pixelIteration := TRUE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+
+pixelIteration := FALSE;
+zaberZIteration := FALSE;
+endTest := FALSE;
+END_ACTION
+TRANSITION FROM IteratePixel1 TO TestCompleteHandshakeMetaWriter:=
+endTest
+END_TRANSITION
+(* @SFCNOJUMP := 'TestCompleteHandshakeMetaWriter' *)
+TRANSITION FROM IteratePixel1 TO PromptUser_AutoMode:=
+pixelIteration
+END_TRANSITION
+(* @SFCISJUMP := 'PromptUser_AutoMode' *)
+TRANSITION FROM IteratePixel1 TO SetZaberStageZExposure:=
+zaberZIteration
+END_TRANSITION
+(* @SFCISJUMP := 'SetZaberStageZExposure' *)
+STEP TestCompleteHandshakeMetaWriter:
+(* @LANGUAGE := 'st' *)
+endTest := FALSE;
+
+Command.Command := gVFLCR.command.passCompleteHandshake;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	omsTestComplete := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM TestCompleteHandshakeMetaWriter TO Step1:=
+TRUE
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+TRANSITION FROM Step1 TO CheckLaserModulation:=
+OP_PIXEL_MAP
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckLaserModulation' *)
+STEP CheckLaserModulation:
+(* @LANGUAGE := 'st' *)
+OP_PIXEL_MAP := FALSE;
+omsTestComplete := FALSE;
+endTest := FALSE;
+pixelIteration := FALSE;
+
+FOR loopVar := 0 TO MACHINE_MAI_LASERS_TOTAL BY 1 DO
+	pixelIgnoreList[loopVar] := FALSE;
+END_FOR
+
+StepDone := TRUE;
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM CheckLaserModulation TO InitializeTestZaberX:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializeTestZaberX' *)
+STEP InitializeTestZaberX:
+(* @LANGUAGE := 'st' *)
+OP_CALIBRATE_LASER := FALSE;
+// initialize test
+// init meta writer; Zome Zaber 
+
+Command.Command := gVFLCR.command.initializeOmsTestZaber1;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+	
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.activeZaber2Index := 0;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM InitializeTestZaberX TO InitializeTestZaberZ:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializeTestZaberZ' *)
+STEP InitializeTestZaberZ:
+(* @LANGUAGE := 'st' *)
+OP_CALIBRATE_LASER := FALSE;
+// initialize test
+// init meta writer; Zome Zaber 
+
+Command.Command := gVFLCR.command.initializeOmsTestZaber2;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+	
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.activeZaber2Index := 0;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM InitializeTestZaberZ TO CheckZaberXHomed:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckZaberXHomed' *)
+STEP CheckZaberXHomed:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.checkZaber1Homed;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM CheckZaberXHomed TO CheckZaberZHomed:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckZaberZHomed' *)
+STEP CheckZaberZHomed:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.checkZaber2Homed;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM CheckZaberZHomed TO CheckInitialPixelMap:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckInitialPixelMap' *)
+STEP CheckInitialPixelMap:
+(* @LANGUAGE := 'st' *)
+task.status.allPixelsMapped := stateAllTrue(gVFLCR.status.pixelMapped, FALSE);
+
+FOR task.internal.rackNumber := 0 TO MACHINE_MAI_LASER_RACKS  DO
+	FOR task.internal.laserNumber := 0 TO MACHINE_MAI_LASERS_PER_RACK  DO	
+		gVFLCR.status.vfpMap[task.internal.laserNumber,task.internal.rackNumber] := TRUE;
+		//task.internal.laserNumber := task.internal.laserNumber +1;
+	END_FOR
+	//task.internal.rackNumber := task.internal.rackNumber +1;
+END_FOR
+
+IF task.status.allPixelsMapped THEN
+	StepDone := TRUE;
+ELSE
+	StepDone := FALSE;
+	
+	Command.Command := gVFLCR.command.laserRackRemap;
+
+	Command.Execute := TRUE;
+	Command();
+
+	IF Command.Done THEN
+		StepDone := TRUE;
+		Command.Execute := FALSE;
+		Command();	
+	ELSIF Command.Error THEN	
+		StepError := TRUE;	
+	END_IF
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM CheckInitialPixelMap TO InitializePulseSettings1:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializePulseSettings1' *)
+STEP InitializePulseSettings1:
+(* @LANGUAGE := 'st' *)
+// initialize app with manual pulse pars; Will create directories for calibration test as well- Should be ok; Assuming data backup of last test to Nas is done by then
+Command.Command := gVFLCR.command.initializeCalibration;
+
+Command.pParameters := ADR(gManualPulseTypeSelected);
+Command.sParameters := SIZEOF(gManualPulseTypeSelected);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+brsmemset(ADR(derivedMappingList), 0, SIZEOF(derivedMappingList));
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM InitializePulseSettings1 TO SetZaberZStage_Exposure:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'SetZaberZStage_Exposure' *)
+STEP SetZaberZStage_Exposure:
+(* @LANGUAGE := 'st' *)
+
+task.internal.adjustZaber1.ZaberAbsolutePos_mm := Configuration.zaber1Position;
+// Set Zaber height and camera exposure
+Command.Command := gVFLCR.command.setZaber2PosAndExposure;
+
+Command.pParameters := ADR(task.internal.adjustZaber2AndCamera);
+Command.sParameters := SIZEOF(task.internal.adjustZaber2AndCamera);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+
+task.internal.actualPixelMapIndex :=0; // used for derived mapping list
+task.internal.activeZaber1Index := 0; // Initialized once at the start of the test
+task.internal.failedImageCaptureRetry := 0; // Reset Retry count
+
+brsmemset( ADR(task.internal.adjustZaber2AndCamera), 0, SIZEOF(task.internal.adjustZaber2AndCamera) );
+
+task.internal.adjustZaber2AndCamera.ZaberAbsolutePos_mm := Configuration.zaber2HeightArray[5]; // only use middle height
+task.internal.adjustZaber2AndCamera.ZaberMoveAbsolute := TRUE ;
+task.internal.adjustZaber2AndCamera.CameraExposure := Configuration.zaber2HeightCameraExpoArray[5];
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM SetZaberZStage_Exposure TO SetZaberXStage:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'SetZaberXStage' *)
+STEP SetZaberXStage:
+(* @LANGUAGE := 'st' *)
+
+
+// Set Zaber height and camera exposure
+Command.Command := gVFLCR.command.setZaber1Pos;
+
+FOR loopVar := 0 TO MACHINE_MAI_LASERS_TOTAL BY 1 DO
+	IF pixelIgnoreList[task.internal.activePixelIndex] = TRUE THEN
+		task.internal.activePixelIndex := task.internal.activePixelIndex + 1;
+	ELSE
+		EXIT;
+	END_IF
+END_FOR
+
+Command.pParameters := ADR(task.internal.adjustZaber1);
+Command.sParameters := SIZEOF(task.internal.adjustZaber1);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.activePixelIndex := 0; // used to iterate through all pixels during pixel mapping
+
+FOR loopVar := 0 TO MACHINE_MAI_LASERS_TOTAL BY 1 DO
+	IF pixelIgnoreList[task.internal.activePixelIndex] = TRUE THEN
+		task.internal.activePixelIndex := task.internal.activePixelIndex + 1;
+	ELSE
+		EXIT;
+	END_IF
+END_FOR
+
+
+brsmemset( ADR(task.internal.adjustZaber1), 0, SIZEOF(task.internal.adjustZaber1) );
+
+task.internal.adjustZaber1.ZaberAbsolutePos_mm := Configuration.zaber1Position + ((task.internal.activeZaber1Index+1) * OPTICS_BOX_PIXEL_XY_OFFSET) ;
+task.internal.adjustZaber1.ZaberMoveAbsolute := TRUE ;
+
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM SetZaberXStage TO PromptUser_AutoMode1:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'PromptUser_AutoMode1' *)
+STEP PromptUser_AutoMode1:
+(* @LANGUAGE := 'st' *)
+
+IF NOT autoMode THEN
+	task.internal.showPopUp := TRUE;
+	task.internal.showNextPixel := TRUE;
+	task.internal.showSkipPixel:= TRUE;
+
+
+	IF task.internal.showPopUp THEN
+		
+		IF task.internal.activePixelIndex >= MACHINE_NUM_LASERS_TOTAL THEN
+		
+			task.internal.showNextPixel := FALSE;
+			task.internal.showSkipPixel:= FALSE;
+		
+		
+		ELSIF pixelIgnoreList[task.internal.activePixelIndex] = TRUE THEN
+			
+			// pixel is disabled
+			//task.internal.msgId := TRUE;
+			task.internal.showNextPixel := FALSE;	
+		
+			
+		ELSE
+		
+			// pixel is enabled
+			//task.internal.msgId := TRUE;
+			task.internal.showSkipPixel:= FALSE;
+			
+		END_IF
+	
+	END_IF
+	
+	IF task.internal.showPopUp <> 0 THEN
+		
+	
+		
+	END_IF
+	
+	//	IF messageHandler.cancel THEN
+	//		messageHandler.cancel := 0;
+	//		task.internal.msgId := FALSE;
+	//		SFCReset := TRUE;
+	//		gMachine.IN.CMD.Stop:= TRUE;
+	//	END_IF
+	
+	//Once a selection is made we are good
+	IF NEXT_PIXEL OR SKIP_PIXEL OR END_TEST THEN
+	
+		task.internal.showPopUp := FALSE;
+		task.internal.showSkipPixel:= FALSE;
+		task.internal.showNextPixel := FALSE;
+		
+	END_IF
+ELSE
+	IF pixelIgnoreList[task.internal.activePixelIndex] = TRUE THEN
+		SKIP_PIXEL := TRUE;
+	ELSE
+		NEXT_PIXEL := TRUE;
+	END_IF
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.showPopUp := 0;
+NEXT_PIXEL := FALSE;
+SKIP_PIXEL := FALSE;
+END_TEST := FALSE;
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+NEXT_PIXEL := FALSE;
+SKIP_PIXEL := FALSE;
+END_TEST := FALSE;
+END_ACTION
+TRANSITION FROM PromptUser_AutoMode1 TO InitializePixelForFrame1:=
+NEXT_PIXEL
+END_TRANSITION
+(* @SFCNOJUMP := 'InitializePixelForFrame1' *)
+TRANSITION FROM PromptUser_AutoMode1 TO IteratePixel11:=
+SKIP_PIXEL
+END_TRANSITION
+(* @SFCISJUMP := 'IteratePixel11' *)
+TRANSITION FROM PromptUser_AutoMode1 TO TestAbortedHandshakeMetaWriter1:=
+END_TEST
+END_TRANSITION
+(* @SFCNOJUMP := 'TestAbortedHandshakeMetaWriter1' *)
+STEP TestAbortedHandshakeMetaWriter1:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.passAbortedHandshake;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM TestAbortedHandshakeMetaWriter1 TO Step1:=
+TRUE
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+STEP InitializePixelForFrame1:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.initializePixelForFrame;
+
+task.internal.initializePixelParameters.activePixelIndex := task.internal.activePixelIndex;
+
+Command.pParameters := ADR(task.internal.initializePixelParameters);
+Command.sParameters := SIZEOF(task.internal.initializePixelParameters);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	
+	StepDone := FALSE;
+	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM InitializePixelForFrame1 TO PassRequiredMetaData1:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'PassRequiredMetaData1' *)
+STEP PassRequiredMetaData1:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.passRequiredMetaData;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM PassRequiredMetaData1 TO CaptureDataAndThenManualPulse:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CaptureDataAndThenManualPulse' *)
+STEP CaptureDataAndThenManualPulse:
+(* @LANGUAGE := 'st' *)
+Command.Command := gVFLCR.command.manualPulse;
+
+Command.pParameters := ADR(task.internal.manualPulse);
+Command.sParameters := SIZEOF(task.internal.manualPulse);
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSIF Command.Error THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+ENTRY_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.numOfRetries := 3; 
+END_ACTION
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM CaptureDataAndThenManualPulse TO CheckPixelPass:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckPixelPass' *)
+STEP CheckPixelPass:
+(* @LANGUAGE := 'st' *)
+task.internal.rackNumber := 0;
+task.internal.laserNumber :=0;
+
+IF gVFLCR.status.frameCaptured THEN
+	//task.internal.actualPixelMapIndex := task.internal.actualPixelMapIndex +1;
+	FOR task.internal.rackNumber := 0 TO MACHINE_MAI_LASER_RACKS  DO
+		IF NOT (gVFLCR.status.vfpMap[task.internal.activePixelIndex, 1] = FALSE) THEN
+			FOR task.internal.laserNumber := 0 TO MACHINE_MAI_LASERS_PER_RACK  DO
+				IF gmapRackLaser_to_Pixel[task.internal.rackNumber,task.internal.laserNumber] = task.internal.activePixelIndex THEN
+					derivedMappingList[task.internal.rackNumber,task.internal.laserNumber] := task.internal.activeZaber1Index;
+					pixelIgnoreList[task.internal.activePixelIndex] := TRUE;
+					gVFLCR.status.frameCaptured := FALSE;
+				END_IF
+			END_FOR
+		END_IF
+	END_FOR
+			StepDone := TRUE;
+			StepContinue := FALSE;
+
+		ELSE
+			StepDone := FALSE;
+			StepContinue := TRUE;
+		END_IF
+
+
+
+
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+StepContinue := FALSE;
+END_ACTION
+TRANSITION FROM CheckPixelPass TO IteratePixel11:=
+StepContinue
+END_TRANSITION
+(* @SFCNOJUMP := 'IteratePixel11' *)
+TRANSITION FROM CheckPixelPass TO CheckZaberXIndex:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckZaberXIndex' *)
+STEP CheckZaberXIndex:
+(* @LANGUAGE := 'st' *)
+IF task.internal.activeZaber1Index < (MACHINE_NUM_LASERS_TOTAL - 1) THEN
+	StepContinue := TRUE;
+	task.internal.activeZaber1Index:= task.internal.activeZaber1Index +1 ;
+ELSE
+	StepDone := TRUE;
+END_IF
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+StepContinue := FALSE;
+END_ACTION
+TRANSITION FROM CheckZaberXIndex TO SetZaberXStage:=
+StepContinue
+END_TRANSITION
+(* @SFCISJUMP := 'SetZaberXStage' *)
+TRANSITION FROM CheckZaberXIndex TO TestCompleteHandshake:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'TestCompleteHandshake' *)
+STEP TestCompleteHandshake:
+(* @LANGUAGE := 'st' *)
+endTest := FALSE;
+
+Command.Command := gVFLCR.command.passCompleteHandshake;
+
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	omsTestComplete := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE	
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM TestCompleteHandshake TO UpdateMapping:=
+TRUE
+END_TRANSITION
+(* @SFCNOJUMP := 'UpdateMapping' *)
+STEP UpdateMapping:
+(* @LANGUAGE := 'st' *)
+
+FOR task.internal.rackIndex := 0 TO (MACHINE_NUM_LASER_RACKS-1)  DO
+	FOR task.internal.laserIndex := 0 TO (MACHINE_NUM_LASERS_PER_RACK-1) DO	
+		
+		IF gVFLCR.status.vfpMap[gmapRackLaser_to_Pixel[task.internal.rackIndex,task.internal.laserIndex],1 ] = TRUE 
+			AND (((task.internal.rackIndex*MACHINE_NUM_LASERS_PER_RACK) + task.internal.laserIndex) < MACHINE_NUM_LASERS_TOTAL) THEN
+			gmapRackLaser_to_Pixel[task.internal.rackIndex,task.internal.laserIndex] := derivedMappingList[task.internal.rackIndex,task.internal.laserIndex ];
+			//task.internal.laserNumber := task.internal.laserNumber +1;
+			gmapPixel_to_Rack[derivedMappingList[task.internal.rackIndex,task.internal.laserIndex]] := task.internal.rackIndex;
+			gmapPixel_to_Laser[derivedMappingList[task.internal.rackIndex,task.internal.laserIndex]] := task.internal.laserIndex;
+		END_IF
+	END_FOR
+END_FOR
+	
+FOR task.internal.clearListPixelNumber := 0 TO MACHINE_NUM_LASERS_TOTAL-1 DO
+	pixelIgnoreList[task.internal.clearListPixelNumber] := FALSE;
+END_FOR
+StepDone := TRUE;
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone:=FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM UpdateMapping TO Step1:=
+StepDone
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+STEP IteratePixel11:
+(* @LANGUAGE := 'st' *)
+task.internal.activePixelIndex := task.internal.activePixelIndex + 1;
+
+FOR loopVar := 0 TO MACHINE_MAI_LASERS_TOTAL BY 1 DO
+	IF pixelIgnoreList[task.internal.activePixelIndex] = TRUE THEN
+		task.internal.activePixelIndex := task.internal.activePixelIndex + 1;
+	ELSE
+		EXIT;
+	END_IF
+END_FOR
+ 
+IF task.internal.activePixelIndex < MACHINE_NUM_LASERS_TOTAL  THEN
+		
+	pixelIteration := TRUE;
+	testCheck := FALSE;
+	
+ELSE
+	pixelIteration := FALSE;
+	testCheck:= TRUE;
+END_IF
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+pixelIteration := FALSE;
+testError := FALSE;
+END_ACTION
+TRANSITION FROM IteratePixel11 TO CheckRetry:=
+testCheck
+END_TRANSITION
+(* @SFCNOJUMP := 'CheckRetry' *)
+TRANSITION FROM IteratePixel11 TO PromptUser_AutoMode1:=
+pixelIteration
+END_TRANSITION
+(* @SFCISJUMP := 'PromptUser_AutoMode1' *)
+STEP CheckRetry:
+(* @LANGUAGE := 'st' *)
+
+task.internal.showErrorMessage := TRUE;
+
+IF task.internal.showErrorMessage <> 0 THEN
+		
+	 
+		
+END_IF 
+
+
+IF CLOSE_POPUP  THEN
+	
+	task.internal.showErrorMessage := FALSE;
+	StepDone :=TRUE;
+	StepRetry:=FALSE;
+
+END_IF
+
+		
+IF RETRY_POPUP  THEN
+		
+	task.internal.showErrorMessage := FALSE;
+	StepRetry:=TRUE;
+	StepDone :=FALSE;
+		
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+pixelIteration := FALSE;
+testError := FALSE;
+StepDone := FALSE;
+StepRetry:=FALSE;
+END_ACTION
+TRANSITION FROM CheckRetry TO Step1:=
+StepDone
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+TRANSITION FROM CheckRetry TO SetZaberXStage:=
+StepRetry
+END_TRANSITION
+(* @SFCISJUMP := 'SetZaberXStage' *)
+TRANSITION FROM Step1 TO UpdateMapping1:=
+OP_PIXEL_UPDATE
+END_TRANSITION
+(* @SFCNOJUMP := 'UpdateMapping1' *)
+STEP UpdateMapping1:
+(* @LANGUAGE := 'st' *)
+
+FOR task.internal.rackIndex := 0 TO (MACHINE_NUM_LASER_RACKS-1)  DO
+	FOR task.internal.laserIndex := 0 TO (MACHINE_NUM_LASERS_PER_RACK-1) DO	
+		
+		IF gVFLCR.status.vfpMap[gmapRackLaser_to_Pixel[task.internal.rackIndex,task.internal.laserIndex],1 ] = TRUE 
+			AND ((task.internal.rackIndex*(MACHINE_NUM_LASERS_PER_RACK) + task.internal.laserIndex) < MACHINE_NUM_LASERS_TOTAL) THEN
+			gmapRackLaser_to_Pixel[task.internal.rackIndex,task.internal.laserIndex] := derivedMappingList[task.internal.rackIndex,task.internal.laserIndex ];
+		//task.internal.laserNumber := task.internal.laserNumber +1;
+			gmapPixel_to_Rack[derivedMappingList[task.internal.rackIndex,task.internal.laserIndex]] := task.internal.rackIndex;
+			gmapPixel_to_Laser[derivedMappingList[task.internal.rackIndex,task.internal.laserIndex]] := task.internal.laserIndex;
+		END_IF
+	END_FOR
+END_FOR
+
+FOR task.internal.clearListPixelNumber := 0 TO (MACHINE_NUM_LASERS_TOTAL-1) DO
+	pixelIgnoreList[task.internal.clearListPixelNumber] := FALSE;
+END_FOR
+StepDone := TRUE;
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone:=FALSE;
+(* TODO: Insert Program *)
+END_ACTION
+TRANSITION FROM UpdateMapping1 TO ForceMappingDone:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'ForceMappingDone' *)
+STEP ForceMappingDone:
+(* @LANGUAGE := 'st' *)
+
+Command.Command := gVFLCR.command.forceMappingDone;
+Command.Execute := TRUE;
+Command();
+
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();	
+ELSE
+	StepDone := FALSE;
+END_IF
+
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM ForceMappingDone TO Step1:=
+StepDone
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+STEP IteratePixels:
+(* @LANGUAGE := 'st' *)
+task.internal.activePixelIndex := task.internal.activePixelIndex + 1;
+
+IF task.internal.activePixelIndex >= 75 THEN
+	IF task.internal.activeZaber2Index < 10 THEN
+		// Next Z height
+		NEXT_PIXEL := FALSE;
+		END_TEST := FALSE;
+		NEXT_Z_HEIGHT := TRUE;
+	ELSE
+		NEXT_PIXEL := FALSE;
+		END_TEST := TRUE;
+		NEXT_Z_HEIGHT := FALSE;
+	END_IF
+ELSE
+	NEXT_PIXEL := TRUE;
+	END_TEST := FALSE;
+	NEXT_Z_HEIGHT := FALSE;
+END_IF
+
+
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+NEXT_PIXEL := FALSE;
+END_TEST := FALSE;
+NEXT_Z_HEIGHT := FALSE;
+END_ACTION
+TRANSITION FROM IteratePixels TO Step1:=
+NEXT_PIXEL
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+TRANSITION FROM IteratePixels TO Step1:=
+NEXT_Z_HEIGHT
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+TRANSITION FROM IteratePixels TO Step1:=
+END_TEST
+END_TRANSITION
+(* @SFCISJUMP := 'Step1' *)
+END_PROGRAM

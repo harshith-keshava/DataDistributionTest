@@ -1,0 +1,31 @@
+VAR
+	group : USINT;
+	sfcData : SFCControlDataApi_type;
+	task : {REDUND_UNREPLICABLE} localInterface_typ;
+	SFCReset : BOOL;
+	SFCTrans : BOOL;
+	SFCPause : BOOL;
+	SFCCurrentStep : STRING[80];
+	SFCSingleStep : BOOL;
+	OK : BOOL;
+	StepError : BOOL;
+	StepDone : BOOL;
+	StepContinue : BOOL;
+	StepRetry : BOOL;
+	StepPopExit : BOOL;
+	startStepActive : BOOL;
+	_startStepActive : BOOL;
+	logStateChange_0 : logStateChange;
+	ModuleInterface : Module_Interface_typ;
+	Module : Piper_Module_Fub;
+END_VAR
+VAR RETAIN
+	Configuration : Configuration_typ;
+END_VAR
+VAR
+	init : BOOL;
+	messageHandler : MessageHandler_typ;
+	AlarmText : STRING[vfALARMS_MAX_SNIPPET_STR_LENGTH];
+	StepExit : BOOL;
+	ScanTaken : BOOL;
+END_VAR

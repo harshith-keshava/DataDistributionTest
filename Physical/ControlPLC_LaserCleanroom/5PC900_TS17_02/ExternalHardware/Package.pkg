@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+<<<<<<< HEAD
+  <Objects>
+    <Object Type="File">ExternalHardwareDevices.xml</Object>
+    <Object Type="File">KPWQVGCD.ext</Object>
+  </Objects>
+=======
+  <Objects />
+>>>>>>> parent of de4c397 (Merge branch 'master' into feature/NewAPC910Config)
+</Package>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="Binary" Description="A new source library">piper</Object>
+    <Object Type="Library" Language="Binary">fiowrap</Object>
+    <Object Type="Library" Language="Binary">messagebox</Object>
+    <Object Type="Library" Language="Binary">ringbuflib</Object>
+    <Object Type="Library" Language="Binary">hmitools</Object>
+    <Object Type="Library" Language="Binary">logthat</Object>
+    <Object Type="Library" Language="ANSIC">errorAPI</Object>
+    <Object Type="Library" Language="Binary">bodyguard</Object>
+    <Object Type="Library" Language="Binary">stringext</Object>
+    <Object Type="Library" Language="Binary">tcpcomm</Object>
+    <Object Type="Library" Language="Binary">DataBuffer</Object>
+    <Object Type="Library" Language="Binary">Finder</Object>
+    <Object Type="Library" Language="Binary">hammers</Object>
+    <Object Type="Library" Language="Binary">atn</Object>
+    <Object Type="Library" Language="Binary">axislib</Object>
+    <Object Type="Library" Language="Binary">omjson</Object>
+    <Object Type="Library" Language="Binary">csvfilelib</Object>
+    <Object Type="Library" Language="Binary">persist</Object>
+    <Object Type="Library" Language="Binary">vartools</Object>
+  </Objects>
+</Package>

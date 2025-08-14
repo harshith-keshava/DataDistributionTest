@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gGroup_Machine" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Machine" />
+        <Property ID="1" Value="gAlarmXHistory_Machine" />
+        <Property ID="2" Value="gGroup_Init" />
+        <Property ID="3" Value="gGroup_AxisBasic" />
+        <Property ID="4" Value="gGroup_CncGantry" />
+        <Property ID="5" Value="gGroup_Recoater" />
+        <Property ID="6" Value="gGroup_Laser" />
+        <Property ID="7" Value="gGroup_Vision" />
+        <Property ID="8" Value="gGroup_Cooling" />
+        <Property ID="9" Value="gGroup_Lift" />
+        <Property ID="10" Value="gGroup_PrintMan" />
+        <Property ID="11" Value="gGroup_Shuttle" />
+        <Property ID="12" Value="gGroup_Pod" />
+        <Property ID="13" Value="gGroup_Gas" />
+        <Property ID="14" Value="gGroup_Pumps" />
+        <Property ID="15" Value="gGroup_Filter" />
+        <Property ID="16" Value="gGroup_Safety" />
+        <Property ID="17" Value="gGroup_Leveling" />
+        <Property ID="18" Value="gGroup_DataCollection" />
+        <Property ID="19" Value="gGroup_Powder" />
+        <Property ID="20" Value="gGroup_MachineMode" />
+        <Property ID="21" Value="UserMgmtX" />
+        <Property ID="22" Value="gUserXLogin" />
+        <Property ID="23" Value="gGroup_Pod" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Pod" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Pod" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Shuttle" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Shuttle" />
+        <Property ID="1" Value="gAxisShuttle" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Init" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Init" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_PrintMan" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_PrintMan" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_AxisBasic" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_AxisBasic" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_CncGantry" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_CncGantry" />
+        <Property ID="1" Value="gCncGantry" />
+        <Property ID="2" Value="gGroup_CncGear" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_CncGear" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_GearSystemGantryX" />
+        <Property ID="1" Value="gAxisGantryX1" />
+        <Property ID="2" Value="gAxisGantryX2" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Recoater" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Recoater" />
+        <Property ID="1" Value="gAxisRecoater" />
+        <Property ID="2" Value="gGroup_RecoaterGear" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_RecoaterGear" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_GearSystemRecoaterX" />
+        <Property ID="1" Value="gAxisRecoater1" />
+        <Property ID="2" Value="gAxisRecoater2" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Lift" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Lift" />
+        <Property ID="1" Value="gAxisLiftZ" />
+        <Property ID="2" Value="gGroup_LiftGear" />
+        <Property ID="3" Value="gAxisLiftLinEnc1" />
+        <Property ID="4" Value="gAxisLiftLinEnc2" />
+        <Property ID="5" Value="gAxisLiftLinEnc3" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_LiftGear" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="gAxisLiftZ1" />
+        <Property ID="1" Value="gAxisLiftZ2" />
+        <Property ID="2" Value="gAxisLiftZ3" />
+        <Property ID="3" Value="alarm_GearSystemLiftZ" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Laser" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Laser" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Cooling" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Cooling" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Safety" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Safety" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Gas" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Gas" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Vision" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Vision" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Pumps" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Pumps" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Filter" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Filter" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Leveling" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Leveling" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_MachineMode" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_MachineMode" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_DataCollection" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_MQTT" />
+      </Group>
+    </Group>
+  </Element>
+  <Element ID="gGroup_Powder" Type="mpcomgroup">
+    <Group ID="Linking">
+      <Group ID="Subnodes">
+        <Property ID="0" Value="alarm_Powder" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="Administrators" Type="Role">
+    <Property ID="RoleID" Value="1" />
+    <Property ID="Description" Value="Administrators" />
+  </Element>
+  <Element ID="Everyone" Type="Role">
+    <Property ID="RoleID" Value="2" />
+    <Property ID="Description" Value="Anonymous" />
+  </Element>
+  <Element ID="SystemCommissioners" Type="Role">
+    <Property ID="RoleID" Value="3" />
+    <Property ID="Description" Value="System Commissioning Activities" />
+  </Element>
+  <Element ID="DataCollectors" Type="Role">
+    <Property ID="RoleID" Value="4" />
+    <Property ID="Description" Value="Machine data collection" />
+  </Element>
+  <Element ID="AccessLevel1" Type="Role">
+    <Property ID="RoleID" Value="11" />
+  </Element>
+  <Element ID="AccessLevel2" Type="Role">
+    <Property ID="RoleID" Value="12" />
+  </Element>
+  <Element ID="AccessLevel3" Type="Role">
+    <Property ID="RoleID" Value="13" />
+  </Element>
+  <Element ID="AccessLevel4" Type="Role">
+    <Property ID="RoleID" Value="14" />
+  </Element>
+  <Element ID="AccessLevel5" Type="Role">
+    <Property ID="RoleID" Value="15" />
+  </Element>
+  <Element ID="AccessLevel6" Type="Role">
+    <Property ID="RoleID" Value="16" />
+  </Element>
+  <Element ID="AccessLevel7" Type="Role">
+    <Property ID="RoleID" Value="17" />
+  </Element>
+  <Element ID="AccessLevel8" Type="Role">
+    <Property ID="RoleID" Value="18" />
+  </Element>
+  <Element ID="AccessLevel9" Type="Role">
+    <Property ID="RoleID" Value="19" />
+  </Element>
+  <Element ID="AccessLevel10" Type="Role">
+    <Property ID="RoleID" Value="20" />
+  </Element>
+  <Element ID="Operators" Type="Role">
+    <Property ID="RoleID" Value="21" />
+    <Property ID="Description" Value="Role for machine operators" />
+  </Element>
+  <Element ID="Technicians" Type="Role">
+    <Property ID="RoleID" Value="22" />
+    <Property ID="Description" Value="Role for technicians" />
+  </Element>
+  <Element ID="Engineers" Type="Role">
+    <Property ID="RoleID" Value="23" />
+    <Property ID="Description" Value="Role for engineers" />
+  </Element>
+</Configuration>

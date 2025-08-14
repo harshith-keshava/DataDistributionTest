@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Machine</prop>
+  </header>
+  <body>
+    <tu tuid="COMMAND_BEFORE_READY.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;COMMAND_BEFORE_READY.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_BEFORE_READY.Message">
+      <tuv xml:lang="en">
+        <seg>Machine received a command before it was ready</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_ERROR.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;COMMAND_ERROR.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_ERROR.Message">
+      <tuv xml:lang="en">
+        <seg>Error while executing command</seg>
+      </tuv>
+    </tu>
+    <tu tuid="REFERENCE_REQUIRED.Message">
+      <tuv xml:lang="en">
+        <seg>System Homing is required before the requested operation</seg>
+      </tuv>
+    </tu>
+    <tu tuid="REFERENCE_REQUIRED.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;REFERENCE_REQUIRED.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_DATA_RESTORED.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;PERMMEM_DATA_RESTORED.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_DATA_RESTORED.Message">
+      <tuv xml:lang="en">
+        <seg>Data restored</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_FILE_ERROR.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;PERMMEM_FILE_ERROR.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_FILE_ERROR.Message">
+      <tuv xml:lang="en">
+        <seg>Error restoring data</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_PERSISTER_ERROR.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;PERMMEM_PERSISTER_ERROR.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_PERSISTER_ERROR.Message">
+      <tuv xml:lang="en">
+        <seg>Error ID {&amp;ErrorID} initializing persister</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_PERSISTER_SIZE_CHANGED.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Validate Config additions/subtractions and acknowledge the size change from the settings page</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_PERSISTER_SIZE_CHANGED.Message">
+      <tuv xml:lang="en">
+        <seg>Permanent Memory required size changed. Automatically reloading from backup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_PERSISTER_DATA_INVALID.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Please validate settings</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PERMMEM_PERSISTER_DATA_INVALID.Message">
+      <tuv xml:lang="en">
+        <seg>Permanent data was determined to be invalid. Automatically reloading from backup</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FILE_LINK_ERROR.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Status number {&amp;PERMMEM_PERSISTER_ERROR.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FILE_LINK_ERROR.Message">
+      <tuv xml:lang="en">
+        <seg>Error linking file device</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOMATION_FAIL.Message">
+      <tuv xml:lang="en">
+        <seg>AUTOMATION FAILED: {&amp;AUTOMATION_FAIL.snippet} Status:{&amp;MessageStatus}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOMATION_FAIL.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;AUTOMATION_FAIL.snippet} Status:{&amp;MessageStatus}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOMATION_FAIL_COMMAND.Message">
+      <tuv xml:lang="en">
+        <seg>AUTOMATION FAILED:  {&amp;AUTOMATION_FAIL_COMMAND.snippet} Status:{&amp;MessageStatus} State: {&amp;CommandStatus}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOMATION_FAIL_COMMAND.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;AUTOMATION_FAIL_COMMAND.snippet} Status:{&amp;MessageStatus} State: {&amp;CommandStatus}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PACKML_ABORT.Message">
+      <tuv xml:lang="en">
+        <seg>PackML Aborted</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PACKML_ABORT.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;PACKML_ABORT.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PACKML_STOP.Message">
+      <tuv xml:lang="en">
+        <seg>PackML Stopped</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PACKML_STOP.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;PACKML_STOP.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOMATION_CHECK_FAIL.Message">
+      <tuv xml:lang="en">
+        <seg>Error Executing Automation due to invalid machine state</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AUTOMATION_CHECK_FAIL.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;AUTOMATION_CHECK_FAIL.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SPLIT_CONFIG_LOAD_FAIL.Message">
+      <tuv xml:lang="en">
+        <seg>Failed to load config for this task: {&amp;SPLIT_CONFIG_LOAD_FAIL.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="SPLIT_CONFIG_LOAD_FAIL.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gBuildInfoRecipe" Type="mprecipexml">
+    <Selector ID="Alarms" Value="MpAlarmX">
+      <Group ID="mapp.AlarmX.Core.Configuration">
+        <Group ID="[0]">
+          <Property ID="Code" Value="1300" />
+          <Property ID="Severity" Value="4" />
+          <Property ID="AdditionalInformation1" Value="Build Info" />
+          <Property ID="AdditionalInformation2" Value="Recipe" />
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Code" Value="1301" />
+          <Property ID="Severity" Value="4" />
+          <Property ID="AdditionalInformation1" Value="Build Info" />
+          <Property ID="AdditionalInformation2" Value="Recipe" />
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Code" Value="1302" />
+          <Property ID="Severity" Value="4" />
+          <Property ID="AdditionalInformation1" Value="Build Info" />
+          <Property ID="AdditionalInformation2" Value="Recipe" />
+        </Group>
+        <Group ID="[3]">
+          <Property ID="Code" Value="1303" />
+          <Property ID="Severity" Value="4" />
+          <Property ID="AdditionalInformation1" Value="Build Info" />
+          <Property ID="AdditionalInformation2" Value="Recipe" />
+        </Group>
+      </Group>
+    </Selector>
+  </Element>
+</Configuration>

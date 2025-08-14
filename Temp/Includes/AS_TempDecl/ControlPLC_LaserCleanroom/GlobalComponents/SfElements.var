@@ -1,0 +1,3 @@
+VAR
+	gSafeDomain_1 : {REDUND_UNREPLICABLE} SfDomType; (*#1"C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Physical\ControlPLC_LaserCleanroom\5PC900_TS17_02\mappSafety\Config_1.sfdomain" #2"1" #3"1"*)
+END_VAR

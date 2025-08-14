@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">
+	<Schema href="StatusAlarm/meta/StatusAlarm.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusBall/meta/StatusBall.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusBall_Inverted/meta/StatusBall_Inverted.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusBallTarget/meta/StatusBallTarget.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusBlackCheck/meta/StatusBlackCheck.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusBlueCheck/meta/StatusBlueCheck.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusGreenCheck/meta/StatusGreenCheck.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLEDBlue/meta/StatusLEDBlue.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLEDGreen/meta/StatusLEDGreen.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLEDRed/meta/StatusLEDRed.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLEDYellow/meta/StatusLEDYellow.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLightBulb/meta/StatusLightBulb.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLightGreenCheck/meta/StatusLightGreenCheck.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusLocationTarget/meta/StatusLocationTarget.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusMoving/meta/StatusMoving.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusPower/meta/StatusPower.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusQuestion/meta/StatusQuestion.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusRunning/meta/StatusRunning.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+	<Schema href="StatusWarn/meta/StatusWarn.xsd" targetNamespace="http://www.br-automation.com/iat2015/contentDefinition/v2" />
+</SchemaCatalog>

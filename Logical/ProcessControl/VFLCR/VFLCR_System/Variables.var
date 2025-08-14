@@ -1,0 +1,13 @@
+VAR
+	Name : STRING[80];
+	IO : IO_typ;
+	Configuration : Configuration_typ;
+	task : localInterface_typ;
+	index : INT;
+	active : BOOL;
+	FoundActive : BOOL;
+	ManualPulseStatus : LaserManualPulseStatus_typ;
+	moduleName : STRING[256];
+	zeroManualPulsePars : VFLCRManualPulseParameters_typ;
+	i : USINT;
+END_VAR

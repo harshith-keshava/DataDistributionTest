@@ -1,0 +1,48 @@
+{
+  "_from": "@loupeteam/fiowrap@>=0.9.0 <=0.9.9",
+  "_id": "@loupeteam/fiowrap@0.9.1",
+  "_inBundle": false,
+  "_integrity": "sha512-okJPxC6HKv6+ZrPgKNuJ+4fAc3PnHrOcbLqRnXbwLF7njCLX25m27Bu+pZQuJAEuw4eMkUrGd7CXYF0KOUz04w==",
+  "_location": "/@loupeteam/fiowrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@loupeteam/fiowrap@>=0.9.0 <=0.9.9",
+    "name": "@loupeteam/fiowrap",
+    "escapedName": "@loupeteam%2ffiowrap",
+    "scope": "@loupeteam",
+    "rawSpec": ">=0.9.0 <=0.9.9",
+    "saveSpec": null,
+    "fetchSpec": ">=0.9.0 <=0.9.9"
+  },
+  "_requiredBy": [
+    "/@loupeteam/csvfilelib"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@loupeteam/fiowrap/0.9.1/5259664e2dcb91836f8b0bed6edd12a2275966a9",
+  "_shasum": "5259664e2dcb91836f8b0bed6edd12a2275966a9",
+  "_spec": "@loupeteam/fiowrap@>=0.9.0 <=0.9.9",
+  "_where": "C:\\Projects\\ControlPLC_Gen3_Rev0\\Gen3\\ControlPLC_Gen3_Rev0\\node_modules\\@loupeteam\\csvfilelib",
+  "author": {
+    "name": "Loupe"
+  },
+  "bugs": {
+    "url": "https://github.com/loupeteam/fiowrap/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@loupeteam/stringext": ">=0.11.0"
+  },
+  "deprecated": false,
+  "description": "Loupe's fiowrap library for Automation Runtime",
+  "homepage": "https://loupeteam.github.io/Sandbox/libraries/fiowrap.html",
+  "keywords": [],
+  "license": "Loupe Software License Agreement",
+  "name": "@loupeteam/fiowrap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loupeteam/fiowrap.git"
+  },
+  "scripts": {},
+  "version": "0.9.1"
+}

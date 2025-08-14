@@ -1,0 +1,46 @@
+{
+  "_from": "@loupeteam/ringbuflib@>=0.2.0",
+  "_id": "@loupeteam/ringbuflib@0.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-iMekWj7qvhwdYpiD3XpJIJPxlVel0k9PFpPa7POtAI/DIQTH8X6caZNlllA14wAlBAaKYdUVYzdW1t9EjizQWg==",
+  "_location": "/@loupeteam/ringbuflib",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@loupeteam/ringbuflib@>=0.2.0",
+    "name": "@loupeteam/ringbuflib",
+    "escapedName": "@loupeteam%2fringbuflib",
+    "scope": "@loupeteam",
+    "rawSpec": ">=0.2.0",
+    "saveSpec": null,
+    "fetchSpec": ">=0.2.0"
+  },
+  "_requiredBy": [
+    "/@loupeteam/hmitools"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@loupeteam/ringbuflib/0.2.4/aa477b3b9b4f8b2babda5f67bd823b9f73a837b7",
+  "_shasum": "aa477b3b9b4f8b2babda5f67bd823b9f73a837b7",
+  "_spec": "@loupeteam/ringbuflib@>=0.2.0",
+  "_where": "C:\\Projects\\ControlPLC_Gen3_Rev0\\Gen3\\ControlPLC_Gen3_Rev0\\node_modules\\@loupeteam\\hmitools",
+  "author": {
+    "name": "Loupe"
+  },
+  "bugs": {
+    "url": "https://github.com/loupeteam/ringbuflib/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Loupe's ringbuflib library for Automation Runtime",
+  "homepage": "https://loupeteam.github.io/Sandbox/libraries/ringbuflib.html",
+  "keywords": [],
+  "license": "Loupe Software License Agreement",
+  "name": "@loupeteam/ringbuflib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loupeteam/ringbuflib.git"
+  },
+  "scripts": {},
+  "version": "0.2.4"
+}

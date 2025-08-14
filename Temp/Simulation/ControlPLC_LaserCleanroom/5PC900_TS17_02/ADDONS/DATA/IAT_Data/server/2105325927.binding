@@ -1,0 +1,1318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingDefinition xmlns="http://www.br-automation.com/iat2014/binding/runtime/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:br="http://www.br-automation.com/iat2015/bindingList/runtime/v2">
+  
+		
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.ComPortNumberZaber2Hmi" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput15" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.ComPortNumberZaber2Hmi" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput15" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.ComPortNumberZaber1Hmi" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput14" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.ComPortNumberZaber1Hmi" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput14" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:autoMode" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton12" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:autoMode" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton12" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.Exists" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton11" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.Exists" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton11" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.disableDCPower" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.disableDCPower" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.enableAllLaserFunctions" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.enableAllLaserFunctions" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFPTR_Syst:task.command.disableModulation" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton7" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFPTR_Syst:task.command.disableModulation" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton7" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFPTR_Syst:task.command.enableModulation" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton6" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFPTR_Syst:task.command.enableModulation" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton6" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.enableAutoMode" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton5" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.enableAutoMode" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton5" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.enableManualMode" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.enableManualMode" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.laserEmissionEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen30" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.laserEmissionEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen30" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.laserEmissionEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen27" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.laserEmissionEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen27" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.laserEmissionEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen24" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.laserEmissionEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen24" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.laserEmissionEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen21" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.laserEmissionEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen21" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.laserPowerEnable" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen29" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.laserPowerEnable" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen29" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.laserPowerEnable" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen26" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.laserPowerEnable" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen26" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.laserPowerEnable" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen23" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.laserPowerEnable" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen23" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.laserPowerEnable" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen20" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.laserPowerEnable" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen20" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.dcPowerEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen28" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.dcPowerEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen28" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.dcPowerEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen25" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.dcPowerEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen25" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.dcPowerEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen22" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.dcPowerEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen22" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.dcPowerEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen19" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.dcPowerEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen19" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFPTR_Syst:task.status.userModulationEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen33" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFPTR_Syst:task.status.userModulationEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen33" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.autoModeEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen32" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.autoModeEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen32" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.manualModeEnabled" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen31" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.manualModeEnabled" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen31" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Safety:IO.safeLOGIC.Status.SafetyReset_Lasers" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen34" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Safety:IO.safeLOGIC.Status.SafetyReset_Lasers" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen34" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.error" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDRed2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.error" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDRed2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.ComPortNumberZaber2Hmi" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput16" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Gen3PythonLaserCalibration:Configuration.ComPortNumberZaber2Hmi" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput16" attribute="editable::value" />
+</Binding></Content>
+
+
+
+		<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.manualPulseCalculations.powerIncrementWatts" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput28" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.manualPulseCalculations.powerIncrementWatts" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput28" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.manualPulseCalculations.endingPowerWatts" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput27" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.manualPulseCalculations.endingPowerWatts" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput27" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.powerIncrementPerStep" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput26" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.powerIncrementPerStep" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput26" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:VFLCR_Syst:task.internal.currentLaserPulsePars.numPowerLevels" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput25" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:VFLCR_Syst:task.internal.currentLaserPulsePars.numPowerLevels" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput25" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.safePowerLimit_W" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput24" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.safePowerLimit_W" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput24" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.safePowerLimit_W" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput23" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.safePowerLimit_W" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput23" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.safePowerLimit_W" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput22" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.safePowerLimit_W" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput22" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.availableLaserPower_W" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput21" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.availableLaserPower_W" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput21" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.pulseOffTime_ms" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput20" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.pulseOffTime_ms" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput20" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.pulseOnTime_ms" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput19" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.pulseOnTime_ms" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput19" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.pulseDelayTime_ms" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput18" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.pulseDelayTime_ms" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput18" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.numPulsesPerLevel" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput17" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.currentLaserPulsePars.numPulsesPerLevel" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput17" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.resetAllErrors" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton8" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.resetAllErrors" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton8" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Safety:task.command.resetLaserSafety" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton9" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Safety:task.command.resetLaserSafety" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton9" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::Safety:IO.safeLOGIC.Command.EnableLaserSafetyInterlock" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton10" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::Safety:IO.safeLOGIC.Command.EnableLaserSafetyInterlock" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton10" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[20]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput21" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[19]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput20" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[18]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput19" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[17]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput18" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[16]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput17" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[15]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput16" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[14]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput15" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[13]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput14" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[12]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput13" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[11]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput12" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[10]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput11" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[9]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput10" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[8]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput9" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[7]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput8" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[6]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput7" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[5]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput6" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[4]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput5" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[3]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput4" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[2]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput3" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[1]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput2" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope0:task.status.pixelNumber[0]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[0]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput22" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[1]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput23" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[2]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput24" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[3]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput25" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[4]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput26" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[5]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput27" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[6]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput28" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[7]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput29" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[8]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput30" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[9]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput31" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[10]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput32" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[11]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput33" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[12]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput34" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[13]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput35" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[14]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput36" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[15]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput37" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[16]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput38" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[17]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput39" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[18]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput40" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[19]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput41" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope1:task.status.pixelNumber[20]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput42" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[0]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput43" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[1]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput44" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[2]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput45" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[3]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput46" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[4]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput47" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[5]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput48" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[6]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput49" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[7]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput50" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[8]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput51" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[9]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput52" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[10]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput53" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[11]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput54" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[12]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput55" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[13]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput56" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[14]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput57" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[15]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput58" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[16]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput59" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[17]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput60" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[18]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput61" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[19]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput62" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope2:task.status.pixelNumber[20]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput63" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[0]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput64" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[1]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput65" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[2]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput66" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[3]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput67" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[4]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput68" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[5]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput69" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[6]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput70" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[7]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput71" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[8]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput72" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[9]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput73" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[10]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput74" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[11]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput75" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[12]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput76" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[13]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput77" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[14]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput78" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[15]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput79" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[16]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput80" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[17]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput81" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[18]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput82" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[19]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput83" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Ope3:task.status.pixelNumber[20]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_TextOutput84" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:OP_PIXEL_MAP" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton15" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:OP_PIXEL_MAP" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton15" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:OP_S_OMS_TEST" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton14" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:OP_S_OMS_TEST" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton14" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.parameters.pixelNum" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput31" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.parameters.pixelNum" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput31" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:OP_MANUAL_CALIBRATE_BEAM" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton16" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:OP_MANUAL_CALIBRATE_BEAM" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton16" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton17" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton17" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:Configuration.zaber2HeightArray[0]" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput35" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:Configuration.zaber2HeightArray[0]" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericInput35" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_PixelMapping:task.command.laserRackRemap" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton26" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_PixelMapping:task.command.laserRackRemap" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton26" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_PixelMapping:task.status.remapActive" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen52" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_PixelMapping:task.status.remapActive" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen52" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_PixelMapping:task.status.allPixelsMapped" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen53" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_PixelMapping:task.status.allPixelsMapped" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen53" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_GroupBox17" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_GroupBox17" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.skipPixel" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton34" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton35" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton35" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton34" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton33" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.nextPixel" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton33" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_GroupBox18" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_GroupBox18" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.skipPixel" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton37" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.nextPixel" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton36" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton38" attribute="enable" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton38" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton37" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.msgId" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton36" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.activeZaber2Index" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericOutput3" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.activeZaber1Index" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericOutput2" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.activePixelIndex" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericOutput1" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.displayLaser" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericOutput5" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::ManualPulseLaserSFC:task.internal.displayRack" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_NumericOutput4" attribute="value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.somsTestType" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton17" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.somsTestType" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton17" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.pixelMappingTestType" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton13" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::LaserGen3S:task.internal.pixelMappingTestType" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton13" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.updateManualPulsePars" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton27" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.updateManualPulsePars" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_ToggleButton27" attribute="editable::value" />
+</Binding></Content>
+
+
+
+
+</BindingDefinition>

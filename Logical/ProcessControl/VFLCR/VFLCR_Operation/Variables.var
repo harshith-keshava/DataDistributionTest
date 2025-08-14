@@ -1,0 +1,22 @@
+VAR RETAIN
+	Configuration : Configuration_typ;
+END_VAR
+VAR
+	task : LaserOperation_typ;
+	currentSupply : USINT;
+	currentLaser : USINT;
+	index : USINT;
+	rackIndex : USINT;
+	laserIndex : USINT;
+	test : test_typ;
+	pixelIndex : USINT;
+	bitIndex : USINT;
+	scanMicrosec : UDINT;
+	allLasersDisabled : BOOL;
+	moduleName : STRING[80];
+	IO : LaserIO_typ;
+	RTInfo_0 : RTInfo;
+	pixelEnableMismatch : STRING[80];
+	i : UDINT;
+	ii : UDINT;
+END_VAR

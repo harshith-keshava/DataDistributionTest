@@ -1,0 +1,128 @@
+﻿@import "mixins.scss";
+#AlarmsPage_AlarmsGroupBox {
+	@include elemTop(20);
+}
+#AlarmsPage_AlarmsGroupBox {
+	@include elemLeft(20);
+}
+#AlarmsPage_AlarmsGroupBox {
+	@include elemWidth(1680);
+}
+#AlarmsPage_AlarmsGroupBox {
+	@include elemHeight(1000);
+}
+#AlarmsPage_AlarmsGroupBox {
+		z-index: 0;
+}
+#AlarmsPage_AlarmsGroupBox {
+		border-width: 3px;
+}
+#AlarmsPage_AlarmsGroupBox {
+	> .header{
+		border-width: 3px;
+	}
+}
+#AlarmsPage_AlarmsGroupBox {
+	@include border-radius(25px);
+}
+#AlarmsPage_AlarmsGroupBox {
+		background-color: rgba(211, 211, 211, 1);
+}
+#AlarmsPage_AlarmsGroupBox {
+		border-color: rgba(95, 95, 95, 0.5);
+}
+#AlarmsPage_AlarmsGroupBox {
+	> .header{
+		border-color: rgba(95, 95, 95, 0.5);
+	}
+}
+#AlarmsPage_AlarmsGroupBox {
+	> .header span{
+		font-size: 75px;
+	}
+}
+#AlarmsPage_AlarmsGroupBox {
+	> .header{
+	height: 75px + 20px;
+	}
+}
+#AlarmsPage_AlarmList1 {
+	@include elemTop(0);
+}
+#AlarmsPage_AlarmList1 {
+	@include elemLeft(0);
+}
+#AlarmsPage_AlarmList1 {
+	@include elemWidth(1680);
+}
+#AlarmsPage_AlarmList1 {
+	@include elemHeight(1000);
+}
+#AlarmsPage_AlarmList1 {
+		z-index: 0;
+}
+#AlarmsPage_AlarmList1 {
+	&.breaseTableWidget{
+		border-width: 0px;
+	}
+}
+#AlarmsPage_AlarmList1 {
+	&.breaseTableWidget{
+		border-color: rgba(221, 221, 221, 0);
+	}
+}
+#AlarmsPage_AlarmListItem1 {
+	@include elemWidth(320);
+}
+#AlarmsPage_AlarmListItem1 {
+		z-index: 0;
+}
+#AlarmsPage_AlarmListItem2 {
+	@include elemWidth(100);
+}
+#AlarmsPage_AlarmListItem2 {
+		z-index: 1;
+}
+#AlarmsPage_AlarmListItem3 {
+	@include elemWidth(220);
+}
+#AlarmsPage_AlarmListItem3 {
+		z-index: 2;
+}
+#AlarmsPage_AlarmListItem4 {
+	@include elemWidth(960);
+}
+#AlarmsPage_AlarmListItem4 {
+		z-index: 3;
+}
+#AlarmsPage_AlarmListItem5 {
+	@include elemWidth(100);
+}
+#AlarmsPage_AlarmListItem5 {
+		z-index: 4;
+}
+#AlarmsPage_ResetAlarms_Button {
+	@include elemTop(40);
+}
+#AlarmsPage_ResetAlarms_Button {
+	@include elemLeft(40);
+}
+#AlarmsPage_ResetAlarms_Button {
+	@include elemAutoWidth(200);
+}
+#AlarmsPage_ResetAlarms_Button {
+	@include elemAutoHeight(60);
+}
+#AlarmsPage_ResetAlarms_Button {
+		z-index: 1;
+}
+#AlarmsPage_ResetAlarms_Button {
+	&:not(.active):not(.checked){
+		border-width: 1px;
+	}
+}
+#AlarmsPage_ResetAlarms_Button {
+	&.disabled{
+		border-width: 1px;
+	}
+}

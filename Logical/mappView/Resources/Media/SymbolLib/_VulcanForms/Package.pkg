@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">BallGreenOK.svg</Object>
+    <Object Type="File">BallOffTarget.svg</Object>
+    <Object Type="File">BallRedCancel.svg</Object>
+    <Object Type="File">BallTarget.svg</Object>
+    <Object Type="File">CheckBlack.svg</Object>
+    <Object Type="File">CheckBlue.svg</Object>
+    <Object Type="File">CheckGreen.svg</Object>
+    <Object Type="File">CheckLightGreen.svg</Object>
+    <Object Type="File">CheckLightGray.svg</Object>
+    <Object Type="File">LampOff.svg</Object>
+    <Object Type="File">LampOn.svg</Object>
+    <Object Type="File">LEDOffSimple.svg</Object>
+    <Object Type="File">LEDBlue.svg</Object>
+    <Object Type="File">LEDBlueSimple.svg</Object>
+    <Object Type="File">LEDGreen.svg</Object>
+    <Object Type="File">LEDGreenSimple.svg</Object>
+    <Object Type="File">LEDRed.svg</Object>
+    <Object Type="File">LEDRedSimple.svg</Object>
+    <Object Type="File">LEDYellow.svg</Object>
+    <Object Type="File">LEDYellowSimple.svg</Object>
+    <Object Type="File">OffGray.svg</Object>
+    <Object Type="File">OnBlue.svg</Object>
+    <Object Type="File">OnGreen.svg</Object>
+    <Object Type="File">PersonRuningLightGray.svg</Object>
+    <Object Type="File">PersonRuningGreen.svg</Object>
+    <Object Type="File">PersonRuning.svg</Object>
+    <Object Type="File">QuestionOff.svg</Object>
+    <Object Type="File">QuestionYellow.svg</Object>
+    <Object Type="File">MovingGreen.svg</Object>
+    <Object Type="File">MovingLightGray.svg</Object>
+    <Object Type="File">MovingBlack.svg</Object>
+    <Object Type="File">Gears.svg</Object>
+    <Object Type="File">GearsGreen.svg</Object>
+    <Object Type="File">TargetBlue.svg</Object>
+    <Object Type="File">TargetLightGray.svg</Object>
+    <Object Type="File">TargetBlack.svg</Object>
+    <Object Type="File">AlarmRed.svg</Object>
+    <Object Type="File">AlarmOff.svg</Object>
+    <Object Type="File">AlarmYellow.svg</Object>
+  </Objects>
+</Package>

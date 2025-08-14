@@ -1,0 +1,55 @@
+{
+  "_from": "@loupeteam/piper@0.1.8",
+  "_id": "@loupeteam/piper@0.1.8",
+  "_inBundle": false,
+  "_integrity": "sha512-ROpy9srLe7L+3woDWYSC/egF4/79P/oVZFfG+sNKpejNxIpReUPYB7uAijEdZ67VwfdCN+MWpn6HRJegvSXdJA==",
+  "_location": "/@loupeteam/piper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@loupeteam/piper@0.1.8",
+    "name": "@loupeteam/piper",
+    "escapedName": "@loupeteam%2fpiper",
+    "scope": "@loupeteam",
+    "rawSpec": "0.1.8",
+    "saveSpec": null,
+    "fetchSpec": "0.1.8"
+  },
+  "_requiredBy": [
+    "/@loupeteam/piperpkg"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@loupeteam/piper/0.1.8/631cfe95d23d220fe5320bfc532fa48c8c22beff",
+  "_shasum": "631cfe95d23d220fe5320bfc532fa48c8c22beff",
+  "_spec": "@loupeteam/piper@0.1.8",
+  "_where": "C:\\Projects\\ControlPLC_Gen3_Rev0\\Gen3\\ControlPLC_Gen3_Rev0\\node_modules\\@loupeteam\\piperpkg",
+  "author": {
+    "name": "Loupe"
+  },
+  "bugs": {
+    "url": "https://github.com/loupeteam/Piper/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@loupeteam/logthat": ">=0.5.0 <=0.5.9",
+    "@loupeteam/stringext": ">=0.14.0 <=0.14.9"
+  },
+  "deprecated": false,
+  "description": "Piper is used to control the state of a machine allowing machines to be built in subsystems in a modular way. Piper-based systems divide the functions of a machine into modules, each with their own task. Each module’s behavior is defined using a common set of machine states per the PackML standard.",
+  "homepage": "https://loupeteam.github.io/Sandbox/libraries/piper.html",
+  "keywords": [],
+  "license": "Loupe Software License Agreement",
+  "lpm": {
+    "type": "library",
+    "logical": {
+      "destination": "Libraries/Loupe"
+    }
+  },
+  "name": "@loupeteam/piper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loupeteam/Piper.git"
+  },
+  "scripts": {},
+  "version": "0.1.8"
+}

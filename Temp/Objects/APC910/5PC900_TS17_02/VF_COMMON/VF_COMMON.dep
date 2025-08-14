@@ -1,0 +1,13 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VF_COMMON/VF_COMMON.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/astime/astime.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VF_COMMON/VF_COMMON.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MTData/MTData.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MTData/MTData.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/LoopConR/LoopConR.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/LoopCont/LoopCont.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpBase/MpBase.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/astime/astime.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmX.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrMath/AsBrMath.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrStr/AsBrStr.fun

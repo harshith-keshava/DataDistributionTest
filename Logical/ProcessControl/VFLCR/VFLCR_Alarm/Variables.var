@@ -1,0 +1,3 @@
+VAR
+	alarmData : vfAlarms_Data_typ;
+END_VAR

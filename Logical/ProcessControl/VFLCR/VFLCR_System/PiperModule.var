@@ -1,0 +1,19 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: PiperModuleTemplate
+ * File: PiperModuleTemplate.var
+ * Author: Josh
+ * Created: October 03, 2013
+ ********************************************************************
+ * Local variables of program PiperModuleTemplate
+ ********************************************************************)
+VAR
+	ModuleInterface : Module_Interface_typ;
+	Module : Piper_Module_Fub;
+	piperCommands : localInterfaceCommand_typ;
+	_piperCommands : localInterfaceCommand_typ;
+	piperEnableLasers : BOOL;
+	messageHandler : MessageHandler_typ;
+	_prevPiperState : MACH_ST_enum;
+END_VAR

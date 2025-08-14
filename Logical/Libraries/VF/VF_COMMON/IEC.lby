@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Library Version="2.01.0" SubType="IEC" Description="1366 Technologies Miscellaneous Functions" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>RevisionNotes.txt</File>
+    <File Description="Exported data types">VF_COMMON.typ</File>
+    <File Description="Exported constants">VF_COMMON.var</File>
+    <File Description="Exported functions and function blocks">VF_COMMON.fun</File>
+    <File Description="Timer with a resolution of the calling task scan time">VF_COMMON_TON_ScanMicrosec.st</File>
+    <File Description="Generates a pulse train with a resolution of 10 msec">VF_COMMON_PulseTrain.st</File>
+    <File Description="Generates a pulse train with a resolution of the calling task scan time">VF_COMMON_PulseTrainHiRes.st</File>
+    <File Description="Converts an unsigned integer value to a hexidecimal string">VF_COMMON_ConvertToHex.st</File>
+    <File Description="Returns TRUE if a specified value is within the range defined by TargetValue +/- Tolerance">VF_COMMON_IsValueInRange.st</File>
+    <File Description="Sets or resets a Persistent alarm based on the boolean AlarmState input">VF_COMMON_MpAlarmXToggle.st</File>
+    <File Description="Convert a scaled input value to a raw value (INT) for analog output">VF_COMMON_ControlValue.st</File>
+    <File Description="Convert a raw input value (INT) to a scaled value and monitor it for warning/alarm limits">VF_COMMON_MonitorValue.st</File>
+    <File Description="Converts an unsigned integer value to a hexidecimal string">VF_COMMON_FileNameWithTimestamp.st</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="standard" />
+    <Dependency ObjectName="MpBase" />
+    <Dependency ObjectName="MpAlarmX" />
+    <Dependency ObjectName="LoopCont" />
+    <Dependency ObjectName="MTData" />
+    <Dependency ObjectName="AsBrStr" />
+    <Dependency ObjectName="astime" />
+    <Dependency ObjectName="LoopConR" />
+    <Dependency ObjectName="AsBrMath" />
+  </Dependencies>
+</Library>

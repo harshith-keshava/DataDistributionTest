@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Content id="AlarmsPage" height="1030" width="1720" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Widgets>
+    <Widget xsi:type="widgets.brease.GroupBox" id="AlarmsGroupBox" top="20" left="20" width="1680" height="1000" zIndex="0" text=" " borderWidth="3px" cornerRadius="25px" backColor="rgba(211, 211, 211, 1)" borderColor="rgba(95, 95, 95, 0.5)" fontSize="75px">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.AlarmList" id="AlarmList1" top="0" left="0" width="1680" height="1000" zIndex="0" itemsPerPage="25" searchBox="false" borderWidth="0px" borderColor="rgba(221, 221, 221, 0)">
+          <Widgets>
+            <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem1" width="320" zIndex="0" columnType="timestamp" text="Time Stamp" />
+            <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem2" width="100" zIndex="1" columnType="severity" text="Severity" />
+            <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem3" width="220" zIndex="2" columnType="name" text="Name" />
+            <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem4" width="960" zIndex="3" text="Message" />
+            <Widget xsi:type="widgets.brease.AlarmListItem" id="AlarmListItem5" width="100" zIndex="4" columnType="code" text="Code" />
+          </Widgets>
+        </Widget>
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.MomentaryPushButton" id="ResetAlarms_Button" top="40" left="40" width="200" height="60" zIndex="1" text="RESET ALL" borderWidth="1px" />
+  </Widgets>
+</Content>

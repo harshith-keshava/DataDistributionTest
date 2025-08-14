@@ -1,0 +1,50 @@
+{
+  "_from": "@loupeteam/hmitools@>=0.11.3 <=0.11.9",
+  "_id": "@loupeteam/hmitools@0.11.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Yt8ci9RhZ3JKK21J/f/ZJ8H84Lfc9OVtV7kMfd/QS1erHHt8fg4K4rrklaHf3IYGetbiMV5iYWuYqD1v8hdwDQ==",
+  "_location": "/@loupeteam/hmitools",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@loupeteam/hmitools@>=0.11.3 <=0.11.9",
+    "name": "@loupeteam/hmitools",
+    "escapedName": "@loupeteam%2fhmitools",
+    "scope": "@loupeteam",
+    "rawSpec": ">=0.11.3 <=0.11.9",
+    "saveSpec": null,
+    "fetchSpec": ">=0.11.3 <=0.11.9"
+  },
+  "_requiredBy": [
+    "/@loupeteam/csvfilelib"
+  ],
+  "_resolved": "https://npm.pkg.github.com/download/@loupeteam/hmitools/0.11.4/a4d1b4bdae7b50ba238db5eb0a70a01372e8eb7f",
+  "_shasum": "a4d1b4bdae7b50ba238db5eb0a70a01372e8eb7f",
+  "_spec": "@loupeteam/hmitools@>=0.11.3 <=0.11.9",
+  "_where": "C:\\Projects\\ControlPLC_Gen3_Rev0\\Gen3\\ControlPLC_Gen3_Rev0\\node_modules\\@loupeteam\\csvfilelib",
+  "author": {
+    "name": "Loupe"
+  },
+  "bugs": {
+    "url": "https://github.com/loupeteam/hmitools/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@loupeteam/logthat": "*",
+    "@loupeteam/ringbuflib": ">=0.2.0",
+    "@loupeteam/stringext": ">=0.4.0"
+  },
+  "deprecated": false,
+  "description": "Loupe's hmitools library for Automation Runtime",
+  "homepage": "https://loupeteam.github.io/Sandbox/libraries/hmitools.html",
+  "keywords": [],
+  "license": "Loupe Software License Agreement",
+  "name": "@loupeteam/hmitools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loupeteam/hmitools.git"
+  },
+  "scripts": {},
+  "version": "0.11.4"
+}

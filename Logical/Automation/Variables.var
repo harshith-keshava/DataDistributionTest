@@ -1,0 +1,4 @@
+VAR
+	gSFCControlApi : SFCControlApi_type;
+	gAutomations : Automations_type;
+END_VAR

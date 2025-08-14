@@ -1,0 +1,6 @@
+(*
+QWS: 00003
+*)
+00001	00038	POE\Main\Variables.vbb
+00002	00001	POE\Main\EStopMonitoring.gb
+00003	00005	POE\Main\LaserSafety.gb

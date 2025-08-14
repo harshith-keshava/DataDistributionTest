@@ -1,0 +1,104 @@
+#ifndef _DEFAULT_757602046
+#define _DEFAULT_757602046
+#include <bur/plctypes.h>
+#include <bur/plc.h>
+
+#ifdef __cplusplus 
+extern "C" 
+{
+#endif
+	#include <operator.h>
+	#include <runtime.h>
+	#include <AsBrStr.h>
+	#include <standard.h>
+	#include <AsBrWStr.h>
+	#include <AsXml.h>
+	#include <AsBrMath.h>
+	#include <MTTypes.h>
+	#include <McBase.h>
+	#include <MpBase.h>
+	#include <AsIoTime.h>
+	#include <astime.h>
+	#include <AsZip.h>
+	#include <FileIO.h>
+	#include <AsGuard.h>
+	#include <AsIODiag.h>
+	#include <sys_lib.h>
+	#include <AsArLog.h>
+	#include <ArEventLog.h>
+	#include <AsHttp.h>
+	#include <AsTCP.h>
+	#include <brsystem.h>
+	#include <McAxis.h>
+	#include <McProgInt.h>
+	#include <McAxGroup.h>
+	#include <SfDomain.h>
+	#include <MpCom.h>
+	#include <AsARCfg.h>
+	#include <AsArSdm.h>
+	#include <MpUserX.h>
+	#include <ringbuflib.h>
+	#include <AsHW.h>
+	#include <AsETH.h>
+	#include <AsIecCon.h>
+	#include <LoopConR.h>
+	#include <LoopCont.h>
+	#include <McPathGen.h>
+	#include <MpAxis.h>
+	#include <McPureVAx.h>
+	#include <McAcpAx.h>
+	#include <MpCnc.h>
+	#include <MpAlarmX.h>
+	#include <MpRecipe.h>
+	#include <MTData.h>
+	#include <CoTrace.h>
+	#include <MTLookUp.h>
+	#include <MpWebXs.h>
+	#include <bodyguard.h>
+	#include <stringext.h>
+	#include <tcpcomm.h>
+	#include <DataBuffer.h>
+	#include <persist.h>
+	#include <UtMgr.h>
+	#include <ArCert.h>
+	#include <MTBasics.h>
+	#include <IotMqtt.h>
+	#include <fiowrap.h>
+	#include <logthat.h>
+	#include <Finder.h>
+	#include <hammers.h>
+	#include <axislib.h>
+	#include <vartools.h>
+	#include <UtWs.h>
+	#include <piper.h>
+	#include <hmitools.h>
+	#include <atn.h>
+	#include <omjson.h>
+	#include <messagebox.h>
+	#include <csvfilelib.h>
+	#include <errorAPI.h>
+	#include <VFAlarms.h>
+	#include <VF_COMMON.h>
+	#include <ToolBox.h>
+	#include <VFValve.h>
+	#include <VF_PARSER.h>
+#ifdef __cplusplus
+};
+#endif
+
+#include <sfelementsVAR.h>
+#include <mpcomponentsVAR.h>
+#include <globalTYP.h>
+#include <globalVAR.h>
+#include <machinecontrol/machinecontrolTYP.h>
+#include <machinecontrol/machinecontrolVAR.h>
+#include <machinecontrol/machinemode/machinemodeTYP.h>
+#include <machinecontrol/machinemode/machinemodeVAR.h>
+#include <automation/typesTYP.h>
+#include <automation/variablesVAR.h>
+#include <infrastructure/infrastructureTYP.h>
+#include <infrastructure/infrastructureVAR.h>
+#include <infrastructure/revinfo/revinfoVAR.h>
+#include <infrastructure/alarms/alarmsTYP.h>
+#include <infrastructure/alarms/alarmsVAR.h>
+#endif

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Library" Language="ANSIC">VFAlarms</Object>
+    <Object Type="Library" Language="IEC" Description="1366 Technologies Miscellaneous Functions">VF_COMMON</Object>
+    <Object Type="Library" Language="ANSIC">ToolBox</Object>
+    <Object Type="Library" Language="IEC">VFValve</Object>
+    <Object Type="Library" Language="IEC">VF_PARSER</Object>
+  </Objects>
+</Package>

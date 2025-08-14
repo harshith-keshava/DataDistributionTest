@@ -1,0 +1,14 @@
+VAR
+	task : localInterface_typ;
+	index : INT;
+	pPause : {REDUND_UNREPLICABLE} UDINT;
+	dPause : REFERENCE TO BOOL;
+	sPause : UDINT;
+	pSFCData : UDINT;
+	sSFCData : UDINT;
+	dSFCData : REFERENCE TO SFCControlDataApi_type;
+	dBypass : REFERENCE TO BOOL;
+	anyPaused : BOOL;
+	dTrans : REFERENCE TO BOOL;
+	dSingleStep : REFERENCE TO BOOL;
+END_VAR

@@ -1,0 +1,3 @@
+VAR
+	gAlarmApi : AlarmApi;
+END_VAR

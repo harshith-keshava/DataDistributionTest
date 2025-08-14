@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SchemaCatalog xmlns="http://schemas.microsoft.com/xsd/catalog">
+	<Schema href="StatusAlarm/meta/StatusAlarm_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusBall/meta/StatusBall_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusBall_Inverted/meta/StatusBall_Inverted_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusBallTarget/meta/StatusBallTarget_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusBlackCheck/meta/StatusBlackCheck_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusBlueCheck/meta/StatusBlueCheck_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusGreenCheck/meta/StatusGreenCheck_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLEDBlue/meta/StatusLEDBlue_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLEDGreen/meta/StatusLEDGreen_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLEDRed/meta/StatusLEDRed_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLEDYellow/meta/StatusLEDYellow_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLightBulb/meta/StatusLightBulb_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLightGreenCheck/meta/StatusLightGreenCheck_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusLocationTarget/meta/StatusLocationTarget_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusMoving/meta/StatusMoving_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusPower/meta/StatusPower_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusQuestion/meta/StatusQuestion_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusRunning/meta/StatusRunning_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+	<Schema href="StatusWarn/meta/StatusWarn_Styles.xsd" targetNamespace="http://www.br-automation.com/iat2015/styles/engineering/v1" />
+</SchemaCatalog>

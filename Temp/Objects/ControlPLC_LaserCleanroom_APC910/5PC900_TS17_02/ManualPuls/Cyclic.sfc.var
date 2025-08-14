@@ -1,0 +1,36 @@
+VAR
+	START:BOOL:=FALSE;
+	_START:BOOL:=TRUE;
+	Step1:SFCStepType:=(0);
+	InitializeManualCalibration1:BOOL:=FALSE;
+	_InitializeManualCalibration1:BOOL:=FALSE;
+	CheckCanCalibrate1:BOOL:=FALSE;
+	_CheckCanCalibrate1:BOOL:=FALSE;
+	PulseLaser1:BOOL:=FALSE;
+	_PulseLaser1:BOOL:=FALSE;
+	NextOperation1:BOOL:=FALSE;
+	_NextOperation1:BOOL:=FALSE;
+	SkipPixel1:BOOL:=FALSE;
+	_SkipPixel1:BOOL:=FALSE;
+	EndTest1:BOOL:=FALSE;
+	_EndTest1:BOOL:=FALSE;
+	IteratePixel1:BOOL:=FALSE;
+	_IteratePixel1:BOOL:=FALSE;
+	InitializeManualCalibration:BOOL:=FALSE;
+	_InitializeManualCalibration:BOOL:=FALSE;
+	CheckCanCalibrate:BOOL:=FALSE;
+	_CheckCanCalibrate:BOOL:=FALSE;
+	PulseLaser:BOOL:=FALSE;
+	_PulseLaser:BOOL:=FALSE;
+	NextOperation:BOOL:=FALSE;
+	_NextOperation:BOOL:=FALSE;
+	SkipPixel:BOOL:=FALSE;
+	_SkipPixel:BOOL:=FALSE;
+	EndTest:BOOL:=FALSE;
+	_EndTest:BOOL:=FALSE;
+	IteratePixel:BOOL:=FALSE;
+	_IteratePixel:BOOL:=FALSE;
+	FunctionblockCalls:SFCActionType:=(0);
+	PixelConvert:SFCActionType:=(0);
+	Step1Active:SFCActionType:=(0);
+END_VAR

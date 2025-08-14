@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VF_PARSER/VF_PARSER.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VF_PARSER/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/VF/VF_PARSER/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/FileIO/FileIO.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrStr/AsBrStr.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AS/FileIO/FileIO.var

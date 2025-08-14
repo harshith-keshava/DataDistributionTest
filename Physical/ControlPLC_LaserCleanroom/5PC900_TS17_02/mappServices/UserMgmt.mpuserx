@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="UserMgmtX" Type="mpuserx">
+    <Group ID="Mgr">
+      <Property ID="PasswordLength" Value="1" />
+      <Property ID="LoginAttempts" Value="10" />
+      <Property ID="SignAttempts" Value="10" />
+    </Group>
+    <Group ID="ServerSettings">
+      <Selector ID="Server">
+        <Group ID="AdditionalUserData">
+          <Property ID="[0]" Value="mail" />
+          <Property ID="[1]" Value="telephoneNumber" />
+        </Group>
+      </Selector>
+    </Group>
+    <Group ID="Users">
+      <Group ID="DefUser#1">
+        <Property ID="id" Value="Key1" />
+      </Group>
+      <Group ID="DefUser#2">
+        <Property ID="id" Value="Key2" />
+      </Group>
+      <Group ID="DefUser#3">
+        <Property ID="id" Value="Key3" />
+      </Group>
+      <Group ID="DefUser#4">
+        <Property ID="id" Value="Key4" />
+      </Group>
+      <Group ID="DefUser#5">
+        <Property ID="id" Value="Key5" />
+      </Group>
+      <Group ID="DefUser#6">
+        <Property ID="id" Value="Key6" />
+      </Group>
+      <Group ID="DefUser#7">
+        <Property ID="id" Value="Key7" />
+      </Group>
+      <Group ID="DefUser#8">
+        <Property ID="id" Value="Key8" />
+      </Group>
+      <Group ID="DefUser#9">
+        <Property ID="id" Value="Key9" />
+      </Group>
+      <Group ID="DefUser#10">
+        <Property ID="id" Value="Key10" />
+      </Group>
+      <Group ID="DefUser#11">
+        <Property ID="id" Value="Remote" />
+      </Group>
+      <Group ID="DefUser#12">
+        <Property ID="id" Value="Operator" />
+      </Group>
+      <Group ID="DefUser#13">
+        <Property ID="id" Value="Manufacturing" />
+      </Group>
+      <Group ID="DefUser#14">
+        <Property ID="id" Value="Mechanical Engineer" />
+      </Group>
+      <Group ID="DefUser#15">
+        <Property ID="id" Value="Controls Engineer" />
+      </Group>
+    </Group>
+    <Group ID="Groups">
+      <Group ID="DefGroup#1">
+        <Property ID="id" Value="AccessLevel1" />
+        <Property ID="level" Value="1" />
+      </Group>
+      <Group ID="DefGroup#2">
+        <Property ID="id" Value="AccessLevel2" />
+        <Property ID="level" Value="2" />
+      </Group>
+      <Group ID="DefGroup#3">
+        <Property ID="id" Value="AccessLevel3" />
+        <Property ID="level" Value="3" />
+      </Group>
+      <Group ID="DefGroup#4">
+        <Property ID="id" Value="AccessLevel4" />
+        <Property ID="level" Value="4" />
+      </Group>
+      <Group ID="DefGroup#5">
+        <Property ID="id" Value="AccessLevel5" />
+        <Property ID="level" Value="5" />
+      </Group>
+      <Group ID="DefGroup#6">
+        <Property ID="id" Value="AccessLevel6" />
+        <Property ID="level" Value="6" />
+      </Group>
+      <Group ID="DefGroup#7">
+        <Property ID="id" Value="AccessLevel7" />
+        <Property ID="level" Value="7" />
+      </Group>
+      <Group ID="DefGroup#8">
+        <Property ID="id" Value="AccessLevel8" />
+        <Property ID="level" Value="8" />
+      </Group>
+      <Group ID="DefGroup#9">
+        <Property ID="id" Value="AccessLevel9" />
+        <Property ID="level" Value="9" />
+      </Group>
+      <Group ID="DefGroup#10">
+        <Property ID="id" Value="AccessLevel10" />
+        <Property ID="admin" Value="TRUE" />
+      </Group>
+      <Group ID="DefGroup#11">
+        <Property ID="id" Value="Remote" />
+        <Property ID="level" Value="1" />
+      </Group>
+      <Group ID="DefGroup#12">
+        <Property ID="id" Value="Operators" />
+        <Property ID="level" Value="2" />
+      </Group>
+      <Group ID="DefGroup#13">
+        <Property ID="id" Value="Manufacturing" />
+        <Property ID="level" Value="5" />
+      </Group>
+      <Group ID="DefGroup#14">
+        <Property ID="id" Value="Mechanical Engineer" />
+        <Property ID="level" Value="9" />
+      </Group>
+      <Group ID="DefGroup#15">
+        <Property ID="id" Value="Controls Engineer" />
+        <Property ID="admin" Value="TRUE" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>

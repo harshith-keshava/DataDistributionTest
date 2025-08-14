@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.11.3.51 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="FirstInitP"
+      Disable="false"
+      Source="Infrastructure.FirstInitProg"
+      Language="ANSIC">
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\FirstInitProg\FirstInitProg.typ" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\FirstInitProg\FirstInitProg.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\FirstInitProg\MachineAlarm.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="AlarmWrap"
+      Disable="false"
+      Source="Infrastructure.Alarms.AlarmWrap"
+      Language="IEC">
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\AlarmWrap\Main.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\Alarms\AlarmWrap\Types.typ" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\Alarms\AlarmWrap\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="atnDriver"
+      Disable="false"
+      Source="Infrastructure.atnDriver"
+      Language="IEC">
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\atnDriver\Main.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\atnDriver\Types.typ" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\atnDriver\Variables.var" />
+    </Task>
+    <Task
+      Name="SFCControl"
+      Disable="false"
+      Source="Automation.SFCControl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\SFCControl\Main.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Automation\SFCControl\Types.typ" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Automation\SFCControl\Variables.var" />
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\SFCControl\PiperInterface.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Automation\SFCControl\PiperModule.var" />
+    </Task>
+    <Task
+      Name="MachineMod"
+      Disable="false"
+      Source="MachineControl.MachineMode.MachineMode"
+      Language="IEC">
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\MachineMod\Main.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\MachineControl\MachineMode\MachineMode\Types.typ" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\MachineControl\MachineMode\MachineMode\Variables.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\MachineControl\MachineMode\MachineMode\PiperModule.var" />
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\MachineMod\PiperInterface.st.var" />
+    </Task>
+    <Task
+      Name="BuildDistr"
+      Disable="false"
+      Source="ProcessControl.OpticsBox.BuildDistributor"
+      Language="IEC">
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\BuildDistr\Main.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\OpticsBox\BuildDistributor\Types.typ" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\OpticsBox\BuildDistributor\Variables.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\ProcessControl\OpticsBox\BuildDistributor\PiperModule.var" />
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\BuildDistr\PiperInterface.st.var" />
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\BuildDistr\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\BuildDistr\Simulation.st.var" />
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\BuildDistr\BuildDistributorSignals.xlsx.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8">
+    <Task
+      Name="RevInfo"
+      Disable="false"
+      Source="Infrastructure.RevInfo.RevInfo"
+      Language="IEC">
+      <InternalFile
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\Objects\APC910\5PC900_TS17_02\RevInfo\Main.st.var" />
+      <File
+        Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Logical\Infrastructure\RevInfo\RevInfo\Variables.var" />
+    </Task>
+  </TaskClass>
+</ConfigInfo>

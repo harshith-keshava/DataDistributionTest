@@ -1,0 +1,6 @@
+
+TYPE
+	AlarmApi : 	STRUCT 
+		cores : STRING[80];
+	END_STRUCT;
+END_TYPE

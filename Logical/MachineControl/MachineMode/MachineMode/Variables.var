@@ -1,0 +1,11 @@
+VAR
+	Configuration : Configuration_type;
+	task : task_type;
+	Name : STRING[80];
+	logSeqChange_0 : logStateChange;
+	logStateChange_0 : logStateChange;
+	i : INT;
+END_VAR
+VAR RETAIN
+	nonvolatile : nonvolatile_type;
+END_VAR

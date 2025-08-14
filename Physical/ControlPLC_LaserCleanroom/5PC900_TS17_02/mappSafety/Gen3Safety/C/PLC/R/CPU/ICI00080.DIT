@@ -1,0 +1,262 @@
+(*
+T: PROGRAM Main
+FW: NO
+CI#: 80
+QSL: 42
+QVE: 42
+QVPC: 42
+QPar: 0
+QFBI: 16
+*)
+@V 1 2 0
+SF_EStop_ControlStation	1	VAR	@FB:84
+		     
+
+;
+
+@V 1 3 0
+SF_EStop_SafetyLockoutBox	2	VAR	@FB:84
+		     
+
+;
+
+@V 1 4 0
+SF_EStop_HandHeld	3	VAR	@FB:84
+		     
+
+;
+
+@V 1 5 0
+FBK_Error_EStop1	4	VAR	@TYP:1
+		     
+
+;
+
+@V 1 6 0
+FBK_Error_EStop2	5	VAR	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+FBK_Error_EStop3	6	VAR	@TYP:1
+		     
+
+;
+
+@V 1 8 0
+FBK_Diag_EStop1	7	VAR	@TYP:18
+		     
+
+;
+
+@V 1 9 0
+FBK_Diag_EStop2	8	VAR	@TYP:18
+		     
+
+;
+
+@V 1 10 0
+FBK_Diag_EStop3	9	VAR	@TYP:18
+		     
+
+;
+
+@V 1 11 0
+EStopSafetyReset	10	VAR	@TYP:43
+		     
+
+;
+
+@V 1 13 0
+RackEnableBits	11	VAR	@FB:83
+		     
+
+;
+
+@V 1 14 0
+PermitLaserSafetyEnable	12	VAR	@TYP:43
+		     
+
+;
+
+@V 1 15 0
+Rack1Enabled	13	VAR	@TYP:1
+		     
+
+;
+
+@V 1 16 0
+Rack2Enabled	14	VAR	@TYP:1
+		     
+
+;
+
+@V 1 17 0
+Rack3Enabled	15	VAR	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+Rack4Enabled	16	VAR	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+TON_S_DelayVFLCRSafety1	17	VAR	@FB:44
+		     
+
+;
+
+@V 1 20 0
+TON_S_DelayVFLCRSafety2	18	VAR	@FB:44
+		     
+
+;
+
+@V 1 21 0
+TON_S_DelayVFLCRSafety3	19	VAR	@FB:44
+		     
+
+;
+
+@V 1 22 0
+TON_S_DelayVFLCRSafety4	20	VAR	@FB:44
+		     
+
+;
+
+@V 1 23 0
+SF_EDM_ContactorLaserRack1	21	VAR	@FB:82
+		     
+
+;
+
+@V 1 24 0
+SF_EDM_ContactorLaserRack2	22	VAR	@FB:82
+		     
+
+;
+
+@V 1 25 0
+SF_EDM_ContactorLaserRack3	23	VAR	@FB:82
+		     
+
+;
+
+@V 1 26 0
+SF_EDM_ContactorLaserRack4	24	VAR	@FB:82
+		     
+
+;
+
+@V 1 27 0
+SF_EDM_SafetyRelayVFLCR1	25	VAR	@FB:82
+		     
+
+;
+
+@V 1 28 0
+SF_EDM_SafetyRelayVFLCR2	26	VAR	@FB:82
+		     
+
+;
+
+@V 1 29 0
+SF_EDM_SafetyRelayVFLCR3	27	VAR	@FB:82
+		     
+
+;
+
+@V 1 30 0
+SF_EDM_SafetyRelayVFLCR4	28	VAR	@FB:82
+		     
+
+;
+
+@V 1 31 0
+FBK_Error_EDMRack1	29	VAR	@TYP:1
+		     
+
+;
+
+@V 1 32 0
+FBK_Error_EDMRack2	30	VAR	@TYP:1
+		     
+
+;
+
+@V 1 33 0
+FBK_Error_EDMRack3	31	VAR	@TYP:1
+		     
+
+;
+
+@V 1 34 0
+FBK_Error_EDMRack4	32	VAR	@TYP:1
+		     
+
+;
+
+@V 1 35 0
+FBK_Diag_EDMRack1	33	VAR	@TYP:18
+		     
+
+;
+
+@V 1 36 0
+FBK_Diag_EDMRack2	34	VAR	@TYP:18
+		     
+
+;
+
+@V 1 37 0
+FBK_Diag_EDMRack3	35	VAR	@TYP:18
+		     
+
+;
+
+@V 1 38 0
+FBK_Diag_EDMRack4	36	VAR	@TYP:18
+		     
+
+;
+
+@V 1 39 0
+enableReady	37	VAR	@TYP:43
+		     
+
+;
+
+@V 2 59 0
+__EStopMonitoring@0	38	VAR	@TYP:43
+		     
+
+;
+
+@V 3 408 0
+__LaserSafety@0	39	VAR	@TYP:43
+		     
+
+;
+
+@V 3 399 0
+__LaserSafety@1	40	VAR	@TYP:43
+		     
+
+;
+
+@V 3 382 0
+__LaserSafety@2	41	VAR	@TYP:43
+		     
+
+;
+
+@V 3 375 0
+__LaserSafety@3	42	VAR	@TYP:43
+		     
+
+;
+

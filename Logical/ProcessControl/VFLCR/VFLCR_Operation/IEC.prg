@@ -5,7 +5,6 @@
     <File Description="Init, cyclic, exit code">Main.st</File>
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Local variables" Private="true">Variables.var</File>
-    <File>SubSequence.st</File>
     <File>Powerlink.st</File>
     <File>Simulation.st</File>
   </Files>

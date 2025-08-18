@@ -3,6 +3,6 @@
 <Package SubType="PagesPackage" PackageType="PagesPackage" xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="Package">AlarmsPage</Object>
-    <Object Type="Package">LaserPageMain</Object>
+    <Object Type="Package">BuildPageMain</Object>
   </Objects>
 </Package>

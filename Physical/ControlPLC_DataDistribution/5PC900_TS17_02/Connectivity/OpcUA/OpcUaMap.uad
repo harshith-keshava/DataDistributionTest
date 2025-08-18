@@ -19,6 +19,13 @@
         <Variable Name="gRevInfo_revisionDate" />
         <Variable Name="gRevInfo_uncommittedChanges" />
         <Variable Name="gRevInfo_versionId" />
+        <Variable Name="gOpcData_FromBuildPC">
+          <Variable Name="DataDistributorVersion" />
+          <Variable Name="CurrentDistributionLayer" />
+          <Variable Name="DistributionActive" />
+          <Variable Name="PrintNumber" />
+          <Variable Name="BuildLayout" />
+        </Variable>
       </GlobalVariables>
       <Task Name="VFLCR_Syst">
         <Variable Name="task">
@@ -56,6 +63,24 @@
       <Task Name="VFLCR_Ope3">
         <Variable Name="task">
           <Variable Name="status" />
+        </Variable>
+      </Task>
+      <Task Name="BuildDistr">
+        <Variable Name="task">
+          <Variable Name="command">
+            <Variable Name="startDistribution" />
+            <Variable Name="abortDistribution" />
+          </Variable>
+          <Variable Name="status">
+            <Variable Name="buildDistributorConnected" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="PrintJobMa">
+        <Variable Name="task">
+          <Variable Name="status">
+            <Variable Name="buildInfoValid" />
+          </Variable>
         </Variable>
       </Task>
     </Module>

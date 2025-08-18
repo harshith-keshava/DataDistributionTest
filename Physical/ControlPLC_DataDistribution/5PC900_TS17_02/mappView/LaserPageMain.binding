@@ -3,5 +3,29 @@
   <Bindings>
 		
 
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.command.startDistribution" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton22" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.command.abortDistribution" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton23" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.racksOnline" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="StatusLEDGreen2" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.status.buildDistributorConnected" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="Led1" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::PrintJobMa:task.status.buildInfoValid" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="StatusLEDGreen3" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gOpcData_FromBuildPC.DistributionActive" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="StatusLEDGreen4" attribute="value" />
+</Binding>
 </Bindings>
 </BindingsSet>

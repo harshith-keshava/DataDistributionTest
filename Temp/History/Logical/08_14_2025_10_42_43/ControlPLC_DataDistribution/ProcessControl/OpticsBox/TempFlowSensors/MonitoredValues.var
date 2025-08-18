@@ -1,0 +1,9 @@
+VAR CONSTANT
+	OB_NUM_SENSORS_INDEX : USINT := 15;
+END_VAR
+VAR
+	fbMonValueIndex : ARRAY[0..OB_NUM_SENSORS_INDEX] OF VF_COMMON_MonitorValue;
+	dMonitoredValueConfig : REFERENCE TO VF_COMMON_MonitoredValueCfg_typ;
+	dMonitoredValue : REFERENCE TO VF_COMMON_MonitoredValue_typ;
+	monValueIndex : USINT;
+END_VAR

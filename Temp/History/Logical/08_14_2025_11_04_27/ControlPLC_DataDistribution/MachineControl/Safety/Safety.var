@@ -1,0 +1,3 @@
+VAR
+	gSafetyApi : SafetySystem_typ;
+END_VAR

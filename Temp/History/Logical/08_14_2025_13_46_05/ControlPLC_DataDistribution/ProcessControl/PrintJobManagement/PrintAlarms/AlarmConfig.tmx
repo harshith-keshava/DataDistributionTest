@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/Print Management</prop>
+  </header>
+  <body>
+    <tu tuid="AGGREGATE_GENERAL_ALARM.Message">
+      <tuv xml:lang="en">
+        <seg>An error occured in the Print data management</seg>
+      </tuv>
+    </tu>
+    <tu tuid="AGGREGATE_GENERAL_ALARM.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;AGGREGATE_GENERAL_ALARM.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_BEFORE_READY.Message">
+      <tuv xml:lang="en">
+        <seg>Print job manager received a command before it was ready</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_BEFORE_READY.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;COMMAND_BEFORE_READY.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_INHIBITED.Message">
+      <tuv xml:lang="en">
+        <seg>Command inhibited</seg>
+      </tuv>
+    </tu>
+    <tu tuid="COMMAND_INHIBITED.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;COMMAND_INHIBITED.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BuildInfoFileError_AL0020.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;BuildInfoFileError_AL0020.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BuildInfoFileError_AL0020.Message">
+      <tuv xml:lang="en">
+        <seg>Build Info Error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PixelActiveOnIgnoredLaser_AL0021.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;PixelActiveOnIgnoredLaser_AL0021.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PixelActiveOnIgnoredLaser_AL0021.Message">
+      <tuv xml:lang="en">
+        <seg>An active pixel is currently ignored</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Inhibited_AL0022.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;Inhibited_AL0022.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="Inhibited_AL0022.Message">
+      <tuv xml:lang="en">
+        <seg>Print management command was inhibitied</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FileLoadError_AL0023.Message">
+      <tuv xml:lang="en">
+        <seg>ErrorID: {&amp;FileLoadError_AL0023.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FileLoadError_AL0023.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Print management command was inhibitied</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FileSaveError_AL0024.Message">
+      <tuv xml:lang="en">
+        <seg>ErrorID: {&amp;FileSaveError_AL0024.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="FileSaveError_AL0024.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Print management command was inhibitied</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BuildInfoValidRequired_AL0025.Message">
+      <tuv xml:lang="en">
+        <seg>Requested operation requires valid build info</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BuildInfoValidRequired_AL0025.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;BuildInfoValidRequired_AL0025.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="InvalidCurrentLayer_AL0026.Message">
+      <tuv xml:lang="en">
+        <seg>Attemping to print invalid layer number</seg>
+      </tuv>
+    </tu>
+    <tu tuid="InvalidCurrentLayer_AL0026.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;InvalidCurrentLayer_AL0026.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PrintingNotAllowed_AL0027.Message">
+      <tuv xml:lang="en">
+        <seg>Not Allowed To Print! [ {&amp;PrintingNotAllowed_AL0027.snippet}  ]</seg>
+      </tuv>
+    </tu>
+    <tu tuid="PrintingNotAllowed_AL0027.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Conditions are monitored in PrintJobManagement Task</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecoatNotAllowed_AL0028.Message">
+      <tuv xml:lang="en">
+        <seg>Not Allowed To Recoat!  [ {&amp;RecoatNotAllowed_AL0028.snippet}  ]</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecoatNotAllowed_AL0028.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Conditions are monitored in PrintJobManagement Task</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BPThicknessInvalid_AL0029.Message">
+      <tuv xml:lang="en">
+        <seg>Build plate thickness is invalid. Falling back to max allowed thickness.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="BPThicknessInvalid_AL0029.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;BPThicknessInvalid_AL0029.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NotAllowedToEnterLopMode_AL0030.Message">
+      <tuv xml:lang="en">
+        <seg>Not allowed to enter LOP mode since a RECOAT has been done on this build plate</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NotAllowedToEnterLopMode_AL0030.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Unload the volume to clear print data</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NotAllowedToResetPrint_AL0031.Message">
+      <tuv xml:lang="en">
+        <seg>You must unload the volume before resetting print data is allowed</seg>
+      </tuv>
+    </tu>
+    <tu tuid="NotAllowedToResetPrint_AL0031.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;NotAllowedToResetPrint_AL0031.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecoaterOffsetInvalid_AL0032.Message">
+      <tuv xml:lang="en">
+        <seg>Recoater offset is invalid. Falling back to zero offset.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="RecoaterOffsetInvalid_AL0032.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;RecoaterOffsetInvalid_AL0032.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="InterlockDoorOpened_AL0033.Message">
+      <tuv xml:lang="en">
+        <seg>Interlock Door Opened - Motor Power Off</seg>
+      </tuv>
+    </tu>
+    <tu tuid="InterlockDoorOpened_AL0033.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

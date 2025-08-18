@@ -1022,8 +1022,8 @@
 							</Folder>
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
-							<File Name="brease.js" Size="1459547" HashValue="F4C6AF2D4D7C76B5A03EEDB8B74AFDAF" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="632891" HashValue="681F81B7DBA8DC732C8ECFA11DC95DAF" ProjectDependent="1"/>
+							<File Name="brease.js" Size="1451233" HashValue="00F210DC9FADE23D9B7A015AC36D3A32" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="466807" HashValue="882A828E082FFE65F258E1C8BBF6922E" ProjectDependent="1"/>
 							<File Name="BuRTheme1.min.css" Size="309406" HashValue="38D82DEE4BB84F7575D7CA5DEAB1478C" ProjectDependent="1"/>
 							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="294571" HashValue="E91A949B938E50168061F37F2D5CE7DE" ProjectDependent="1"/>
 						</Folder>
@@ -2671,46 +2671,6 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="VF" ProjectDependent="1">
-								<Folder Name="StatusLEDGreen" ProjectDependent="1">
-									<File Name="StatusLEDGreen.html" Size="74" HashValue="14142AF87A2D2700BFCBE32B5D869D9C" ProjectDependent="1"/>
-									<File Name="StatusLEDGreen.js" Size="1149" HashValue="467C14801216EF4873F21BA3F5F5E6F2" ProjectDependent="1"/>
-									<Folder Name="designer" ProjectDependent="1">
-										<File Name="ClassInfo.js" Size="3762" HashValue="9E09CA29140B5FEEDED03B1C76E7900B" ProjectDependent="1"/>
-									</Folder>
-									<Folder Name="meta" ProjectDependent="1">
-										<File Name="StatusLEDGreen.json" Size="35225" HashValue="93DFE41B5F53ABB332EAE379513E9C39" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen.style" Size="13876" HashValue="CF1381D3F3DBF85F30E3AF32D59A9F00" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen.widget" Size="37964" HashValue="369F335BD14CB19680E6DFE22CDB4072" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen.xsd" Size="6786" HashValue="C400224B5C49DA9256DD19C736E37F3F" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen_base.scss" Size="3340" HashValue="543DDFE1C1D2B2B07D713F1EA7E623C6" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen_default.sass.css" Size="3783" HashValue="E9B84579A01917E1BC077264537D3658" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen_default.scss" Size="3426" HashValue="432D9FF2E0107E1D15DAB6B270F3FEED" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen_EventsActions.xsd" Size="6778" HashValue="48FC3EDE027AC39CE0FD457BF6A8F2C6" ProjectDependent="1"/>
-										<File Name="StatusLEDGreen_Styles.xsd" Size="4014" HashValue="1286EE7B77B5C07AC7C4AA5D76A6861C" ProjectDependent="1"/>
-									</Folder>
-								</Folder>
-								<Folder Name="StatusLEDRed" ProjectDependent="1">
-									<File Name="StatusLEDRed.html" Size="72" HashValue="B4F0B54778FFD96531C6A6B4991F5956" ProjectDependent="1"/>
-									<File Name="StatusLEDRed.js" Size="1143" HashValue="A1259BFFD356FEDF06B5227A88031FB8" ProjectDependent="1"/>
-									<Folder Name="designer" ProjectDependent="1">
-										<File Name="ClassInfo.js" Size="3758" HashValue="8873FDCE075124E5D584FC149CEC6DD5" ProjectDependent="1"/>
-									</Folder>
-									<Folder Name="meta" ProjectDependent="1">
-										<File Name="StatusLEDRed.json" Size="35211" HashValue="A5BAB0ECB0579EB542B3158DB48A3CA8" ProjectDependent="1"/>
-										<File Name="StatusLEDRed.style" Size="13874" HashValue="D1BE8F386BF049C23310D7122A704218" ProjectDependent="1"/>
-										<File Name="StatusLEDRed.widget" Size="37954" HashValue="D485F28BFDBF5D09E77D31C664F063D0" ProjectDependent="1"/>
-										<File Name="StatusLEDRed.xsd" Size="6778" HashValue="CF21314B24FA8211C394FA84780F728B" ProjectDependent="1"/>
-										<File Name="StatusLEDRed_base.scss" Size="3338" HashValue="859303BC120C9A63CB409B197CA58D9F" ProjectDependent="1"/>
-										<File Name="StatusLEDRed_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
-										<File Name="StatusLEDRed_default.sass.css" Size="3697" HashValue="FD63625FBCE6B3AB6C31B22646BCEC6E" ProjectDependent="1"/>
-										<File Name="StatusLEDRed_default.scss" Size="3420" HashValue="6FA81EF6FE34DD295490CAFC77CE744C" ProjectDependent="1"/>
-										<File Name="StatusLEDRed_EventsActions.xsd" Size="6702" HashValue="946A5674E9A27CD9CF3022A1812BE7C7" ProjectDependent="1"/>
-										<File Name="StatusLEDRed_Styles.xsd" Size="4012" HashValue="BEC9FC627C45728293C718BDE23AB091" ProjectDependent="1"/>
-									</Folder>
-								</Folder>
-							</Folder>
 							<Folder Name="widgets" ProjectDependent="1">
 								<Folder Name="ChangePasswordDialog" ProjectDependent="1">
 									<File Name="ChangePasswordDialog.html" Size="9306" HashValue="93B7BF233BAE0FA589F53B1D34976F96" ProjectDependent="1"/>
@@ -2783,7 +2743,7 @@
 						</Folder>
 						<Folder Name="mappView" ProjectDependent="1">
 							<File Name="AlarmsPage.html" Size="2589" HashValue="E626896A40610147B16E5CDE1B8B8F47" ProjectDependent="1"/>
-							<File Name="LaserPageMain.html" Size="312537" HashValue="95ADA27069234EC59B0FB9BC667212DA" ProjectDependent="1"/>
+							<File Name="LaserPageMain.html" Size="1768" HashValue="1EFD53266797A4E4AB765CFE158BF83D" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1">
@@ -4672,7 +4632,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="118880" HashValue="03BE6B026BDBF206BA5B3DD4098FA76D" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="22048" HashValue="2419772D8642D9B1BD65191A955FC356" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.uanodeset" Size="82243" HashValue="0ACBFD2CC6F798E744AD06E6F537F33F" ProjectDependent="1"/>

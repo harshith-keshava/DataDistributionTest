@@ -15,7 +15,7 @@
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="atnDriver" Source="Infrastructure.atnDriver.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="ManualPuls" Source="Automation.DataDistributionSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="DataDis" Source="Automation.DataDistributionSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="SFCControl" Source="Automation.SFCControl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="VFLCR_Syst" Source="ProcessControl.VFLCR.VFLCR_System.prg" Memory="UserROM" Description="                     " Language="IEC" Debugging="true" />
     <Task Name="MachineMod" Source="MachineControl.MachineMode.MachineMode.prg" Memory="UserROM" Language="IEC" Debugging="true" />
@@ -43,8 +43,6 @@
     <BinaryObject Name="mcacpdrv" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="udbdef" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="mCoWebSc" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="McAcpSim" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="McMechSys" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="McProfGen" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="TCLang" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arcoal" Source="" Memory="UserROM" Language="Binary" />
@@ -58,30 +56,32 @@
     <BinaryObject Name="ashwac" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="GantryMech" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="RectrCfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="MachineAH" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="MachineAC" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Hierarchy" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="MachineCG" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Settings" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="TC" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Recipies" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Settings_1" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="UserMgmt" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="UserLogin" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="McAcpSim" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="McMechSys" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="GantryMech" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="RectrCfg" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Hierarchy" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="GantryGrp" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="GantryCfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="CncFeature" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="VAx" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Config" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="LiftCfg" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Settings" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="ShuttleCfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="AxFeatures" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="TC" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Recipies" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="asiol2" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="asiol1" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Settings_1" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Config_1" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="AirlockCfg" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="UserMgmt" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="UserLogin" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="HopperCfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="PermMemAC" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="RecoaterAC" Source="" Memory="UserROM" Language="Binary" />

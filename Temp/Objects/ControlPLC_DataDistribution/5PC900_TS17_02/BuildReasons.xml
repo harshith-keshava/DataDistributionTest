@@ -1,31 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\server\mappsafety.vis">
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
-    <BuildReason>Newest Prerequisite 2025-08-18 14:40:15 newer than target 2025-08-18 14:38:34.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\cyclic.sfc.o">
+    <BuildReason>Target "cyclic.sfc.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
-    <BuildReason>Newest Prerequisite 2025-08-18 14:40:15 newer than target 2025-08-18 14:38:42.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitprogcyclic.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json._markerfile">
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitprogcyclic.c.o">
-    <BuildReason>Newest Prerequisite 2025-08-18 14:40:15 newer than target 2025-08-18 14:38:30.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
-    <BuildReason>Newest Prerequisite 2025-08-18 14:40:15 newer than target 2025-08-18 14:38:30.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
@@ -48,6 +51,15 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\init.st.o">
+    <BuildReason>Target "init.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\_bur_pvdef.st.o">
+    <BuildReason>Target "_bur_pvdef.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\a.out">
+    <BuildReason>Target "a.out" does not exist</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o" differs.
 </BuildReason>
@@ -55,6 +67,9 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out" differs.
 </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\datadis.ox">
+    <BuildReason>Target "datadis.ox" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out" differs.
@@ -64,8 +79,15 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis.br">
+    <BuildReason>Target "datadis.br" does not exist</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\5pc900_ts17_02\cpu.sw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\grunt.breasecsso._markerfile">

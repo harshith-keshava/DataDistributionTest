@@ -11,7 +11,7 @@
   <Operation Delete="MachineMod.br"/>
   <Operation Delete="VFLCR_Syst.br"/>
   <Operation Delete="SFCControl.br"/>
-  <Operation Delete="ManualPuls.br"/>
+  <Operation Delete="DataDis.br"/>
   <Operation Delete="atnDriver.br"/>
   <Operation Delete="AlarmWrap.br"/>
   <Operation Delete="VFLCR_Ope3.br"/>
@@ -225,7 +225,7 @@
   <Operation Download="VFLCR_Ope3.br" Memory="UserROM"/>
   <Operation Download="AlarmWrap.br" Memory="UserROM"/>
   <Operation Download="atnDriver.br" Memory="UserROM"/>
-  <Operation Download="ManualPuls.br" Memory="UserROM"/>
+  <Operation Download="DataDis.br" Memory="UserROM"/>
   <Operation Download="SFCControl.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Syst.br" Memory="UserROM"/>
   <Operation Download="MachineMod.br" Memory="UserROM"/>

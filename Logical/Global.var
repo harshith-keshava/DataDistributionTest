@@ -1,0 +1,3 @@
+VAR
+	gMachineState : Machine_typ;
+END_VAR

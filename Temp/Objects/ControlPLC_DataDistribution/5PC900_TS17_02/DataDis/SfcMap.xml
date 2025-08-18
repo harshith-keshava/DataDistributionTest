@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Monitor>
+<InputFile>C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Cyclic.sfc</InputFile>
+<OutputFile>C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Cyclic.sfc.o</OutputFile>
+<MainSFC>
+<STEP00002 NAME="START" CYCLIC="8"/>
+<STEP00006 NAME="CheckBuildInfo" CYCLIC="9"/>
+<STEP00008 NAME="UpdateNextLayer" CYCLIC="10"/>
+<STEP00011 NAME="CompletedAllLayers" CYCLIC="11"/>
+<STEP00014 NAME="UpdateNextLayerglobally" CYCLIC="12"/>
+<STEP00016 NAME="RequestLayerFileTranf" CYCLIC="13"/>
+<STEP00018 NAME="CheckLastDistributedLayer" CYCLIC="14"/>
+<STEP00020 NAME="OpenLayer" CYCLIC="15"/>
+<STEP00022 NAME="AbortLayer" CYCLIC="16"/>
+</MainSFC>
+<PiperModuleInterface USED="FALSE" NR="2">
+</PiperModuleInterface>
+<FunctionblockCalls USED="TRUE" NR="1">
+</FunctionblockCalls>
+<Step1Active USED="TRUE" NR="5">
+</Step1Active>
+<SelectOperation USED="FALSE" NR="4">
+</SelectOperation>
+<ResetOperation USED="FALSE" NR="3">
+</ResetOperation>
+</Monitor>

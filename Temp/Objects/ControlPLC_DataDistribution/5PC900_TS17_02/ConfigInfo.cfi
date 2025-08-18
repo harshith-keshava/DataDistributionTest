@@ -112,26 +112,26 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\Variables.var" />
     </Task>
     <Task
-      Name="ManualPuls"
+      Name="DataDis"
       Disable="false"
       Source="Automation.DataDistributionSFC"
       Language="IEC">
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Cyclic.sfc.var" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Cyclic.sfc.var" />
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Types.typ" />
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Variables.var" />
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Init.st.var" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Init.st.var" />
       <File
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\Common.var" />
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\PiperInterface.st.var" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\PiperInterface.st.var" />
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\Action.st.var" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Action.st.var" />
       <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\ManualPuls\commands.st.var" />
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\commands.st.var" />
     </Task>
     <Task
       Name="SFCControl"

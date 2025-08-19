@@ -7,7 +7,7 @@
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton26" top="63" left="79" width="122" height="60" zIndex="1" text="CONFIRM" visible="false" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="40" left="440" width="520" height="380" zIndex="1" text="Build Distribution" backColor="rgba(192, 192, 192, 1)">
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox1" top="40" left="440" width="520" height="480" zIndex="1" text="Build Distribution" backColor="rgba(192, 192, 192, 1)">
       <Widgets>
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton22" top="163" left="139" width="220" height="60" zIndex="0" text="START DISTRIBUTION" visible="false" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton23" top="243" left="139" width="220" height="60" zIndex="1" text="ABORT DISTRIBUTION" visible="false" />
@@ -15,6 +15,7 @@
         <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen2" top="43" left="139" zIndex="3" text="Laser Racks Connected" />
         <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen3" top="83" left="139" zIndex="4" text="Build Info Valid" />
         <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen4" top="123" left="139" zIndex="5" text="Distribution Active" />
+        <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton24" top="323" left="139" width="220" height="60" zIndex="6" text="START BUILD PRINTING" visible="false" />
       </Widgets>
     </Widget>
   </Widgets>

@@ -27,5 +27,9 @@
 <Source xsi:type="opcUa" refId="::AsGlobalPV:gOpcData_FromBuildPC.DistributionActive" attribute="value" />
 <Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="StatusLEDGreen4" attribute="value" />
 </Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:OP_START_DISTRIBUTION" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton24" attribute="value" />
+</Binding>
 </Bindings>
 </BindingsSet>

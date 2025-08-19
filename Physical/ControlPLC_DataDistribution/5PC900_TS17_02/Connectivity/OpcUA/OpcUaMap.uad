@@ -83,6 +83,10 @@
           </Variable>
         </Variable>
       </Task>
+      <Task Name="DataDis">
+        <Variable Name="OP_START_DISTRIBUTION" />
+        <Variable Name="OP_ABORT_DISTRIBUTION" />
+      </Task>
     </Module>
   </DefaultView>
 </OpcUaSource>

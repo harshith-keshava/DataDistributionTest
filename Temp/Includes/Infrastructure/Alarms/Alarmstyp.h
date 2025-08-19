@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755630755_19_
-#define _BUR_1755630755_19_
+#ifndef _BUR_1755634366_19_
+#define _BUR_1755634366_19_
 
 #include <bur/plctypes.h>
 
@@ -26,5 +26,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Infrastructure/Alarms/Alarms.typ\\\" scope
 __asm__(".previous");
 
 
-#endif /* _BUR_1755630755_19_ */
+#endif /* _BUR_1755634366_19_ */
 

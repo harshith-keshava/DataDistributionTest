@@ -31,5 +31,41 @@
 <Source xsi:type="opcUa" refId="::DataDis:OP_START_DISTRIBUTION" attribute="value" />
 <Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton24" attribute="value" />
 </Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton27" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton26" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton26" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="GroupBox21" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="GroupBox21" attribute="enable" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.confirmReboot" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton26" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.closePopup" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton21" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton21" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton21" attribute="enable" />
+</Binding>
 </Bindings>
 </BindingsSet>

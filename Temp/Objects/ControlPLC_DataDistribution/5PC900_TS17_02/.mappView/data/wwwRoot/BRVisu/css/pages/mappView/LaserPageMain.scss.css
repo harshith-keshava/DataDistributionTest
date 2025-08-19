@@ -1,10 +1,10 @@
 #LaserPageMain_GroupBox21 {
-  top: 0px;
+  top: 20px;
   position: absolute;
 }
 
 #LaserPageMain_GroupBox21 {
-  left: 1160px;
+  left: 1040px;
   position: absolute;
 }
 
@@ -246,4 +246,34 @@
 
 #LaserPageMain_MomentaryPushButton24 {
   z-index: 6;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  top: 3px;
+  position: absolute;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  left: -1px;
+  position: absolute;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  width: 121px;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  height: 37px;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  z-index: 7;
+}
+
+#LaserPageMain_MomentaryPushButton27:not(.disabled):not(.active):not(.checked) {
+  border-color: red;
+}
+
+#LaserPageMain_MomentaryPushButton27:not(.disabled):not(.active):not(.checked) span {
+  color: red;
 }

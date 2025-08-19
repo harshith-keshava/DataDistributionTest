@@ -34,24 +34,23 @@ PROGRAM _CYCLIC
 	
 	// Read external states
 
-	//IF task.command.rebootPLC THEN
-	//	task.internal.rebootPLC := TRUE;
-	//END_IF
+	IF task.command.rebootPLC THEN
+		task.internal.rebootPLC := TRUE;
+	END_IF
 	
-	//IF task.internal.rebootPLC <> 0 THEN
 		
-	//IF task.command.confirmReboot  THEN
+	IF task.command.confirmReboot  THEN
 			
-	//	task.internal.rebootPLC := FALSE;
-	//	SYSreset(TRUE, SYSLIB_WARMSTART);
+		task.internal.rebootPLC := FALSE;
+		SYSreset(TRUE, SYSLIB_WARMSTART);
 			
-	//END_IF
+	END_IF
 
-	//IF task.command.closePopup THEN
+	IF task.command.closePopup THEN
 		
-	//	task.internal.rebootPLC := FALSE;
+		task.internal.rebootPLC := FALSE;
 		
-//	END_IF
+	END_IF
 	 	
 	// Layer commands
 	IF task.command.openLayer THEN

@@ -8,6 +8,9 @@ TYPE
 	END_STRUCT;
 	localInterfaceCommand_typ : 	STRUCT 
 		openLayer : BOOL;
+		closePopup : BOOL;
+		confirmReboot : BOOL;
+		rebootPLC : BOOL;
 		abortLayer : BOOL;
 	END_STRUCT;
 	localInterfaceParameter_typ : 	STRUCT 
@@ -39,6 +42,7 @@ TYPE
 		atnSystemCommand : AtnPLCOpen;
 		enableLaserPowerSequenceCommand : AtnPLCOpen;
 		openLayerCommand : AtnPLCOpenWithParameters;
+		rebootPLC : BOOL;
 		PLCOpen : AtnPlcOpenStatus;
 	END_STRUCT;
 	IO_typ : 	STRUCT 

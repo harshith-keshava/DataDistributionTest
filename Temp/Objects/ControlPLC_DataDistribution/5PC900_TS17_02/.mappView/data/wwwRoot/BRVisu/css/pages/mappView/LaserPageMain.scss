@@ -1,9 +1,9 @@
 ﻿@import "mixins.scss";
 #LaserPageMain_GroupBox21 {
-	@include elemTop(0);
+	@include elemTop(20);
 }
 #LaserPageMain_GroupBox21 {
-	@include elemLeft(1160);
+	@include elemLeft(1040);
 }
 #LaserPageMain_GroupBox21 {
 	@include elemWidth(440);
@@ -169,4 +169,29 @@
 }
 #LaserPageMain_MomentaryPushButton24 {
 		z-index: 6;
+}
+#LaserPageMain_MomentaryPushButton27 {
+	@include elemTop(3);
+}
+#LaserPageMain_MomentaryPushButton27 {
+	@include elemLeft(-1);
+}
+#LaserPageMain_MomentaryPushButton27 {
+	@include elemAutoWidth(121);
+}
+#LaserPageMain_MomentaryPushButton27 {
+	@include elemAutoHeight(37);
+}
+#LaserPageMain_MomentaryPushButton27 {
+		z-index: 7;
+}
+#LaserPageMain_MomentaryPushButton27 {
+	&:not(.disabled):not(.active):not(.checked){
+		border-color: rgba(255, 0, 0, 1);
+	}
+}
+#LaserPageMain_MomentaryPushButton27 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(255, 0, 0, 1);
+	}
 }

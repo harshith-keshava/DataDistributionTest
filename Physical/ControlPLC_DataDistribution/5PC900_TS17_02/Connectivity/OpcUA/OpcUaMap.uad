@@ -32,6 +32,9 @@
           <Variable Name="command">
             <Variable Name="openLayer" />
             <Variable Name="abortLayer" />
+            <Variable Name="rebootPLC" />
+            <Variable Name="closePopup" />
+            <Variable Name="confirmReboot" />
           </Variable>
           <Variable Name="parameters">
             <Variable Name="openLayer" />
@@ -42,7 +45,9 @@
             <Variable Name="statusMessage" />
             <Variable Name="racksOnline" />
           </Variable>
-          <Variable Name="internal" />
+          <Variable Name="internal">
+            <Variable Name="rebootPLC" />
+          </Variable>
         </Variable>
       </Task>
       <Task Name="VFLCR_Ope0">

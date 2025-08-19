@@ -293,12 +293,12 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 .system_widgets_KeyBoard_style_default{width:957px;height:473px}
 .system_widgets_NumPad_style_default{width:354px;height:411px}
 #LaserPageMain_GroupBox21 {
-  top: 0px;
+  top: 20px;
   position: absolute;
 }
 
 #LaserPageMain_GroupBox21 {
-  left: 1160px;
+  left: 1040px;
   position: absolute;
 }
 
@@ -540,6 +540,36 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #LaserPageMain_MomentaryPushButton24 {
   z-index: 6;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  top: 3px;
+  position: absolute;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  left: -1px;
+  position: absolute;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  width: 121px;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  height: 37px;
+}
+
+#LaserPageMain_MomentaryPushButton27 {
+  z-index: 7;
+}
+
+#LaserPageMain_MomentaryPushButton27:not(.disabled):not(.active):not(.checked) {
+  border-color: red;
+}
+
+#LaserPageMain_MomentaryPushButton27:not(.disabled):not(.active):not(.checked) span {
+  color: red;
 }
 #AlarmsPage_AlarmsGroupBox {
   top: 20px;

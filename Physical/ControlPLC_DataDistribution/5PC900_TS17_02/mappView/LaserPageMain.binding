@@ -67,5 +67,21 @@
 <Source xsi:type="opcUa" refId="::VFLCR_Syst:task.internal.rebootPLC" attribute="value" />
 <Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton21" attribute="enable" />
 </Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.command.closePopup" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="PushButton27" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="PushButton27" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="GroupBox50" attribute="visible" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="GroupBox50" attribute="enable" />
+</Binding>
 </Bindings>
 </BindingsSet>

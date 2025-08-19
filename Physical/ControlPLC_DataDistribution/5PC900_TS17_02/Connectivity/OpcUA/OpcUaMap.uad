@@ -91,6 +91,14 @@
       <Task Name="DataDis">
         <Variable Name="OP_START_DISTRIBUTION" />
         <Variable Name="OP_ABORT_DISTRIBUTION" />
+        <Variable Name="task">
+          <Variable Name="internal">
+            <Variable Name="completedLayers" />
+          </Variable>
+          <Variable Name="command">
+            <Variable Name="closePopup" />
+          </Variable>
+        </Variable>
       </Task>
     </Module>
   </DefaultView>

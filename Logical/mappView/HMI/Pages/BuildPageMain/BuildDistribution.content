@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Content id="LaserPageMain" height="1030" width="1720" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Widgets>
-    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox21" top="20" left="1040" width="440" height="164" zIndex="0" text="Reboot Confirm" backColor="rgba(255, 128, 128, 1)" enable="false" visible="false">
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox21" top="0" left="980" width="440" height="164" zIndex="0" text="Reboot Confirm" backColor="rgba(255, 128, 128, 1)" enable="false" visible="false">
       <Widgets>
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton21" top="63" left="239" width="122" height="60" zIndex="0" text="CLOSE" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton26" top="63" left="79" width="122" height="60" zIndex="1" text="CONFIRM" />
@@ -17,6 +17,12 @@
         <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen4" top="123" left="139" zIndex="5" text="Distribution Active" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton24" top="323" left="139" width="220" height="60" zIndex="6" text="START BUILD PRINTING" visible="false" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton27" top="3" left="-1" width="121" height="37" zIndex="7" text="REBOOT" borderColor="rgba(255, 0, 0, 1)" textColor="rgba(255, 0, 0, 1)" />
+      </Widgets>
+    </Widget>
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox50" top="0" left="440" width="440" height="164" zIndex="2" text="All Layers Completed" backColor="rgba(128, 255, 128, 1)" enable="false" visible="false">
+      <Widgets>
+        <Widget xsi:type="widgets.brease.Label" id="Label204" top="17" left="98" width="282" zIndex="0" text="All layer files check was completed" bold="true" enable="false" visible="false" />
+        <Widget xsi:type="widgets.brease.PushButton" id="PushButton27" top="63" left="159" width="122" height="60" zIndex="1" text="OK" visible="false" />
       </Widgets>
     </Widget>
   </Widgets>

@@ -8,6 +8,8 @@ $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Automation/DataDistributionSFC/Variables.var
+$(AS_PROJECT_PATH)/Logical/Automation/SFCCommon/Common.var
+$(AS_PROJECT_PATH)/Logical/Automation/DataDistributionSFC/Types.typ
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun

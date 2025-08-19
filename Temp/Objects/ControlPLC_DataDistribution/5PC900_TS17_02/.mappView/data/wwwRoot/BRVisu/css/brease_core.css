@@ -293,12 +293,12 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 .system_widgets_KeyBoard_style_default{width:957px;height:473px}
 .system_widgets_NumPad_style_default{width:354px;height:411px}
 #LaserPageMain_GroupBox21 {
-  top: 20px;
+  top: 0px;
   position: absolute;
 }
 
 #LaserPageMain_GroupBox21 {
-  left: 1040px;
+  left: 980px;
   position: absolute;
 }
 
@@ -570,6 +570,80 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #LaserPageMain_MomentaryPushButton27:not(.disabled):not(.active):not(.checked) span {
   color: red;
+}
+
+#LaserPageMain_GroupBox50 {
+  top: 0px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox50 {
+  left: 440px;
+  position: absolute;
+}
+
+#LaserPageMain_GroupBox50 {
+  width: 440px;
+}
+
+#LaserPageMain_GroupBox50 {
+  height: 164px;
+}
+
+#LaserPageMain_GroupBox50 {
+  z-index: 2;
+}
+
+#LaserPageMain_GroupBox50 {
+  background-color: #80ff80;
+}
+
+#LaserPageMain_Label204 {
+  height: 30px;
+}
+
+#LaserPageMain_Label204 {
+  top: 17px;
+  position: absolute;
+}
+
+#LaserPageMain_Label204 {
+  left: 98px;
+  position: absolute;
+}
+
+#LaserPageMain_Label204 {
+  width: 282px;
+}
+
+#LaserPageMain_Label204 {
+  z-index: 0;
+}
+
+#LaserPageMain_Label204 {
+  font-weight: bold;
+}
+
+#LaserPageMain_PushButton27 {
+  top: 63px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton27 {
+  left: 159px;
+  position: absolute;
+}
+
+#LaserPageMain_PushButton27 {
+  width: 122px;
+}
+
+#LaserPageMain_PushButton27 {
+  height: 60px;
+}
+
+#LaserPageMain_PushButton27 {
+  z-index: 1;
 }
 #AlarmsPage_AlarmsGroupBox {
   top: 20px;

@@ -1,9 +1,9 @@
 ﻿@import "mixins.scss";
 #LaserPageMain_GroupBox21 {
-	@include elemTop(20);
+	@include elemTop(0);
 }
 #LaserPageMain_GroupBox21 {
-	@include elemLeft(1040);
+	@include elemLeft(980);
 }
 #LaserPageMain_GroupBox21 {
 	@include elemWidth(440);
@@ -194,4 +194,55 @@
 	&:not(.disabled):not(.active):not(.checked) span{
 		color: rgba(255, 0, 0, 1);
 	}
+}
+#LaserPageMain_GroupBox50 {
+	@include elemTop(0);
+}
+#LaserPageMain_GroupBox50 {
+	@include elemLeft(440);
+}
+#LaserPageMain_GroupBox50 {
+	@include elemWidth(440);
+}
+#LaserPageMain_GroupBox50 {
+	@include elemHeight(164);
+}
+#LaserPageMain_GroupBox50 {
+		z-index: 2;
+}
+#LaserPageMain_GroupBox50 {
+		background-color: rgba(128, 255, 128, 1);
+}
+#LaserPageMain_Label204 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Label204 {
+	@include elemTop(17);
+}
+#LaserPageMain_Label204 {
+	@include elemLeft(98);
+}
+#LaserPageMain_Label204 {
+	@include elemAutoWidth(282);
+}
+#LaserPageMain_Label204 {
+		z-index: 0;
+}
+#LaserPageMain_Label204 {
+	@include font-weight-bold(true);
+}
+#LaserPageMain_PushButton27 {
+	@include elemTop(63);
+}
+#LaserPageMain_PushButton27 {
+	@include elemLeft(159);
+}
+#LaserPageMain_PushButton27 {
+	@include elemAutoWidth(122);
+}
+#LaserPageMain_PushButton27 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_PushButton27 {
+		z-index: 1;
 }

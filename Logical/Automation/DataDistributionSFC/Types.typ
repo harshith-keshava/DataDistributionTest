@@ -9,6 +9,7 @@ TYPE
 		internal : localInterfaceInternal_typ;
 	END_STRUCT;
 	localInterfaceCommand_typ : 	STRUCT 
+		closePopup : BOOL;
 		stop : BOOL;
 		_ : BOOL;
 	END_STRUCT;
@@ -24,6 +25,7 @@ TYPE
 	localInterfaceInternal_typ : 	STRUCT 
 		PLCOpen : AtnPlcOpenStatus;
 		nextLayerNumber : UINT;
+		completedLayers : BOOL;
 		newCommand : BOOL;
 	END_STRUCT;
 END_TYPE

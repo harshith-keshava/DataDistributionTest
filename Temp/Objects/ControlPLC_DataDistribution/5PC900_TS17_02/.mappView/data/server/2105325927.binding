@@ -145,5 +145,36 @@
 
 
 
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.command.closePopup" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton27" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.command.closePopup" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton27" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_PushButton27" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_GroupBox50" attribute="visible" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_GroupBox50" attribute="enable" />
+</Binding></Content>
+
+
+
 
 </BindingDefinition>

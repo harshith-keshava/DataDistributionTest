@@ -8,7 +8,6 @@
   <Operation Delete="PrintJobMa.br"/>
   <Operation Delete="RM_PrintPr.br"/>
   <Operation Delete="RM_BuildIn.br"/>
-  <Operation Delete="MachineMod.br"/>
   <Operation Delete="VFLCR_Syst.br"/>
   <Operation Delete="SFCControl.br"/>
   <Operation Delete="DataDis.br"/>
@@ -177,7 +176,6 @@
   <Operation Download="hammers.br" Memory="UserROM"/>
   <Operation Download="messagebox.br" Memory="UserROM"/>
   <Operation Download="piper.br" Memory="UserROM"/>
-  <Operation Download="ToolBox.br" Memory="UserROM"/>
   <Operation Download="MpRecipe.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
@@ -207,6 +205,7 @@
   <Operation Download="omjson.br" Memory="UserROM"/>
   <Operation Download="VFAlarms.br" Memory="UserROM"/>
   <Operation Download="McPureVAx.br" Memory="UserROM"/>
+  <Operation Download="ToolBox.br" Memory="UserROM"/>
   <Operation Download="Finder.br" Memory="UserROM"/>
   <Operation Download="VF_COMMON.br" Memory="UserROM"/>
   <Operation Download="VFValve.br" Memory="UserROM"/>
@@ -228,7 +227,6 @@
   <Operation Download="DataDis.br" Memory="UserROM"/>
   <Operation Download="SFCControl.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Syst.br" Memory="UserROM"/>
-  <Operation Download="MachineMod.br" Memory="UserROM"/>
   <Operation Download="RM_BuildIn.br" Memory="UserROM"/>
   <Operation Download="RM_PrintPr.br" Memory="UserROM"/>
   <Operation Download="PrintJobMa.br" Memory="UserROM"/>

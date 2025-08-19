@@ -3,5 +3,75 @@
   
 		
 
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.command.startDistribution" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_MomentaryPushButton22" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.command.startDistribution" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_MomentaryPushButton22" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.command.abortDistribution" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_MomentaryPushButton23" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.command.abortDistribution" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_MomentaryPushButton23" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.racksOnline" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen2" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.status.racksOnline" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen2" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.status.buildDistributorConnected" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_Led1" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::BuildDistr:task.status.buildDistributorConnected" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_Led1" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::PrintJobMa:task.status.buildInfoValid" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen3" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::PrintJobMa:task.status.buildInfoValid" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen3" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gOpcData_FromBuildPC.DistributionActive" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen4" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gOpcData_FromBuildPC.DistributionActive" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_StatusLEDGreen4" attribute="editable::value" />
+</Binding></Content>
+
+
+
+<Content id="LaserPageMain"><Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::DataDis:OP_START_DISTRIBUTION" attribute="value" />
+<Target xsi:type="brease" refId="LaserPageMain_MomentaryPushButton24" attribute="value" />
+</Binding><Binding mode="oneWay">
+<Source xsi:type="opcUa" refId="::DataDis:OP_START_DISTRIBUTION" attribute="editable" />
+<Target xsi:type="brease" refId="LaserPageMain_MomentaryPushButton24" attribute="editable::value" />
+</Binding></Content>
+
+
+
 
 </BindingDefinition>

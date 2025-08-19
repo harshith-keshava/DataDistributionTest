@@ -5,7 +5,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/messagebox/MessageBox.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/sys_lib/sys_lib.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/LogThat.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Automation/SFCCommon/Common.var
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
 $(AS_PROJECT_PATH)/Logical/Automation/DataDistributionSFC/Variables.var

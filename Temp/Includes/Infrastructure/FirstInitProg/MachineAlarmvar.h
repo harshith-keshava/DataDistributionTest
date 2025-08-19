@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755527880_25_
-#define _BUR_1755527880_25_
+#ifndef _BUR_1755630755_23_
+#define _BUR_1755630755_23_
 
 #include <bur/plctypes.h>
 
@@ -30,5 +30,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Infrastructure/FirstInitProg/MachineAlarm.
 __asm__(".previous");
 
 
-#endif /* _BUR_1755527880_25_ */
+#endif /* _BUR_1755630755_23_ */
 

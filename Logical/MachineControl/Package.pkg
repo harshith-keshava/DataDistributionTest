@@ -5,6 +5,5 @@
     <Object Type="File">MachineControl.typ</Object>
     <Object Type="File">MachineControl.var</Object>
     <Object Type="Program" Language="IEC">PiperModuleTemplate</Object>
-    <Object Type="Package">MachineMode</Object>
   </Objects>
 </Package>

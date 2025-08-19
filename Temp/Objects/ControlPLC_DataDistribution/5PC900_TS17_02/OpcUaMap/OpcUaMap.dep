@@ -1,3 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Opcua.typ
 $(AS_PROJECT_PATH)/Logical/Infrastructure/RevInfo/RevInfo.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_Operation/Variables.var
 $(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/Cpu.sw
@@ -5,6 +7,11 @@ $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_Operation/Types.typ
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Automation/DataDistributionSFC/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/PrintJobManagement/Types.typ
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildDistributor/Variables.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildDistributor/Types.typ

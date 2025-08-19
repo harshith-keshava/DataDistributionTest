@@ -168,22 +168,6 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Syst\hmiHelper.st.var" />
     </Task>
     <Task
-      Name="MachineMod"
-      Disable="false"
-      Source="MachineControl.MachineMode.MachineMode"
-      Language="IEC">
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\MachineMod\Main.st.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\Variables.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\MachineControl\MachineMode\MachineMode\PiperModule.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\MachineMod\PiperInterface.st.var" />
-    </Task>
-    <Task
       Name="RM_BuildIn"
       Disable="false"
       Source="ProcessControl.PrintJobManagement.RM_BuildInfo"

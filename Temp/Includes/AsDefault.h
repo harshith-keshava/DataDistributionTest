@@ -91,8 +91,6 @@ extern "C"
 #include <globalVAR.h>
 #include <machinecontrol/machinecontrolTYP.h>
 #include <machinecontrol/machinecontrolVAR.h>
-#include <machinecontrol/machinemode/machinemodeTYP.h>
-#include <machinecontrol/machinemode/machinemodeVAR.h>
 #include <automation/typesTYP.h>
 #include <automation/variablesVAR.h>
 #include <processcontrol/vflcr/vflcrTYP.h>

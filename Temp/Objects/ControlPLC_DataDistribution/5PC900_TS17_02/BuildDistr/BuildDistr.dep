@@ -3,7 +3,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.var
-$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/LogThat.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var

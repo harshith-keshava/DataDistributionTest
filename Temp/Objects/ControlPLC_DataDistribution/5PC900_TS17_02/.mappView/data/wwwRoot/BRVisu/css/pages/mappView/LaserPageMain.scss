@@ -1,9 +1,9 @@
 ﻿@import "mixins.scss";
 #LaserPageMain_GroupBox21 {
-	@include elemTop(40);
+	@include elemTop(0);
 }
 #LaserPageMain_GroupBox21 {
-	@include elemLeft(100);
+	@include elemLeft(1160);
 }
 #LaserPageMain_GroupBox21 {
 	@include elemWidth(440);
@@ -47,26 +47,44 @@
 #LaserPageMain_MomentaryPushButton26 {
 		z-index: 1;
 }
-#LaserPageMain_MomentaryPushButton22 {
-	@include elemTop(220);
+#LaserPageMain_GroupBox1 {
+	@include elemTop(40);
 }
-#LaserPageMain_MomentaryPushButton22 {
-	@include elemLeft(160);
+#LaserPageMain_GroupBox1 {
+	@include elemLeft(440);
 }
-#LaserPageMain_MomentaryPushButton22 {
-	@include elemAutoWidth(220);
+#LaserPageMain_GroupBox1 {
+	@include elemWidth(520);
 }
-#LaserPageMain_MomentaryPushButton22 {
-	@include elemAutoHeight(60);
+#LaserPageMain_GroupBox1 {
+	@include elemHeight(480);
 }
-#LaserPageMain_MomentaryPushButton22 {
+#LaserPageMain_GroupBox1 {
 		z-index: 1;
 }
-#LaserPageMain_MomentaryPushButton23 {
-	@include elemTop(300);
+#LaserPageMain_GroupBox1 {
+		background-color: rgba(192, 192, 192, 1);
+}
+#LaserPageMain_MomentaryPushButton22 {
+	@include elemTop(163);
+}
+#LaserPageMain_MomentaryPushButton22 {
+	@include elemLeft(139);
+}
+#LaserPageMain_MomentaryPushButton22 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_MomentaryPushButton22 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_MomentaryPushButton22 {
+		z-index: 0;
 }
 #LaserPageMain_MomentaryPushButton23 {
-	@include elemLeft(160);
+	@include elemTop(243);
+}
+#LaserPageMain_MomentaryPushButton23 {
+	@include elemLeft(139);
 }
 #LaserPageMain_MomentaryPushButton23 {
 	@include elemAutoWidth(220);
@@ -75,5 +93,80 @@
 	@include elemAutoHeight(60);
 }
 #LaserPageMain_MomentaryPushButton23 {
+		z-index: 1;
+}
+#LaserPageMain_Led1 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_Led1 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_Led1 {
+	@include elemTop(3);
+}
+#LaserPageMain_Led1 {
+	@include elemLeft(139);
+}
+#LaserPageMain_Led1 {
 		z-index: 2;
+}
+#LaserPageMain_StatusLEDGreen2 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen2 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen2 {
+	@include elemTop(43);
+}
+#LaserPageMain_StatusLEDGreen2 {
+	@include elemLeft(139);
+}
+#LaserPageMain_StatusLEDGreen2 {
+		z-index: 3;
+}
+#LaserPageMain_StatusLEDGreen3 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen3 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen3 {
+	@include elemTop(83);
+}
+#LaserPageMain_StatusLEDGreen3 {
+	@include elemLeft(139);
+}
+#LaserPageMain_StatusLEDGreen3 {
+		z-index: 4;
+}
+#LaserPageMain_StatusLEDGreen4 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_StatusLEDGreen4 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen4 {
+	@include elemTop(123);
+}
+#LaserPageMain_StatusLEDGreen4 {
+	@include elemLeft(139);
+}
+#LaserPageMain_StatusLEDGreen4 {
+		z-index: 5;
+}
+#LaserPageMain_MomentaryPushButton24 {
+	@include elemTop(323);
+}
+#LaserPageMain_MomentaryPushButton24 {
+	@include elemLeft(139);
+}
+#LaserPageMain_MomentaryPushButton24 {
+	@include elemAutoWidth(220);
+}
+#LaserPageMain_MomentaryPushButton24 {
+	@include elemAutoHeight(60);
+}
+#LaserPageMain_MomentaryPushButton24 {
+		z-index: 6;
 }

@@ -1,6 +1,6 @@
 SHELL := cmd.exe
 
-export AS_BUILD_MODE := Rebuild
+export AS_BUILD_MODE := BuildAndTransfer
 export AS_SYSTEM_PATH := C:/Users/hkeshavamurthy/AS/System
 export AS_BIN_PATH := C:/Users/hkeshavamurthy/AS411/bin-en
 export AS_INSTALL_PATH := C:/Users/hkeshavamurthy/AS411

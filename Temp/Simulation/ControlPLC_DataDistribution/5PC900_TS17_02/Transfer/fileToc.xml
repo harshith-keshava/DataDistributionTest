@@ -62,7 +62,7 @@
 					<File Name="135210392.binding" Size="13531" HashValue="5629998DF02DD66B33037628D70BC8AB" ProjectDependent="1"/>
 					<File Name="1501003399.eventbinding" Size="6214" HashValue="9948E40471FF83425ACEBC073F2DAC15" ProjectDependent="1"/>
 					<File Name="179254715.binding" Size="644" HashValue="4F5A2E5334330C75369CE943B17412D3" ProjectDependent="1"/>
-					<File Name="2105325927.binding" Size="285" HashValue="CF34F4133517575E9E0BAFB5846C6D93" ProjectDependent="1"/>
+					<File Name="2105325927.binding" Size="8101" HashValue="A5A2466434D18140100BC79B94BB78F1" ProjectDependent="1"/>
 					<File Name="2135815872.eventbinding" Size="12661" HashValue="92F93CCC03536E91F3262C96723B8ABC" ProjectDependent="1"/>
 					<File Name="465670144.eventbinding" Size="9768" HashValue="FCED5FAB7E82B7F3D8444B6D0688DA7A" ProjectDependent="1"/>
 					<File Name="577050500.binding" Size="17967" HashValue="46657098AF5538BC1E44C22A0AA452CF" ProjectDependent="1"/>
@@ -1022,10 +1022,10 @@
 							</Folder>
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
-							<File Name="brease.js" Size="1451233" HashValue="00F210DC9FADE23D9B7A015AC36D3A32" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="466807" HashValue="882A828E082FFE65F258E1C8BBF6922E" ProjectDependent="1"/>
-							<File Name="BuRTheme1.min.css" Size="309406" HashValue="38D82DEE4BB84F7575D7CA5DEAB1478C" ProjectDependent="1"/>
-							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="294571" HashValue="E91A949B938E50168061F37F2D5CE7DE" ProjectDependent="1"/>
+							<File Name="brease.js" Size="1455400" HashValue="62CF7E4E2A3C80D20E4166D81FF8B8AA" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="527655" HashValue="AEDFFF6892BAACFE54FD86C09DBC41A5" ProjectDependent="1"/>
+							<File Name="BuRTheme1.min.css" Size="318922" HashValue="57A4F41ED499C308E2A4A2A8D0C6D560" ProjectDependent="1"/>
+							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="305376" HashValue="167E29DE342FEB319CED7A8BF25C8C9B" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -2671,6 +2671,27 @@
 									</Folder>
 								</Folder>
 							</Folder>
+							<Folder Name="VF" ProjectDependent="1">
+								<Folder Name="StatusLEDGreen" ProjectDependent="1">
+									<File Name="StatusLEDGreen.html" Size="74" HashValue="14142AF87A2D2700BFCBE32B5D869D9C" ProjectDependent="1"/>
+									<File Name="StatusLEDGreen.js" Size="1149" HashValue="467C14801216EF4873F21BA3F5F5E6F2" ProjectDependent="1"/>
+									<Folder Name="designer" ProjectDependent="1">
+										<File Name="ClassInfo.js" Size="3762" HashValue="9E09CA29140B5FEEDED03B1C76E7900B" ProjectDependent="1"/>
+									</Folder>
+									<Folder Name="meta" ProjectDependent="1">
+										<File Name="StatusLEDGreen.json" Size="35225" HashValue="93DFE41B5F53ABB332EAE379513E9C39" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen.style" Size="13876" HashValue="CF1381D3F3DBF85F30E3AF32D59A9F00" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen.widget" Size="37964" HashValue="369F335BD14CB19680E6DFE22CDB4072" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen.xsd" Size="6786" HashValue="C400224B5C49DA9256DD19C736E37F3F" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen_base.scss" Size="3340" HashValue="543DDFE1C1D2B2B07D713F1EA7E623C6" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen_Copied.markerFile" Size="0" HashValue="D41D8CD98F00B204E9800998ECF8427E" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen_default.sass.css" Size="3783" HashValue="E9B84579A01917E1BC077264537D3658" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen_default.scss" Size="3426" HashValue="432D9FF2E0107E1D15DAB6B270F3FEED" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen_EventsActions.xsd" Size="6778" HashValue="48FC3EDE027AC39CE0FD457BF6A8F2C6" ProjectDependent="1"/>
+										<File Name="StatusLEDGreen_Styles.xsd" Size="4014" HashValue="1286EE7B77B5C07AC7C4AA5D76A6861C" ProjectDependent="1"/>
+									</Folder>
+								</Folder>
+							</Folder>
 							<Folder Name="widgets" ProjectDependent="1">
 								<Folder Name="ChangePasswordDialog" ProjectDependent="1">
 									<File Name="ChangePasswordDialog.html" Size="9306" HashValue="93B7BF233BAE0FA589F53B1D34976F96" ProjectDependent="1"/>
@@ -2743,7 +2764,7 @@
 						</Folder>
 						<Folder Name="mappView" ProjectDependent="1">
 							<File Name="AlarmsPage.html" Size="2589" HashValue="E626896A40610147B16E5CDE1B8B8F47" ProjectDependent="1"/>
-							<File Name="LaserPageMain.html" Size="1768" HashValue="1EFD53266797A4E4AB765CFE158BF83D" ProjectDependent="1"/>
+							<File Name="LaserPageMain.html" Size="5107" HashValue="100ADFF8930EAF58D4A75EF8D1AA8BA7" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1">
@@ -2817,14 +2838,14 @@
 					</Folder>
 				</Folder>
 			</Folder>
-			<Folder Name="mappCockpit" ProjectDependent="1" IsGroup="1">
-				<Folder Name="mappCockpit" ProjectDependent="1">
+			<Folder Name="mappCockpit" ProjectDependent="1">
+				<Folder Name="mappCockpit" ProjectDependent="1" IsGroup="1">
 					<File Name="index.html" Size="537" HashValue="8BA3F7DB5ABB134F8037E6045B08973E" ProjectDependent="1"/>
-					<Folder Name="app" ProjectDependent="1">
+					<Folder Name="app" ProjectDependent="1" IsGroup="1">
 						<File Name="1.index.js" Size="234" HashValue="2F1471146666F68CD0303E820029442F" ProjectDependent="1"/>
 						<File Name="index.html" Size="780" HashValue="6DC2DE810E8E96975EC7F9FAC87C3314" ProjectDependent="1"/>
 						<File Name="index.js" Size="2405961" HashValue="21F51E623AD74B932380DFCAF5A23306" ProjectDependent="1"/>
-						<Folder Name="common" ProjectDependent="1">
+						<Folder Name="common" ProjectDependent="1" IsGroup="1">
 							<File Name="colorHelper.js" Size="2806" HashValue="A64560D67804FE3B7218219338632A38" ProjectDependent="1"/>
 							<File Name="dateTimeHelper.js" Size="5442" HashValue="C0C31BF497E5DFA19E10A275D5C3DF6B" ProjectDependent="1"/>
 							<File Name="directoryProvider.js" Size="1507" HashValue="69CDFF1F3A02D225E7BB345BB6313B46" ProjectDependent="1"/>
@@ -2836,7 +2857,7 @@
 							<File Name="numericHelper.js" Size="2953" HashValue="0E7D939E99F8BEF128EA14374382985F" ProjectDependent="1"/>
 							<File Name="seriesHelper.js" Size="16452" HashValue="D43189C057E4CB79DD14A873C7FA0920" ProjectDependent="1"/>
 							<File Name="zipContainer.js" Size="10101" HashValue="8948EF0938C515F6F8F472D7E9FED126" ProjectDependent="1"/>
-							<Folder Name="componentBase" ProjectDependent="1">
+							<Folder Name="componentBase" ProjectDependent="1" IsGroup="1">
 								<File Name="componentBase.js" Size="72785" HashValue="88749FEB040CAEAAF138C20B293E943B" ProjectDependent="1"/>
 								<File Name="componentContext.js" Size="4452" HashValue="41C178DB8F6738296137DCF50720A235" ProjectDependent="1"/>
 								<File Name="componentDefaultSettingsPackage.js" Size="1548" HashValue="CCCF9C72698CD95F2BEF20A13F6F487D" ProjectDependent="1"/>
@@ -2844,25 +2865,25 @@
 								<File Name="componentWithoutSettingsBase.js" Size="2670" HashValue="DEC9FED4E9FD6D842F919EF7DBCE22F1" ProjectDependent="1"/>
 								<File Name="eventComponentSettingsLoadedArgs.js" Size="1393" HashValue="212D6D200C31245CA2A0DA30487BC9A3" ProjectDependent="1"/>
 								<File Name="eventSubComponentsLoadedArgs.js" Size="2014" HashValue="6DC403E3EE4145954E2F5C116693A635" ProjectDependent="1"/>
-								<Folder Name="contextIds" ProjectDependent="1">
+								<Folder Name="contextIds" ProjectDependent="1" IsGroup="1">
 									<File Name="contextIdsComponent.js" Size="2327" HashValue="AC97747562B4ACCC92624A0A4F1F3066" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="componentDefaultDefinitionInterface.js" Size="2080" HashValue="FA9A8F6F1FC91472263F01B255BD32CD" ProjectDependent="1"/>
 									<File Name="componentInterface.js" Size="2076" HashValue="8BA8A540E84C25847B89DB7BD325E664" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="componentFactory" ProjectDependent="1">
+							<Folder Name="componentFactory" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefinition.js" Size="4555" HashValue="14873CEF151172CB2F58A9A8615F1EF3" ProjectDependent="1"/>
 								<File Name="componentFactory.js" Size="37673" HashValue="55AAC1EE73D6DA4C7D0B01AB5E41F195" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="componentFactoryInterface.js" Size="1540" HashValue="1D5B0706EAEE662706A9CC7AE98D37B9" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="interfaces" ProjectDependent="1">
+							<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 								<File Name="valueListItemInterface.js" Size="1060" HashValue="E70A2754BE9B1081FF7ACA1E6A4ED1AF" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="math" ProjectDependent="1">
+							<Folder Name="math" ProjectDependent="1" IsGroup="1">
 								<File Name="mathX.js" Size="7024" HashValue="0D730CEB2F0F62364200F6B00132C1A0" ProjectDependent="1"/>
 								<File Name="max.js" Size="3002" HashValue="55780452CB87130BFA20C58E11BA9CCA" ProjectDependent="1"/>
 								<File Name="mean.js" Size="3743" HashValue="9A163168C42A9AC7D12B0A0C726A95D6" ProjectDependent="1"/>
@@ -2872,18 +2893,18 @@
 								<File Name="standardDeviation.js" Size="5142" HashValue="834B693F51CF61C5F69527D243484DB6" ProjectDependent="1"/>
 								<File Name="sum.js" Size="2860" HashValue="BFB1E3085381E553570BCC07C3B6F704" ProjectDependent="1"/>
 								<File Name="variance.js" Size="4058" HashValue="E4C03D23592419328FB3B32D7A76AC7F" ProjectDependent="1"/>
-								<Folder Name="interface" ProjectDependent="1">
+								<Folder Name="interface" ProjectDependent="1" IsGroup="1">
 									<File Name="mathOperatorInterface.js" Size="644" HashValue="4B1CA4037AA475FD60F739C7A164BAED" ProjectDependent="1"/>
 									<File Name="rdpInterface.js" Size="956" HashValue="4D7CC375830B3E1282209C07D46F41CC" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="lineReductionAlgorithm" ProjectDependent="1">
+								<Folder Name="lineReductionAlgorithm" ProjectDependent="1" IsGroup="1">
 									<File Name="rdp.js" Size="15216" HashValue="9D04B7EDCB946B370E0D581C7BDE6126" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="mceExportImport" ProjectDependent="1">
+							<Folder Name="mceExportImport" ProjectDependent="1" IsGroup="1">
 								<File Name="mceExportImportHelper.js" Size="21664" HashValue="A503E9EF04EAC4387BBF9ECFC1A74F3C" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="nwctProvider" ProjectDependent="1">
+							<Folder Name="nwctProvider" ProjectDependent="1" IsGroup="1">
 								<File Name="brModuleParser.js" Size="8375" HashValue="011D7E58CEEDF7A782701F81B45051E9" ProjectDependent="1"/>
 								<File Name="nwctDynamicMetaData.js" Size="4996" HashValue="01964960F06BE8B05F33F70AA61EA3B3" ProjectDependent="1"/>
 								<File Name="nwctEntry.js" Size="94880" HashValue="C8C574FE11E1B5E7EC288788C012B5F7" ProjectDependent="1"/>
@@ -2893,20 +2914,20 @@
 								<File Name="nwctStaticMetaData.js" Size="13301" HashValue="35F2F993157C11C67B732546E9A58980" ProjectDependent="1"/>
 								<File Name="nwctTextProvider.js" Size="19345" HashValue="A20CAEAC13AFA01F49C905FA9DB269DB" ProjectDependent="1"/>
 								<File Name="nwctVirtAxHelper.js" Size="11985" HashValue="4FAAEC678674E9FD80C0D9B391828BC0" ProjectDependent="1"/>
-								<Folder Name="enrichment" ProjectDependent="1">
+								<Folder Name="enrichment" ProjectDependent="1" IsGroup="1">
 									<File Name="nwctConfigEntriesWrapper.js" Size="16665" HashValue="17E4F564982FD78A87930B53D900F357" ProjectDependent="1"/>
 									<File Name="nwctConfigEntryWrapper.js" Size="3761" HashValue="73DAC2EB0F0632E5E2B0BB2A4593CCDA" ProjectDependent="1"/>
 									<File Name="nwctDataEntriesWrapper.js" Size="29153" HashValue="96B5F011152C4025586E19649D8CC281" ProjectDependent="1"/>
 									<File Name="nwctDataEntryWrapper.js" Size="4656" HashValue="CF3EA19AE94EB5C88925166F49F4381B" ProjectDependent="1"/>
 									<File Name="nwctPreProcess.js" Size="21675" HashValue="95FFDEEB9C00622E05A33BFC70F41B57" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="brModuleParserInterface.js" Size="1304" HashValue="30944590B89917088770067AF5A234D6" ProjectDependent="1"/>
 									<File Name="nwctBitDefinitionInterface.js" Size="1032" HashValue="00D89EC04BA7ED4EDE5C5B027DCB38C8" ProjectDependent="1"/>
 									<File Name="nwctEntryInterface.js" Size="3760" HashValue="9A6C32D7F7097C2EA5EA693EB3279F75" ProjectDependent="1"/>
 									<File Name="nwctErrorInfoInterface.js" Size="768" HashValue="3F072D45C0E5487D1FF365886C50DEA7" ProjectDependent="1"/>
 									<File Name="nwctParamGroupInfoInterface.js" Size="1100" HashValue="BE3633B09D37FC3B6AD75297B434B007" ProjectDependent="1"/>
-									<Folder Name="metaData" ProjectDependent="1">
+									<Folder Name="metaData" ProjectDependent="1" IsGroup="1">
 										<File Name="acoposFubParIdDefinitionInterface.js" Size="1116" HashValue="CBD8C8ABC9CB6A0926D0E9E7013D0C78" ProjectDependent="1"/>
 										<File Name="acoposParameterDefinition.js" Size="4072" HashValue="BF4A2DB9A62FB729F495E45AE65EF382" ProjectDependent="1"/>
 										<File Name="acoposParameterDefinitionInterface.js" Size="1196" HashValue="E2F029B09124A485F76F9AE1588F5E6D" ProjectDependent="1"/>
@@ -2919,7 +2940,7 @@
 										<File Name="valueDefinitionInterface.js" Size="612" HashValue="E2393E0F95A9BD4034744289A10B4901" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="objParser" ProjectDependent="1">
+								<Folder Name="objParser" ProjectDependent="1" IsGroup="1">
 									<File Name="nwctConfigEntries.js" Size="10973" HashValue="BF714A010FD87BC2CD7FB13F75BEB602" ProjectDependent="1"/>
 									<File Name="nwctConfigEntry.js" Size="16684" HashValue="887059F86F34DDAEE67F59FEB332DD53" ProjectDependent="1"/>
 									<File Name="nwctDataEntries.js" Size="12301" HashValue="01B7C5837512B96485EA8F5233D2E359" ProjectDependent="1"/>
@@ -2934,7 +2955,7 @@
 									<File Name="nwctRoot.js" Size="5579" HashValue="3267F95DA16C517F2325FBC12DD3BC84" ProjectDependent="1"/>
 									<File Name="nwctTypeEnums.js" Size="2198" HashValue="58B060B376597CDD911A7B207FAC4DC1" ProjectDependent="1"/>
 									<File Name="objectReflection.js" Size="5127" HashValue="EDB6CD66D568969BA89D0F732F25D472" ProjectDependent="1"/>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="nwctConfigEntriesInterface.js" Size="1444" HashValue="6D1138433B11E47CA065D900E34C346C" ProjectDependent="1"/>
 										<File Name="nwctConfigEntryInterface.js" Size="1524" HashValue="A398E34D148A7AE565944A1854B93879" ProjectDependent="1"/>
 										<File Name="nwctDataEntriesInterface.js" Size="948" HashValue="D3134C40811244537CAC5C935C6893DF" ProjectDependent="1"/>
@@ -2945,7 +2966,7 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="packageConversion" ProjectDependent="1">
+							<Folder Name="packageConversion" ProjectDependent="1" IsGroup="1">
 								<File Name="anyConversion.js" Size="20511" HashValue="8C2A010AFE990B93175ACF75176BEB0E" ProjectDependent="1"/>
 								<File Name="arrayConversion.js" Size="12829" HashValue="14DCA06618AA670CFEFBA0BE046C741C" ProjectDependent="1"/>
 								<File Name="basePackageConverter.js" Size="22715" HashValue="31939E9095F846F4C2AFA4887AB2E7A3" ProjectDependent="1"/>
@@ -2965,20 +2986,20 @@
 								<File Name="stringConversion.js" Size="7239" HashValue="55569D892213935FCBFE76957F40053E" ProjectDependent="1"/>
 								<File Name="stringStringConversion.js" Size="13705" HashValue="D0123D20ABAB1FF8A9D53622EADB148A" ProjectDependent="1"/>
 								<File Name="subPackageConversion.js" Size="12847" HashValue="B4484CC548AFD3BB10C0FFF560A34C1F" ProjectDependent="1"/>
-								<Folder Name="enum" ProjectDependent="1">
+								<Folder Name="enum" ProjectDependent="1" IsGroup="1">
 									<File Name="additionalMetaKeys.js" Size="1366" HashValue="CFF07FB593BA0693C16A86BC8F0A01C8" ProjectDependent="1"/>
 									<File Name="arrayTypeEnum.js" Size="1016" HashValue="B6B41FF329FBA0AC79AFEC25BF217063" ProjectDependent="1"/>
 									<File Name="dataTypeEnum.js" Size="1584" HashValue="5C4C6665C49B0641514A3C3ABCFEEEF9" ProjectDependent="1"/>
 									<File Name="objectTypeEnum.js" Size="2464" HashValue="8C74EB2ABD90473A6E48F653A3EBE72B" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interface" ProjectDependent="1">
+								<Folder Name="interface" ProjectDependent="1" IsGroup="1">
 									<File Name="metaInterface.js" Size="984" HashValue="EF513A1922CE8CCE8DCDDD6791478597" ProjectDependent="1"/>
 									<File Name="packageConverterInterface.js" Size="2696" HashValue="14B38C838F86F5642A7ECA5470170EE2" ProjectDependent="1"/>
 									<File Name="packageEntryConversionInterface.js" Size="1876" HashValue="96CA77A4715D56A7C48380F3B80B2F91" ProjectDependent="1"/>
 									<File Name="packageInterface.js" Size="1096" HashValue="F0017A7DF89AC57723E95AF8954EE6BD" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="persistence" ProjectDependent="1">
+							<Folder Name="persistence" ProjectDependent="1" IsGroup="1">
 								<File Name="indexdDBWorker.js" Size="21536" HashValue="ECA7317F91BE7DCACA1B5A3500E1376A" ProjectDependent="1"/>
 								<File Name="indexeddb.js" Size="17142" HashValue="C445F428AB849B471D924A1CFC887341" ProjectDependent="1"/>
 								<File Name="localStorage.js" Size="8124" HashValue="8DB2ADE8B5DBFB66DB5311D5D369987D" ProjectDependent="1"/>
@@ -2986,7 +3007,7 @@
 								<File Name="persistDataController.js" Size="16145" HashValue="2F54DB31385C55A1FC786F65204097DD" ProjectDependent="1"/>
 								<File Name="persistDataProvider.js" Size="11910" HashValue="E0D8D0381D704CC6C1C729398F0DA35F" ProjectDependent="1"/>
 								<File Name="settings.js" Size="5819" HashValue="7618D039CF9B66BB1A9AD6AEFFBB4961" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="indexeddbCommandInterface.js" Size="2323" HashValue="D00334560A5382C8F6679F56D53A8D0C" ProjectDependent="1"/>
 									<File Name="persistencyObjectInterface.js" Size="1224" HashValue="0327E1A06C0EC8B0832DEADA92584BC6" ProjectDependent="1"/>
 									<File Name="settingsInterface.js" Size="1204" HashValue="3438FFEAD885C7E87387775E1AC9AA6B" ProjectDependent="1"/>
@@ -2994,12 +3015,12 @@
 									<File Name="storageInterface.js" Size="5428" HashValue="91F8E8335F8A10C64C750FE760435933" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="resources" ProjectDependent="1">
-								<Folder Name="images" ProjectDependent="1">
+							<Folder Name="resources" ProjectDependent="1" IsGroup="1">
+								<Folder Name="images" ProjectDependent="1" IsGroup="1">
 									<File Name="favicon-16x16.png" Size="1054" HashValue="B8E5BA8705CBB9EAE5AA06F45CFE41CB" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="textProvider" ProjectDependent="1">
+							<Folder Name="textProvider" ProjectDependent="1" IsGroup="1">
 								<File Name="arTextSystemConnector.js" Size="6113" HashValue="6820CBAA2703AC1DCF9CC86BE210E35E" ProjectDependent="1"/>
 								<File Name="componentDefaultDefinition.js" Size="5537" HashValue="29A7388063E207F6458C1D18C5803B38" ProjectDependent="1"/>
 								<File Name="eventNamespacesLoadedResponse.js" Size="3976" HashValue="0B73B1B668C1407CBD514332AC639550" ProjectDependent="1"/>
@@ -3008,19 +3029,19 @@
 								<File Name="textItem.js" Size="12323" HashValue="70E3F7EDD63433D32F065D22890E1127" ProjectDependent="1"/>
 								<File Name="textProvider.js" Size="49157" HashValue="47C90DEC18606B7EAAA22A0E5CA3D0C3" ProjectDependent="1"/>
 								<File Name="textProviderHelper.js" Size="9276" HashValue="03E3D53B61EA097A9556DDBB284CCF04" ProjectDependent="1"/>
-								<Folder Name="errorHandling" ProjectDependent="1">
+								<Folder Name="errorHandling" ProjectDependent="1" IsGroup="1">
 									<File Name="textSystemError.js" Size="2979" HashValue="907E78BE99EFF95751899750776D73AE" ProjectDependent="1"/>
 									<File Name="textSystemErrorHandler.js" Size="6743" HashValue="2D5C26B3078DD3496AC521F930912C17" ProjectDependent="1"/>
 									<File Name="textSystemErrorItem.js" Size="4102" HashValue="95FBA8F29DDD75AD746BF8AD3173B472" ProjectDependent="1"/>
 									<File Name="textSystemErrorTypes.js" Size="2933" HashValue="DCC00D39D3ED965C8BBB8F5D2F8F0C47" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interface" ProjectDependent="1">
+								<Folder Name="interface" ProjectDependent="1" IsGroup="1">
 									<File Name="formatSpecificationInterface.js" Size="2444" HashValue="8B1621B963B516FF3280E3C5E0CFDDCF" ProjectDependent="1"/>
 									<File Name="formatterInputArgumentInterface.js" Size="2881" HashValue="90603122A1043226B52F80974CCFEDEC" ProjectDependent="1"/>
 									<File Name="subFormatterInterface.js" Size="1536" HashValue="BB623001F35C87C9F2349C1A1FA4B211" ProjectDependent="1"/>
 									<File Name="textProviderInterface.js" Size="5700" HashValue="CD29A5B4F180E75428BDABAF916BFC76" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="textFormatter" ProjectDependent="1">
+								<Folder Name="textFormatter" ProjectDependent="1" IsGroup="1">
 									<File Name="editStringHelper.js" Size="25472" HashValue="A17919F1160117FDC4FA97FBBF96D9C9" ProjectDependent="1"/>
 									<File Name="formatItem.js" Size="14821" HashValue="3878AFECD56763C7506511AB783470AE" ProjectDependent="1"/>
 									<File Name="formatItemIdentifier.js" Size="2449" HashValue="93C9BE902FCF9ABA5F5D9EA8CE3F2A9A" ProjectDependent="1"/>
@@ -3028,14 +3049,14 @@
 									<File Name="rawTextItem.js" Size="19081" HashValue="DC3E82A4BEC759D0D6F43D7C7DE953E6" ProjectDependent="1"/>
 									<File Name="subFormatterSelector.js" Size="8107" HashValue="C1BEBA3128F00035EA2744C3F1F8D4BE" ProjectDependent="1"/>
 									<File Name="textFormatter.js" Size="45279" HashValue="624FA82969D93A53C866DA299B2CE498" ProjectDependent="1"/>
-									<Folder Name="formatSpecification" ProjectDependent="1">
+									<Folder Name="formatSpecification" ProjectDependent="1" IsGroup="1">
 										<File Name="formatSpecification.js" Size="5854" HashValue="8C8888E1ACC501982E667F4E0E88F147" ProjectDependent="1"/>
 										<File Name="formatSpecificationFlag.js" Size="10828" HashValue="55A7A2645A260622E71454DA85B91509" ProjectDependent="1"/>
 										<File Name="formatSpecificationPrecision.js" Size="11189" HashValue="500E4B87029C3503206DDBD50C725AAB" ProjectDependent="1"/>
 										<File Name="formatSpecificationType.js" Size="11389" HashValue="AAF88234E40EEFCBB1620FF68E6C91E1" ProjectDependent="1"/>
 										<File Name="formatSpecificationWidth.js" Size="8629" HashValue="C48727B137B86516E4BA6064E6915FC7" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="formatter" ProjectDependent="1">
+									<Folder Name="formatter" ProjectDependent="1" IsGroup="1">
 										<File Name="alternativeFormatting.js" Size="5679" HashValue="FFF749506E8F7F60C8310AD5E596A4A4" ProjectDependent="1"/>
 										<File Name="baseFormatter.js" Size="17011" HashValue="FABA0AB1DE1E83911310DE9F3556B65D" ProjectDependent="1"/>
 										<File Name="baseFormatterHelper.js" Size="8095" HashValue="E62B26294786E1A14D9EABBCBE721D72" ProjectDependent="1"/>
@@ -3044,7 +3065,7 @@
 										<File Name="signHolder.js" Size="4645" HashValue="8CBB56699D71A9376AA8D028D853E870" ProjectDependent="1"/>
 										<File Name="stringSubFormatter.js" Size="4523" HashValue="E0C5A7026F53AFD77C712D1CCA2B2756" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="formatterInputArguments" ProjectDependent="1">
+									<Folder Name="formatterInputArguments" ProjectDependent="1" IsGroup="1">
 										<File Name="formatterInputArgument.js" Size="3095" HashValue="ACC27F05CACEF408A6EDFA44CE5B8BA0" ProjectDependent="1"/>
 										<File Name="formatterInputArgumentFloat.js" Size="3118" HashValue="218D27A23098E311F7F1E25642A6AB5B" ProjectDependent="1"/>
 										<File Name="formatterInputArgumentInt.js" Size="3685" HashValue="4AD58F6999ACE1B7512F41CAB658F04A" ProjectDependent="1"/>
@@ -3052,14 +3073,14 @@
 										<File Name="formatterInputArgumentString.js" Size="2871" HashValue="4D7ECD3FD5C3834149A0F27405172307" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="textResourceHandling" ProjectDependent="1">
+								<Folder Name="textResourceHandling" ProjectDependent="1" IsGroup="1">
 									<File Name="textQualifier.js" Size="3421" HashValue="DD6D93EEB2034C8DC4229BFE782625BB" ProjectDependent="1"/>
 									<File Name="textResource.js" Size="14202" HashValue="57F849414BF91D3486D9418530FB82D6" ProjectDependent="1"/>
 									<File Name="textResourcesContainer.js" Size="15296" HashValue="F94A06FC6373D3D7A18074C539C1BB79" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceDataConversion" ProjectDependent="1">
-								<Folder Name="classes" ProjectDependent="1">
+							<Folder Name="traceDataConversion" ProjectDependent="1" IsGroup="1">
+								<Folder Name="classes" ProjectDependent="1" IsGroup="1">
 									<File Name="ASCsvConverter.js" Size="20362" HashValue="8580DD1032A5FA1A8662512C7B586EDB" ProjectDependent="1"/>
 									<File Name="ASCsvDeconverter.js" Size="21831" HashValue="DE07B4225827B9A6E11004CBD1183E0B" ProjectDependent="1"/>
 									<File Name="ASCsvHeader.js" Size="45628" HashValue="08552EFF18B60809F70912B163BFAB1D" ProjectDependent="1"/>
@@ -3080,14 +3101,14 @@
 									<File Name="xySignal.js" Size="5344" HashValue="EAF79D0FECA035D7723268443F4FF00B" ProjectDependent="1"/>
 									<File Name="ytSignal.js" Size="3554" HashValue="37C88B303B7259EAC42FFF90119BF476" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="enums" ProjectDependent="1">
+								<Folder Name="enums" ProjectDependent="1" IsGroup="1">
 									<File Name="ConvertTypes.js" Size="1249" HashValue="ADF52BEAEDE7738BB115A0133A440A96" ProjectDependent="1"/>
 									<File Name="traceDataConversionErrorTypes.js" Size="3516" HashValue="39F589C91433E547A166C39AE3F27445" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="exceptions" ProjectDependent="1">
+								<Folder Name="exceptions" ProjectDependent="1" IsGroup="1">
 									<File Name="traceDataConversionError.js" Size="15912" HashValue="3A9A717D215443744767C8099AD3CEA8" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="IASCsvData.js" Size="912" HashValue="993A30DA55D52F5CA8B4588AB9A75E13" ProjectDependent="1"/>
 									<File Name="IASCsvHeader.js" Size="928" HashValue="8D87ABE861F33BE4F9801A1E26ADE159" ProjectDependent="1"/>
 									<File Name="IASCsvSignal.js" Size="908" HashValue="41FFEFB32EA12D7EF0FD257B7655AE9E" ProjectDependent="1"/>
@@ -3102,7 +3123,7 @@
 									<File Name="signalInterface.js" Size="884" HashValue="70D139E53C0E95086E1B8E6A0B4B03F0" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="utilities" ProjectDependent="1">
+							<Folder Name="utilities" ProjectDependent="1" IsGroup="1">
 								<File Name="binFileReader.js" Size="11601" HashValue="E71091EA9D6BAED56060FA2E9F6EDEF0" ProjectDependent="1"/>
 								<File Name="binSearch.js" Size="18072" HashValue="2992BBE8FD859C9823D684C2490A1487" ProjectDependent="1"/>
 								<File Name="dataBox.js" Size="5682" HashValue="6CA5BA9CAD3B67DDB1C4F57BB0D47777" ProjectDependent="1"/>
@@ -3111,8 +3132,8 @@
 								<File Name="versionNumberProvider.js" Size="1785" HashValue="90D1DA6B961FB4F0FD5FE4BF3659A196" ProjectDependent="1"/>
 							</Folder>
 						</Folder>
-						<Folder Name="communication" ProjectDependent="1">
-							<Folder Name="rest" ProjectDependent="1">
+						<Folder Name="communication" ProjectDependent="1" IsGroup="1">
+							<Folder Name="rest" ProjectDependent="1" IsGroup="1">
 								<File Name="opcUaRestResultTypes.js" Size="2364" HashValue="816F51057E191A8757EF3D32A77887B9" ProjectDependent="1"/>
 								<File Name="opcUaRestServiceProvider.js" Size="111426" HashValue="7831B5B697859C8EC643BE6F05875DE8" ProjectDependent="1"/>
 								<File Name="opcUaRestServices.js" Size="4152" HashValue="E577745866EF0124EF45695C975B2E62" ProjectDependent="1"/>
@@ -3121,22 +3142,22 @@
 								<File Name="textRestServices.js" Size="19221" HashValue="087208A865DD49C9B8414F2FA0DD76F4" ProjectDependent="1"/>
 							</Folder>
 						</Folder>
-						<Folder Name="core" ProjectDependent="1">
-							<Folder Name="interfaces" ProjectDependent="1">
+						<Folder Name="core" ProjectDependent="1" IsGroup="1">
+							<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 								<File Name="frequencyAmplitudeInterface.js" Size="828" HashValue="D07180158CD1A218C6EF4ADA71B5B94E" ProjectDependent="1"/>
 								<File Name="pointInterface.js" Size="716" HashValue="1F5AC99113E9BBF1D29AF9769FED182F" ProjectDependent="1"/>
 								<File Name="sampleInterface.js" Size="1020" HashValue="E1476E72AA21D53D75494B75D79D934C" ProjectDependent="1"/>
 								<File Name="valuePairInterface.js" Size="840" HashValue="5D8FC8F7700DBDD1A5DBBD628E7F6574" ProjectDependent="1"/>
-								<Folder Name="components" ProjectDependent="1">
-									<Folder Name="ui" ProjectDependent="1">
-										<Folder Name="chart" ProjectDependent="1">
+								<Folder Name="components" ProjectDependent="1" IsGroup="1">
+									<Folder Name="ui" ProjectDependent="1" IsGroup="1">
+										<Folder Name="chart" ProjectDependent="1" IsGroup="1">
 											<File Name="ChartAxisInterface.js" Size="1044" HashValue="26048E78AFFB45F6322ED0226BBF38FB" ProjectDependent="1"/>
 											<File Name="chartInterface.js" Size="10365" HashValue="8D9E5191340829730088C07C1281BB27" ProjectDependent="1"/>
 										</Folder>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="types" ProjectDependent="1">
+							<Folder Name="types" ProjectDependent="1" IsGroup="1">
 								<File Name="AxisBounds.js" Size="1598" HashValue="246315E046B084F809D102862F55874A" ProjectDependent="1"/>
 								<File Name="frequencyAmplitude.js" Size="3915" HashValue="08D2753CBFC7777B4888443A24281EE9" ProjectDependent="1"/>
 								<File Name="point.js" Size="3543" HashValue="85D160B14FC9C59F452185840000FDEA" ProjectDependent="1"/>
@@ -3145,26 +3166,26 @@
 								<File Name="valuePair.js" Size="3124" HashValue="5FD2D27326266FC293C35F95B9D0E1E7" ProjectDependent="1"/>
 							</Folder>
 						</Folder>
-						<Folder Name="debug" ProjectDependent="1">
+						<Folder Name="debug" ProjectDependent="1" IsGroup="1">
 							<File Name="debug.html" Size="4832" HashValue="7BE33FF81F26868862D317DB7E0EA751" ProjectDependent="1"/>
 							<File Name="diagnostics.js" Size="2929" HashValue="F5DAC5D0C0794CCD92FBB0A1ACD2F786" ProjectDependent="1"/>
 							<File Name="startDebug.js" Size="1361" HashValue="E127B8AD1E46D25C80F97A0F8404806F" ProjectDependent="1"/>
 						</Folder>
-						<Folder Name="factory" ProjectDependent="1">
+						<Folder Name="factory" ProjectDependent="1" IsGroup="1">
 							<File Name="classFactory.js" Size="14879" HashValue="1324840CADED35649631F435FC7A9A01" ProjectDependent="1"/>
 							<File Name="classInfo.js" Size="1538" HashValue="E4BAC5234FD3A652C0E0269D51DA8203" ProjectDependent="1"/>
 						</Folder>
-						<Folder Name="framework" ProjectDependent="1">
+						<Folder Name="framework" ProjectDependent="1" IsGroup="1">
 							<File Name="appConsole.js" Size="14648" HashValue="152E582F6AC9BE1D390446CBA6BF92B9" ProjectDependent="1"/>
 							<File Name="command.js" Size="38097" HashValue="93EB16BFDDD8C917FD8B97DA8350E0D9" ProjectDependent="1"/>
 							<File Name="events.js" Size="6973" HashValue="CD54F410053E0DD42BD846D38BA106D8" ProjectDependent="1"/>
 							<File Name="property.js" Size="66475" HashValue="2343DE5A4AD15D5C33A7E9B3DE7DB655" ProjectDependent="1"/>
 							<File Name="state.js" Size="1003" HashValue="9F235DFC3F3696773323F96DE9B83C64" ProjectDependent="1"/>
 							<File Name="store.js" Size="25427" HashValue="38B589EFE63BE9E825D652060505CE84" ProjectDependent="1"/>
-							<Folder Name="componentHub" ProjectDependent="1">
+							<Folder Name="componentHub" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDataHub.js" Size="9930" HashValue="6018EA56407C4CA15A52796B73B7944F" ProjectDependent="1"/>
 								<File Name="componentPersistenceProvider.js" Size="12355" HashValue="7068993863A39A0BFF3E09E4499637BD" ProjectDependent="1"/>
-								<Folder Name="bindings" ProjectDependent="1">
+								<Folder Name="bindings" ProjectDependent="1" IsGroup="1">
 									<File Name="binding.js" Size="10872" HashValue="9B3B6AED2CD00D0AFFE81FDB0F7C0BFC" ProjectDependent="1"/>
 									<File Name="bindingConnector.js" Size="55790" HashValue="C6F4495E7E0952ECF515925032DF4494" ProjectDependent="1"/>
 									<File Name="bindingDeclaration.js" Size="2199" HashValue="9B084112403F44234D9377EC4E56A24C" ProjectDependent="1"/>
@@ -3174,34 +3195,34 @@
 									<File Name="bindingDeclarationsTraces.js" Size="18657" HashValue="42B3A3A64E5124D31044CD6C0D9A0591" ProjectDependent="1"/>
 									<File Name="bindings.js" Size="12347" HashValue="243C9419809FC7E18ED2BDE45D71AAAB" ProjectDependent="1"/>
 									<File Name="bindingType.js" Size="1645" HashValue="78611F8CB1B87BEEAD5059E2936FEB53" ProjectDependent="1"/>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="bindingDeclarationInterface.js" Size="1200" HashValue="CDE71E0208AA57DCE25B89CEA2E1A6D5" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="common" ProjectDependent="1">
+								<Folder Name="common" ProjectDependent="1" IsGroup="1">
 									<File Name="commonTypes.js" Size="3031" HashValue="3C56F77E1FB49BE766126515D319C780" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="interfaces" ProjectDependent="1">
+							<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 								<File Name="observer.js" Size="2818" HashValue="6BE1587D61E83C8AB1B79F4FCF150268" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="reflection" ProjectDependent="1">
+							<Folder Name="reflection" ProjectDependent="1" IsGroup="1">
 								<File Name="metaClassProperties.js" Size="1442" HashValue="F799DC4183BF8493A06E34B3F0DC4AED" ProjectDependent="1"/>
 								<File Name="metaClassReflectionInfo.js" Size="12657" HashValue="0FB964E1784ADD97717CABCA0D40CC05" ProjectDependent="1"/>
-								<Folder Name="decorators" ProjectDependent="1">
+								<Folder Name="decorators" ProjectDependent="1" IsGroup="1">
 									<File Name="metaClassPropertyDecorator.js" Size="3584" HashValue="0B4E8E80E7F7264BCBD6877D16F5B223" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
 						</Folder>
-						<Folder Name="layout" ProjectDependent="1">
+						<Folder Name="layout" ProjectDependent="1" IsGroup="1">
 							<File Name="mappCockpitMain.html" Size="70" HashValue="854F7321A19957DD95524533CEC5FB6E" ProjectDependent="1"/>
 						</Folder>
-						<Folder Name="libs" ProjectDependent="1">
+						<Folder Name="libs" ProjectDependent="1" IsGroup="1">
 							<File Name="jquery-3.3.1.js" Size="271751" HashValue="6A07DA9FAE934BAF3F749E876BBFDD96" ProjectDependent="1"/>
 							<File Name="jsrender.js" Size="99899" HashValue="3D6335018B7B100D4BC90A8BF72562CE" ProjectDependent="1"/>
 							<File Name="mco-core.min.js" Size="5367543" HashValue="E2722E3A8ECBDE86FFAF0F15D6CB2AE7" ProjectDependent="1"/>
 							<File Name="require.js" Size="86482" HashValue="E7199843DFD445BB66EC816E98A03214" ProjectDependent="1"/>
-							<Folder Name="dataparsing" ProjectDependent="1">
+							<Folder Name="dataparsing" ProjectDependent="1" IsGroup="1">
 								<File Name="BrModSDM.js" Size="3723" HashValue="B072741AF91F87E788B2D0B5DC2FAE50" ProjectDependent="1"/>
 								<File Name="BrModSDM.ksy" Size="991" HashValue="EDA0A2792756788EA0BBB0A873BA3C23" ProjectDependent="1"/>
 								<File Name="Nwct.js" Size="7173" HashValue="AFF4A2EEA488A560861FCC5321E8CD0E" ProjectDependent="1"/>
@@ -3209,11 +3230,11 @@
 								<File Name="NwctBinParser.js" Size="500948" HashValue="827DD5C988B5123941A860CD22BF6F2D" ProjectDependent="1"/>
 								<File Name="Payload.js" Size="2280" HashValue="CE0D9F067307E0D93C043249DF165A4A" ProjectDependent="1"/>
 								<File Name="payload.ksy" Size="397" HashValue="C4348363447CE42B1AEFCD03B5081087" ProjectDependent="1"/>
-								<Folder Name="kaitai-struct" ProjectDependent="1">
+								<Folder Name="kaitai-struct" ProjectDependent="1" IsGroup="1">
 									<File Name="kaitai-struct-compiler.js" Size="4829582" HashValue="E741A8751516977FAA6C4CF9EFE8373F" ProjectDependent="1"/>
 									<File Name="KaitaiStream.js" Size="25602" HashValue="3DD9C80766A0A3F6B1ACEDC5C331A6EE" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="primitiveTypes" ProjectDependent="1">
+								<Folder Name="primitiveTypes" ProjectDependent="1" IsGroup="1">
 									<File Name="BP16Type.js" Size="876" HashValue="E8AF8684BC6D454D8DAC422284D8BA4D" ProjectDependent="1"/>
 									<File Name="BP32Type.js" Size="876" HashValue="BE8E9AFF0E174FA98EB6894B64D7484E" ProjectDependent="1"/>
 									<File Name="BYTES6Type.js" Size="892" HashValue="3042DA7F95569D1621680832A9686415" ProjectDependent="1"/>
@@ -3227,7 +3248,7 @@
 									<File Name="UI1Type.js" Size="768" HashValue="922CDA4063412FC14C5151295BCE4E7D" ProjectDependent="1"/>
 									<File Name="UI2Type.js" Size="800" HashValue="C27E759446E34DD51F539C5EDF3E9B8C" ProjectDependent="1"/>
 									<File Name="UI4Type.js" Size="800" HashValue="8D04188FD1E764C38934F18B22C00723" ProjectDependent="1"/>
-									<Folder Name="ksyFiles" ProjectDependent="1">
+									<Folder Name="ksyFiles" ProjectDependent="1" IsGroup="1">
 										<File Name="bp16Type.ksy" Size="125" HashValue="1537F4AA6D6C06AC34DB99B62FC53B41" ProjectDependent="1"/>
 										<File Name="bp32Type.ksy" Size="126" HashValue="31699717329299346FC450CDDF34A644" ProjectDependent="1"/>
 										<File Name="bytes6Type.ksy" Size="133" HashValue="7785FB59BF27FCAC31F55A67EC039210" ProjectDependent="1"/>
@@ -3243,34 +3264,34 @@
 										<File Name="ui4Type.ksy" Size="99" HashValue="FCD88AC7452EF66F17BEE8828F4C3B6B" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="yaml" ProjectDependent="1">
+								<Folder Name="yaml" ProjectDependent="1" IsGroup="1">
 									<File Name="js-yaml.js" Size="115150" HashValue="9E29FF3E6771D396656ED9C184D1E18C" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="jszip" ProjectDependent="1">
+							<Folder Name="jszip" ProjectDependent="1" IsGroup="1">
 								<File Name="JSZip.js" Size="99900" HashValue="55EE3AAA0E68536C9ECBF93DFB78E978" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="math" ProjectDependent="1">
+							<Folder Name="math" ProjectDependent="1" IsGroup="1">
 								<File Name="big.js" Size="22430" HashValue="AA1297CFCB5637088EF03C33BCCF4311" ProjectDependent="1"/>
 								<File Name="mathjs.js" Size="557928" HashValue="C054B7BE179B7FD707C86BE5955B0997" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="ui" ProjectDependent="1">
+							<Folder Name="ui" ProjectDependent="1" IsGroup="1">
 								<File Name="scripts.orig.zip" Size="1815473" HashValue="84D476A9DF5EF07CE42707B4C57D3B0B" ProjectDependent="1"/>
-								<Folder Name="themes" ProjectDependent="1">
+								<Folder Name="themes" ProjectDependent="1" IsGroup="1">
 									<File Name="ej.widgets.core.min.css" Size="507476" HashValue="E22CB122486A2FFFCC33DC8F1DFFB481" ProjectDependent="1"/>
-									<Folder Name="common-images" ProjectDependent="1">
+									<Folder Name="common-images" ProjectDependent="1" IsGroup="1">
 										<File Name="ejicons.eot" Size="106200" HashValue="28B55AAD7D484AA0016E62DDAABFFA5C" ProjectDependent="1"/>
 										<File Name="ejicons.svg" Size="374319" HashValue="B447458E470D31F8D1F13663EC8F3EBE" ProjectDependent="1"/>
 										<File Name="ejicons.ttf" Size="106036" HashValue="DD67BB613F41AE861FB4FBC805691AEA" ProjectDependent="1"/>
 										<File Name="ejicons.woff" Size="106112" HashValue="FA30D577323AADE09250BA2381F7CD2F" ProjectDependent="1"/>
-										<Folder Name="darktheme" ProjectDependent="1">
+										<Folder Name="darktheme" ProjectDependent="1" IsGroup="1">
 											<File Name="colorpicker_dark.png" Size="9165" HashValue="2AB7FFD6156D5680BB0AAE645E9B2D9F" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="diagram" ProjectDependent="1">
+										<Folder Name="diagram" ProjectDependent="1" IsGroup="1">
 											<File Name="diagram_context.png" Size="2840" HashValue="0AC7AC1CDD482096823619153C11709F" ProjectDependent="1"/>
 											<File Name="diagram_context1.png" Size="2406" HashValue="2441AED46F2E7E5CCEEF7B186B3547E4" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="documenteditor" ProjectDependent="1">
+										<Folder Name="documenteditor" ProjectDependent="1" IsGroup="1">
 											<File Name="cellbottomalignment.svg" Size="609" HashValue="44BB1AB5A2283023E59477FC3902B4C4" ProjectDependent="1"/>
 											<File Name="cellcenteralignment.svg" Size="609" HashValue="006FDD0DA11A0D8264DB36979F1E9F2E" ProjectDependent="1"/>
 											<File Name="celltopalignment.svg" Size="608" HashValue="39FE0F0BD5493328CB32F6469316B0D2" ProjectDependent="1"/>
@@ -3278,16 +3299,16 @@
 											<File Name="tableleftalignment.svg" Size="794" HashValue="35AFA94571B3D2B734F004F0D68DA767" ProjectDependent="1"/>
 											<File Name="tablerightalignment.svg" Size="798" HashValue="253641B31FB1EA01AA665FEAE56F30D0" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="fileexplorer" ProjectDependent="1">
+										<Folder Name="fileexplorer" ProjectDependent="1" IsGroup="1">
 											<File Name="file_icons.png" Size="36002" HashValue="81BDD9E26457ED0210A88897F2BC1CA2" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="kanban" ProjectDependent="1">
+										<Folder Name="kanban" ProjectDependent="1" IsGroup="1">
 											<File Name="nouser.svg" Size="775" HashValue="0A3DDDE07FDE113057A22730AE148C5D" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="lighttheme" ProjectDependent="1">
+										<Folder Name="lighttheme" ProjectDependent="1" IsGroup="1">
 											<File Name="colorpicker_light.png" Size="9252" HashValue="D007D02B1438835B1604F9AAE2BF3F32" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="maps" ProjectDependent="1">
+										<Folder Name="maps" ProjectDependent="1" IsGroup="1">
 											<File Name="Arrow_Bootom.png" Size="1594" HashValue="E031515164799F345E5AA387C899FCF4" ProjectDependent="1"/>
 											<File Name="Arrow_Bootom_hover.png" Size="1634" HashValue="E9E2D0D54B940DB40580C78DBFC27F6A" ProjectDependent="1"/>
 											<File Name="Arrow_Left.png" Size="1745" HashValue="26CFC750917E8079C59A7A7EA9A00768" ProjectDependent="1"/>
@@ -3309,25 +3330,25 @@
 											<File Name="Zoom-out.png" Size="1141" HashValue="60072D2DA75232A47322479D63A02E04" ProjectDependent="1"/>
 											<File Name="Zoom-out_hover.png" Size="1113" HashValue="20814B1A2115BF934651AB976E2533C8" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="materialtheme" ProjectDependent="1">
+										<Folder Name="materialtheme" ProjectDependent="1" IsGroup="1">
 											<File Name="colorpicker_light_material.png" Size="26468" HashValue="F5E61701EFF1981F29CDA23AC5F44476" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="mediaplayer" ProjectDependent="1">
+										<Folder Name="mediaplayer" ProjectDependent="1" IsGroup="1">
 											<File Name="basic_view_toolbar_bg.png" Size="14914" HashValue="D8527634378E6A22680E1C707D1878E2" ProjectDependent="1"/>
 											<File Name="header_bg.png" Size="421" HashValue="EA75EEC081DC8335D4BF4A5C628FE270" ProjectDependent="1"/>
 											<File Name="thumbnail.png" Size="283" HashValue="6B13D011E1E25E321EC2643E6BCD0A51" ProjectDependent="1"/>
 											<File Name="waiting_popup.gif" Size="90438" HashValue="99CF7B421A99DC4BB4901C38220CC2DE" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="navigationdrawer" ProjectDependent="1">
+										<Folder Name="navigationdrawer" ProjectDependent="1" IsGroup="1">
 											<File Name="icons.eot" Size="2124" HashValue="A81B1347CBE2257DB6B3DDDCA3BB3704" ProjectDependent="1"/>
 											<File Name="icons.svg" Size="3670" HashValue="D0B4EAABE9D25B8EA644FED430669ADF" ProjectDependent="1"/>
 											<File Name="icons.ttf" Size="1960" HashValue="A048BC600A5DED38CAF18276A3162E9D" ProjectDependent="1"/>
 											<File Name="icons.woff" Size="2036" HashValue="2A501338BD9773A9132FCE32A5E19764" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="pdfviewer" ProjectDependent="1">
+										<Folder Name="pdfviewer" ProjectDependent="1" IsGroup="1">
 											<File Name="preloader-pdfviewer.gif" Size="21728" HashValue="3B19550688BB8913A4AB36E4FFBB9D51" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="pivotgrid" ProjectDependent="1">
+										<Folder Name="pivotgrid" ProjectDependent="1" IsGroup="1">
 											<File Name="circle.png" Size="1135" HashValue="D59DCB0ECA0F9D63AA714BD78E97E1C8" ProjectDependent="1"/>
 											<File Name="diamond.png" Size="1104" HashValue="46AFBF190B47F525CF5C9CB0C17C63D2" ProjectDependent="1"/>
 											<File Name="down-arrow.png" Size="1099" HashValue="4D7644B78A2C71E64BFC456896380D6C" ProjectDependent="1"/>
@@ -3338,11 +3359,11 @@
 											<File Name="triangle.png" Size="1117" HashValue="879960986D0E4A283969EA8E2D8719C9" ProjectDependent="1"/>
 											<File Name="up-arrow.png" Size="1105" HashValue="999BA88196B45FA2EB79413364768825" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="radialmenu" ProjectDependent="1">
+										<Folder Name="radialmenu" ProjectDependent="1" IsGroup="1">
 											<File Name="back.png" Size="549" HashValue="2BE0ACD76EDA3CD29DD958A6F3506D4D" ProjectDependent="1"/>
 											<File Name="radial.png" Size="873" HashValue="BC716893E9314713EB7FD30775782CD5" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="reportdesigner" ProjectDependent="1">
+										<Folder Name="reportdesigner" ProjectDependent="1" IsGroup="1">
 											<File Name="Dataset.png" Size="2646" HashValue="F6C00C1E5764AEECE5A3422A8255F493" ProjectDependent="1"/>
 											<File Name="Datasource.png" Size="2811" HashValue="9D83422E6E9AAD4CEFC7C1E2885B6FBB" ProjectDependent="1"/>
 											<File Name="DefaultImage.png" Size="1178" HashValue="89B69BB2C14E5C8872A5668397EA2F4F" ProjectDependent="1"/>
@@ -3358,7 +3379,7 @@
 											<File Name="resizeicon.png" Size="322" HashValue="E56588A793CA89BE493DE32A82F07730" ProjectDependent="1"/>
 											<File Name="SettingIcon.png" Size="1152" HashValue="44CE5E85BEC0A84AB5E80961914DFD78" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="reportviewer" ProjectDependent="1">
+										<Folder Name="reportviewer" ProjectDependent="1" IsGroup="1">
 											<File Name="alertIcon.svg" Size="1559" HashValue="1C150C51F4AC96E644FB23729A5E3258" ProjectDependent="1"/>
 											<File Name="collapse.svg" Size="174" HashValue="4C94216FA9801DA4AC8004C3ED283E57" ProjectDependent="1"/>
 											<File Name="down.png" Size="212" HashValue="4C5C4B567FDF674D77CCC31B69C927FA" ProjectDependent="1"/>
@@ -3377,7 +3398,7 @@
 											<File Name="up.png" Size="211" HashValue="5F7F51A0B4F7D21E49751025FD5C851E" ProjectDependent="1"/>
 											<File Name="updown.png" Size="297" HashValue="1573779F7009CBC38677269AB0E16DBB" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="ribbon" ProjectDependent="1">
+										<Folder Name="ribbon" ProjectDependent="1" IsGroup="1">
 											<File Name="Blank.png" Size="3908" HashValue="ED72BD2504DB832C2E0DB9460F2D182F" ProjectDependent="1"/>
 											<File Name="Browser.png" Size="1079" HashValue="45EC8E377AEFD006A04D204BDA66007F" ProjectDependent="1"/>
 											<File Name="Check.png" Size="1327" HashValue="3EB24728C0E45EB76DC72FBB63EB7DEB" ProjectDependent="1"/>
@@ -3397,13 +3418,13 @@
 											<File Name="User.jpg" Size="476" HashValue="DF3F6414E21D8648F2C37A71E27977FE" ProjectDependent="1"/>
 											<File Name="Version.png" Size="1114" HashValue="EE0ABBFDB9D554175B925C81B052508C" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="schedule" ProjectDependent="1">
+										<Folder Name="schedule" ProjectDependent="1" IsGroup="1">
 											<File Name="schedule_priority.png" Size="334" HashValue="735D6D2F600D59C1737E83BC71EA8866" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="spellcheck" ProjectDependent="1">
+										<Folder Name="spellcheck" ProjectDependent="1" IsGroup="1">
 											<File Name="highlight.png" Size="17713" HashValue="8DC76F3A95306D7BA54E91653EF07795" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="spreadsheet" ProjectDependent="1">
+										<Folder Name="spreadsheet" ProjectDependent="1" IsGroup="1">
 											<File Name="blank.png" Size="18755" HashValue="85C68226C9F4A4F3A676901B13317A76" ProjectDependent="1"/>
 											<File Name="bluedatabar.svg" Size="1671" HashValue="5FA7522A4E5C43FDBEB687B7D0487801" ProjectDependent="1"/>
 											<File Name="bwrcolorscale.svg" Size="1821" HashValue="CDF1E07D209272C44701FC9B44D19EBD" ProjectDependent="1"/>
@@ -3461,11 +3482,11 @@
 											<File Name="yellowtri.svg" Size="503" HashValue="921E51D0107E14F05608D6E97B0B0940" ProjectDependent="1"/>
 											<File Name="ygcolorscale.svg" Size="1869" HashValue="492B83B13BEE93EE89AC19FDFC9DFC25" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="treeview" ProjectDependent="1">
+										<Folder Name="treeview" ProjectDependent="1" IsGroup="1">
 											<File Name="drop-sibling-rtl.png" Size="15406" HashValue="6869BEF8B851E9C99FBE77DA47460EFE" ProjectDependent="1"/>
 										</Folder>
 									</Folder>
-									<Folder Name="default-theme" ProjectDependent="1">
+									<Folder Name="default-theme" ProjectDependent="1" IsGroup="1">
 										<File Name="ej.reportdesigner.compatibility.min.css" Size="128" HashValue="0B64E019FEB9D03BC1D6470F402DC058" ProjectDependent="1"/>
 										<File Name="ej.reportdesigner.min.css" Size="100" HashValue="46783C12E6B596DE53E472E1EA1C22A2" ProjectDependent="1"/>
 										<File Name="ej.reportdesigner.theme.compatibility.css" Size="78710" HashValue="03EA717A5A073C88BF9695C1F721D169" ProjectDependent="1"/>
@@ -3480,7 +3501,7 @@
 										<File Name="ej.theme.min.css" Size="326197" HashValue="D3BB9DB6B55CF1ACECD4976FED4724C5" ProjectDependent="1"/>
 										<File Name="ej.web.all.compatibility.min.css" Size="106" HashValue="8ECA85168DAC9026E2A11D925C97F258" ProjectDependent="1"/>
 										<File Name="ej.web.all.min.css" Size="78" HashValue="E1107219030A563B72A1BA3A87A5320B" ProjectDependent="1"/>
-										<Folder Name="images" ProjectDependent="1">
+										<Folder Name="images" ProjectDependent="1" IsGroup="1">
 											<File Name="ajax-loader.gif" Size="1551" HashValue="85C0874EA9190EE3F3062138DED23C9D" ProjectDependent="1"/>
 											<File Name="checkedtick.png" Size="1260" HashValue="4DF89C5C311FB5EB334255C0A25C04FE" ProjectDependent="1"/>
 											<File Name="drop-sibling.png" Size="963" HashValue="C66CEF70B8408450E948466DFA84E5E6" ProjectDependent="1"/>
@@ -3490,7 +3511,7 @@
 											<File Name="waitingpopup.gif" Size="7050" HashValue="5333BD2C7A6602AD2FD74C349CF162AF" ProjectDependent="1"/>
 										</Folder>
 									</Folder>
-									<Folder Name="responsive-css" ProjectDependent="1">
+									<Folder Name="responsive-css" ProjectDependent="1" IsGroup="1">
 										<File Name="ej.responsive.compatibility.css" Size="40715" HashValue="0621CDC9BBB911AE9196D5061844E3B9" ProjectDependent="1"/>
 										<File Name="ej.responsive.css" Size="39988" HashValue="A2DA783AA84D6DA1181F34579FA5D339" ProjectDependent="1"/>
 										<File Name="ejgrid.responsive.compatibility.css" Size="10104" HashValue="01671CF750AD28DFAFB8188CD79E43D3" ProjectDependent="1"/>
@@ -3499,14 +3520,14 @@
 								</Folder>
 							</Folder>
 						</Folder>
-						<Folder Name="main" ProjectDependent="1">
+						<Folder Name="main" ProjectDependent="1" IsGroup="1">
 							<File Name="mappCockpitApp.js" Size="28828" HashValue="4D39D3985DD2613F4FD25DBA4C483ABA" ProjectDependent="1"/>
 						</Folder>
-						<Folder Name="models" ProjectDependent="1">
+						<Folder Name="models" ProjectDependent="1" IsGroup="1">
 							<File Name="dataModelBase.js" Size="13730" HashValue="AE0036D68930976449CF9E651EAD908C" ProjectDependent="1"/>
 							<File Name="dataModelInterface.js" Size="8190" HashValue="B9DF2584F00C6DFC76B4B9ECB0E5A6F9" ProjectDependent="1"/>
 							<File Name="dataModels.js" Size="6300" HashValue="96611545BE5E15662AB0A6582A7390AA" ProjectDependent="1"/>
-							<Folder Name="chartManagerDataModel" ProjectDependent="1">
+							<Folder Name="chartManagerDataModel" ProjectDependent="1" IsGroup="1">
 								<File Name="chartManagerChart.js" Size="38948" HashValue="3D532212033A2D5CF351EB25FE520FA7" ProjectDependent="1"/>
 								<File Name="chartManagerData.js" Size="7775" HashValue="21E6B3E5FAF89E0645695BFDEAA62DC8" ProjectDependent="1"/>
 								<File Name="chartManagerDataModel.js" Size="67409" HashValue="09FD46F0D44C5EC94A4EC53ED79F115A" ProjectDependent="1"/>
@@ -3517,19 +3538,19 @@
 								<File Name="scale.js" Size="32497" HashValue="75CE19675BBF03AEC58D29DEF5618044" ProjectDependent="1"/>
 								<File Name="scalePackageConverter.js" Size="5698" HashValue="BC557B6FB896123176A2D5096EBA1741" ProjectDependent="1"/>
 								<File Name="settingIds.js" Size="2546" HashValue="48476BAA20860C2E998755B8B686E7D6" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="chartManagerChartInterface.js" Size="2232" HashValue="3E8B1CB7C77BB18C22F48415E1952AC4" ProjectDependent="1"/>
 									<File Name="chartManagerDataInterface.js" Size="1144" HashValue="C66802FD691C1DFFE4CA07FAC5BECEFD" ProjectDependent="1"/>
 									<File Name="chartManagerDataModelInterface.js" Size="2584" HashValue="DBB5616CE0909269F1B79C54BE0987E9" ProjectDependent="1"/>
 									<File Name="scaleInterface.js" Size="1356" HashValue="7AEB1B092ED6C80DE0992101B615E898" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="common" ProjectDependent="1">
+							<Folder Name="common" ProjectDependent="1" IsGroup="1">
 								<File Name="point.js" Size="3543" HashValue="57AFC4079A8C0704D916205FB3F5B577" ProjectDependent="1"/>
-								<Folder Name="calculation" ProjectDependent="1">
+								<Folder Name="calculation" ProjectDependent="1" IsGroup="1">
 									<File Name="calculation.js" Size="6317" HashValue="7EF6B45D83F9A99823CFB7F3825CBB4B" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="calculatorProvider" ProjectDependent="1">
+								<Folder Name="calculatorProvider" ProjectDependent="1" IsGroup="1">
 									<File Name="calculationData.js" Size="17733" HashValue="3C320108B7F3F89C36B5412D4A493BFE" ProjectDependent="1"/>
 									<File Name="calculationDataDisplayInfo.js" Size="2729" HashValue="E29D23BB784FE0D41DF981B25D970454" ProjectDependent="1"/>
 									<File Name="calculationDataInfo.js" Size="11252" HashValue="B068B60620420B04D69E77ABA9AD4B7A" ProjectDependent="1"/>
@@ -3542,7 +3563,7 @@
 									<File Name="calculatorProvider.js" Size="18011" HashValue="E03983006783F2A2D5CD96A287D22E81" ProjectDependent="1"/>
 									<File Name="mathjsHtmlConverter.js" Size="7825" HashValue="7F8ED39FA03488D924E1DE29383900BD" ProjectDependent="1"/>
 									<File Name="mathjsWrapper.js" Size="14001" HashValue="8A5F153CF3417E82198CA417D2A0C7DD" ProjectDependent="1"/>
-									<Folder Name="calculators" ProjectDependent="1">
+									<Folder Name="calculators" ProjectDependent="1" IsGroup="1">
 										<File Name="absCalculator.js" Size="11855" HashValue="7A5812CEFC45DF5E83103CB7E7CBA484" ProjectDependent="1"/>
 										<File Name="addCalculator.js" Size="26147" HashValue="601CD2FC5D8C86EFCD17563F6CA19CFC" ProjectDependent="1"/>
 										<File Name="andCalculator.js" Size="30669" HashValue="F742BF3FE75D4A6993F32EE46069BF0C" ProjectDependent="1"/>
@@ -3575,13 +3596,13 @@
 										<File Name="timeStampSyncCalculator.js" Size="20244" HashValue="186064B2179B14211E7E45F015EFBF3D" ProjectDependent="1"/>
 										<File Name="vectCalculator.js" Size="21046" HashValue="E77C45E11F60EDD74A3C10DC69E49D44" ProjectDependent="1"/>
 										<File Name="xyCalculator.js" Size="21190" HashValue="EA476F69BF016631A085CB680428CD5D" ProjectDependent="1"/>
-										<Folder Name="differential" ProjectDependent="1">
+										<Folder Name="differential" ProjectDependent="1" IsGroup="1">
 											<File Name="diffVector.js" Size="6919" HashValue="F3AB961484278A457CF711FAF7E126BD" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="fft" ProjectDependent="1">
+										<Folder Name="fft" ProjectDependent="1" IsGroup="1">
 											<File Name="fft_bilstein.js" Size="29640" HashValue="F532C055BA3556DBC317801E4FB1D8CF" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="filters" ProjectDependent="1">
+										<Folder Name="filters" ProjectDependent="1" IsGroup="1">
 											<File Name="bessel.js" Size="21188" HashValue="56968AD9AD9CECE8BAA1061D5EF929F0" ProjectDependent="1"/>
 											<File Name="bilinearTransformation.js" Size="40263" HashValue="703B64397C9D377447F23CB43BC9B43A" ProjectDependent="1"/>
 											<File Name="butterworth.js" Size="20683" HashValue="D6DE937B58D8C64C59125732D05C7592" ProjectDependent="1"/>
@@ -3589,13 +3610,13 @@
 											<File Name="stateSpaceCalculator.js" Size="18326" HashValue="38265EF8D539C7318C8D92F265B28518" ProjectDependent="1"/>
 										</Folder>
 									</Folder>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="calculationDataInterface.js" Size="1500" HashValue="4C0E92FBAA4F3450E10C7C9BB34E1AB2" ProjectDependent="1"/>
 										<File Name="calculatorInterface.js" Size="1240" HashValue="D95C482488023214D5B49768009EA3BC" ProjectDependent="1"/>
 										<File Name="valueConverterInterface.js" Size="784" HashValue="88F904CF04B11413D75022B25212D2BC" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="calculationInterface.js" Size="1164" HashValue="E536E68954579DCDCC7050C3FC376008" ProjectDependent="1"/>
 									<File Name="pointInterface.js" Size="672" HashValue="CF1358A3B7BDA11CF9A05EC0575E6172" ProjectDependent="1"/>
 									<File Name="serieContainerInterface.js" Size="1720" HashValue="F6E080EDE1AA3954AE895F16AFCCCCB9" ProjectDependent="1"/>
@@ -3603,7 +3624,7 @@
 									<File Name="serieNodeInterface.js" Size="3810" HashValue="7253D6B681836A91D0CC80A585D9C70B" ProjectDependent="1"/>
 									<File Name="signalInterface.js" Size="2486" HashValue="2AF010EF0E19117D5AFF5CF9CF1A6C3C" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="series" ProjectDependent="1">
+								<Folder Name="series" ProjectDependent="1" IsGroup="1">
 									<File Name="baseSeries.js" Size="67508" HashValue="41AC902F70CC0844A5D95DE355E5C8A5" ProjectDependent="1"/>
 									<File Name="eventSerieDataChangedArgs.js" Size="2708" HashValue="EF75E70BEA54B4EB8A42F32C81414FF7" ProjectDependent="1"/>
 									<File Name="FFTSeries.js" Size="13085" HashValue="8DF28974A484ABE8F44E0C43FCB29210" ProjectDependent="1"/>
@@ -3615,13 +3636,13 @@
 									<File Name="YTSeries.js" Size="17242" HashValue="C20685664236C91E56669B65FE3C6722" ProjectDependent="1"/>
 									<File Name="ytSeriesPackageConverter.js" Size="13378" HashValue="79AFD79AF1D52146EC5AB7007327B96A" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="seriesProvider" ProjectDependent="1">
+								<Folder Name="seriesProvider" ProjectDependent="1" IsGroup="1">
 									<File Name="componentDefaultDefinition.js" Size="4333" HashValue="0C9B7B5194F33E4EEE3825DEC72A93AD" ProjectDependent="1"/>
 									<File Name="seriesProvider.js" Size="39890" HashValue="C1BE4CC6BA5C33611A7047752F8744E8" ProjectDependent="1"/>
 									<File Name="seriesProviderInterface.js" Size="1584" HashValue="7F4E301B2A9B93083534E9D9948690CF" ProjectDependent="1"/>
 									<File Name="seriesProviderPackageConverter.js" Size="11174" HashValue="F5226A7031462E3DA86199636E8C316E" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="signal" ProjectDependent="1">
+								<Folder Name="signal" ProjectDependent="1" IsGroup="1">
 									<File Name="eventSignalDataChangedArgs.js" Size="2735" HashValue="F3F1CC392AC51468932914BCB85FC0E4" ProjectDependent="1"/>
 									<File Name="serieContainer.js" Size="36685" HashValue="38EAB333372CC33EDAF8FAE1A9739C58" ProjectDependent="1"/>
 									<File Name="serieGroup.js" Size="53150" HashValue="D97C754475B6CF17B90D8246D9E39487" ProjectDependent="1"/>
@@ -3630,21 +3651,21 @@
 									<File Name="signal.js" Size="16612" HashValue="40FFF975301261385CA4C16DE67DC619" ProjectDependent="1"/>
 									<File Name="signalPackageConverter.js" Size="9396" HashValue="ED5971D9F0B20AA9FE9D24E8027C6E3E" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="stateExpression" ProjectDependent="1">
+								<Folder Name="stateExpression" ProjectDependent="1" IsGroup="1">
 									<File Name="watchableIcon.js" Size="2910" HashValue="731D469812AB3DB35B48489C04825169" ProjectDependent="1"/>
 									<File Name="watchableStateExpression.js" Size="17006" HashValue="49832C5AA160EC20147E72D78608EA2C" ProjectDependent="1"/>
-									<Folder Name="common" ProjectDependent="1">
+									<Folder Name="common" ProjectDependent="1" IsGroup="1">
 										<File Name="mathjsVariableDeclaration.js" Size="1091" HashValue="FA89796EDF8D2EBD08B5CBDBF61EC0DB" ProjectDependent="1"/>
 										<File Name="stateExpression.js" Size="7816" HashValue="F33039F4E5F73743597B8D40392C494F" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="configManagerDataModel" ProjectDependent="1">
+							<Folder Name="configManagerDataModel" ProjectDependent="1" IsGroup="1">
 								<File Name="cmFilter.js" Size="3477" HashValue="0274369FA1F3E0963BB8024D7F66A7CE" ProjectDependent="1"/>
 								<File Name="cmGroup.js" Size="5820" HashValue="36BF1DD3D7B189F56CCBF8C68292160E" ProjectDependent="1"/>
 								<File Name="cmParameter.js" Size="9771" HashValue="4C3F9C35CD7D01E992FA95B37B5E2F5E" ProjectDependent="1"/>
 								<File Name="configManagerDataModel.js" Size="104997" HashValue="23C987B72F88C90471A1F0DD0B81D643" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="cmFilterInterface.js" Size="1572" HashValue="00CAD64BC839187CFF221B408B4159B4" ProjectDependent="1"/>
 									<File Name="cmGroupInterface.js" Size="952" HashValue="C1F960902DA21F124475FD320F6F6127" ProjectDependent="1"/>
 									<File Name="cmParameterInterface.js" Size="2084" HashValue="7F0B4AF448A20B245C480184CBAB897B" ProjectDependent="1"/>
@@ -3655,14 +3676,14 @@
 									<File Name="metaDataParameterInterface.js" Size="800" HashValue="8F2ADE2B1982E9003096A616FB1C33CD" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="diagnostics" ProjectDependent="1">
+							<Folder Name="diagnostics" ProjectDependent="1" IsGroup="1">
 								<File Name="mappCockpitCommonInfoProvider.js" Size="68397" HashValue="8AC380ED9940622825426552DD487510" ProjectDependent="1"/>
 								<File Name="mappCockpitComponentMethodProvider.js" Size="32775" HashValue="9658459D79FCF7126A6258EA95B29B5D" ProjectDependent="1"/>
 								<File Name="mappCockpitComponentParameterProvider.js" Size="54109" HashValue="244FDEE42D69545B547A7A29A8E33E7C" ProjectDependent="1"/>
 								<File Name="mappCockpitComponentProvider.js" Size="25306" HashValue="19B12F1926BDBB218FF9D04934806F73" ProjectDependent="1"/>
 								<File Name="mappCockpitDiagnosticMonitoringProvider.js" Size="107793" HashValue="C91AB3BDBA7CAB91FD839EB12502452F" ProjectDependent="1"/>
 								<File Name="mappCockpitDiagnosticProvider.js" Size="75733" HashValue="783D401DC796DAEBF8A340530A09B899" ProjectDependent="1"/>
-								<Folder Name="trace" ProjectDependent="1">
+								<Folder Name="trace" ProjectDependent="1" IsGroup="1">
 									<File Name="mappCockpitTraceComponent.js" Size="54279" HashValue="52778BA451F9C1D26FF0464BAE64A477" ProjectDependent="1"/>
 									<File Name="mappCockpitTraceProvider.js" Size="37441" HashValue="894123106CD16C705FF824C92E345213" ProjectDependent="1"/>
 									<File Name="traceControl.js" Size="85281" HashValue="3D37C61569E192ACBAE38535B98C42C9" ProjectDependent="1"/>
@@ -3670,12 +3691,12 @@
 									<File Name="traceDataPointInfo.js" Size="10812" HashValue="5634D318E37CAD5B9FC79672FF49D42C" ProjectDependent="1"/>
 									<File Name="traceDataReader.js" Size="51749" HashValue="7218926DE70B594BA86A951EBBA725FD" ProjectDependent="1"/>
 									<File Name="traceStartTrigger.js" Size="1820" HashValue="AEF9F476510E16B5B7D44DA0170947FB" ProjectDependent="1"/>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="traceComponentParameterInterface.js" Size="1708" HashValue="FD359D13000CB198610EB9F5C61FFDD0" ProjectDependent="1"/>
 										<File Name="traceControlProviderInterface.js" Size="1068" HashValue="614A5428B8E21A1E31CF42544BE8156C" ProjectDependent="1"/>
 										<File Name="traceDataProviderInterface.js" Size="880" HashValue="7EFAC85B126FA8283CCDD48CDCF87F21" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="traceConfig" ProjectDependent="1">
+									<Folder Name="traceConfig" ProjectDependent="1" IsGroup="1">
 										<File Name="traceConfigData.js" Size="5385" HashValue="0BCD2F754B2243CCD3F0B3E7B7302106" ProjectDependent="1"/>
 										<File Name="traceConfigDefines.js" Size="11504" HashValue="AFB28053D364F39457B05A67E2F125FB" ProjectDependent="1"/>
 										<File Name="traceConfigExport.js" Size="40740" HashValue="EBE590172FAF60FEB844E11454C17E52" ProjectDependent="1"/>
@@ -3686,18 +3707,18 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="mappCockpitDataModel" ProjectDependent="1">
+							<Folder Name="mappCockpitDataModel" ProjectDependent="1" IsGroup="1">
 								<File Name="mappCockpitDataModel.js" Size="6774" HashValue="507DD14A1CE57B803ABE8F05BA01F8AE" ProjectDependent="1"/>
 								<File Name="mappCockpitDataModelInterface.js" Size="940" HashValue="8C67917C4C4B732CB9015AAC2517779E" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="online" ProjectDependent="1">
+							<Folder Name="online" ProjectDependent="1" IsGroup="1">
 								<File Name="componentsDataModel.js" Size="172193" HashValue="78E2E163E416CC53DA7F5431199D0A03" ProjectDependent="1"/>
 								<File Name="mappCockpitComponent.js" Size="162623" HashValue="B6C43E7A6B2FC7202A871422FFF824C2" ProjectDependent="1"/>
 								<File Name="mappCockpitComponentMetaData.js" Size="13666" HashValue="AFF5A9EE2A48CEB145DC668FED4F7F4F" ProjectDependent="1"/>
 								<File Name="mappCockpitComponentReflection.js" Size="131251" HashValue="7837C5CBF7053EB7041EA0BD584B19EA" ProjectDependent="1"/>
 								<File Name="mappCockpitComponentService.js" Size="33252" HashValue="8D094B996F34724BB14252E664BF6004" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="signalManagerDataModel" ProjectDependent="1">
+							<Folder Name="signalManagerDataModel" ProjectDependent="1" IsGroup="1">
 								<File Name="categoryPackageConverter.js" Size="4726" HashValue="DF93D99EBB3294968B6DE9ED03349A22" ProjectDependent="1"/>
 								<File Name="componentDefaultDefinition.js" Size="4297" HashValue="D19CBDFD21CF8FFA3D8B1CF6C9B242C7" ProjectDependent="1"/>
 								<File Name="eventSignalManagerDataChangedArgs.js" Size="3132" HashValue="202F579B8A52D73994A381EFD14D3FB9" ProjectDependent="1"/>
@@ -3711,78 +3732,78 @@
 								<File Name="signalManagerDataModelPackageConverter.js" Size="4660" HashValue="104709B39352F85A6B3B30573E4ED978" ProjectDependent="1"/>
 								<File Name="signalManagerDataModelSettingIds.js" Size="2028" HashValue="775F29F852252FDE91EDF4B40EC75E34" ProjectDependent="1"/>
 								<File Name="signalRoot.js" Size="7783" HashValue="F70C24DE39CC46D12EBB6D11009A927C" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="signalCategoryInterface.js" Size="996" HashValue="FD5D7CC8EB0DC7CC06B6CCC22AF3FD4C" ProjectDependent="1"/>
 									<File Name="signalManagerDataModelInterface.js" Size="3414" HashValue="8A17EE81A18EF3C613D972AC19531CE2" ProjectDependent="1"/>
 									<File Name="signalRootInterface.js" Size="1124" HashValue="3781455A7533FE044E5C77005D7AC697" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="topBarDataModel" ProjectDependent="1">
+							<Folder Name="topBarDataModel" ProjectDependent="1" IsGroup="1">
 								<File Name="tabWidgetDataModel.js" Size="18146" HashValue="251D55D48772F0F4F09080EBDFCB3AFB" ProjectDependent="1"/>
 								<File Name="tabWidgetDataModelData.js" Size="1525" HashValue="223DD5AA7943FA98C5D195F46E9A9368" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="tabWidgetDataModelInterface.js" Size="1532" HashValue="7F8C603D2E581C63E82ACCE5578A9C8D" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
 						</Folder>
-						<Folder Name="services" ProjectDependent="1">
+						<Folder Name="services" ProjectDependent="1" IsGroup="1">
 							<File Name="appServices.js" Size="2217" HashValue="6E30EF9A9570294017E703005425B95C" ProjectDependent="1"/>
-							<Folder Name="interfaces" ProjectDependent="1">
+							<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 								<File Name="textSystemInterface.js" Size="2212" HashValue="236E3345437BACF7D7D492B9BF1CB682" ProjectDependent="1"/>
 							</Folder>
 						</Folder>
-						<Folder Name="view" ProjectDependent="1">
-							<Folder Name="datapointDialog" ProjectDependent="1">
+						<Folder Name="view" ProjectDependent="1" IsGroup="1">
+							<Folder Name="datapointDialog" ProjectDependent="1" IsGroup="1">
 								<File Name="datapointDialog.js" Size="45975" HashValue="BB984E68A2C00451ADE228002A8034B2" ProjectDependent="1"/>
 								<File Name="eventDatapointArgs.js" Size="2594" HashValue="248D451C0CFD5C32D57482762E737ABA" ProjectDependent="1"/>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="dataPoint.js" Size="1913" HashValue="FD00E605E4E54D466F44742930B06E21" ProjectDependent="1"/>
 									<File Name="dataPointCategory.js" Size="1539" HashValue="F0AC28691DC806E88357DC519AE8A8C4" ProjectDependent="1"/>
 									<File Name="dataPointComponent.js" Size="1592" HashValue="8B0A3A9FF60797D65E4E8E05EDD32002" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
 						</Folder>
-						<Folder Name="widgets" ProjectDependent="1">
+						<Folder Name="widgets" ProjectDependent="1" IsGroup="1">
 							<File Name="widgets.js" Size="34536" HashValue="794F10FCD6B3B0C21DD9FF5BA2DC645D" ProjectDependent="1"/>
-							<Folder Name="chartManagerWidget" ProjectDependent="1">
+							<Folder Name="chartManagerWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="chartManagerWidget.js" Size="87853" HashValue="10E838EFC02AE95609EF8427636F56D4" ProjectDependent="1"/>
 								<File Name="componentDefaultDefinition.js" Size="4512" HashValue="616D2ECBB753C1941C7BBE6F94F2D30E" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="chartManagerWidgetInterface.js" Size="1280" HashValue="6414A6E9F5BA4E7E8A5ACF953A4400B4" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="add.svg" Size="3184" HashValue="DDC61CEA1B23DD877D902CEDAFB716C7" ProjectDependent="1"/>
 										<File Name="add_deactivated.svg" Size="3200" HashValue="D78BE41C656179664CC778F82E68694A" ProjectDependent="1"/>
 										<File Name="delete.svg" Size="6196" HashValue="2FE418C532DD1F3EE2F2CAB31EE6758B" ProjectDependent="1"/>
 										<File Name="delete_deactivated.svg" Size="6234" HashValue="2EE29E6BE4A2DD873B2A30F61C933B17" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="chartManagerTreeGridCellStyle.js" Size="3431" HashValue="8638ED55783B90923B0E92DFAF9F0C0F" ProjectDependent="1"/>
 									<File Name="chartManagerTreeGridDragDrop.js" Size="42184" HashValue="4693B44CBA2ED49555391C5C4043B085" ProjectDependent="1"/>
 									<File Name="chartManagerTreeGridDropDownMenu.js" Size="17184" HashValue="0510002CCD13FEE539CBCDCE0DD47CDC" ProjectDependent="1"/>
 									<File Name="chartManagerTreeGridToolbar.js" Size="19316" HashValue="262F88962AD4C516E2B82CE163187B39" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="chartViewWidget" ProjectDependent="1">
+							<Folder Name="chartViewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="chartViewChartManager.js" Size="143281" HashValue="BDCF9829F39D0F3C6B128738469B15F3" ProjectDependent="1"/>
 								<File Name="chartViewLayoutManager.js" Size="28931" HashValue="B85150F51E2CD2AAD7E8D542844763C1" ProjectDependent="1"/>
 								<File Name="chartViewWidget.js" Size="89864" HashValue="5F47ADBD3CE69A2745D0DD21F7204332" ProjectDependent="1"/>
 								<File Name="componentDefaultDefinition.js" Size="4509" HashValue="DD48C5F84538E73F4577A80387CBA945" ProjectDependent="1"/>
 								<File Name="insertedInfo.js" Size="1955" HashValue="325A36BB0DA1DCC1F0E36E9D52B22207" ProjectDependent="1"/>
-								<Folder Name="helpers" ProjectDependent="1">
+								<Folder Name="helpers" ProjectDependent="1" IsGroup="1">
 									<File Name="chartDropHelper.js" Size="19428" HashValue="5AAACC56A51B3B423771318796E7E8F0" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="chartViewWidgetInterface.js" Size="1672" HashValue="AA174FF8C13BF32710B35A9CF5A5CDA3" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="refCursorStyle.css" Size="106" HashValue="3C52538E6E91686DCC84625CC58E460F" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="box_zoom.svg" Size="7271" HashValue="771E53233A3191753FF6AA00C9C94391" ProjectDependent="1"/>
 											<File Name="box_zoom_deactivated.svg" Size="7248" HashValue="2CE027E6D4AF832727C851C785385B81" ProjectDependent="1"/>
 											<File Name="cursor1.svg" Size="5443" HashValue="6F14D309A4336E994215A7735969FA03" ProjectDependent="1"/>
@@ -3804,15 +3825,15 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="toolbar" ProjectDependent="1">
+								<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 									<File Name="chartViewToolbar.js" Size="55874" HashValue="1137C61E411F88B57093597335733A14" ProjectDependent="1"/>
 									<File Name="componentDefaultDefinition.js" Size="5045" HashValue="2F240186C9EB1541F95A3588CCB8AE55" ProjectDependent="1"/>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="chartViewToolbarInterface.js" Size="900" HashValue="2C1A3F97ABB1B40D6066CD614358E8F0" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="chartWidget" ProjectDependent="1">
+							<Folder Name="chartWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="BasicChart.js" Size="41083" HashValue="C0E16ADAFB4D568500CFB12289C88E57" ProjectDependent="1"/>
 								<File Name="ChartBase.js" Size="166531" HashValue="7F16D0DDBB835F2FF693DCE97DA25C4D" ProjectDependent="1"/>
 								<File Name="chartViewSerie.js" Size="7617" HashValue="7B2521CE00D7342FD3A8B210BBF796B4" ProjectDependent="1"/>
@@ -3820,17 +3841,17 @@
 								<File Name="FFTChart.js" Size="14275" HashValue="7F1D998916EFFDFC0BC8F3A49DC36A04" ProjectDependent="1"/>
 								<File Name="XYChart.js" Size="60453" HashValue="4A966760C5D9024C1F2195F643B362E2" ProjectDependent="1"/>
 								<File Name="YTChart.js" Size="11011" HashValue="5C9B81A3F55E60728A7818A8D03052D8" ProjectDependent="1"/>
-								<Folder Name="chartExtensions" ProjectDependent="1">
+								<Folder Name="chartExtensions" ProjectDependent="1" IsGroup="1">
 									<File Name="chartDataOptimizer.js" Size="92026" HashValue="02967DF7C28E514F0BB4930381AC788B" ProjectDependent="1"/>
 									<File Name="chartExtensions.js" Size="5803" HashValue="EFF934B2CB4982295BF3EB88B7D6C255" ProjectDependent="1"/>
 									<File Name="chartLabelCache.js" Size="8069" HashValue="28CEF151348C8AF3FB1419E163747B3B" ProjectDependent="1"/>
 									<File Name="chartRenderOptimizer.js" Size="11069" HashValue="E858321DFD31A5673F2598B41740000C" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="chartWrapper" ProjectDependent="1">
+								<Folder Name="chartWrapper" ProjectDependent="1" IsGroup="1">
 									<File Name="SFChartAxis.js" Size="16336" HashValue="5EF234238A7820049AACA8FECCF20A33" ProjectDependent="1"/>
 									<File Name="SFChartWrapper.js" Size="70513" HashValue="6B7C6810DC5A9838E4812411AF309EBF" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="cursor" ProjectDependent="1">
+								<Folder Name="cursor" ProjectDependent="1" IsGroup="1">
 									<File Name="CrossHairCursor.js" Size="25200" HashValue="1BB21151B771E3B81C93010FCB550995" ProjectDependent="1"/>
 									<File Name="Cursor.js" Size="12993" HashValue="BA4595405F214709825847EEFE3FCCF2" ProjectDependent="1"/>
 									<File Name="CursorDefinitionBase.js" Size="5494" HashValue="C0D333BB594157BF0322FA6B68861AB3" ProjectDependent="1"/>
@@ -3838,18 +3859,18 @@
 									<File Name="CursorPositionInfo.js" Size="2067" HashValue="D3CCC8BD3E74CCB93DBD859652B0C767" ProjectDependent="1"/>
 									<File Name="LineCursor.js" Size="11104" HashValue="0C48BB20BE7246578A7E0019C36903B1" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="helpers" ProjectDependent="1">
+								<Folder Name="helpers" ProjectDependent="1" IsGroup="1">
 									<File Name="chartLabelFormater.js" Size="7605" HashValue="413A9778A7C0A9D8E17E99B2B1F5D9A7" ProjectDependent="1"/>
 									<File Name="chartRangeHelper.js" Size="27337" HashValue="F97B01E110B86BF3EDD946CF7CD81C92" ProjectDependent="1"/>
 									<File Name="chartZoomCalculations.js" Size="9781" HashValue="E87DD98DBD9CD1D673366C1B1A85560E" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceChartInterface.js" Size="4792" HashValue="BB74C0118E983DD09CE86086A7F53011" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="userInteraction" ProjectDependent="1">
+								<Folder Name="userInteraction" ProjectDependent="1" IsGroup="1">
 									<File Name="chartCommandBase.js" Size="1488" HashValue="AD66ECE737ACA03E7AF7A9A1715B814C" ProjectDependent="1"/>
 									<File Name="userInteractionController.js" Size="66731" HashValue="34C41F825139F5B6D2F83F5C14CAB7FF" ProjectDependent="1"/>
-									<Folder Name="commands" ProjectDependent="1">
+									<Folder Name="commands" ProjectDependent="1" IsGroup="1">
 										<File Name="autoScaleCommand.js" Size="2428" HashValue="A73647E78A19E0890FA4F2EB0B1238DD" ProjectDependent="1"/>
 										<File Name="cursorHoveringCommand.js" Size="2955" HashValue="4F633859C5B0FBC3EAB3035EAA1AE45C" ProjectDependent="1"/>
 										<File Name="dragCursorCommand.js" Size="2909" HashValue="5236A5A0A29D3F98F901E9F91CC9CAE9" ProjectDependent="1"/>
@@ -3865,10 +3886,10 @@
 										<File Name="tooglePanningCommand.js" Size="2545" HashValue="EA529F8D6B272D41E5E4618E41ADA60F" ProjectDependent="1"/>
 										<File Name="zoomChartCommand.js" Size="10188" HashValue="9F3332B622D9C56C4282BF4CD0F18CB3" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="controllerInterface.js" Size="1444" HashValue="C39D6F8CBFACFFA587A808ED72ECB3D5" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="strategies" ProjectDependent="1">
+									<Folder Name="strategies" ProjectDependent="1" IsGroup="1">
 										<File Name="axisPanningStrategy.js" Size="12679" HashValue="646E5CD5C9C39814FEFDD218009420BE" ProjectDependent="1"/>
 										<File Name="charStrategyInterface.js" Size="5489" HashValue="713BF375436F54141A063695C9F97384" ProjectDependent="1"/>
 										<File Name="chartBoxZoomStrategy.js" Size="8954" HashValue="2738A4F75B705299E9C594D72E14C8C6" ProjectDependent="1"/>
@@ -3878,7 +3899,7 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="common" ProjectDependent="1">
+							<Folder Name="common" ProjectDependent="1" IsGroup="1">
 								<File Name="alertDialog.js" Size="24001" HashValue="48C9A3763383BDBF7CC9CAEED4AB23EB" ProjectDependent="1"/>
 								<File Name="busyInformation.js" Size="4028" HashValue="7A63714B79ADEA2CDBE6934DD45A7AD7" ProjectDependent="1"/>
 								<File Name="commonLayoutProvider.js" Size="18279" HashValue="B6786BFBEABC19473DA715D3951B9CF9" ProjectDependent="1"/>
@@ -3913,7 +3934,7 @@
 								<File Name="viewTypeProvider.js" Size="14605" HashValue="CEFD423829D3780EA7D0EBAD4776EE32" ProjectDependent="1"/>
 								<File Name="widgetBase.js" Size="107899" HashValue="57CB47FE424DA8F77D87BCC6480652BB" ProjectDependent="1"/>
 								<File Name="widgetsWithDropSupportProvider.js" Size="8590" HashValue="947BDEEFB497BADF5C7481188805D288" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="cellInfoInterface.js" Size="2328" HashValue="BCC35B82636CEF9F54483CAD53029FA8" ProjectDependent="1"/>
 									<File Name="commonLayoutProviderInterface.js" Size="996" HashValue="D662E0FC195BEE6EA1473A7CF8A44807" ProjectDependent="1"/>
 									<File Name="cursorStateInterface.js" Size="840" HashValue="6828DEC73A3EB94D9110C9FBA00D3217" ProjectDependent="1"/>
@@ -3926,7 +3947,7 @@
 									<File Name="viewInterface.js" Size="704" HashValue="82D40CAF321A2505627E39D425697228" ProjectDependent="1"/>
 									<File Name="widgetInterface.js" Size="2440" HashValue="0BC5C825BE9BD07075F8CCD4660815C2" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="states" ProjectDependent="1">
+								<Folder Name="states" ProjectDependent="1" IsGroup="1">
 									<File Name="chartViewToolbarStates.js" Size="6695" HashValue="A52683193001A9D24009D9FDE086E552" ProjectDependent="1"/>
 									<File Name="cursorState.js" Size="2447" HashValue="61A87C8576E622A2DACED5F982E654D4" ProjectDependent="1"/>
 									<File Name="cursorStates.js" Size="48482" HashValue="3ED38F82FFC6F1D2FFAAE78361DA5B1E" ProjectDependent="1"/>
@@ -3934,8 +3955,8 @@
 									<File Name="cursorType.js" Size="2997" HashValue="78F45AB7676AB7F49E35A03AD07631A3" ProjectDependent="1"/>
 									<File Name="settingIds.js" Size="1478" HashValue="7C05812B210BADF949AD1D019291D46F" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="dropDownMenuStyle.css" Size="999" HashValue="9DB5208F97F0B1F8ACBA48410C5B7AD1" ProjectDependent="1"/>
 										<File Name="iconComponentViewStyle.css" Size="351" HashValue="2D1214036418215FD78A11A592A84821" ProjectDependent="1"/>
 										<File Name="iconLoggerViewStyle.css" Size="246" HashValue="9EC33F86B814FA3300E61C3FAAD48BA7" ProjectDependent="1"/>
@@ -3948,7 +3969,7 @@
 										<File Name="treeGridToolbarButtonStyle.css" Size="744" HashValue="0F14E5BC0CFB538DC67E7361B69C6C47" ProjectDependent="1"/>
 										<File Name="widgetHeaderFooterStyle.css" Size="525" HashValue="4BD7CD1AB3184D9A5D1FFC88FE128B90" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="busy.svg" Size="3330" HashValue="4F433255BF70F04177FC7ABE8D8F1A0F" ProjectDependent="1"/>
 										<File Name="chartTypeFFT.svg" Size="7698" HashValue="3F7300163F6E22553C159F432DE1C299" ProjectDependent="1"/>
 										<File Name="chartTypeXY.svg" Size="8522" HashValue="0E811331387071D0B189AC7E8A458CAB" ProjectDependent="1"/>
@@ -3965,7 +3986,7 @@
 										<File Name="IconTraceView_orange.svg" Size="521" HashValue="EFF3AA85BAE2165D255629D38FFD12D1" ProjectDependent="1"/>
 										<File Name="IconUser.svg" Size="541" HashValue="997AA771F36770AEDF8ABE676E439168" ProjectDependent="1"/>
 										<File Name="IconUser_active.svg" Size="541" HashValue="3CDA80DF6526104A23F029CE20D0F7CA" ProjectDependent="1"/>
-										<Folder Name="dragDrop" ProjectDependent="1">
+										<Folder Name="dragDrop" ProjectDependent="1" IsGroup="1">
 											<File Name="addNewChart.svg" Size="9290" HashValue="91125665D3C2792230023ECF6B4CE8F7" ProjectDependent="1"/>
 											<File Name="addNewFFTChart.svg" Size="22209" HashValue="42CC9423603D861E650AC9E5D61AA42D" ProjectDependent="1"/>
 											<File Name="addNewScale.svg" Size="8361" HashValue="855EC441D537CDF50CFA12F6B7BA484B" ProjectDependent="1"/>
@@ -3982,10 +4003,10 @@
 											<File Name="xySeries.svg" Size="6113" HashValue="2585241D85C2C89ED835C49B2FD1E6E5" ProjectDependent="1"/>
 											<File Name="ytSeries.svg" Size="5362" HashValue="9D84D4B0E17DE5B0BB72CB448CB92A4C" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="messageBox" ProjectDependent="1">
+										<Folder Name="messageBox" ProjectDependent="1" IsGroup="1">
 											<File Name="warning.svg" Size="9003" HashValue="7F77ABCD421B064FB19503697893CDC2" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="tree" ProjectDependent="1">
+										<Folder Name="tree" ProjectDependent="1" IsGroup="1">
 											<File Name="autoUpdatedOverlay.svg" Size="4502" HashValue="053E6ADF1FA5D11B0347E18917E8E7BC" ProjectDependent="1"/>
 											<File Name="calculationOverlay.svg" Size="3692" HashValue="2D99DE15B0A98EB7FB39FB6877B5A3DD" ProjectDependent="1"/>
 											<File Name="exclamationOverlay.svg" Size="3734" HashValue="23B2DCC5A115C219E2900AFDF1B261E5" ProjectDependent="1"/>
@@ -3994,7 +4015,7 @@
 											<File Name="groupOpened.svg" Size="4118" HashValue="1B16285F0E5AC82E83B4346ECC95F212" ProjectDependent="1"/>
 											<File Name="timeSeries.svg" Size="1618" HashValue="13181C64452EEEED0CE298E3EF17EC8F" ProjectDependent="1"/>
 											<File Name="xySeries.svg" Size="2164" HashValue="6276F02CC909D243183707727E37DB6A" ProjectDependent="1"/>
-											<Folder Name="toolbar" ProjectDependent="1">
+											<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 												<File Name="collapse.svg" Size="1435" HashValue="B40FF96E90D61592569CEF6E16745D4D" ProjectDependent="1"/>
 												<File Name="expand.svg" Size="1735" HashValue="D300824DB38CAE3DFFA8EEBBDA3C7684" ProjectDependent="1"/>
 											</Folder>
@@ -4002,39 +4023,39 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="componentOverviewWidget" ProjectDependent="1">
+							<Folder Name="componentOverviewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4208" HashValue="95FA80C935162AF1703792EE8E42F8B5" ProjectDependent="1"/>
 								<File Name="componentOverviewWidget.js" Size="14019" HashValue="23B3162CC086F62253861868C8C91F7F" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="componentOverviewWidgetInterface.js" Size="2190" HashValue="AF849299CC81AB4A904B32E33C81E42C" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="componentViewWidget" ProjectDependent="1">
+							<Folder Name="componentViewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="14388" HashValue="31CE67D2A3B7A7E2F0E73B8EC8357F6E" ProjectDependent="1"/>
 								<File Name="componentViewWidget.js" Size="13611" HashValue="E2BFBE1A30C7EEB906D7923864982169" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="componentViewWidgetInterface.js" Size="696" HashValue="23A73B1103BACD087130C777ACCE37E3" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="configManagerWidget" ProjectDependent="1">
+							<Folder Name="configManagerWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="5315" HashValue="0679B3D578ECA052A1E98A99E7CA6381" ProjectDependent="1"/>
 								<File Name="configManagerWidget.js" Size="58400" HashValue="3FB82415D251C7D1CC1EE4581BB4E187" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="cmGroupNodeInterface.js" Size="824" HashValue="739D6CE066521CAF844D4C63E23EBB17" ProjectDependent="1"/>
 									<File Name="cmNodeInterface.js" Size="1224" HashValue="541305470A5068038428A59F1CA09DEF" ProjectDependent="1"/>
 									<File Name="configManagerWidgetInterface.js" Size="904" HashValue="7E6075D78A9DDA5486E034E7DF798082" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="cmGroupNode.js" Size="14631" HashValue="F7CAD27145EFF1F17202823CF6D0F75C" ProjectDependent="1"/>
 									<File Name="cmNode.js" Size="19098" HashValue="C33DC5A6816326EA69A61996F61C0D5E" ProjectDependent="1"/>
 									<File Name="configManagerWidgetDataModel.js" Size="28237" HashValue="4CB3E2C53FD4464AAC19B13B3D9F25E0" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="treeGridIconStyles.css" Size="2831" HashValue="B0898A43E7BFDB962240F4F3EF6BB2E0" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="apply.svg" Size="1824" HashValue="5F1EF1F328C5C9EB687BB7CD3993738A" ProjectDependent="1"/>
 											<File Name="apply_deactivated.svg" Size="1824" HashValue="60E45B370396796A6EEAE33055CCD951" ProjectDependent="1"/>
 											<File Name="discardChanges.svg" Size="7920" HashValue="5C5211306931541DC13AB61096CD415B" ProjectDependent="1"/>
@@ -4044,7 +4065,7 @@
 											<File Name="save.svg" Size="670" HashValue="AEA66F50DDDA2F278D0E2BDC38432C5C" ProjectDependent="1"/>
 											<File Name="save_deactivated.svg" Size="1961" HashValue="8C135D35A864483EAFCC3169B334D716" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="tree" ProjectDependent="1">
+										<Folder Name="tree" ProjectDependent="1" IsGroup="1">
 											<File Name="collapsed.svg" Size="4072" HashValue="3E02D6637431069EEFD63488BE94D308" ProjectDependent="1"/>
 											<File Name="containsChanges.svg" Size="4778" HashValue="9D3E9F58EC482801792FCC9B8A25FF7E" ProjectDependent="1"/>
 											<File Name="expanded.svg" Size="4070" HashValue="0D0B699B1E0E0C9124A52055630B71CA" ProjectDependent="1"/>
@@ -4056,20 +4077,20 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="cmTreeGridCellEditEvents.js" Size="4373" HashValue="1D27C8D97CED9DE4FE4CE9268BFD34D2" ProjectDependent="1"/>
 									<File Name="cmTreeGridCellEditTemplate.js" Size="6862" HashValue="3D299E0DBDF41005BF4ABD341ED4E09B" ProjectDependent="1"/>
 									<File Name="cmTreeGridCellStyle.js" Size="6643" HashValue="90C0087AC6509A604336D63CBE7800DC" ProjectDependent="1"/>
 									<File Name="cmTreeGridToolbar.js" Size="21444" HashValue="46DC1D236A560CEB83A0138F31298B98" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="cursorInfoWidget" ProjectDependent="1">
+							<Folder Name="cursorInfoWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="5831" HashValue="E8EA4C68E92752C70DD621498DE1F613" ProjectDependent="1"/>
 								<File Name="cursorInfoWidget.js" Size="155150" HashValue="073EE583A02FDFBEE7A17EBB359DE1B4" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="cursorInfoWidgetInterface.js" Size="2099" HashValue="4971778C4C63D91599EECC05869E7629" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="componentDefaultDefinition.js" Size="4268" HashValue="B22176F318156F0336040E237B2EBBC8" ProjectDependent="1"/>
 									<File Name="cursorInfo.js" Size="10340" HashValue="6FFCE915A2CA9DEA0B56FE488BF858A8" ProjectDependent="1"/>
 									<File Name="cursorInfoVisibility.js" Size="1281" HashValue="8720969FD605AE3D3A40039D8ED78DAA" ProjectDependent="1"/>
@@ -4085,12 +4106,12 @@
 									<File Name="ytCursorSignal.js" Size="28821" HashValue="236545CF998DFE7C38EE9B824F9E3B33" ProjectDependent="1"/>
 									<File Name="ytCursorSignalDescriptor.js" Size="11348" HashValue="9158E1DF48517A19ADFD4E2CFEC1CEDB" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="cursorInfoStyleV1.css" Size="810" HashValue="DC1D345417ED782EC3A434AD2FEEC538" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="cursor1.svg" Size="4727" HashValue="4F8A7CD88E82E45805B15A1C23E72369" ProjectDependent="1"/>
 											<File Name="cursor1_deactivated.svg" Size="4777" HashValue="1888AD87DC3AE14DF1530DDE078B2B2C" ProjectDependent="1"/>
 											<File Name="cursor2.svg" Size="4328" HashValue="A683A9218F6EEEF0A2C0CB3E935C679C" ProjectDependent="1"/>
@@ -4108,54 +4129,54 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="cursorInfoTreeGridToolbar.js" Size="29527" HashValue="F44A2F4B88E051E7F0F393297A7DA061" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="dummyWidget" ProjectDependent="1">
+							<Folder Name="dummyWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="9182" HashValue="F375DF27598FF77E7CC0CDEF5B4F491D" ProjectDependent="1"/>
 								<File Name="dummyWidget.js" Size="24161" HashValue="78BEAC3B567BF2E71DE7D65E837126A9" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="dummyWidgetInterface.js" Size="684" HashValue="4D6BACCD11B7B12130F583749658F531" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="loggerWidget" ProjectDependent="1">
+							<Folder Name="loggerWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="6049" HashValue="A65611164BC44F1289E67D008BAB8E6F" ProjectDependent="1"/>
 								<File Name="dataLoadingProgressArgs.js" Size="2135" HashValue="0BB40C047FCC26509AB50CCADC8D73DE" ProjectDependent="1"/>
 								<File Name="loggerColumnDefinition.js" Size="6090" HashValue="F372BB56175ADFC7FAA2B85A2079DC7C" ProjectDependent="1"/>
 								<File Name="loggerProvider.js" Size="5566" HashValue="634BC730E859C9055CA3143F8463E2B1" ProjectDependent="1"/>
 								<File Name="loggerWidget.js" Size="65611" HashValue="DB1B8A94FCBFE62F30ECD1F121E038A1" ProjectDependent="1"/>
-								<Folder Name="driveLog" ProjectDependent="1">
+								<Folder Name="driveLog" ProjectDependent="1" IsGroup="1">
 									<File Name="driveLogDataModel.js" Size="15031" HashValue="645D77109E27E7E8455B36AF65D369EA" ProjectDependent="1"/>
 									<File Name="driveLogDataProvider.js" Size="127713" HashValue="53F77BE9EA2CF1B951BD93F3FE66F80C" ProjectDependent="1"/>
 									<File Name="driveLogDefinitions.js" Size="15274" HashValue="9D53E9D50CA0E9C86F3150F0C8EF357E" ProjectDependent="1"/>
 									<File Name="driveLogEntry.js" Size="118822" HashValue="1BB6C5B20E376D15D056C05CB10DF690" ProjectDependent="1"/>
 									<File Name="driveLogEntryAdditionalData.js" Size="28488" HashValue="8951F324C4F524B99A3506F8CA0B0C96" ProjectDependent="1"/>
 									<File Name="driveLogEntryHelper.js" Size="38157" HashValue="346CECA29CD528143DF1D02C7DCBB468" ProjectDependent="1"/>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="driveLogEntryExportDataInterface.js" Size="2240" HashValue="86987C36C9374D633CAEFC344D7CAA3A" ProjectDependent="1"/>
 										<File Name="driveLogEntryInterface.js" Size="1532" HashValue="DC1347A7E9B2EB7C45A6E98DF8444A9D" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="loggerDataModelInterface.js" Size="760" HashValue="43560FECA5175D01CB5298ADB957CC24" ProjectDependent="1"/>
 									<File Name="loggerDataProviderInterface.js" Size="4870" HashValue="16A26CBCA3006F2B31ECE0B270DC2801" ProjectDependent="1"/>
 									<File Name="loggerDefinitionsInterface.js" Size="1740" HashValue="759B0343D9CE8E255EF047A865E2E285" ProjectDependent="1"/>
 									<File Name="loggerEntry.js" Size="512" HashValue="D2DE953D25E3FFD951FBE7184B915FD4" ProjectDependent="1"/>
 									<File Name="loggerWidgetInterface.js" Size="660" HashValue="CE8A45A4B06C720C4D8417F739D1B5C4" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="nullLogger" ProjectDependent="1">
+								<Folder Name="nullLogger" ProjectDependent="1" IsGroup="1">
 									<File Name="nullLoggerDataProvider.js" Size="3533" HashValue="094743D635C2CB5E3C08D0E0B73ABFBA" ProjectDependent="1"/>
 									<File Name="nullLoggerDefinitions.js" Size="7110" HashValue="9924D513166E57E7DBAA7351D9D46E8B" ProjectDependent="1"/>
-									<Folder Name="interfaces" ProjectDependent="1">
+									<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 										<File Name="nullLoggerEntryInterface.js" Size="720" HashValue="8C0A47FBE99268F92BFFD6A2ECB48C27" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="loggerStyle.css" Size="1819" HashValue="F068489906F60C1D2BF048F5D79ED185" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="1.svg" Size="2431" HashValue="D77FB662E8072A1F83389B9AA0FF1337" ProjectDependent="1"/>
 										<File Name="2.svg" Size="3836" HashValue="8FEA1B8C7B0A650D6FC867C33D883672" ProjectDependent="1"/>
 										<File Name="2_3.svg" Size="4143" HashValue="815D1676CFE21691F920CE5293B36DA4" ProjectDependent="1"/>
@@ -4167,7 +4188,7 @@
 										<File Name="5.svg" Size="4432" HashValue="8E38A6650A9C17BD2DE2B1510660C188" ProjectDependent="1"/>
 										<File Name="6.svg" Size="1997" HashValue="6C44BC3F861A50E078BB98227437FC99" ProjectDependent="1"/>
 										<File Name="7.svg" Size="2276" HashValue="DC97BA5FF59E7E82C8D7666D959732C7" ProjectDependent="1"/>
-										<Folder Name="toolbar" ProjectDependent="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="clearSorting.svg" Size="6196" HashValue="2FE418C532DD1F3EE2F2CAB31EE6758B" ProjectDependent="1"/>
 											<File Name="clearSorting_deactivated.svg" Size="6234" HashValue="00532CDAF83714FF0B86E8455442B4C0" ProjectDependent="1"/>
 											<File Name="export.svg" Size="2985" HashValue="73BE14091471A438D737DBC85E226624" ProjectDependent="1"/>
@@ -4177,39 +4198,39 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="loggerWidgetTreeGridToolbar.js" Size="11688" HashValue="525F8C17CB30F026DAE394735FF96AB3" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="loginWidget" ProjectDependent="1">
+							<Folder Name="loginWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="loginWidget.js" Size="28637" HashValue="31FAE1FF83C6DA5F57F1C6F12557643C" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="loginWidgetInterface.js" Size="716" HashValue="6F3887D7AA3999D33BF602218920D85A" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="loginWidgetStyle.css" Size="1428" HashValue="8D819D5D498C2383F8002B41A1BAC931" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="Background.png" Size="776751" HashValue="AB0B0EBB6607FECA7D274E3FEBC16EDD" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="mainNavigationWidget" ProjectDependent="1">
+							<Folder Name="mainNavigationWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4226" HashValue="6E21CD777D7BF7F7D1A7A0DCDF693BB7" ProjectDependent="1"/>
 								<File Name="mainNavigationWidget.js" Size="24735" HashValue="B5A40F9D9D4060E9E1EE5DF85D2AB85E" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="mainNavigationWidgetInterface.js" Size="1408" HashValue="4874397DB2E63C8C62229B3A4097D43A" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="mappCockpitWidget" ProjectDependent="1">
+							<Folder Name="mappCockpitWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="9360" HashValue="5CED846F411E7F72800CEE13B7CE08EC" ProjectDependent="1"/>
 								<File Name="mappCockpitWidget.js" Size="59076" HashValue="B98773AC69841023D447429C3782ED80" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="mappCockpitWidgetInterface.js" Size="736" HashValue="641369776F27ABFAFFE2112C438FAD64" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="alertBoxStyle.css" Size="2002" HashValue="847C1FBF4139DE7B242996FD3E5363E6" ProjectDependent="1"/>
 										<File Name="commonStyle.css" Size="649" HashValue="6245335771DE61E1C36DE1402A3649CC" ProjectDependent="1"/>
 										<File Name="commonStyleVariables.css" Size="1513" HashValue="E639F23130B15CA744CA5A3D1626AD9A" ProjectDependent="1"/>
@@ -4217,8 +4238,8 @@
 										<File Name="defaultScrollbarStyle.css" Size="2593" HashValue="067D5717EEBF29D834A55B4540330384" ProjectDependent="1"/>
 										<File Name="dragDropStyle.css" Size="779" HashValue="1E87D62AC063A7917EBDB8F012821E2B" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="Areas" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="Areas" ProjectDependent="1" IsGroup="1">
 											<File Name="ComponentArea.svg" Size="566" HashValue="E71B43C785FEA0FC3ACF39E8C2D0F0FC" ProjectDependent="1"/>
 											<File Name="ComponentArea_active.svg" Size="566" HashValue="C5E9A36B786C453D7A2471739DABD5EB" ProjectDependent="1"/>
 											<File Name="StartPageArea.svg" Size="327" HashValue="8070DE8E3DBED4D7A859648131344B52" ProjectDependent="1"/>
@@ -4228,7 +4249,7 @@
 											<File Name="TraceArea.svg" Size="521" HashValue="A8A74F14AD09B4200EF9842BB36B2656" ProjectDependent="1"/>
 											<File Name="TraceArea_active.svg" Size="521" HashValue="8E0C74F593CEE5FC63D1C688942BD58B" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="scrollbar" ProjectDependent="1">
+										<Folder Name="scrollbar" ProjectDependent="1" IsGroup="1">
 											<File Name="down_arrow.png" Size="259" HashValue="EF35A85DCACCF20474DDE2B176941046" ProjectDependent="1"/>
 											<File Name="down_arrow.svg" Size="586" HashValue="ED73A67BB5882FA155C94BEF5649D13B" ProjectDependent="1"/>
 											<File Name="left_arrow.png" Size="258" HashValue="8AA6BFD6F7947FF63F6931C9249C11AE" ProjectDependent="1"/>
@@ -4241,17 +4262,17 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="messagesWidget" ProjectDependent="1">
+							<Folder Name="messagesWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4190" HashValue="1D38693773F16E0D239429A60A00C034" ProjectDependent="1"/>
 								<File Name="messagesWidget.js" Size="26453" HashValue="06DA22AFE78ADE3EE03BF6D867BE957B" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="messagesWidgetInterface.js" Size="676" HashValue="205704E446C78ADBCC860F5F2EDD96E6" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="messagesViewModel.js" Size="15222" HashValue="CDE2E8D6593917E3F0003909F0A372C5" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="icon_error.svg" Size="2085" HashValue="3B65FFBC1493A89C20EE62B186B30646" ProjectDependent="1"/>
 										<File Name="icon_info.svg" Size="4696" HashValue="C289DF40050207B340CBDBC7421BF8FA" ProjectDependent="1"/>
 										<File Name="icon_success.svg" Size="2117" HashValue="585F51189C01C67D6332E4A50766DBCB" ProjectDependent="1"/>
@@ -4259,18 +4280,18 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="methodListWidget" ProjectDependent="1">
+							<Folder Name="methodListWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="5000" HashValue="98D46EC7C26DEC35D5A0CA1B26CA7624" ProjectDependent="1"/>
 								<File Name="methodListWidget.js" Size="42955" HashValue="A08BC540506FE38486F2888D280FD12A" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="methodListWidgetInterface.js" Size="988" HashValue="061DC5D25A163B56A81F0115583035D8" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="methodListToolbarButtonStyle.css" Size="1639" HashValue="2855B999B275C9BC50EAD72380191847" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="Off.svg" Size="2306" HashValue="CA008F1E1B1BF3B44C847ED6378ECBA3" ProjectDependent="1"/>
 											<File Name="Off_white.svg" Size="900" HashValue="C4D708CD6D8A6F7ABCF8F7C0958CB07D" ProjectDependent="1"/>
 											<File Name="On.svg" Size="2337" HashValue="DC88859BCC3DD2E820B2ED5B3C5F8A4B" ProjectDependent="1"/>
@@ -4280,56 +4301,56 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="methodsGridToolbar.js" Size="33347" HashValue="90FCF166D9EDEDEDA4B4F5B236715353" ProjectDependent="1"/>
 									<File Name="methodsToolbarButton.js" Size="1482" HashValue="43171A362B459558688E2E3245EF64CB" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="methodParameterListWidget" ProjectDependent="1">
+							<Folder Name="methodParameterListWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="methodParameterEditor.js" Size="7790" HashValue="044CEFD9CADE50CF1CCC3D99C92FED85" ProjectDependent="1"/>
 								<File Name="methodParameterFilterHelper.js" Size="23500" HashValue="8EB710FB0A301D38B9E0888E4F491CA3" ProjectDependent="1"/>
 								<File Name="methodParameterListWidget.js" Size="45509" HashValue="29219E1EF6A31C0E4832B9084440541C" ProjectDependent="1"/>
 								<File Name="parameterFilter.js" Size="3499" HashValue="76E3D39142708F809EDB7B44DBFF9CFB" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="methodParameterListWidgetInterface.js" Size="984" HashValue="660134B89241F5FEB4DBB048EC21B95C" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="methodExecuteButtonStyle.css" Size="1042" HashValue="95C7AC54422C8B1973D71BB4BEDE8DB9" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="methodsWidget" ProjectDependent="1">
+							<Folder Name="methodsWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="9361" HashValue="6900C758FE3E347ED1FCE9345AE37A11" ProjectDependent="1"/>
 								<File Name="methodsWidget.js" Size="16360" HashValue="570380430AD755D226851427A08DC013" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="methodsWidgetInterface.js" Size="756" HashValue="D9E15B3F9C7FE801DB33EAEF5F42CD26" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="sideBarWidget" ProjectDependent="1">
+							<Folder Name="sideBarWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="sideBarWidget.js" Size="22283" HashValue="A4F66E11CF06A3CC5F4FD1E19695B26D" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="sideBarWidgetInterface.js" Size="1212" HashValue="0340565BB8DA19C89B0A1CC65AED7065" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="sideBarWidgetStyle.css" Size="1679" HashValue="8273BBBC91EC8A6A65B0A53EA75441F2" ProjectDependent="1"/>
 										<File Name="sideBarWidgetStyleVariables.css" Size="38" HashValue="B27D7A5E025160F88B29F6BEDA518BD1" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="signalManagerWidget" ProjectDependent="1">
+							<Folder Name="signalManagerWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="6273" HashValue="64693CA882666D300FDC730808450CFF" ProjectDependent="1"/>
 								<File Name="signalManagerWidget.js" Size="212004" HashValue="51017740498D19E577A6D272CEAD12FE" ProjectDependent="1"/>
-								<Folder Name="helpers" ProjectDependent="1">
+								<Folder Name="helpers" ProjectDependent="1" IsGroup="1">
 									<File Name="exportHelper.js" Size="36922" HashValue="9BD3CBF6AA7A3AC9673FA9686A3CA45D" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="signalManagerWidgetInterface.js" Size="3166" HashValue="D50D68B58C971D9C1FF1BF8C93413662" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="calculation.svg" Size="3939" HashValue="FB216A3784EA54C7CCEBC2E3D5910AD0" ProjectDependent="1"/>
 											<File Name="calculation_deactivated.svg" Size="3946" HashValue="7CB90B1798593DA87E9DE1AEB0DEE102" ProjectDependent="1"/>
 											<File Name="delete.svg" Size="6196" HashValue="2FE418C532DD1F3EE2F2CAB31EE6758B" ProjectDependent="1"/>
@@ -4340,112 +4361,112 @@
 											<File Name="Import.svg" Size="840" HashValue="32C0C7DCDB5BA0D69889982B9541BE9E" ProjectDependent="1"/>
 											<File Name="import_deactivated.svg" Size="2778" HashValue="9F4CEB8A19107D99CB9BED91385D40CA" ProjectDependent="1"/>
 										</Folder>
-										<Folder Name="tree" ProjectDependent="1">
+										<Folder Name="tree" ProjectDependent="1" IsGroup="1">
 											<File Name="calculationInput.svg" Size="3890" HashValue="35D0DE90BD98131D9B9D5281165F62A9" ProjectDependent="1"/>
 											<File Name="calculationOutput.svg" Size="3892" HashValue="C493D267F3824219062AAFC0FBC67AB2" ProjectDependent="1"/>
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="signalManagerExportDropDownMenu.js" Size="14643" HashValue="CF1AF8E51741338040BFD6990EA3AD4D" ProjectDependent="1"/>
 									<File Name="signalManagerTreeGridToolbar.js" Size="21831" HashValue="524B357D92D1B0B2E0D934090341A1FC" ProjectDependent="1"/>
 									<File Name="smTreeGridCellEditEvents.js" Size="7238" HashValue="C54AE5899A237BC631FB388085A532F4" ProjectDependent="1"/>
 									<File Name="smTreeGridCellEditTemplate.js" Size="9464" HashValue="1C40CDC09084907927A9EBD40B78411A" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="splitterWidget" ProjectDependent="1">
+							<Folder Name="splitterWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="layoutPane.js" Size="8000" HashValue="5EDBE35D393FE9B6EAD29624230242F8" ProjectDependent="1"/>
 								<File Name="splitterDefinition.js" Size="2428" HashValue="64F8B1889912C55303221991DD09012F" ProjectDependent="1"/>
 								<File Name="splitterPaneDefinition.js" Size="1585" HashValue="E93D1AA1A871E929F5D12223D4232465" ProjectDependent="1"/>
 								<File Name="splitterWidget.js" Size="140062" HashValue="4056042E27051C83C52054923DF54C01" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="layoutPaneInterface.js" Size="1104" HashValue="32092E4011604653636DEB974105E670" ProjectDependent="1"/>
 									<File Name="splitterWidgetInterface.js" Size="1904" HashValue="6B1DE67ADFBDF32D6FBFBEF1B36FB21F" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="splitterStyle.css" Size="1005" HashValue="2883D77569D1071FFE1FF99CC89B43AC" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="startPageWidget" ProjectDependent="1">
+							<Folder Name="startPageWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="startPageWidget.js" Size="5505" HashValue="7527EEC065BCDDFCA306C7BC7D56997B" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="startPageWidgetInterface.js" Size="712" HashValue="6131BDCBF5184F0526E8F4D50CD69DEE" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="startPageStyle.css" Size="373" HashValue="B5B2CB957658F9A424C20630855DDF23" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="Background.png" Size="776751" HashValue="AB0B0EBB6607FECA7D274E3FEBC16EDD" ProjectDependent="1"/>
 										<File Name="mappCockpitLogo.svg" Size="7866" HashValue="BE7995363F1508260C8B2AF9A9EE6908" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="tabWidget" ProjectDependent="1">
+							<Folder Name="tabWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4142" HashValue="ACFB2D2CD8283B025FEE9AE950D8D813" ProjectDependent="1"/>
 								<File Name="tabWidget.js" Size="64718" HashValue="48EE37B5D90E126E62D596A1F296484B" ProjectDependent="1"/>
 								<File Name="tabWidgetDOMManipulator.js" Size="4788" HashValue="4A95DBB9A9DCE490071E063C847F2726" ProjectDependent="1"/>
 								<File Name="tabWidgetStyleProvider.js" Size="7737" HashValue="D819E9167D7DF3266661A1AFD4CF5675" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="tabWidgetFlexDropDownInterface.js" Size="3028" HashValue="F784F07F09E7AC0EC152DC7057F48C65" ProjectDependent="1"/>
 									<File Name="tabWidgetInterface.js" Size="4064" HashValue="C10D25450EFDE13433496A0ABEBF5780" ProjectDependent="1"/>
 									<File Name="tabWidgetTabInterface.js" Size="11015" HashValue="37CC0F5B7E3E252B51F133B718C74B46" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="layout" ProjectDependent="1">
+								<Folder Name="layout" ProjectDependent="1" IsGroup="1">
 									<File Name="tabWidgetDropDownHTMLProvider.js" Size="6205" HashValue="A606573748B24C6BC4B165585EB9E6C3" ProjectDependent="1"/>
 									<File Name="tabWidgetLayoutProvider.js" Size="5862" HashValue="1CC2FD33687A6D075B649592078D16B8" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="tabWidgetFlexDropDownDataModel.js" Size="12013" HashValue="A17CA41242668D2A800D37A0B4831B5E" ProjectDependent="1"/>
 									<File Name="tabWidgetFlexDropDownFooter.js" Size="4272" HashValue="D722B5AFC1936B1BD5BE1F3CC8356978" ProjectDependent="1"/>
 									<File Name="tabWidgetFlexDropDownItem.js" Size="5434" HashValue="76F742A92A7DF316DE498900A77CC0F2" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
 									<File Name="dropDownCssClassNameProvider.js" Size="3224" HashValue="907680FB26FD9289630476DB26EE83A6" ProjectDependent="1"/>
-									<Folder Name="css" ProjectDependent="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="tabWidgetDropDownStyle.css" Size="2641" HashValue="1FE51F763B2171FBC87786919106AEFF" ProjectDependent="1"/>
 										<File Name="tabWidgetStyle.css" Size="2989" HashValue="EC321755C5484CA5AD8DB7AB008169C0" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="IconBasket.svg" Size="1003" HashValue="6554B78BBC64DD2DBF284A672A3CDEA4" ProjectDependent="1"/>
 										<File Name="IconBasket_grey.svg" Size="2716" HashValue="0F5C00DFFA1955F3EC7AAB4A24B3DB4D" ProjectDependent="1"/>
 										<File Name="IconTabLeft.svg" Size="3353" HashValue="8B77EC37942B4B8330682337EB5CFFDC" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="tabWidgetFixedTab.js" Size="6961" HashValue="5CDD858D812C60628C9D31BF93E214E8" ProjectDependent="1"/>
 									<File Name="tabWidgetFlexDropDown.js" Size="38682" HashValue="B185CA9C179B0F9EFB074031C2DF650F" ProjectDependent="1"/>
 									<File Name="tabWidgetFlexDropDownSFHelper.js" Size="3694" HashValue="F59336E3D03243D56214D7E823F8CCC6" ProjectDependent="1"/>
 									<File Name="tabWidgetFlexTab.js" Size="14482" HashValue="A1967F7709EE5E9EFBC5C51927BB0970" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="tabWidgetSF" ProjectDependent="1">
+							<Folder Name="tabWidgetSF" ProjectDependent="1" IsGroup="1">
 								<File Name="tabWidgetSF.js" Size="14382" HashValue="1F3839D6A6E7FB93CDE10DFF0F9B0A1F" ProjectDependent="1"/>
 								<File Name="tabWidgetSFInterface.js" Size="828" HashValue="2FF1A88B0EA9F4991BC57E43C24F26A2" ProjectDependent="1"/>
 							</Folder>
-							<Folder Name="toolsOverviewWidget" ProjectDependent="1">
+							<Folder Name="toolsOverviewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4222" HashValue="2B5AEDDBAFFFBC349632298EB504CF8A" ProjectDependent="1"/>
 								<File Name="toolsOverviewWidget.js" Size="17224" HashValue="27CB829B3DB79DAE04DB7FF8CC7A5FE7" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="toolsOverviewWidgetInterface.js" Size="2090" HashValue="C1401C9DF6CFF325CDFFE663318AC86F" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceConfigDatapointsWidget" ProjectDependent="1">
+							<Folder Name="traceConfigDatapointsWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4753" HashValue="DD73952ACA4F7ED5E8DF548842060385" ProjectDependent="1"/>
 								<File Name="traceConfigDatapointsWidget.js" Size="44162" HashValue="D65A1BA6E8A6CB8CAD3E43B2C81C8B7A" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigDatapointsWidgetInterface.js" Size="792" HashValue="558D011231291453FED5EF4A531906B0" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="datapoint.js" Size="1276" HashValue="E92596BF7880A8E52FC31F34B0430FF2" ProjectDependent="1"/>
 									<File Name="traceConfigDatapointsDataModel.js" Size="19034" HashValue="0A153F5D995224A8B560C8F219469308" ProjectDependent="1"/>
 									<File Name="traceConfigDatapointsDataModelInterface.js" Size="1796" HashValue="F5A105F2623F40213416365FB7F988F1" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="add.svg" Size="932" HashValue="C53449B7029A72360703949800040B60" ProjectDependent="1"/>
 											<File Name="add_deactivated.svg" Size="932" HashValue="1A2231826CCB2662E526EEEE813FAC37" ProjectDependent="1"/>
 											<File Name="addEmptyLine.svg" Size="567" HashValue="3EDBA3B7CE7D89801E1B75E2FE38A75E" ProjectDependent="1"/>
@@ -4455,56 +4476,56 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigDatapointsTreeGridCellEditEvents.js" Size="7443" HashValue="954AEEB69614FA410B31BC37C4032C4B" ProjectDependent="1"/>
 									<File Name="traceConfigDatapointsTreeGridToolbar.js" Size="14898" HashValue="25CD3C3E0D6D8BDE0ECD892E3DFDA458" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceConfigTimingWidget" ProjectDependent="1">
+							<Folder Name="traceConfigTimingWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4330" HashValue="9F1FB24091AA2A976B2E6564A78C37FD" ProjectDependent="1"/>
 								<File Name="traceConfigTimingWidget.js" Size="22102" HashValue="8F121C31D2B009DEC8D75433BE66292E" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigTimingWidgetInterface.js" Size="764" HashValue="573138B1BEA7652A82730C75FFBCC121" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="timingParameter.js" Size="2489" HashValue="DE653DC20F89BC43DA2BD8AD87D9D2CD" ProjectDependent="1"/>
 									<File Name="traceConfigTimingDataModel.js" Size="15006" HashValue="BEA06B351C3DEEA2FD2175FB30801EDA" ProjectDependent="1"/>
 									<File Name="traceConfigTimingDataModelInterface.js" Size="1404" HashValue="294FC34C6180FE6621202EF919DA2B9E" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="resources" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
+								<Folder Name="resources" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="TraceTimingDiagram_TotalRecordingTime.svg" Size="14176" HashValue="0FAB1AC8E46C897CBFBB7197C4F9089F" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="empty.svg" Size="234" HashValue="7A5546DF7D1882DE0BFFE2281142808A" ProjectDependent="1"/>
 											<File Name="empty_deactivated.svg" Size="234" HashValue="7A5546DF7D1882DE0BFFE2281142808A" ProjectDependent="1"/>
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigTimingTreeGridCellEditEvents.js" Size="3389" HashValue="D6F1E7AD816569C618845344F0358134" ProjectDependent="1"/>
 									<File Name="traceConfigTimingTreeGridCellEditTemplate.js" Size="7386" HashValue="C1BADE4AC6FFE0A91F7E48A97CE19CF4" ProjectDependent="1"/>
 									<File Name="traceConfigTimingTreeGridToolbar.js" Size="5599" HashValue="768D9498655851B35E76406B20632711" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceConfigTriggerWidget" ProjectDependent="1">
+							<Folder Name="traceConfigTriggerWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4751" HashValue="98DD3CDE8455ED0910172D0769212444" ProjectDependent="1"/>
 								<File Name="traceConfigTriggerWidget.js" Size="61088" HashValue="7ADAA143B768BD5DAC84EE0BC5C34970" ProjectDependent="1"/>
 								<File Name="triggerDescriptionProvider.js" Size="19674" HashValue="9A5D0601274149A0972DE428827CB4AC" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigTriggerWidgetInterface.js" Size="764" HashValue="BCE251825B7D3A299B705AE29EA17EF3" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="model" ProjectDependent="1">
+								<Folder Name="model" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigTriggerDataModel.js" Size="25563" HashValue="DD3A8E4785F4E1D35B4F986EBC7AFC8D" ProjectDependent="1"/>
 									<File Name="traceConfigTriggerDataModelInterface.js" Size="1300" HashValue="6932D0115B1D0CC03822B1AD3DEBDC50" ProjectDependent="1"/>
 									<File Name="triggerGroup.js" Size="5927" HashValue="22DBEE274E297C51412764085D93E5C0" ProjectDependent="1"/>
 									<File Name="triggerParameter.js" Size="2383" HashValue="FD572A9F5A821354C6DE74B90A26CAA3" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="resources" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
+								<Folder Name="resources" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="ABOVE_WINDOW.svg" Size="10465" HashValue="C4C1E91D5FC269D3A5BC4AACC84FB231" ProjectDependent="1"/>
 										<File Name="ABOVE_WINDOW_ENTRY.svg" Size="8643" HashValue="2ACC197C60EDE47FBD4851FFBD3F195F" ProjectDependent="1"/>
 										<File Name="BELOW_WINDOW.svg" Size="10464" HashValue="953C8E9AF65B09F237EAB78343699F9C" ProjectDependent="1"/>
@@ -4515,9 +4536,9 @@
 										<File Name="OUT_WINDOW_ENTRY.svg" Size="9639" HashValue="E8631BF8A6025D09993A786E1F5F9237" ProjectDependent="1"/>
 									</Folder>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="add.svg" Size="568" HashValue="D6757B3B747B3A5077342DAED09C020B" ProjectDependent="1"/>
 											<File Name="add_deactivated.svg" Size="567" HashValue="4E294D9D6A60205AF7737503FF2BE4B3" ProjectDependent="1"/>
 											<File Name="delete.svg" Size="6196" HashValue="2FE418C532DD1F3EE2F2CAB31EE6758B" ProjectDependent="1"/>
@@ -4527,38 +4548,38 @@
 										</Folder>
 									</Folder>
 								</Folder>
-								<Folder Name="view" ProjectDependent="1">
+								<Folder Name="view" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigTriggerTreeGridCellEditEvents.js" Size="5325" HashValue="97E26AFB76ABBBC3FD00302A11AD8283" ProjectDependent="1"/>
 									<File Name="traceConfigTriggerTreeGridCellEditTemplate.js" Size="7358" HashValue="85F583A31E9C4850431624F970070D01" ProjectDependent="1"/>
 									<File Name="traceConfigTriggerTreeGridToolbar.js" Size="10047" HashValue="1D24382053A149AB4EF00E6497935063" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceConfigurationViewWidget" ProjectDependent="1">
+							<Folder Name="traceConfigurationViewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="11812" HashValue="594FAF98C91F345AE261738AE2B5CD9E" ProjectDependent="1"/>
 								<File Name="traceConfigurationViewWidget.js" Size="11869" HashValue="D1BA7A679C6474E13A58AA8A4D37113D" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigurationViewWidgetInterface.js" Size="796" HashValue="ADF31C20B1AA13F7113BE5A1B029646A" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceConfigurationWidget" ProjectDependent="1">
+							<Folder Name="traceConfigurationWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="10497" HashValue="84A105A5F6B300FFBCA508DEC12C6E71" ProjectDependent="1"/>
 								<File Name="traceConfigurationWidget.js" Size="9551" HashValue="3E5A3E35639E2A5990D04470179C63B4" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceConfigurationWidgetInterface.js" Size="772" HashValue="EBC4438C8B3A7DFA83752A4DE828844E" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceControlWidget" ProjectDependent="1">
+							<Folder Name="traceControlWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="5187" HashValue="70ABE2028DDFEB86DD32C3D87F2050E7" ProjectDependent="1"/>
 								<File Name="traceControlWidget.js" Size="110035" HashValue="C72E8B2731D26606671BFE8CD04D4D0D" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceControlWidgetInterface.js" Size="696" HashValue="96D691A578B70E401F3C1F7A3954CD4E" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="traceControlButtonStyle.css" Size="1782" HashValue="B2C477DA8CE6E845C4DAFBB6E2FB678C" ProjectDependent="1"/>
 										<File Name="traceControlStyle.css" Size="205" HashValue="0E42AA808530B6307AD86C5E2E7EF9DB" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
 										<File Name="data_available.svg" Size="1185" HashValue="070D80884B35917CEDED9336766BF39B" ProjectDependent="1"/>
 										<File Name="export.svg" Size="843" HashValue="55099423C5B426E9997F91580FD7DAEC" ProjectDependent="1"/>
 										<File Name="import.svg" Size="840" HashValue="32C0C7DCDB5BA0D69889982B9541BE9E" ProjectDependent="1"/>
@@ -4576,35 +4597,35 @@
 									</Folder>
 								</Folder>
 							</Folder>
-							<Folder Name="traceOverviewWidget" ProjectDependent="1">
+							<Folder Name="traceOverviewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4252" HashValue="D3CC16CF0B55733227032B86581E0F12" ProjectDependent="1"/>
 								<File Name="traceOverviewWidget.js" Size="13730" HashValue="0D100C7A4F4FC33B1D0FC8F0A4D082AB" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceOverviewWidgetInterface.js" Size="2094" HashValue="271F7795C420A5743B5521F157769B93" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="traceViewWidget" ProjectDependent="1">
+							<Folder Name="traceViewWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="bindingIds.js" Size="7625" HashValue="981D5F1751AECCB35176159BD9BAAF47" ProjectDependent="1"/>
 								<File Name="componentDefaultDefinition.js" Size="19514" HashValue="165B08DEC6343F020330908228A84E20" ProjectDependent="1"/>
 								<File Name="traceViewWidget.js" Size="108540" HashValue="0180CB8A20F012B7AE0D5734B7C91695" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="traceViewWidgetInterface.js" Size="880" HashValue="2B45F6F72DC82B413952D0AC634C44DD" ProjectDependent="1"/>
 								</Folder>
 							</Folder>
-							<Folder Name="watchablesWidget" ProjectDependent="1">
+							<Folder Name="watchablesWidget" ProjectDependent="1" IsGroup="1">
 								<File Name="componentDefaultDefinition.js" Size="4691" HashValue="F0497476E929A810EDE58AA4F5A6A2F5" ProjectDependent="1"/>
 								<File Name="watchablesGridToolbar.js" Size="23655" HashValue="3D6ED42D7716D1E677DA3AADEC1597D8" ProjectDependent="1"/>
 								<File Name="watchablesWidget.js" Size="76395" HashValue="7871849218B897F680604305D0AF3B35" ProjectDependent="1"/>
 								<File Name="watchableValueBuffer.js" Size="7763" HashValue="E4FDF732B4CC2715860308A829DC2F6E" ProjectDependent="1"/>
-								<Folder Name="interfaces" ProjectDependent="1">
+								<Folder Name="interfaces" ProjectDependent="1" IsGroup="1">
 									<File Name="watchablesWidgetInterface.js" Size="680" HashValue="682186AF046D4A083D11546ABD725BD4" ProjectDependent="1"/>
 								</Folder>
-								<Folder Name="style" ProjectDependent="1">
-									<Folder Name="css" ProjectDependent="1">
+								<Folder Name="style" ProjectDependent="1" IsGroup="1">
+									<Folder Name="css" ProjectDependent="1" IsGroup="1">
 										<File Name="toolbarIcons.css" Size="2125" HashValue="83FFA5D6CD5AE16C45B9FF0538AE921E" ProjectDependent="1"/>
 									</Folder>
-									<Folder Name="images" ProjectDependent="1">
-										<Folder Name="toolbar" ProjectDependent="1">
+									<Folder Name="images" ProjectDependent="1" IsGroup="1">
+										<Folder Name="toolbar" ProjectDependent="1" IsGroup="1">
 											<File Name="CommunicationNotReady.svg" Size="9637" HashValue="AAB70B46AC6FA601922A699EFD1FE266" ProjectDependent="1"/>
 											<File Name="empty.svg" Size="234" HashValue="7A5546DF7D1882DE0BFFE2281142808A" ProjectDependent="1"/>
 											<File Name="empty_deactivated.svg" Size="234" HashValue="7A5546DF7D1882DE0BFFE2281142808A" ProjectDependent="1"/>
@@ -4629,19 +4650,19 @@
 					</Folder>
 				</Folder>
 			</Folder>
-			<Folder Name="OPCUA" ProjectDependent="1" IsGroup="1">
-				<Folder Name="NodeSet" ProjectDependent="1">
-					<Folder Name="Generated" ProjectDependent="1">
+			<Folder Name="OPCUA" ProjectDependent="1">
+				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
+					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
 						<File Name="OpcUaMap.uar.gz" Size="22048" HashValue="D3A0C8E3E931B3F0F4A13D9DB5C5419B" ProjectDependent="1"/>
 					</Folder>
-					<Folder Name="Vendor" ProjectDependent="1">
+					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.uanodeset" Size="82243" HashValue="0ACBFD2CC6F798E744AD06E6F537F33F" ProjectDependent="1"/>
 					</Folder>
 				</Folder>
 			</Folder>
-			<Folder Name="Safety" ProjectDependent="1" IsGroup="1">
+			<Folder Name="Safety" ProjectDependent="1">
 				<File Name="Settings_1.sfcfg" Size="667" HashValue="2D7B47A52004062ADFF773ED41489F3F" ProjectDependent="1"/>
-				<Folder Name="SafeApplication" ProjectDependent="1">
+				<Folder Name="SafeApplication" ProjectDependent="1" IsGroup="1">
 					<File Name="Gen3Safety.sfapp" Size="73535" HashValue="29F931502C379D5A465A341BED358871" ProjectDependent="1"/>
 				</Folder>
 			</Folder>

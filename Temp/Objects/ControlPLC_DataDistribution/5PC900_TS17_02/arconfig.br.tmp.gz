@@ -1,0 +1,2464 @@
+<?xml version="1.0" ?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="X20CP1585">
+    <Parameter ID="HardwareModuleName" Value="5PC900_TS17_02" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="1" Type="UDINT" />
+    <Parameter ID="SimulationModeOpcUa" Value="on" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+    <Parameter ID="TemperatureCPUType" Value="UINT" />
+    <Parameter ID="TemperatureENVType" Value="UINT" />
+  </Module>
+  <Module ID="IF2" Hardware="X20CP1585">
+    <Parameter ID="DeviceDescription" Value="gei" />
+    <Parameter ID="EthInterfaceRedundant" Value="0" />
+    <Parameter ID="ActivateOSAFT" Value="0" />
+  </Module>
+  <Module ID="IF2.MODBUS" Hardware="MODBUS">
+    <Parameter ID="NumSlaves" Value="0" Type="INT" />
+    <Parameter ID="NumAllBlocks" Value="0" Type="INT" />
+    <Parameter ID="MemSizeIn" Value="0" Type="DINT" />
+    <Parameter ID="MemSizeOut" Value="0" Type="DINT" />
+    <Parameter ID="ModbusMaster" Value="1" />
+    <Parameter ID="ModbusSlave" Value="0" />
+    <Parameter ID="SlaveDiagnostics" Value="0" />
+  </Module>
+  <Module ID="IF2.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF2.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3" Hardware="X20CP1585">
+    <Parameter ID="Operation" Value="EPL-V2" />
+    <Parameter ID="MtuSize" Value="300" Type="UDINT" />
+  </Module>
+  <Module ID="IF3.PLK" Hardware="EPL-V2">
+    <Parameter ID="EplInterfaceRedundant" Value="0" />
+    <Parameter ID="EplHostName" Value="br-automation" />
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="MuxPrescaler" Value="8" Type="UDINT" />
+    <Parameter ID="Mode" Value="MN" />
+    <Parameter ID="NodeID" Value="240" Type="DINT" />
+    <Parameter ID="AsyncTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="TransferOnlyActive" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="off" />
+    <Parameter ID="BasicEthernetInServiceMode" Value="off" />
+    <Parameter ID="EplNatSubnet" Value="192.168.101.0" />
+    <Parameter ID="EPL_LossFrameTolerance" Value="-1" Type="DINT" />
+    <Parameter ID="ApplSwDate" Value="0" Type="UDINT" />
+    <Parameter ID="ApplSwTime" Value="0" Type="UDINT" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF3.ST51" Hardware="epl_any">
+    <Parameter ID="HardwareModuleName" Value="VF-LCR" />
+    <Parameter ID="OrderNumber" Value="VF-LCR" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="50" Type="UDINT" />
+    <Parameter ID="DummyDeviceType" Value="off" />
+    <Parameter ID="DummyVendorId" Value="off" />
+    <Parameter ID="DummyRevisionNo" Value="off" />
+    <Parameter ID="DummyModno" Value="off" />
+    <Parameter ID="IPGateway" Value="254" Type="UDINT" />
+    <Parameter ID="EPL_BootTimeNotActive" Value="8000000" Type="UDINT" />
+    <Parameter ID="EPL_MinCycleTime" Value="200" Type="UDINT" />
+    <Parameter ID="EPL_MinRedCycleTime" Value="0" Type="UDINT" />
+    <Parameter ID="ASndMaxLatency" Value="1" Type="UDINT" />
+    <Parameter ID="EPL_CnSoc2Preq" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_SDOWriteMultiple" Value="on" />
+    <Parameter ID="EPL_ResetToDefault" Value="off" />
+    <Parameter ID="EPL_TellMuxSlot" Value="on" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_TxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_RxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_ResetPostLoad" Value="42" Type="UINT" />
+    <Parameter ID="EPL_ParamStrategy" Value="Load" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Address" Value="0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="FPGA_REVISION_I2001">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_HEARTBEAT_I2002">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="PLC_HEARTBEAT_I2003Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_CONTROL_I2004Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_CONTROL_I2005Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_STATUS_I2006">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_STATUS_I2007">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ENABLE_I2008Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LUT_LOAD_STATUS_I2009">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_BUILD_LAYOUT_I200AOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_PRINT_NUMBER_I200BOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_LAYER_NUMBER_I200COut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_STARTING_TRAJECTORY_I200DOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_OPERATION_I200EOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_CURRENT_SETPOINT_I200FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_REMOTE_START_I2010Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="GUIDE_LASER_CONTROL_I2011Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_CONTROL_I2012Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_RESET_I2013Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ERROR_READY_I2014">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_CONTROL_SYSTEM_POWERED_ON_I2015">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_MAIN_POWER_ON_I2016">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_ON_I2017">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_ERROR_I2018">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_POWER_MONITOR_I2019">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x40" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x44" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x48" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x50" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x54" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x58" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x5C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x60" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x64" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x68" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x6C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x70" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x74" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x78" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x7C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x80" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x84" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x88" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x90" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x94" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x98" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x9C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xAC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xBC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xCC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xDC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xEC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xFC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x100" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x104" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x108" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x110" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x114" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x118" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x11C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x120" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x124" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SOFTWARE_REVISION_I201D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x128" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_WATCHDOG_ERROR_I201E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x12C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_ADDRESS_I201FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_DATA_I2020Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_ADDRESS_I2021">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x130" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_DATA_I2022">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x134" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+  </Module>
+  <Module ID="IF3.ST51.OD" Hardware="epl_any" />
+  <Module ID="IF3.ST52" Hardware="epl_any">
+    <Parameter ID="HardwareModuleName" Value="VF-LCR1" />
+    <Parameter ID="OrderNumber" Value="VF-LCR" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="50" Type="UDINT" />
+    <Parameter ID="DummyDeviceType" Value="off" />
+    <Parameter ID="DummyVendorId" Value="off" />
+    <Parameter ID="DummyRevisionNo" Value="off" />
+    <Parameter ID="DummyModno" Value="off" />
+    <Parameter ID="IPGateway" Value="254" Type="UDINT" />
+    <Parameter ID="EPL_BootTimeNotActive" Value="8000000" Type="UDINT" />
+    <Parameter ID="EPL_MinCycleTime" Value="200" Type="UDINT" />
+    <Parameter ID="EPL_MinRedCycleTime" Value="0" Type="UDINT" />
+    <Parameter ID="ASndMaxLatency" Value="1" Type="UDINT" />
+    <Parameter ID="EPL_CnSoc2Preq" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_SDOWriteMultiple" Value="on" />
+    <Parameter ID="EPL_ResetToDefault" Value="off" />
+    <Parameter ID="EPL_TellMuxSlot" Value="on" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_TxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_RxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_ResetPostLoad" Value="42" Type="UINT" />
+    <Parameter ID="EPL_ParamStrategy" Value="Load" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Address" Value="0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="FPGA_REVISION_I2001">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_HEARTBEAT_I2002">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="PLC_HEARTBEAT_I2003Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_CONTROL_I2004Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_CONTROL_I2005Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_STATUS_I2006">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_STATUS_I2007">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ENABLE_I2008Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LUT_LOAD_STATUS_I2009">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_BUILD_LAYOUT_I200AOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_PRINT_NUMBER_I200BOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_LAYER_NUMBER_I200COut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_STARTING_TRAJECTORY_I200DOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_OPERATION_I200EOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_CURRENT_SETPOINT_I200FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_REMOTE_START_I2010Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="GUIDE_LASER_CONTROL_I2011Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_CONTROL_I2012Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_RESET_I2013Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ERROR_READY_I2014">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_CONTROL_SYSTEM_POWERED_ON_I2015">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_MAIN_POWER_ON_I2016">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_ON_I2017">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_ERROR_I2018">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_POWER_MONITOR_I2019">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x40" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x44" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x48" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x50" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x54" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x58" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x5C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x60" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x64" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x68" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x6C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x70" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x74" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x78" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x7C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x80" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x84" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x88" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x90" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x94" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x98" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x9C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xAC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xBC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xCC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xDC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xEC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xFC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x100" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x104" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x108" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x110" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x114" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x118" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x11C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x120" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x124" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SOFTWARE_REVISION_I201D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x128" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_WATCHDOG_ERROR_I201E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x12C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_ADDRESS_I201FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_DATA_I2020Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_ADDRESS_I2021">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x130" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_DATA_I2022">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x134" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+  </Module>
+  <Module ID="IF3.ST52.OD" Hardware="epl_any" />
+  <Module ID="IF3.ST53" Hardware="epl_any">
+    <Parameter ID="HardwareModuleName" Value="VF-LCR2" />
+    <Parameter ID="OrderNumber" Value="VF-LCR" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="50" Type="UDINT" />
+    <Parameter ID="DummyDeviceType" Value="off" />
+    <Parameter ID="DummyVendorId" Value="off" />
+    <Parameter ID="DummyRevisionNo" Value="off" />
+    <Parameter ID="DummyModno" Value="off" />
+    <Parameter ID="IPGateway" Value="254" Type="UDINT" />
+    <Parameter ID="EPL_BootTimeNotActive" Value="8000000" Type="UDINT" />
+    <Parameter ID="EPL_MinCycleTime" Value="200" Type="UDINT" />
+    <Parameter ID="EPL_MinRedCycleTime" Value="0" Type="UDINT" />
+    <Parameter ID="ASndMaxLatency" Value="1" Type="UDINT" />
+    <Parameter ID="EPL_CnSoc2Preq" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_SDOWriteMultiple" Value="on" />
+    <Parameter ID="EPL_ResetToDefault" Value="off" />
+    <Parameter ID="EPL_TellMuxSlot" Value="on" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_TxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_RxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_ResetPostLoad" Value="42" Type="UINT" />
+    <Parameter ID="EPL_ParamStrategy" Value="Load" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Address" Value="0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="FPGA_REVISION_I2001">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_HEARTBEAT_I2002">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="PLC_HEARTBEAT_I2003Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_CONTROL_I2004Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_CONTROL_I2005Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_STATUS_I2006">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_STATUS_I2007">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ENABLE_I2008Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LUT_LOAD_STATUS_I2009">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_BUILD_LAYOUT_I200AOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_PRINT_NUMBER_I200BOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_LAYER_NUMBER_I200COut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_STARTING_TRAJECTORY_I200DOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_OPERATION_I200EOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_CURRENT_SETPOINT_I200FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_REMOTE_START_I2010Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="GUIDE_LASER_CONTROL_I2011Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_CONTROL_I2012Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_RESET_I2013Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ERROR_READY_I2014">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_CONTROL_SYSTEM_POWERED_ON_I2015">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_MAIN_POWER_ON_I2016">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_ON_I2017">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_ERROR_I2018">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_POWER_MONITOR_I2019">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x40" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x44" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x48" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x50" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x54" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x58" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x5C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x60" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x64" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x68" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x6C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x70" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x74" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x78" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x7C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x80" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x84" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x88" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x90" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x94" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x98" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x9C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xAC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xBC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xCC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xDC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xEC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xFC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x100" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x104" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x108" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x110" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x114" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x118" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x11C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x120" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x124" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SOFTWARE_REVISION_I201D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x128" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_WATCHDOG_ERROR_I201E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x12C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_ADDRESS_I201FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_DATA_I2020Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_ADDRESS_I2021">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x130" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_DATA_I2022">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x134" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+  </Module>
+  <Module ID="IF3.ST53.OD" Hardware="epl_any" />
+  <Module ID="IF3.ST54" Hardware="epl_any">
+    <Parameter ID="HardwareModuleName" Value="VF-LCR3" />
+    <Parameter ID="OrderNumber" Value="VF-LCR" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="50" Type="UDINT" />
+    <Parameter ID="DummyDeviceType" Value="off" />
+    <Parameter ID="DummyVendorId" Value="off" />
+    <Parameter ID="DummyRevisionNo" Value="off" />
+    <Parameter ID="DummyModno" Value="off" />
+    <Parameter ID="IPGateway" Value="254" Type="UDINT" />
+    <Parameter ID="EPL_BootTimeNotActive" Value="8000000" Type="UDINT" />
+    <Parameter ID="EPL_MinCycleTime" Value="200" Type="UDINT" />
+    <Parameter ID="EPL_MinRedCycleTime" Value="0" Type="UDINT" />
+    <Parameter ID="ASndMaxLatency" Value="1" Type="UDINT" />
+    <Parameter ID="EPL_CnSoc2Preq" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_SDOWriteMultiple" Value="on" />
+    <Parameter ID="EPL_ResetToDefault" Value="off" />
+    <Parameter ID="EPL_TellMuxSlot" Value="on" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_TxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_RxPdoVersion" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_ResetPostLoad" Value="42" Type="UINT" />
+    <Parameter ID="EPL_ParamStrategy" Value="Load" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Address" Value="0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="FPGA_REVISION_I2001">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_HEARTBEAT_I2002">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="PLC_HEARTBEAT_I2003Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x0" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_CONTROL_I2004Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_CONTROL_I2005Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_STATUS_I2006">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="OPERATION_STATUS_I2007">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ENABLE_I2008Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LUT_LOAD_STATUS_I2009">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_BUILD_LAYOUT_I200AOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_PRINT_NUMBER_I200BOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_LAYER_NUMBER_I200COut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SELECTED_STARTING_TRAJECTORY_I200DOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_OPERATION_I200EOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="MANUAL_LASER_CURRENT_SETPOINT_I200FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_REMOTE_START_I2010Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="GUIDE_LASER_CONTROL_I2011Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_CONTROL_I2012Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_RESET_I2013Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_ERROR_READY_I2014">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x14" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_CONTROL_SYSTEM_POWERED_ON_I2015">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x18" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_MAIN_POWER_ON_I2016">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x1C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_EMISSION_ON_I2017">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x20" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SYSTEM_ERROR_I2018">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x24" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_POWER_MONITOR_I2019">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x28" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x2C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x30" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x34" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x40" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x44" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x48" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x4C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x50" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x54" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x58" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x5C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x60" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x64" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x68" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x6C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x70" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x74" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x78" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201A_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x7C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x80" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x84" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x88" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x8C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x90" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x94" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x98" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x9C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xA8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xAC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xB8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xBC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xC8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xCC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201B_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S01">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S02">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xD8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S03">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xDC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S04">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S05">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S06">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xE8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S07">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xEC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S08">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S09">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF4" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0A">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xF8" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0B">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0xFC" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0C">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x100" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x104" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x108" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S0F">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x10C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S10">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x110" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S11">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x114" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S12">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x118" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S13">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x11C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S14">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x120" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="Entry_I201C_S15">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x124" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="SOFTWARE_REVISION_I201D">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x128" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="LASER_WATCHDOG_ERROR_I201E">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x12C" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_ADDRESS_I201FOut">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x38" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="REQUEST_DATA_I2020Out">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x3C" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_ADDRESS_I2021">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x130" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+    <Channel ID="RESPONSE_DATA_I2022">
+      <Parameter ID="Ext" Value="/FIXED" />
+      <Parameter ID="Address" Value="0x134" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+    </Channel>
+  </Module>
+  <Module ID="IF3.ST54.OD" Hardware="epl_any" />
+  <Module ID="IF6.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="on" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+</IOCFG>  

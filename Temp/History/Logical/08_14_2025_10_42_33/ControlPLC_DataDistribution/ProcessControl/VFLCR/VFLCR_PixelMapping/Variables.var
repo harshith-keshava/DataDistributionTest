@@ -1,4 +1,0 @@
-VAR
-	task : PixelMapping_typ;
-	Configuration : Configuration_typ;
-END_VAR

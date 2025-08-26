@@ -1,5 +1,0 @@
-(**)
-VAR
-	IO : IO_typ;
-	mvConfig : MonitoredValuesConfig_typ;
-END_VAR

@@ -1,8 +1,0 @@
-define(["require", "exports", "./bindingDeclarationsComponents", "./bindingDeclarationsTools", "./bindingDeclarationsTraces"], function (require, exports, bindingDeclarationsComponents_1, bindingDeclarationsTools_1, bindingDeclarationsTraces_1) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Components = bindingDeclarationsComponents_1.Components;
-    exports.Tools = bindingDeclarationsTools_1.Tools;
-    exports.Traces = bindingDeclarationsTraces_1.Traces;
-});
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmluZGluZ0RlY2xhcmF0aW9ucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uL3NyYy9hcHAvZnJhbWV3b3JrL2NvbXBvbmVudEh1Yi9iaW5kaW5ncy9iaW5kaW5nRGVjbGFyYXRpb25zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztJQU1RLHFCQUxDLDBDQUFVLENBS0Q7SUFBRSxnQkFKWCxnQ0FBSyxDQUlXO0lBQUUsaUJBSGxCLGtDQUFNLENBR2tCIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCB7IENvbXBvbmVudHMgfSBmcm9tIFwiLi9iaW5kaW5nRGVjbGFyYXRpb25zQ29tcG9uZW50c1wiOyBcclxuaW1wb3J0IHsgVG9vbHMgfSBmcm9tIFwiLi9iaW5kaW5nRGVjbGFyYXRpb25zVG9vbHNcIjsgXHJcbmltcG9ydCB7IFRyYWNlcyB9IGZyb20gXCIuL2JpbmRpbmdEZWNsYXJhdGlvbnNUcmFjZXNcIjsgXHJcblxyXG4vLyBFeHBvcnRzIHRoZSBjdXJyZW50IGF2YWlsYWJsZSBjb21tb24gYmluZGluZyBkZWNsYXJhdGlvbnNcclxuZXhwb3J0IHtDb21wb25lbnRzLCBUb29scywgVHJhY2VzfVxyXG4iXX0=

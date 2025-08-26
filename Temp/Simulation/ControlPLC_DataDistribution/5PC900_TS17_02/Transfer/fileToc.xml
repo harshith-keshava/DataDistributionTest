@@ -1024,8 +1024,8 @@
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1455400" HashValue="62CF7E4E2A3C80D20E4166D81FF8B8AA" ProjectDependent="1"/>
 							<File Name="brease_core.min.css" Size="527655" HashValue="AEDFFF6892BAACFE54FD86C09DBC41A5" ProjectDependent="1"/>
-							<File Name="BuRTheme1.min.css" Size="318922" HashValue="57A4F41ED499C308E2A4A2A8D0C6D560" ProjectDependent="1"/>
-							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="305376" HashValue="167E29DE342FEB319CED7A8BF25C8C9B" ProjectDependent="1"/>
+							<File Name="BuRTheme1.min.css" Size="309406" HashValue="38D82DEE4BB84F7575D7CA5DEAB1478C" ProjectDependent="1"/>
+							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="294571" HashValue="E91A949B938E50168061F37F2D5CE7DE" ProjectDependent="1"/>
 						</Folder>
 						<Folder Name="system" ProjectDependent="1">
 							<Folder Name="brease" ProjectDependent="1">
@@ -4653,7 +4653,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="22048" HashValue="D3A0C8E3E931B3F0F4A13D9DB5C5419B" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="33038" HashValue="F96075386A4260B4C57A19AB8C08412D" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.uanodeset" Size="82243" HashValue="0ACBFD2CC6F798E744AD06E6F537F33F" ProjectDependent="1"/>

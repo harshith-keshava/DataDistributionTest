@@ -1,5 +1,0 @@
-ControlPLC_DataDistribution | APC910 | Rebuild
-System error.
-   at BR.AS.AnalyseProject.DataClasses.DataAndTools.StopExecutionOnErrorAndUserCancelation()
-   at BR.AS.AnalyseProject.ProjectValidation.Checks.AnalyseProjectChecks()
-   at BR.AS.AnalyseProject.Analyse.Execute()

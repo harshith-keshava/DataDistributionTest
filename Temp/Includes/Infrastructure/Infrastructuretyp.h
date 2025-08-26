@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1755635100_16_
-#define _BUR_1755635100_16_
+#ifndef _BUR_1756238066_16_
+#define _BUR_1756238066_16_
 
 #include <bur/plctypes.h>
 
@@ -46,5 +46,5 @@ __asm__(".ascii \"iecdep \\\"Logical/Libraries/Loupe/persist/Persist.var\\\" sco
 __asm__(".previous");
 
 
-#endif /* _BUR_1755635100_16_ */
+#endif /* _BUR_1756238066_16_ */
 

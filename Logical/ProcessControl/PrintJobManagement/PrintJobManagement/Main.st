@@ -157,8 +157,32 @@ PROGRAM _CYCLIC
 			END_CASE
 			
 		STATE_UPDATE_LAYER_NUMBER:
-			
+				dCurrentState.currentLayerNumber := task.parameters.printJobLayer;
 				Nonvolatile.currentLayerNumber := dCurrentState.currentLayerNumber;
+				
+				
+				// Convert the current layer number to a string with the "nnnnn" format, adding required leading 0s.
+				brsitoa(dCurrentState.currentLayerNumber, ADR(layerNumberValue_string));						
+				IF (dCurrentState.currentLayerNumber > 9999) THEN
+					layerNumber_string := '';
+				ELSIF (dCurrentState.currentLayerNumber > 999) THEN
+					layerNumber_string := '0';
+				ELSIF (dCurrentState.currentLayerNumber > 99) THEN
+					layerNumber_string := '00';
+				ELSIF (dCurrentState.currentLayerNumber > 9) THEN
+					layerNumber_string := '000';
+				ELSE
+					layerNumber_string := '0000';
+				END_IF
+				brsstrcat(ADR(layerNumber_string), ADR(layerNumberValue_string));				
+			
+				// Format the complete layer filename for the G-code (CNC) motion control file.
+				layerFilename_GCode := Nonvolatile.baseFilename;
+				brsstrcat(ADR(layerFilename_GCode), ADR('_L'));
+				brsstrcat(ADR(layerFilename_GCode), ADR(layerNumber_string));
+				brsstrcat(ADR(layerFilename_GCode), ADR('_GCode.cnc'));			
+				task.status.currentLayerGCodeFilename := layerFilename_GCode;
+				
 				task.internal.PLCOpen.status := ERR_OK;
 				task.status.state := STATE_READY;
 		

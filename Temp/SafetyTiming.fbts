@@ -1,57 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <Configuration>
-  <Element ID="Minimum calculated safety runtime." Type="fbts">
-    <Group ID="SAFE_DOMAIN[0]">
-      <Property ID="SafeDomain" Value="SafeDOMAIN 1" />
-      <Group ID="SAFETY_LOGIC[0]">
-        <Property ID="Name" Value="X20SLX210" />
-        <Property ID="Address" Value="SL1.IF1.ST8.IF1.ST2" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID1" />
-      </Group>
-      <Group ID="SAFETY_MODULE[0]">
-        <Property ID="CycleTime" Value="12800" />
-        <Property ID="Name" Value="X20SC0842" />
-        <Property ID="Address" Value="SL1.IF1.ST8.IF1.ST3" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID2" />
-      </Group>
-      <Group ID="SAFETY_MODULE[1]">
-        <Property ID="CycleTime" Value="14000" />
-        <Property ID="Name" Value="CM402_SC_LaserRack1" />
-        <Property ID="Address" Value="SL1.IF1.ST4.IF1.ST2" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID41" />
-      </Group>
-      <Group ID="SAFETY_MODULE[2]">
-        <Property ID="CycleTime" Value="14000" />
-        <Property ID="Name" Value="CM403_SC_LaserRack2" />
-        <Property ID="Address" Value="SL1.IF1.ST4.IF1.ST3" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID42" />
-      </Group>
-      <Group ID="SAFETY_MODULE[3]">
-        <Property ID="CycleTime" Value="14000" />
-        <Property ID="Name" Value="CM404_SC_LaserRack3" />
-        <Property ID="Address" Value="SL1.IF1.ST4.IF1.ST4" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID43" />
-      </Group>
-      <Group ID="SAFETY_MODULE[4]">
-        <Property ID="CycleTime" Value="14000" />
-        <Property ID="Name" Value="CM405_SC_LaserRack4" />
-        <Property ID="Address" Value="SL1.IF1.ST4.IF1.ST5" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID44" />
-      </Group>
-      <Group ID="SAFETY_MODULE[5]">
-        <Property ID="CycleTime" Value="14000" />
-        <Property ID="Name" Value="CM406_Clean_Room" />
-        <Property ID="Address" Value="SL1.IF1.ST1.IF1.ST2" />
-        <Property ID="Configuration" Value="APC910" />
-        <Property ID="SafetyAddress" Value="SLID1.SMID60" />
-      </Group>
-    </Group>
-  </Element>
+  <Element ID="Minimum calculated safety runtime." Type="fbts" />
 </Configuration>

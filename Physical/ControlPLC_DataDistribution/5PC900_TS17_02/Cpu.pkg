@@ -20,12 +20,12 @@
     <Object Type="Package">ExternalHardware</Object>
   </Objects>
   <Configuration ModuleId="5PC900.TS17-02">
-    <AutomationRuntime Version="C4.92" />
+    <AutomationRuntime Version="D4.92" />
     <Build AnsicIncludeDirectories="\Logical\Libraries\Testing\UnitTest\" GccVersion="6.3.0" PreBuildStep="&quot;$(AS_PROJECT_PATH)\Logical\Infrastructure\RevInfo\getRevInfo.sh&quot; $(AS_PROJECT_PATH)\Logical\Infrastructure\RevInfo $(AS_CONFIGURATION) $(AS_USER_NAME)" />
     <DefaultTargetMemory Tasks="UserROM" />
     <Safety SafetyRelease="0.0" />
     <Transfer AddToUserPart="False" AdditionalUserDir="" AllowDowngrade="True" AllowInitialTransfer="False" AllowPartitioning="False" ExecuteInitExitProgram="True" ForceInitialTransfer="False" IdentificationTypeValue="" IgnoreVersion="True" KeepNonVolatileMemory="False" PreserveVariableValues="False" ProjectConsistent="False" RebootDuringTransfer="True" RunUnitTestsAfterTransfer="False" SavedOfflineInstallationFolder="C:\simGEN3" SavedPipDestinationFolder="" SavedRuntimeUtilityCenterPackagePath="" TargetIdentificationType="Always" TryToBootInRunMode="True" UserFilesIgnoreDifference="True" />
     <Vc FirmwareVersion="" />
-    <OnlineConfiguration Name="ARsim_TCPIP" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=1" ConnectionParameters="/COMT=2500 /RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1" Description="" />
+    <OnlineConfiguration Name="MACHINE_LAN" DeviceType="TCPIP" DeviceParameters="/IF=tcpip /LOPO=11159 /SA=1" ConnectionParameters="/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.200.50 /REPO=11159 /ANSL=1 /PT=11169" Description="" />
   </Configuration>
 </Cpu>

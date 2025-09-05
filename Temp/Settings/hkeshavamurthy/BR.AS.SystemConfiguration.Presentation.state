@@ -115,4 +115,30 @@
   <Versatile ID="BR.AS.SystemConfiguration.Presentation-EditorState-C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Physical\ControlPLC_LaserCleanroom\5PC900_TS17_02\mappServices\MachineAC.mpalarmxcore">
     <Property Name="advancedparametervisibility" Value="False" />
   </Versatile>
+  <TreeView ID="BR.AS.SystemConfiguration.Presentation-C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappView\Config.mappviewcfg" EditColumn="0" TopRow="1" HorizontalScrollOffset="0" SortedColumn="0">
+    <Columns>
+      <Column Index="0" Width="239" Position="0" />
+      <Column Index="1" Width="100" Position="1" />
+      <Column Index="2" Width="100" Position="2" />
+      <Column Index="3" Width="100" Position="3" />
+      <Column Index="4" Width="0" Position="4" />
+    </Columns>
+    <ExpandedNodes>
+      <ExpandedNode Row="0" />
+      <ExpandedNode Row="1" />
+      <ExpandedNode Row="2" />
+      <ExpandedNode Row="7" />
+      <ExpandedNode Row="9" />
+      <ExpandedNode Row="11" />
+      <ExpandedNode Row="16" />
+      <ExpandedNode Row="17" />
+      <ExpandedNode Row="21" />
+      <ExpandedNode Row="23" />
+    </ExpandedNodes>
+    <SelectedNodes />
+    <ZoomIndices />
+  </TreeView>
+  <Versatile ID="BR.AS.SystemConfiguration.Presentation-EditorState-C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappView\Config.mappviewcfg">
+    <Property Name="advancedparametervisibility" Value="False" />
+  </Versatile>
 </State>

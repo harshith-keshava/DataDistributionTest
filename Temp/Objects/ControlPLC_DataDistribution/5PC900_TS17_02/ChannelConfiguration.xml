@@ -1,86 +1,53 @@
 <?xml version="1.0"?>
 <?AutomationRuntimeIOSystem Version = 2.5.0.7?>
 <ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
-  <Module ID="$root" Hardware="X20CP1585" HardwareModuleName="5PC900_TS17_02" ModuleID="1">
-    <Channel ID="SerialNumber" Description="Serial number" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="SerialNumber" />
-    <Channel ID="ModuleID" Description="Module ID" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="ModuleID" />
-    <Channel ID="HardwareVariant" Description="Hardware variant" FromVersion="J4.25" Ext="/HW" Address="15" Direction="IN" Type="UINT" ChannelType="HardwareVariant" />
-    <Channel ID="FirmwareVersion" Description="Firmware version" FromVersion="J4.25" Ext="/HW" Address="16" Direction="IN" Type="UINT" ChannelType="FirmwareVersion" />
-    <Channel ID="StorageWear" Description="Wear level of storage medium in percent" FromVersion="A4.90" Ext="/HW" Address="17" Direction="IN" Type="UINT" Sig_Ana_0percent_100percent_genuine="1" ChannelType="GenericFuncCall" Function="storageDpWear" CyclicUpdate="1" />
-    <Channel ID="ModeSwitch" Description="Mode switch" Ext="/HW" Address="2" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Mode" />
-    <Channel ID="BatteryStatusCPU" Description="Battery status CPU (0 = battery low or missing, 1 = battery ok,)" Ext="/HW" Address="3" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2" />
-    <Channel ID="TemperatureCPU" Description="Temperature CPU [1/10C]" Ext="/HW" Address="4" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="1" />
-    <Channel ID="TemperatureENV" Description="Temperature cooling plate [1/10C]" Ext="/HW" Address="5" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="Temp" Ordinal="2" />
-    <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="9" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
-    <Channel ID="StatusInput01" Description="I/O power supply warning (0 = DC OK)" Ext="/HW" Address="8" Direction="IN" Type="BOOL" Sig_St_Bool="1" ChannelType="StatusInput" Ordinal="2" />
-    <Channel ID="SupplyCurrent" Description="Bus current 0.1 A  X2X Link IF6" FromVersion="A4.51" Ext="/HW" Address="11" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="StatusInput" Ordinal="3" />
-    <Channel ID="SupplyVoltage" Description="Bus voltage 0.1 V  X2X Link IF6" FromVersion="A4.51" Ext="/HW" Address="12" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="StatusInput" Ordinal="4" />
-    <Channel ID="IF2.NodeSwitch" Description="Node switch" Ext="/HW" Address="6" Direction="IN" Type="USINT" Sig_St_Byte="1" ChannelType="Node" Device="PCI.IF2" />
-    <Channel ID="IF2.MODBUS.ModbusMasterDiag" Description="Activate general master diagnostics." Description-de="Aktiviere allgemeine Masterdiagnosekanäle." Ext="/HW" Direction="OUT" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagActInternalError" Description="Current internal error of master and/or slaves." Description-de="Aktueller interner Fehler Master und/oder Slaves." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagActConfigError" Description="Current configuration error of master and/or slaves." Description-de="Aktueller Konfigurationsfehler Master und/oder Slaves." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagActConError" Description="Current connection error of master and/or slaves." Description-de="Aktueller Verbindungsfehler Master und/oder Slaves." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagActSlvRefreshError" Description="Current refresh error of slave(s)." Description-de="Aktueller Aktualisierungsfehler Slave(s)." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagActSlaveError" Description="Current slave error." Description-de="Aktueller Slave Fehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagHistInternalError" Description="Error history of internal errors since last reset." Description-de="Interne Fehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagHistConfigError" Description="Error history of configuration errors since last reset." Description-de="Konfigurationsfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagHistConError" Description="Error history of connection errors since last reset." Description-de="Verbindungssfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagHistSlvRefreshError" Description="Error history of slave refresh errors since last reset." Description-de="Slave-Aktualisierungsfehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.DiagHistSlaveError" Description="Error history of slave errors since last reset." Description-de="Slave-Fehler seit dem letzten Reset." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.ModMasterState" Description="Modbus master driver state." Description-de="Status des Modbus Mastertreibers." Ext="/HW" Direction="IN" Type="UINT" />
-    <Channel ID="IF2.MODBUS.ErrorRemoteAddress" Description="Station number of slave with last error." Description-de="Stationsnummer des Slaves, der zuletzt einen Fehler gemeldet hat." Ext="/HW" Direction="IN" Type="UINT" />
-    <Channel ID="IF2.MODBUS.SlvInternalError" Description="Last error of slave was an internal error." Description-de="Der letzte gemeldete Fehler eines Slaves war ein interner Fehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.SlvConfError" Description="Last error of slave was a configuration error." Description-de="Der letzte gemeldete Fehler eines Slaves war ein Konfigurationsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.SlvOverloadError" Description="Last error of slave was an overlaod error." Description-de="Der letzte gemeldete Fehler eines Slaves war ein Überladungssfehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.SlvModbusError" Description="Last error of slave was a MODBUS error." Description-de="Der letzte gemeldete Fehler eines Slaves war ein MODBUS Fehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.SlvConError" Description="Last error of slave was a connection error." Description-de="Der letzte gemeldete Fehler eines Slaves war ein Verbindungsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.SlvRefreshError" Description="Last error of slave was a refresh error." Description-de="Der letzte gemeldete Fehler eines Slaves war ein Aktualisierungsfehler." Ext="/HW" Direction="IN" Type="BOOL" />
-    <Channel ID="IF2.MODBUS.LoggingInhibitTime" Description="Time between two diagnostic log entries [ms]." Description-de="Zeit zwischen zwei Diagnosemeldungen im Logbuch [ms]." Ext="/HW" Direction="OUT" Type="UDINT" />
-    <Channel ID="IF3.LinkOk" Description="Link state" Ext="/INFO" Address="0x8000001A" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
-    <Channel ID="IF3.OutputDMAMargin" Description="Margin to output cycle deadline in microseconds" Ext="/INFO" Address="0x8000000C" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF3.NodeNumber" Description="Node number currently in use (255 = invalid)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="USINT" Sig_St_Usint="1" />
-    <Channel ID="IF3.CycleOk" Description="Indication for proper cyclic operation (1 = operational)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
-    <Channel ID="IF3.SyncOk" Description="Indication for a synchronized POWERLINK-system (1 = synchronized)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
-    <Channel ID="IF3.TimeSeconds" Description="Absolute time extracted from current SoC-Frame (NetTime in POWERLINK V2) - Seconds" FromVersion="M2.90" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF3.TimeNanoseconds" Description="Absolute time extracted from current SoC-Frame (NetTime in POWERLINK V2) - Nanoseconds" FromVersion="M2.90" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF3.NettimeSoC" Description="Network time extracted from current SoC-Frame [µs] (RelativeTime in POWERLINK V2)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF3.NettimeOffset" Description="Network time offset to local system time [µs]" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF3.CycleCount" Description="Overall number of bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF3.FailedCycleCount" Description="Number of failed bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF3.CycleTimeViolationCount" Description="Number of cycle time violations" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF3.CycleIdleTime" Description="Unoccupied time during one POWERLINK cycle [µs]" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF3.CycleCongestionCount" Description="allways 0, available for legacy projects" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
-    <Channel ID="IF6.CycleCount" Description="Number of bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.BreakCount" Description="Number of bus cycles with set break signal" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.Nettime" Description="Timestamp when the current input frame was started  [µs]" FromVersion="I2.90" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncErrorCount" Description="Number of failed synchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncSramErrorCount" Description="Number of memory access errors within synchronous frame (overflow/underrun)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncBusyErrorCount" Description="Number of not sent synchronous frames (sender not ready)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncNoRxErrorCount" Description="Number of not received synchronous frames (timeout)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncFormatErrorCount" Description="Number of faulty synchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncPendingErrorCount" Description="Number of synchronous frames which could not be sent because of receiving a frame" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncErrorCount" Description="Number of failed asynchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncSramErrorCount" Description="Number of memory access errors within asynchronous frame (overflow/underrun)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncBusyErrorCount" Description="Number of not sent asynchronous frames (sender not ready)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncNoRxErrorCount" Description="Number of not received asynchronous frames (timeout)" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncFormatErrorCount" Description="Number of faulty asynchronous frames" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncPendingErrorCount" Description="Number of asynchronous frames which could not be sent because of receiving a frame" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.DMALateOutputErrorCount" Description="Number of cycles when DMA for cyclic outputs was too late" FromVersion="G2.93" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.NrOfStationsMax" Description="Number of max. stations" FromVersion="A3.08" Ext="/INFO" Address="0x80000113" Direction="IN" Type="USINT" Sig_St_Usint="1" />
-    <Channel ID="IF6.NrOfStationsConfigured" Description="Number of configured stations" FromVersion="A3.08" Ext="/INFO" Address="0x80000114" Direction="IN" Type="USINT" Sig_St_Usint="1" />
-    <Channel ID="IF6.StationAtBusEnd" Description="Station at end of bus" FromVersion="A3.08" Ext="/INFO" Address="0x80000115" Direction="IN" Type="USINT" Sig_St_Usint="1" />
-    <Channel ID="IF6.StationAtBusEndChangeTime" Description="Time of last change at station on end of bus" FromVersion="A3.08" Ext="/INFO" Address="0xC0000115" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" />
-    <Channel ID="IF6.StationPastOutFrameError" Description="First station which recognizes output frame error" FromVersion="A3.08" Ext="/INFO" Address="0x80000116" Direction="IN" Type="USINT" Sig_St_Usint="1" />
-    <Channel ID="IF6.StationPastOutFrameErrorChangeTime" Description="Time of last change of channel StationPastOutFrameError" FromVersion="A3.08" Ext="/INFO" Address="0xC0000116" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" />
-    <Channel ID="IF6.StationPastInFrameError" Description="First station which recognizes input frame error" FromVersion="A3.08" Ext="/INFO" Address="0x80000117" Direction="IN" Type="USINT" Sig_St_Usint="1" />
-    <Channel ID="IF6.StationPastInFrameErrorChangeTime" Description="Time of last change of channel StationPastInFrameError" FromVersion="A3.08" Ext="/INFO" Address="0xC0000117" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" />
-    <Channel ID="IF6.SyncInFrameSize" Description="Size of synchronous input frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x80000118" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.SyncOutFrameSize" Description="Size of synchronous output frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x80000119" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncFrameSize" Description="Size of asynchronous frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011A" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.AsyncFrameSpareSize" Description="Size reserve within asynchronous frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011B" Direction="IN" Type="DINT" Sig_St_Dint="1" />
-    <Channel ID="IF6.BusLengthConfigured" Description="Configured bus length [m]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011C" Direction="IN" Type="DINT" Sig_St_Dint="1" />
+  <Module ID="$root" Hardware="5PC910.SX02-00" HardwareModuleName="5PC900_TS17_02" ModuleID="9">
+    <Channel ID="ModuleID_CPU" Description="Module ID of CPU board" Ext="/HW" Address="0" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="GenericFuncCall" Function="mtcxGetDeviceIdPP500" FuncParam1="0xB" />
+    <Channel ID="TemperatureCPU" Description="Temperature of CPU in 1/10 degree Celsius" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0xB" FuncParam2="0x0" CyclicUpdate="1" />
+    <Channel ID="TemperatureBoard" Description="Temperature of board in 1/10 degree Celsius" Ext="/HW" Address="2" Direction="IN" Type="UINT" Sig_Temp_CpuTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0xB" FuncParam2="0x1" CyclicUpdate="1" />
+    <Channel ID="SystemTime" Description="System time at the start of the current task cycle [µs]" Ext="/HW" Address="3" Direction="IN" Type="DINT" Sig_St_Dint="1" ChannelType="SystemTime" />
   </Module>
-  <Module ID="IF3.ST51" Hardware="epl_any" HardwareModuleName="VF-LCR" ModuleID="18" Simulatable="true">
+  <Module ID="$root" Hardware="5PC910.SX02-00" HardwareModuleName="5PC910.SX02-00" ModuleID="11">
+    <Channel ID="SerialNumber" Description="Serial number of system unit" Ext="/HW" Address="0" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetSerialNoPP500" FuncParam1="0" />
+    <Channel ID="ModuleID" Description="Module ID of system unit" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="GenericFuncCall" Function="mtcxGetDeviceIdPP500" FuncParam1="0" />
+    <Channel ID="PowerOnCycles" Description="PowerOnCycles of system unit" Ext="/HW" Address="2" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetStatisticsCounter1" FuncParam1="0x0" FuncParam2="0x0" />
+    <Channel ID="OperatingHours" Description="Operating hours of system unit [h]" Ext="/HW" Address="3" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="GenericFuncCall" Function="mtcxGetStatisticsCounter0" FuncParam1="0x0" FuncParam2="0x0" CyclicUpdate="1" />
+    <Channel ID="BatteryStatus" Description="Battery status PC (0 = battery low or missing, 1 = battery ok)" Ext="/HW" Address="4" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="Battery" BatteryDetectionMethod="1" Ordinal="2" CyclicUpdate="1" />
+    <Channel ID="MtcxVersionMajor" Description="MTCX version" Ext="/HW" Address="5" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="GenericFuncCall" Function="mtcxGetPx32Version2" FuncParam1="1" />
+    <Channel ID="MtcxVersionMinor" Description="MTCX version" Ext="/HW" Address="6" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="GenericFuncCall" Function="mtcxGetPx32Version2" FuncParam1="0" />
+    <Channel ID="TemperaturePS" Description="Temperature of power supply unit in 1/10 degree Celsius" Ext="/HW" Address="7" Direction="IN" Type="UINT" Sig_Temp_PSTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0x0" FuncParam2="0x0" CyclicUpdate="1" />
+    <Channel ID="TemperatureHDD" Description="Temperature of hard disk drive in 1/10 degree Celsius" Ext="/HW" Address="8" Direction="IN" Type="UINT" Sig_Temp_HDDTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0x0" FuncParam2="0x1" CyclicUpdate="1" />
+    <Channel ID="TemperatureRAM" Description="Temperature of RAM module unit in 1/10 degree Celsius" Ext="/HW" Address="9" Direction="IN" Type="UINT" Sig_Temp_RAMTemp="1" ChannelType="GenericFuncCall" Function="mtcxGetTempPP500" FuncParam1="0x0" FuncParam2="0x2" CyclicUpdate="1" />
+    <Channel ID="StorageWear" Description="Wear level of storage medium in percent" FromVersion="A4.90" Ext="/HW" Address="10" Direction="IN" Type="UINT" Sig_Ana_0percent_100percent_genuine="1" ChannelType="GenericFuncCall" Function="storageDpWear" CyclicUpdate="1" />
+  </Module>
+  <Module ID="SL1" Hardware="5LS182.6-2" HardwareModuleName="5LS182.6-2" ModuleID="5">
+    <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Sig_St_Bool="1" Type="BOOL" />
+    <Channel ID="SerialNumber" Description="Serial number" Ext="/HW" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" ChannelType="HWTree" AliasName="Serial_Number" />
+    <Channel ID="ModuleID" Description="Module ID" Ext="/HW" Address="1" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="HWTree" AliasName="Modno" />
+    <Channel ID="HardwareVariant" Description="Hardware variant" Ext="/HW" Address="2" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="HWTree" />
+    <Channel ID="FirmwareVersion" Description="Firmware version" Ext="/HW" Address="3" Direction="IN" Type="UINT" Sig_St_Uint="1" ChannelType="HWTree" />
+    <Channel ID="BatteryStatus" Description="Battery status CPU (0 = battery low or missing, 1 = battery ok,)" Ext="/HW" Address="0" Direction="IN" Type="USINT" Sig_St_Usint="1" ChannelType="Battery" BatteryDetectionMethod="2" MemOffset0="0x100000" BitOffset="0" Device="SRAM" />
+    <Channel ID="DigitalOutput01" Description="Ready Relais" Address="0" BitOffset="0" Direction="OUT" Type="BOOL" Sig_St_Bool="1" />
+    <Channel ID="IF1.NodeSwitch" Description="Selected node switch value" Ext="/INFO" Address="0x80000019" Direction="IN" Type="USINT" Sig_St_Byte="1" />
+    <Channel ID="IF1.LinkOk01" Description="Link state interface 1" Ext="/INFO" Address="0x8000001A" BitOffset="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
+    <Channel ID="IF1.LinkOk02" Description="Link state interface 2" Ext="/INFO" Address="0x8000001A" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
+    <Channel ID="IF1.OutputDMAMargin" Description="Margin to output cycle deadline in microseconds" FromVersion="C3.08" Ext="/INFO" Address="0x8000000C" Direction="IN" Type="DINT" Sig_St_Dint="1" />
+    <Channel ID="IF1.NodeNumber" Description="Node number currently in use (255 = invalid)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="USINT" Sig_St_Usint="1" />
+    <Channel ID="IF1.CycleOk" Description="Indication for proper cyclic operation (1 = operational)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
+    <Channel ID="IF1.SyncOk" Description="Indication for a synchronized POWERLINK-system (1 = synchronized)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
+    <Channel ID="IF1.TimeSeconds" Description="Absolute time extracted from current SoC-Frame (NetTime in POWERLINK V2) - Seconds" FromVersion="M2.90" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.TimeNanoseconds" Description="Absolute time extracted from current SoC-Frame (NetTime in POWERLINK V2) - Nanoseconds" FromVersion="M2.90" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.NettimeSoC" Description="Network time extracted from current SoC-Frame [µs] (RelativeTime in POWERLINK V2)" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
+    <Channel ID="IF1.NettimeOffset" Description="Network time offset to local system time [µs]" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="DINT" Sig_St_Dint="1" />
+    <Channel ID="IF1.CycleCount" Description="Overall number of bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.FailedCycleCount" Description="Number of failed bus cycles" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.CycleTimeViolationCount" Description="Number of cycle time violations" FromVersion="I2.85" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.CycleIdleTime" Description="Unoccupied time during one POWERLINK cycle [µs]" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.CycleCongestionCount" Description="allways 0, available for legacy projects" FromVersion="B2.87" Ext="/INFO" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="IF1.MinimalLatencyInputMargin" Description="Margin to minimal latency input switch deadline in microseconds" FromVersion="A4.91" Ext="/INFO" Address="0x8000000D" Direction="IN" Type="DINT" Sig_St_Dint="1" />
+    <Channel ID="IF1.FailedMinimalLatencyInputCount" Description="Counts when inputs of stations with optimization for minimal latency were too late" FromVersion="A4.91" Ext="/INFO" Address="0x8000000E" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+  </Module>
+  <Module ID="SL1.IF1.ST51" Hardware="epl_any" HardwareModuleName="VF-LCR" ModuleID="27" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />
     <Channel ID="FPGA_REVISION_I2001" Description="" Ext="/FIXED" Address="0x0" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="SYSTEM_HEARTBEAT_I2002" Description="" Ext="/FIXED" Address="0x4" ArConfig="Copy" Direction="IN" Type="UDINT" />
@@ -177,7 +144,7 @@
     <Channel ID="RESPONSE_ADDRESS_I2021" Description="" Ext="/FIXED" Address="0x130" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="RESPONSE_DATA_I2022" Description="" Ext="/FIXED" Address="0x134" ArConfig="Copy" Direction="IN" Type="UDINT" />
   </Module>
-  <Module ID="IF3.ST54" Hardware="epl_any" HardwareModuleName="VF-LCR3" ModuleID="27" Simulatable="true">
+  <Module ID="SL1.IF1.ST54" Hardware="epl_any" HardwareModuleName="VF-LCR3" ModuleID="36" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />
     <Channel ID="FPGA_REVISION_I2001" Description="" Ext="/FIXED" Address="0x0" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="SYSTEM_HEARTBEAT_I2002" Description="" Ext="/FIXED" Address="0x4" ArConfig="Copy" Direction="IN" Type="UDINT" />
@@ -274,7 +241,7 @@
     <Channel ID="RESPONSE_ADDRESS_I2021" Description="" Ext="/FIXED" Address="0x130" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="RESPONSE_DATA_I2022" Description="" Ext="/FIXED" Address="0x134" ArConfig="Copy" Direction="IN" Type="UDINT" />
   </Module>
-  <Module ID="IF3.ST53" Hardware="epl_any" HardwareModuleName="VF-LCR2" ModuleID="24" Simulatable="true">
+  <Module ID="SL1.IF1.ST53" Hardware="epl_any" HardwareModuleName="VF-LCR2" ModuleID="33" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />
     <Channel ID="FPGA_REVISION_I2001" Description="" Ext="/FIXED" Address="0x0" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="SYSTEM_HEARTBEAT_I2002" Description="" Ext="/FIXED" Address="0x4" ArConfig="Copy" Direction="IN" Type="UDINT" />
@@ -371,7 +338,7 @@
     <Channel ID="RESPONSE_ADDRESS_I2021" Description="" Ext="/FIXED" Address="0x130" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="RESPONSE_DATA_I2022" Description="" Ext="/FIXED" Address="0x134" ArConfig="Copy" Direction="IN" Type="UDINT" />
   </Module>
-  <Module ID="IF3.ST52" Hardware="epl_any" HardwareModuleName="VF-LCR1" ModuleID="21" Simulatable="true">
+  <Module ID="SL1.IF1.ST52" Hardware="epl_any" HardwareModuleName="VF-LCR1" ModuleID="30" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />
     <Channel ID="FPGA_REVISION_I2001" Description="" Ext="/FIXED" Address="0x0" ArConfig="Copy" Direction="IN" Type="UDINT" />
     <Channel ID="SYSTEM_HEARTBEAT_I2002" Description="" Ext="/FIXED" Address="0x4" ArConfig="Copy" Direction="IN" Type="UDINT" />

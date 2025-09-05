@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Index>
   <Title Name="Hardware Configuration Analyzer" />
-  <Tab Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\FieldbusTiming.fbtc" Format="Tree" />
-  <Tab Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\SafetyTiming.fbts" Format="Tree" />
-  <Tab Path="C:\LaserCleanroomAutomation\ControlPLC_LaserCleanroom\Temp\PowerConsumption.fbpw" Format="Tree" />
+  <Tab Path="C:\DataDistributionTest\DataDistributionTest\Temp\SafetyTiming.fbts" Format="Tree" />
 </Index>

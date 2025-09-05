@@ -585,7 +585,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\RevInfo\RevInfo.var"
     LogicalPath="Infrastructure.RevInfo.RevInfo.var"
     Type="File"
-    LastWriteTime="134007116595612724"
+    LastWriteTime="134015609211897940"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\IEC.prg"
@@ -5766,7 +5766,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\mappView\HMI\Pages\BuildPageMain\BuildDistribution.content"
     LogicalPath="mappView.HMI.Pages.BuildPageMain.BuildDistribution.content"
     Type="File"
-    LastWriteTime="134007107692678922"
+    LastWriteTime="134008848986237769"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\mappView\HMI\Variables\Package.pkg"
@@ -5823,19 +5823,19 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\Hardware.hw"
     LogicalPath="ControlPLC_DataDistribution.Hardware.hw"
     Type="File"
-    LastWriteTime="134007108309982968"
+    LastWriteTime="134015602245036020"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\Hardware.hwl"
     LogicalPath="ControlPLC_DataDistribution.Hardware.hwl"
     Type="File"
-    LastWriteTime="134000045702872398"
+    LastWriteTime="134015599000519779"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.pkg"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02"
     Type="Cpu"
-    LastWriteTime="134007109562934541" />
+    LastWriteTime="134015603707263016" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.sw"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.Cpu.sw"
@@ -6120,7 +6120,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\Hardware.jpg"
     LogicalPath="ControlPLC_DataDistribution.Hardware.jpg"
     Type="File"
-    LastWriteTime="134000045703441191"
+    LastWriteTime="134015599001367421"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\UtTestConfiguration.xml"

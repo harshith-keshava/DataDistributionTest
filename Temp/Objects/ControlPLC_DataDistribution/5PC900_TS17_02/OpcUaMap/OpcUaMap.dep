@@ -17,3 +17,4 @@ $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/PrintJobManagement/
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/PrintJobManagement/Types.typ
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildDistributor/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildDistributor/Types.typ
+$(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/AccessAndSecurity/UserRoleSystem/Role.role

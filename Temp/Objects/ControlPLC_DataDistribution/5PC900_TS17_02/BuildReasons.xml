@@ -4,44 +4,56 @@
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\arconfig.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashwac.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitprogcyclic.c.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json._markerfile">
-    <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\mappviewfiles.bin_binding_trans._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\5pc900_ts17_02\mappview\laserpagemain.binding" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
+    <BuildReason>Newest Prerequisite 2025-09-05 20:01:34 newer than target 2025-09-05 19:57:41.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\laserpagemain._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\hmi\pages\buildpagemain\builddistribution.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
+    <BuildReason>Newest Prerequisite 2025-09-05 20:01:34 newer than target 2025-09-05 19:57:30.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitprogcyclic.c.o">
+    <BuildReason>Newest Prerequisite 2025-09-05 20:01:34 newer than target 2025-09-05 19:57:30.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
+    <BuildReason>Newest Prerequisite 2025-09-05 20:01:34 newer than target 2025-09-05 19:57:33.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\mappview\hmi\pages\buildpagemain\builddistribution.content" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json._markerfile">
+    <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\validatebindings._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\5pc900_ts17_02\mappview\laserpagemain.binding" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json">
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\duplicatebindingsfinder._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\validatebindings._markerfile" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\_bur_pvdef.c.o">
@@ -52,10 +64,6 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\_bur_pvdef.st.o">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
@@ -64,12 +72,32 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\laserpagemain.page._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\laserpagemain._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappview\laserpagemain.scss.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\contents\mappview\laserpagemain._markerfile" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp.br">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\hmi.json">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\laserpagemain.page._markerfile" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\brease_core.css">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\pages\mappview\laserpagemain.scss.css" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo.br">
@@ -86,27 +114,11 @@
   <Rule ID=".mappView_IntegrationBuild">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iomap.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sysconf.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asfw.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashwd.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
-</BuildReason>
-  </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\controlplc_datadistribution\5pc900_ts17_02\transfer.lst">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sysconf.br" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp.br" differs.
 </BuildReason>
   </Rule>
 </BuildReasons>

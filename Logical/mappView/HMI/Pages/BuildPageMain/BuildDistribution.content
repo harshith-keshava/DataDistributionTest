@@ -11,15 +11,15 @@
       <Widgets>
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton22" top="163" left="139" width="220" height="60" zIndex="0" text="START DISTRIBUTION" wordWrap="true" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton23" top="243" left="139" width="220" height="60" zIndex="1" text="ABORT DISTRIBUTION" />
-        <Widget xsi:type="widgets.VF.StatusLEDGreen" id="Led1" top="3" left="139" zIndex="2" text="Distributor Connected" />
-        <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen2" top="43" left="139" zIndex="3" text="Laser Racks Connected" />
+        <Widget xsi:type="widgets.VF.StatusLEDGreen" id="Led1" top="3" left="139" zIndex="2" text="Build Distributor Connected" />
+        <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen2" top="43" left="139" zIndex="3" text="Racks Online" />
         <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen3" top="83" left="139" zIndex="4" text="Build Info Valid" />
         <Widget xsi:type="widgets.VF.StatusLEDGreen" id="StatusLEDGreen4" top="123" left="139" zIndex="5" text="Distribution Active" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton24" top="323" left="139" width="220" height="60" zIndex="6" text="START BUILD PRINTING" />
         <Widget xsi:type="widgets.brease.MomentaryPushButton" id="MomentaryPushButton27" top="3" left="-1" width="121" height="37" zIndex="7" text="REBOOT" borderColor="rgba(255, 0, 0, 1)" textColor="rgba(255, 0, 0, 1)" />
       </Widgets>
     </Widget>
-    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox50" top="0" left="440" width="440" height="164" zIndex="2" text="All Layers Completed" backColor="rgba(128, 255, 128, 1)" enable="false" visible="false">
+    <Widget xsi:type="widgets.brease.GroupBox" id="GroupBox50" top="20" left="20" width="440" height="164" zIndex="2" text="All Layers Completed" backColor="rgba(128, 255, 128, 1)" enable="false" visible="false">
       <Widgets>
         <Widget xsi:type="widgets.brease.Label" id="Label204" top="17" left="98" width="282" zIndex="0" text="All layer files check was completed" bold="true" enable="false" visible="false" />
         <Widget xsi:type="widgets.brease.PushButton" id="PushButton27" top="63" left="159" width="122" height="60" zIndex="1" text="OK" visible="false" />

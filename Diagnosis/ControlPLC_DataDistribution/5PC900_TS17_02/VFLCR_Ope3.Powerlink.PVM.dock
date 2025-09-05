@@ -1,10 +1,15 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=VFLCR_Ope3 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                       IO                              LaserIO_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                      di                            LaserIODI_typ    0 "                                                               *"    1   24    1    0    0    1         
+               LaserControlFiles_Deleted                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                      ai                            LaserIOAI_typ    0 "                                                               *"    1   24    1    0    0    1         
+                             FPGAVersion                                     UINT    0 "                                                               3"    2    6    1   10    0    0         
+                         SoftwareVersion                                     UINT    0 "                                                               3"    2    6    1   10    0    0         
                                       ao                            LaserIOAO_typ    0 "                                                               *"    1   24    1    0    0    1         
-                     SelectedBuildLayout                                    UDINT    4 "                                                               5"    2    7    1   10    0    0         
+                     SelectedBuildLayout                                    UDINT    3 "                                                               0"    2    7    1   10    0    0         
                                     task                       LaserOperation_typ    0 "                                                               *"    0   24    1    0    1    1         
                               parameters              LaserOperationParameter_typ    0 "                                                               *"    1   24    1    0    0    1         
                      openLayerParameters             VFLCROpenLayerParameters_typ    0 "                                                               *"    2   24    1    0    0    1         
-                     selectedBuildLayout                                    UDINT    0 "                                                               5"    3    7    1   10    0    0         
+                     selectedBuildLayout                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         

@@ -30,7 +30,7 @@
 					<File Name="465670144.eventbinding" Size="9768" HashValue="FCED5FAB7E82B7F3D8444B6D0688DA7A" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="577050500.binding" Size="17967" HashValue="46657098AF5538BC1E44C22A0AA452CF" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="593551072.eventbinding" Size="32602" HashValue="06194A41F371906A23E6FEBCCBA0BB65" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="Config.mappviewcfg" Size="1472" HashValue="06499F6CFF606B1779C1E911853D4953" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="Config.mappviewcfg" Size="1672" HashValue="5F01F62649D920897C09EADB21AFB726" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="HMI.vis" Size="1721" HashValue="2A444ABA0E367E38F70439EB31568595" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="SfMP148_snippetLabel.snippet" Size="1155" HashValue="7F2EA58C5F88566104A56B22235AB3D8" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="SfMP148_snippetMessagebox.snippet" Size="252" HashValue="8DEAD82228AD56BADAF74E141772F832" ProjectDependent="1" IgnoreDifference="0" />
@@ -980,7 +980,7 @@
 							<File Name="BuRTheme1.min.css" Size="309406" HashValue="38D82DEE4BB84F7575D7CA5DEAB1478C" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="294571" HashValue="E91A949B938E50168061F37F2D5CE7DE" ProjectDependent="1" IgnoreDifference="0" />
 							<File Name="brease.js" Size="1455400" HashValue="62CF7E4E2A3C80D20E4166D81FF8B8AA" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="brease_core.min.css" Size="527655" HashValue="AEDFFF6892BAACFE54FD86C09DBC41A5" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="brease_core.min.css" Size="527655" HashValue="8DDFDC3B9C3DD4A9E3502ACC2E644AE6" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 						<Folder Name="system" ProjectDependent="1" IgnoreDifference="0">
 							<Folder Name="brease" ProjectDependent="1" IgnoreDifference="0">
@@ -2723,7 +2723,7 @@
 						</Folder>
 						<Folder Name="mappView" ProjectDependent="1" IgnoreDifference="0">
 							<File Name="AlarmsPage.html" Size="2589" HashValue="E626896A40610147B16E5CDE1B8B8F47" ProjectDependent="1" IgnoreDifference="0" />
-							<File Name="LaserPageMain.html" Size="5073" HashValue="F2C55794FF1EFAFBDF5BFA7BD5678EC1" ProjectDependent="1" IgnoreDifference="0" />
+							<File Name="LaserPageMain.html" Size="5070" HashValue="5884651867D9E094D69763721A428AAE" ProjectDependent="1" IgnoreDifference="0" />
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
@@ -2804,7 +2804,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="33038" HashValue="2C870C94376FA7E4DA6F1E1848AD4EE9" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="33084" HashValue="926C716E48729CBDFB0319BD8C74857C" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.uanodeset" Size="82243" HashValue="0ACBFD2CC6F798E744AD06E6F537F33F" ProjectDependent="1" IgnoreDifference="0" />
@@ -4732,14 +4732,14 @@
 			</Folder>
 		</Class>
 		<Memory Name="SYSROM">
-			<Module Name="::$$sysconf" Type="129" Size="72412" Modified="2025-09-05 14:13:35" Version="4.92" ProjectDependent="1" Reboot="1" />
-			<Module Name="::TCData" Type="209" Size="7192520" Modified="2025-09-05 14:06:47" Version="1.00" ProjectDependent="1" />
-			<Module Name="::arconfig" Type="132" Size="108496" Modified="2025-09-05 14:13:35" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::asfw" Type="67" Size="1086476" Modified="2025-09-05 14:13:36" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::ashwd" Type="67" Size="2888" Modified="2025-09-05 14:13:36" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::$$sysconf" Type="129" Size="72936" Modified="2025-09-05 15:57:40" Version="4.92" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="7192520" Modified="2025-09-05 15:57:45" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="110108" Modified="2025-09-05 15:57:39" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="1086476" Modified="2025-09-05 15:57:40" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="2888" Modified="2025-09-05 15:57:40" Version="1.00" ProjectDependent="1" Reboot="1" />
 		</Memory>
 		<Memory Name="USERROM">
-			<Module Name="::AlarmWrap" Type="17" Size="19044" Modified="2025-09-05 14:06:43" Version="1.00" ProjectDependent="1" />
+			<Module Name="::AlarmWrap" Type="17" Size="19044" Modified="2025-09-05 15:57:35" Version="1.00" ProjectDependent="1" />
 			<Module Name="::ArCert" Type="18" Size="25320" Modified="2022-11-08 15:05:49" Version="4.92" ProjectDependent="1" />
 			<Module Name="::ArCoal" Type="18" Size="62536" Modified="2022-03-29 16:01:34" Version="5.19" ProjectDependent="1" />
 			<Module Name="::ArEventLog" Type="18" Size="17388" Modified="2022-11-08 15:04:53" Version="4.92" ProjectDependent="1" />
@@ -4769,13 +4769,13 @@
 			<Module Name="::AsXml" Type="18" Size="28608" Modified="2022-11-08 15:15:26" Version="4.92" ProjectDependent="1" />
 			<Module Name="::AsZip" Type="18" Size="6928" Modified="2022-11-08 15:15:25" Version="4.92" ProjectDependent="1" />
 			<Module Name="::AxisLib" Type="18" Size="5988" Modified="2022-12-13 14:54:00" Version="4.02" ProjectDependent="1" />
-			<Module Name="::BuildDistr" Type="17" Size="22216" Modified="2025-09-05 14:06:45" Version="1.00" ProjectDependent="1" />
+			<Module Name="::BuildDistr" Type="17" Size="22216" Modified="2025-09-05 15:57:37" Version="1.00" ProjectDependent="1" />
 			<Module Name="::CoTrace" Type="18" Size="268952" Modified="2022-05-02 11:44:43" Version="5.19" ProjectDependent="1" />
-			<Module Name="::DataDis" Type="17" Size="20732" Modified="2025-09-05 14:06:43" Version="1.00" ProjectDependent="1" />
+			<Module Name="::DataDis" Type="17" Size="20732" Modified="2025-09-05 15:57:35" Version="1.00" ProjectDependent="1" />
 			<Module Name="::DataObj" Type="18" Size="13788" Modified="2022-11-08 15:16:09" Version="4.92" ProjectDependent="1" />
-			<Module Name="::FWRules" Type="136" Size="456" Modified="2025-09-05 11:30:14" Version="1.00" ProjectDependent="1" />
+			<Module Name="::FWRules" Type="136" Size="456" Modified="2025-09-05 15:57:42" Version="1.00" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="39196" Modified="2022-11-08 15:17:19" Version="4.92" ProjectDependent="1" />
-			<Module Name="::FirstInitP" Type="17" Size="20880" Modified="2025-09-05 14:13:31" Version="1.00" ProjectDependent="1" />
+			<Module Name="::FirstInitP" Type="17" Size="20876" Modified="2025-09-05 16:01:49" Version="1.00" ProjectDependent="1" />
 			<Module Name="::IotMqtt" Type="18" Size="1098412" Modified="2021-03-17 12:31:45" Version="4.73" ProjectDependent="1" />
 			<Module Name="::LoopConR" Type="18" Size="139040" Modified="2020-10-19 07:37:21" Version="4.102" ProjectDependent="1" />
 			<Module Name="::LoopCont" Type="18" Size="90616" Modified="2017-03-22 08:19:36" Version="3.10" ProjectDependent="1" />
@@ -4783,9 +4783,9 @@
 			<Module Name="::MTData" Type="18" Size="7600" Modified="2022-05-02 06:51:54" Version="5.19" ProjectDependent="1" />
 			<Module Name="::MTLookUp" Type="18" Size="6908" Modified="2022-05-02 06:51:47" Version="5.19" ProjectDependent="1" />
 			<Module Name="::MTTypes" Type="18" Size="364" Modified="2017-02-21 11:08:12" Version="1.034" ProjectDependent="1" />
-			<Module Name="::MachineAC" Type="136" Size="5504" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
-			<Module Name="::MachineAH" Type="136" Size="1284" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
-			<Module Name="::MachineCG" Type="136" Size="12408" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
+			<Module Name="::MachineAC" Type="136" Size="5504" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
+			<Module Name="::MachineAH" Type="136" Size="1284" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
+			<Module Name="::MachineCG" Type="136" Size="12408" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
 			<Module Name="::McAcpAx" Type="18" Size="7089868" Modified="2022-09-20 06:47:19" Version="5.193" ProjectDependent="1" Reboot="1" />
 			<Module Name="::McAcpDrv" Type="18" Size="278780" Modified="2022-09-20 07:21:35" Version="5.193" ProjectDependent="1" Reboot="1" />
 			<Module Name="::McAxGroup" Type="18" Size="169548" Modified="2022-09-20 06:48:14" Version="5.193" ProjectDependent="1" />
@@ -4805,50 +4805,51 @@
 			<Module Name="::MpSfDomMgr" Type="18" Size="875172" Modified="2022-04-26 18:15:42" Version="5.19" ProjectDependent="1" />
 			<Module Name="::MpUserX" Type="18" Size="1527312" Modified="2022-05-03 03:31:16" Version="5.19" ProjectDependent="1" Reboot="1" />
 			<Module Name="::MpWebXs" Type="18" Size="393424" Modified="2022-05-03 00:12:09" Version="5.19" ProjectDependent="1" />
+			<Module Name="::OpcUaSrv" Type="136" Size="1052" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
 			<Module Name="::Piper" Type="18" Size="5620" Modified="2022-07-14 09:53:00" Version="0.018" ProjectDependent="1" />
-			<Module Name="::PrintJobMa" Type="17" Size="16600" Modified="2025-09-05 14:06:45" Version="1.00" ProjectDependent="1" />
-			<Module Name="::RM_BuildIn" Type="17" Size="12816" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
-			<Module Name="::RM_PrintPr" Type="17" Size="10476" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Recipies" Type="136" Size="6896" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
-			<Module Name="::RevInfo" Type="17" Size="4096" Modified="2025-09-05 14:13:31" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Role" Type="136" Size="4848" Modified="2025-09-05 11:30:14" Version="1.00" ProjectDependent="1" />
-			<Module Name="::SFCControl" Type="17" Size="9120" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
-			<Module Name="::Settings" Type="136" Size="612" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
-			<Module Name="::Settings_1" Type="136" Size="1068" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
+			<Module Name="::PrintJobMa" Type="17" Size="16600" Modified="2025-09-05 15:57:37" Version="1.00" ProjectDependent="1" />
+			<Module Name="::RM_BuildIn" Type="17" Size="12816" Modified="2025-09-05 15:57:36" Version="1.00" ProjectDependent="1" />
+			<Module Name="::RM_PrintPr" Type="17" Size="10476" Modified="2025-09-05 15:57:36" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Recipies" Type="136" Size="6896" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
+			<Module Name="::RevInfo" Type="17" Size="4104" Modified="2025-09-05 16:01:49" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="4848" Modified="2025-09-05 15:57:42" Version="1.00" ProjectDependent="1" />
+			<Module Name="::SFCControl" Type="17" Size="9120" Modified="2025-09-05 15:57:35" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Settings" Type="136" Size="612" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
+			<Module Name="::Settings_1" Type="136" Size="1068" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
 			<Module Name="::SfDomDrv" Type="18" Size="112884" Modified="2022-04-26 18:01:12" Version="5.19" ProjectDependent="1" />
 			<Module Name="::SfDomVis" Type="18" Size="903024" Modified="2022-04-26 18:10:47" Version="5.19" ProjectDependent="1" />
 			<Module Name="::SfDomain" Type="18" Size="454324" Modified="2022-04-26 18:21:31" Version="5.19" ProjectDependent="1" />
-			<Module Name="::TC" Type="136" Size="788" Modified="2025-09-05 11:30:14" Version="1.00" ProjectDependent="1" />
-			<Module Name="::TCLang" Type="136" Size="632" Modified="2025-09-05 11:30:14" Version="1.00" ProjectDependent="1" />
-			<Module Name="::ToolBox" Type="18" Size="2572" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
-			<Module Name="::User" Type="136" Size="7696" Modified="2025-09-05 11:30:14" Version="1.00" ProjectDependent="1" />
-			<Module Name="::UserLogin" Type="136" Size="1036" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
-			<Module Name="::UserMgmt" Type="136" Size="11060" Modified="2025-09-05 11:30:14" Version="5.19" ProjectDependent="1" />
+			<Module Name="::TC" Type="136" Size="788" Modified="2025-09-05 15:57:42" Version="1.00" ProjectDependent="1" />
+			<Module Name="::TCLang" Type="136" Size="632" Modified="2025-09-05 15:57:42" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ToolBox" Type="18" Size="2572" Modified="2025-09-05 15:57:38" Version="1.00" ProjectDependent="1" />
+			<Module Name="::User" Type="136" Size="7696" Modified="2025-09-05 15:57:42" Version="1.00" ProjectDependent="1" />
+			<Module Name="::UserLogin" Type="136" Size="1036" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
+			<Module Name="::UserMgmt" Type="136" Size="11060" Modified="2025-09-05 15:57:42" Version="5.19" ProjectDependent="1" />
 			<Module Name="::UtMgr" Type="18" Size="23636" Modified="2019-01-24 20:10:00" Version="2.01" ProjectDependent="1" />
 			<Module Name="::UtWs" Type="18" Size="19664" Modified="2019-01-24 20:10:01" Version="2.01" ProjectDependent="1" />
-			<Module Name="::VFAlarms" Type="18" Size="9504" Modified="2025-09-05 14:06:44" Version="0.01" ProjectDependent="1" />
-			<Module Name="::VFLCR_Ope0" Type="17" Size="13976" Modified="2025-09-05 14:08:50" Version="1.00" ProjectDependent="1" />
-			<Module Name="::VFLCR_Ope1" Type="17" Size="13976" Modified="2025-09-05 14:08:51" Version="1.00" ProjectDependent="1" />
-			<Module Name="::VFLCR_Ope2" Type="17" Size="13976" Modified="2025-09-05 14:08:51" Version="1.00" ProjectDependent="1" />
-			<Module Name="::VFLCR_Ope3" Type="17" Size="13976" Modified="2025-09-05 14:08:51" Version="1.00" ProjectDependent="1" />
-			<Module Name="::VFLCR_Syst" Type="17" Size="12608" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
-			<Module Name="::VFValve" Type="18" Size="3032" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
-			<Module Name="::VF_COMMON" Type="18" Size="6320" Modified="2025-09-05 14:06:44" Version="2.01" ProjectDependent="1" />
-			<Module Name="::VF_PARSER" Type="18" Size="11460" Modified="2025-09-05 14:06:45" Version="1.00" ProjectDependent="1" />
-			<Module Name="::ashwac" Type="136" Size="212" Modified="2025-09-05 11:30:13" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VFAlarms" Type="18" Size="9504" Modified="2025-09-05 15:57:38" Version="0.01" ProjectDependent="1" />
+			<Module Name="::VFLCR_Ope0" Type="17" Size="13976" Modified="2025-09-05 15:57:33" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VFLCR_Ope1" Type="17" Size="13976" Modified="2025-09-05 15:57:34" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VFLCR_Ope2" Type="17" Size="13976" Modified="2025-09-05 15:57:34" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VFLCR_Ope3" Type="17" Size="13976" Modified="2025-09-05 15:57:34" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VFLCR_Syst" Type="17" Size="12608" Modified="2025-09-05 15:57:36" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VFValve" Type="18" Size="3032" Modified="2025-09-05 15:57:38" Version="1.00" ProjectDependent="1" />
+			<Module Name="::VF_COMMON" Type="18" Size="6320" Modified="2025-09-05 15:57:38" Version="2.01" ProjectDependent="1" />
+			<Module Name="::VF_PARSER" Type="18" Size="11460" Modified="2025-09-05 15:57:39" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="212" Modified="2025-09-05 15:57:42" Version="1.00" ProjectDependent="1" />
 			<Module Name="::astime" Type="18" Size="24304" Modified="2022-11-08 15:14:29" Version="4.92" ProjectDependent="1" />
 			<Module Name="::atn" Type="18" Size="422608" Modified="2022-12-07 19:54:36" Version="0.046" ProjectDependent="1" />
-			<Module Name="::atnDriver" Type="17" Size="2992" Modified="2025-09-05 14:06:43" Version="1.00" ProjectDependent="1" />
+			<Module Name="::atnDriver" Type="17" Size="2992" Modified="2025-09-05 15:57:35" Version="1.00" ProjectDependent="1" />
 			<Module Name="::bodyguard" Type="18" Size="2216" Modified="2022-07-08 14:56:26" Version="0.03" ProjectDependent="1" />
 			<Module Name="::brsystem" Type="18" Size="23912" Modified="2022-11-08 15:15:33" Version="4.92" ProjectDependent="1" />
 			<Module Name="::csvfilelib" Type="18" Size="37828" Modified="2023-07-06 22:04:29" Version="1.022" ProjectDependent="1" />
 			<Module Name="::databuffer" Type="18" Size="2260" Modified="2022-07-08 15:07:00" Version="0.011" ProjectDependent="1" />
-			<Module Name="::errorAPI" Type="18" Size="4032" Modified="2025-09-05 14:06:44" Version="1.00" ProjectDependent="1" />
+			<Module Name="::errorAPI" Type="18" Size="4032" Modified="2025-09-05 15:57:36" Version="1.00" ProjectDependent="1" />
 			<Module Name="::finder" Type="18" Size="383668" Modified="2022-10-14 08:41:16" Version="0.001" ProjectDependent="1" />
 			<Module Name="::fiowrap" Type="18" Size="8444" Modified="2022-07-08 18:15:17" Version="0.091" ProjectDependent="1" />
 			<Module Name="::hammers" Type="18" Size="5112" Modified="2022-07-08 15:06:12" Version="0.08" ProjectDependent="1" />
 			<Module Name="::hmitools" Type="18" Size="13048" Modified="2022-07-08 17:58:52" Version="0.114" ProjectDependent="1" />
-			<Module Name="::iomap" Type="50" Size="67832" Modified="2025-09-05 14:13:36" Version="1.00" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="70632" Modified="2025-09-05 15:57:41" Version="1.00" ProjectDependent="1" />
 			<Module Name="::logthat" Type="18" Size="3396" Modified="2022-07-08 16:28:48" Version="0.051" ProjectDependent="1" />
 			<Module Name="::mCoWebSc" Type="136" Size="948" Modified="2022-03-30 08:31:31" Version="5.19" ProjectDependent="1" />
 			<Module Name="::messagebox" Type="18" Size="4840" Modified="2022-07-08 18:30:20" Version="0.013" ProjectDependent="1" />

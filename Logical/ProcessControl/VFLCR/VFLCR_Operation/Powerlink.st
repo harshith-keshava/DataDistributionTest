@@ -95,16 +95,6 @@ ACTION WriteOutputIO:
 		ELSE
 			IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 9);
 		END_IF
-		
-
-	ELSE
-		
-	// -----------------
-	// Shut down racks that are not in use.
-	// -----------------
-	ShutDownIO;
-		
-	END_IF
 	
 END_ACTION
 

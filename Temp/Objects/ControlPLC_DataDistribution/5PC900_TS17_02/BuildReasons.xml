@@ -4,48 +4,36 @@
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitprogcyclic.c.o">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitprogcyclic.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\arconfig.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\main.st.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json._markerfile">
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
@@ -56,616 +44,40 @@
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\cyclic.sfc.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\_bur_pvdef.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\main.st.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\a.out">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\cyclic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\main.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0\vflcr_ope0.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1\vflcr_ope1.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2\vflcr_ope2.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3\vflcr_ope3.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap\alarmwrap.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver\atndriver.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr\builddistr.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashwac.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\datadis.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\cyclic.c.o">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\setalarm.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol\sfccontrol.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\ackalarm.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddalarm.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddsnippet.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope0.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\init.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\exit.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\_bur_pvdef.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddreactionbyname.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddreactionbyseverity.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope1.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi\errorapi.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\errorapi.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst\vflcr_syst.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddaggregationbyname.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\printjobma.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddaggregationbyseverity.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin\rm_buildin.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfsetdefaultmapping.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr\rm_printpr.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfcreatealarmsfaster.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope2.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddlogoriginmapping.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vflookuporigin.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfaddnonescalatedreactionbyname.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_ope3.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarmedge.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarmpersistent.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\edgearray.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\allzero.c.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\alarmwrap.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_ton_scanmicrosec.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_pulsetrain.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_pulsetrainhires.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\atndriver.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve\vfvalvebasic.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfparselaserstatefile.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_converttohex.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_isvalueinrange.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfparsefixedeventfile.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_mpalarmxtoggle.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata\tcdata.imx">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\aszip.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\fileio.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\runtime.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asguard.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asiodiag.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sys_lib.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asbrstr.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_controlvalue.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\standard.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asarlog.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\areventlog.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashttp.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asbrwstr.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\astcp.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\astime.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfsmrconnect.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asxml.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asbrmath.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\brsystem.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asiotime.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asarcfg.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asarsdm.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_monitorvalue.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asieccon.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\arcert.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashw.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\aseth.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vflcrconnect.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common_filenamewithtimestamp.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vfsmrfilesetup.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms\vfalarms.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfalarms.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve\vfvalve.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\helperfunctions.st.o">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vfvalve.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sfccontrol.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\a.out">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox\toolbox.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\toolbox.br">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\revinfo.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vflcr_syst.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common\vf_common.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_common.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser\vf_parser.ox">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\vf_parser.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_buildin.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\rm_printpr.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\builddistr.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iomap.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sysconf.br">
-    <BuildReason>ExternalCommand line differs.
 </BuildReason>
   </Rule>
   <Rule ID=".mappView_Build">
@@ -674,72 +86,20 @@
   <Rule ID=".mappView_IntegrationBuild">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
+</BuildReason>
+  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\asfw.br">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\ashwd.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tclang.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tc.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\role.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\user.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\fwrules.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machineac.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machineah.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\machinecg.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\recipies.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\usermgmt.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\userlogin.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\settings_1.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\settings.br">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata\tcdata.s18d">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata\tcdata.imx" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\tcdata\tcdata.s18d" differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\controlplc_datadistribution\hardware.hw" differs.
 </BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">

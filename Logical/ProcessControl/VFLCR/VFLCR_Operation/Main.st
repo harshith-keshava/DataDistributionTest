@@ -159,6 +159,8 @@ PROGRAM _CYCLIC
 	
 	task.internal.newCommand := FALSE;
 
+	// Handle output IO
+	WriteOutputIO;
 	
 END_PROGRAM
 

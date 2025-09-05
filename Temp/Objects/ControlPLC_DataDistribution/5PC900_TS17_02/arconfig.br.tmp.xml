@@ -9,7 +9,7 @@
     <Parameter ID="SimulationModeOpcUa" Value="on" />
     <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
   </Module>
-  <Module ID="CPU" Hardware="5PC900.TS17-00" />
+  <Module ID="CPU" Hardware="5PC900.TS17-02" />
   <Module ID="SY3" Hardware="5AC901.BX02-00">
     <Parameter ID="HardwareModuleName" Value="5AC901.BX02-00" />
   </Module>
@@ -2476,6 +2476,35 @@
   </Module>
   <Module ID="SL1.IF1.ST54.OD" Hardware="epl_any" />
   <Module ID="SL1.IO" Hardware="5LS182.6-2">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="Supervision" Value="on" />
+  </Module>
+  <Module ID="SS2" Hardware="5AC901.IPLK-00">
+    <Parameter ID="HardwareModuleName" Value="5AC901.IPLK-00" />
+    <Parameter ID="RemMemMaxSize" Value="262144" />
+  </Module>
+  <Module ID="SS2.IF1" Hardware="5AC901.IPLK-00">
+    <Parameter ID="Operation" Value="EPL-V2" />
+    <Parameter ID="MtuSize" Value="300" Type="UDINT" />
+  </Module>
+  <Module ID="SS2.IF1.PLK" Hardware="EPL-V2">
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="MuxPrescaler" Value="8" Type="UDINT" />
+    <Parameter ID="Mode" Value="MN" />
+    <Parameter ID="NodeID" Value="240" Type="DINT" />
+    <Parameter ID="AsyncTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="TransferOnlyActive" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="off" />
+    <Parameter ID="BasicEthernetInServiceMode" Value="off" />
+    <Parameter ID="EplNatSubnet" Value="192.168.102.0" />
+    <Parameter ID="EPL_LossFrameTolerance" Value="-1" Type="DINT" />
+    <Parameter ID="ApplSwDate" Value="0" Type="UDINT" />
+    <Parameter ID="ApplSwTime" Value="0" Type="UDINT" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="SS2.IO" Hardware="5AC901.IPLK-00">
     <Parameter ID="FunctionModel" Value="Standard" />
     <Parameter ID="Supervision" Value="on" />
   </Module>

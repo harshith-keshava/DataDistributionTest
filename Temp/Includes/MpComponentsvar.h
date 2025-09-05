@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757086158_3_
-#define _BUR_1757086158_3_
+#ifndef _BUR_1757095590_1_
+#define _BUR_1757095590_1_
 
 #include <bur/plctypes.h>
 
@@ -60,5 +60,5 @@ __asm__(".ascii \"iecfile \\\"Temp/Includes/AS_TempDecl/ControlPLC_DataDistribut
 __asm__(".previous");
 
 
-#endif /* _BUR_1757086158_3_ */
+#endif /* _BUR_1757095590_1_ */
 

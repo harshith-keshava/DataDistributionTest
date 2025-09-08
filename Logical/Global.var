@@ -1,3 +1,4 @@
 VAR
 	gMachineState : Machine_typ;
+	gConfiguration : GlobalConfiguration_typ;
 END_VAR

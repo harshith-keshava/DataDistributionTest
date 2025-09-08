@@ -5,6 +5,11 @@ PROGRAM _INIT
 	
 	// Restore current print job management information from permanent memory.
 	gPrintJobManagement.currentState := Nonvolatile;
+	
+	gConfiguration.machineIdentity.factoryName := 'VulcanOne';
+	gConfiguration.machineIdentity.machineName := 'DP13';
+	gConfiguration.machineIdentity.machineNumber := 13;
+	gPrintJobManagement.currentState.currentLayerNumber := 0;
 
 	
 	

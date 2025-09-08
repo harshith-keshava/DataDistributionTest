@@ -1,9 +1,0 @@
-{
-  global:
-    allZero;
-    EdgePosArray;
-    EdgeNegArray;
-    EdgeArray;
-  local:
-    *;
- };

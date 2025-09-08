@@ -10,7 +10,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Temp\Includes\AS_TempDecl\ControlPLC_DataDistribution\GlobalComponents\MpComponents.var"
     LogicalPath="MpComponents.var"
     Type="File"
-    LastWriteTime="134015691688545009"
+    LastWriteTime="134018195196600218"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Global.typ"
@@ -585,7 +585,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\RevInfo\RevInfo.var"
     LogicalPath="Infrastructure.RevInfo.RevInfo.var"
     Type="File"
-    LastWriteTime="134015789557760277"
+    LastWriteTime="134018195131414752"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\IEC.prg"
@@ -5823,7 +5823,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\Hardware.hw"
     LogicalPath="ControlPLC_DataDistribution.Hardware.hw"
     Type="File"
-    LastWriteTime="134015771041556281"
+    LastWriteTime="134018187492697692"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\Hardware.hwl"
@@ -5835,7 +5835,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.pkg"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02"
     Type="Cpu"
-    LastWriteTime="134015767291728312" />
+    LastWriteTime="134018188559322150" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\Cpu.sw"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.Cpu.sw"
@@ -6058,7 +6058,7 @@
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappView\Package.pkg"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.mappView"
     Type="Package"
-    LastWriteTime="134015720474581792" />
+    LastWriteTime="134018194746668617" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappView\Config.mappviewcfg"
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.mappView.Config.mappviewcfg"
@@ -6082,12 +6082,6 @@
     LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.mappView.LaserPageMain.binding"
     Type="File"
     LastWriteTime="134015760533982877"
-    Private="false" />
-  <Object
-    Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappView\OpcUaServer.uaserver"
-    LogicalPath="ControlPLC_DataDistribution.5PC900_TS17_02.mappView.OpcUaServer.uaserver"
-    Type="File"
-    LastWriteTime="134015720474581792"
     Private="false" />
   <Object
     Path="C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappCockpit\Package.pkg"

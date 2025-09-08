@@ -293,71 +293,9 @@ ACTION AbortDistributionSubSequence:
 			IF (gOpcData_FromBuildPC.DistributionAborted) THEN
 				
 				gOpcData_ToBuildPC.RequestAbortDistribution := FALSE;
-				task.status.sequence := SEQUENCE_PUBLISH_ABORT_DATA;
+				task.status.sequence := SEQUENCE_DONE;
 			END_IF
 			
-		SEQUENCE_PUBLISH_ABORT_DATA:
-		
-			task.status.statusMessage := 'Publishing Data';
-			//EventDistributionAborted ==========================
-			gDataCollection.EventDistributionAborted.lot_id							:= '';
-			gDataCollection.EventDistributionAborted.lot_id							:= gPrintJobManagement.currentState.baseFilename;
-			gDataCollection.EventDistributionAborted.layer							:= gPrintJobManagement.currentState.currentLayerNumber;
-			VF_COMMON_ISO8601_UtcTimeString(gDataCollection.EventDistributionAborted.timestamp);
-			gDataCollection.EventDistributionAborted.seq							:= gDataCollection.EventDistributionAborted.timestamp;
-			
-			gDataCollection.EventDistributionAborted.tags[0].name					:= 'FileName';
-			gDataCollection.EventDistributionAborted.tags[0].value					:= gPrintJobManagement.currentState.baseFilename;
-			gDataCollection.EventDistributionAborted.tags[0].type					:= 'STRING';
-			gDataCollection.EventDistributionAborted.tags[1].name					:= 'Author';
-			gDataCollection.EventDistributionAborted.tags[1].value					:= gPrintJobManagement.currentState.author;
-			gDataCollection.EventDistributionAborted.tags[1].type					:= 'STRING';
-			gDataCollection.EventDistributionAborted.tags[2].name					:= 'BuildInstanceID';
-			gDataCollection.EventDistributionAborted.tags[2].value					:= gPrintJobManagement.currentState.buildInstanceID;
-			gDataCollection.EventDistributionAborted.tags[2].type					:= 'STRING';
-			gDataCollection.EventDistributionAborted.tags[3].name					:= 'BuildLayout';
-			gDataCollection.EventDistributionAborted.tags[3].value					:= UDINT_TO_STRING(gPrintJobManagement.currentState.buildLayout);
-			gDataCollection.EventDistributionAborted.tags[3].type					:= 'INT32'; // MLDS team handles it as a INT
-			gDataCollection.EventDistributionAborted.tags[4].name					:= 'BuildPlatformName';
-			gDataCollection.EventDistributionAborted.tags[4].value					:= gPrintJobManagement.currentState.buildPlatformName;
-			gDataCollection.EventDistributionAborted.tags[4].type					:= 'STRING';
-			gDataCollection.EventDistributionAborted.tags[5].name					:= 'ConfigEditorVersion';
-			gDataCollection.EventDistributionAborted.tags[5].value					:= gPrintJobManagement.currentState.configEditorVersion;
-			gDataCollection.EventDistributionAborted.tags[5].type					:= 'STRING';
-			gDataCollection.EventDistributionAborted.tags[6].name					:= 'CurrentLayerNumber';
-			gDataCollection.EventDistributionAborted.tags[6].value					:= UINT_TO_STRING(gPrintJobManagement.currentState.currentLayerNumber);
-			gDataCollection.EventDistributionAborted.tags[6].type					:= 'INT32'; // MLDS team handles it as a INT
-			gDataCollection.EventDistributionAborted.tags[7].name					:= 'Description';
-			gDataCollection.EventDistributionAborted.tags[7].value					:= gPrintJobManagement.currentState.description;
-			gDataCollection.EventDistributionAborted.tags[7].type					:= 'STRING';
-			gDataCollection.EventDistributionAborted.tags[8].name					:= 'NumberOfLayers';
-			gDataCollection.EventDistributionAborted.tags[8].value					:= UINT_TO_STRING(gPrintJobManagement.currentState.numberOfLayers);
-			gDataCollection.EventDistributionAborted.tags[8].type					:= 'INT32'; // MLDS team handles it as a INT
-			gDataCollection.EventDistributionAborted.tags[9].name					:= 'PrintNumber';
-			gDataCollection.EventDistributionAborted.tags[9].value					:= UINT_TO_STRING(gPrintJobManagement.currentState.printNumber);
-			gDataCollection.EventDistributionAborted.tags[9].type					:= 'INT32'; // MLDS team handles it as a INT
-			gDataCollection.EventDistributionAborted.tags[10].name					:= 'PrintOwner';
-			gDataCollection.EventDistributionAborted.tags[10].value					:= gPrintJobManagement.currentState.printOwner;
-			gDataCollection.EventDistributionAborted.tags[10].type					:= 'STRING';
-
-			IF stateAllTrue(gMQTTApi.status.MQTTEnabled,FALSE) THEN
-				IF stateAllFalse(gMQTTApi.inhibit.MQTTPublishInhibit,FALSE) AND NOT(gMQTTApi.status.bufferIsFull ) THEN
-					
-					gDataCollectionQueue[gMQTTApi.status.bufferTail].VariableListToPublish := 'EventDistributionAborted';
-					gDataCollectionQueue[gMQTTApi.status.bufferTail].VariableDataToPublish := gDataCollection;		
-					gDataCollectionQueue[gMQTTApi.status.bufferTail].TopicForVariableList := 'vf1.0/Printers/';
-					gDataCollectionQueue[gMQTTApi.status.bufferTail].TopicForVariableList := CONCAT(gDataCollectionQueue[gMQTTApi.status.bufferTail].TopicForVariableList,gConfiguration.machineIdentity.machineName);
-					gDataCollectionQueue[gMQTTApi.status.bufferTail].TopicForVariableList := CONCAT(gDataCollectionQueue[gMQTTApi.status.bufferTail].TopicForVariableList,'/PrinterPLC/EVENT/EventDistributionAborted');
-					gMQTTApi.status.bufferTail := (gMQTTApi.status.bufferTail + 1) MOD MAX_PUBLISH_STACK_SIZE;
-					IF gMQTTApi.status.bufferTail = gMQTTApi.status.bufferHead THEN
-						gMQTTApi.status.bufferIsFull := TRUE;
-					END_IF
-				ELSE	
-					vfAlarmEdgeSnippet(gMQTTApi.alarms.components,gMQTTApi.alarms.MQTT_SW_DATA_PUBLISH_ERR_AL1403, 'EventDistributionAborted');
-				END_IF
-			END_IF
-		
-			task.status.sequence := SEQUENCE_DONE;
 		
 	END_CASE
 	

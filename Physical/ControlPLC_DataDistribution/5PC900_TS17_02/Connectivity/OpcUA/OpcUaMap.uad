@@ -34,6 +34,20 @@
           <Variable Name="DistributionActive" />
           <Variable Name="PrintNumber" />
           <Variable Name="BuildLayout" />
+          <Variable Name="Heartbeat" />
+          <Variable Name="BuildInfoReady" />
+          <Variable Name="DistributionPaused" />
+          <Variable Name="DistributionAborted" />
+          <Variable Name="StatusMessage" />
+        </Variable>
+        <Variable Name="gOpcData_ToBuildPC">
+          <Variable Name="Heartbeat" />
+          <Variable Name="RequestBuildInfo" />
+          <Variable Name="RequestStartDistribution" />
+          <Variable Name="RequestPauseDistribution" />
+          <Variable Name="RequestAbortDistribution" />
+          <Variable Name="PrintingActive" />
+          <Variable Name="CurrentPrintLayer" />
         </Variable>
       </GlobalVariables>
       <Task Name="VFLCR_Syst">

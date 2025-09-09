@@ -19,3 +19,5 @@ $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RecipeManagement.ty
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildInformation.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
 $(AS_PROJECT_PATH)/Logical/Automation/Types.typ
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

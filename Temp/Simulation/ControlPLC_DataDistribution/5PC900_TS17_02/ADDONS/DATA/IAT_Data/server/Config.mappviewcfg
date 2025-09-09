@@ -8,13 +8,16 @@
       </Selector>
       <Property ID="MaxClientConnections" Value="4" />
       <Property ID="MaxBRClientConnections" Value="0" />
-      <Selector ID="AuthenticationMode" Value="AuthenticationModeRbac" />
+      <Selector ID="AuthenticationMode" Value="AuthenticationModeMpUserX" />
       <Group ID="TcpProxyConf">
         <Selector ID="InsecureMode" Value="1" />
       </Group>
       <Group ID="DiagnosticPageConf">
-        <Selector ID="DiagnosticPageSelection" Value="1" />
+        <Selector ID="DiagnosticPageSelection" Value="2">
+          <Property ID="DiagnosticPageRole[1]" Value="Everyone" />
+        </Selector>
       </Group>
+      <Selector ID="Deployment" Value="DeploymentPLC" />
     </Group>
     <Group ID="OpcUa">
       <Property ID="ServerConnectionTimeout" Value="5000" />
@@ -34,6 +37,7 @@
       <Property ID="defaultVisu" Value="HMI" />
       <Group ID="Widget">
         <Selector ID="renderingPolicy" Value="1" />
+        <Selector ID="securityPolicy" Value="1" />
       </Group>
     </Group>
   </Element>

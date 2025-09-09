@@ -68,7 +68,7 @@
 					<File Name="577050500.binding" Size="17967" HashValue="46657098AF5538BC1E44C22A0AA452CF" ProjectDependent="1"/>
 					<File Name="593551072.eventbinding" Size="32602" HashValue="06194A41F371906A23E6FEBCCBA0BB65" ProjectDependent="1"/>
 					<File Name="__SystemVariables.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1"/>
-					<File Name="Config.mappviewcfg" Size="1472" HashValue="06499F6CFF606B1779C1E911853D4953" ProjectDependent="1"/>
+					<File Name="Config.mappviewcfg" Size="1672" HashValue="5F01F62649D920897C09EADB21AFB726" ProjectDependent="1"/>
 					<File Name="HMI.vis" Size="1721" HashValue="2A444ABA0E367E38F70439EB31568595" ProjectDependent="1"/>
 					<File Name="mappSAFETY.lic" Size="173" HashValue="D175EE30D39516D4CD461DB4E23917AB" ProjectDependent="1"/>
 					<File Name="mappSAFETY.vis" Size="3410" HashValue="F708063FC8764F4A030CBE666C775A68" ProjectDependent="1"/>
@@ -1023,7 +1023,7 @@
 						</Folder>
 						<Folder Name="release" ProjectDependent="1">
 							<File Name="brease.js" Size="1455400" HashValue="62CF7E4E2A3C80D20E4166D81FF8B8AA" ProjectDependent="1"/>
-							<File Name="brease_core.min.css" Size="527655" HashValue="AEDFFF6892BAACFE54FD86C09DBC41A5" ProjectDependent="1"/>
+							<File Name="brease_core.min.css" Size="527655" HashValue="8DDFDC3B9C3DD4A9E3502ACC2E644AE6" ProjectDependent="1"/>
 							<File Name="BuRTheme1.min.css" Size="309406" HashValue="38D82DEE4BB84F7575D7CA5DEAB1478C" ProjectDependent="1"/>
 							<File Name="SfMP14_BuRThemeFlat1.min.css" Size="294571" HashValue="E91A949B938E50168061F37F2D5CE7DE" ProjectDependent="1"/>
 						</Folder>
@@ -2764,7 +2764,7 @@
 						</Folder>
 						<Folder Name="mappView" ProjectDependent="1">
 							<File Name="AlarmsPage.html" Size="2589" HashValue="E626896A40610147B16E5CDE1B8B8F47" ProjectDependent="1"/>
-							<File Name="LaserPageMain.html" Size="5107" HashValue="100ADFF8930EAF58D4A75EF8D1AA8BA7" ProjectDependent="1"/>
+							<File Name="LaserPageMain.html" Size="5070" HashValue="5884651867D9E094D69763721A428AAE" ProjectDependent="1"/>
 						</Folder>
 					</Folder>
 					<Folder Name="server" ProjectDependent="1">
@@ -2853,7 +2853,7 @@
 							<File Name="exportSerieGroup.js" Size="2637" HashValue="1ECFD24F813E853FEE498BF6DA5B9306" ProjectDependent="1"/>
 							<File Name="fileProvider.js" Size="14970" HashValue="80CB9D335760F945F76C98D0A6341F1E" ProjectDependent="1"/>
 							<File Name="mappCockpitConfig.js" Size="3119" HashValue="BB45D637A69ABDE0D46A4B27C1E2D9D2" ProjectDependent="1"/>
-							<File Name="mappCockpitConfigSettings.json" Size="88" HashValue="5181DF0247E7034A80C43EF7474E3B54" ProjectDependent="1"/>
+							<File Name="mappCockpitConfigSettings.json" Size="88" HashValue="E37CE66B587B2CC6EF878AD0C26A83ED" ProjectDependent="1"/>
 							<File Name="numericHelper.js" Size="2953" HashValue="0E7D939E99F8BEF128EA14374382985F" ProjectDependent="1"/>
 							<File Name="seriesHelper.js" Size="16452" HashValue="D43189C057E4CB79DD14A873C7FA0920" ProjectDependent="1"/>
 							<File Name="zipContainer.js" Size="10101" HashValue="8948EF0938C515F6F8F472D7E9FED126" ProjectDependent="1"/>
@@ -4653,7 +4653,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="33038" HashValue="F96075386A4260B4C57A19AB8C08412D" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="33809" HashValue="DF7877FA108BAD9B0D7ED4F3CB5AE7E5" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IsGroup="1">
 						<File Name="plc.uanodeset" Size="82243" HashValue="0ACBFD2CC6F798E744AD06E6F537F33F" ProjectDependent="1"/>
@@ -4668,11 +4668,11 @@
 			</Folder>
 		</Class>
 		<Class Name="Os">
-			<File Name="arsimproxy.dll" Size="214016" HashValue="0911934B908DCB2BC9A4A5EBA3337027" ProjectDependent="1"/>
+			<File Name="arsimproxy.dll" Size="214016" HashValue="97D309B0E89D5A704BE441724129919B" ProjectDependent="1"/>
 			<File Name="InaFrms.dll" Size="98304" HashValue="BCBB8AB4B7168E2BB538CF86E5B742A3" ProjectDependent="1"/>
 			<Folder Name="Brm" ProjectDependent="1">
-				<File Name="@cfAR000.br" Size="4168" HashValue="4FBF3A5A38B49A926617DB7C28A4308F" ProjectDependent="1"/>
-				<File Name="@sbAR000.br" Size="2068" HashValue="774AB549BB0C768F7C098233E462CCC1" ProjectDependent="1"/>
+				<File Name="@cfAR000.br" Size="4168" HashValue="19B11D8B06EE228A3CB878A218139F19" ProjectDependent="1"/>
+				<File Name="@sbAR000.br" Size="2068" HashValue="56891811C25D3D556C7F49A974750E8A" ProjectDependent="1"/>
 			</Folder>
 			<Folder Name="System" ProjectDependent="1">
 				<Folder Name="BASE" ProjectDependent="1">
@@ -4681,18 +4681,18 @@
 						<File Name="ArUnitSys.br" Size="476228" HashValue="CE3F96837303ADA6203FFEA1FCD8E225" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="HWD" ProjectDependent="1">
-						<File Name="AsHwdhw_upl.xml.gz" Size="16682" HashValue="D703E86D189C67A3FBB0DC9182612D8F" ProjectDependent="1"/>
-						<File Name="AsHwdSimulation.xml.gz" Size="12860" HashValue="6589A634FFDF73DD969089C8C6373ADD" ProjectDependent="1"/>
+						<File Name="AsHwdhw_upl.xml.gz" Size="16682" HashValue="ED52312E16FF0C9F351E16168489ABCA" ProjectDependent="1"/>
+						<File Name="AsHwdSimulation.xml.gz" Size="12860" HashValue="B2F59BB50B317E3478E15DBAEED5F8A7" ProjectDependent="1"/>
 					</Folder>
 				</Folder>
 				<Folder Name="SDM" ProjectDependent="1">
-					<File Name="arsdm.tar.gz" Size="506490" HashValue="06A58E6D5AC1E44EDA0F8173412F9DD1" ProjectDependent="1"/>
+					<File Name="arsdm.tar.gz" Size="506488" HashValue="90E5C028B31F42CE3CE1837934921580" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="TOC" ProjectDependent="1">
 					<File Name="ftoc.xml" Size="670" HashValue="1188893D6CCACD93535968A53F0C30D1" ProjectDependent="1"/>
 				</Folder>
 				<Folder Name="WEBSERV" ProjectDependent="1">
-					<File Name="ArWebServ.br" Size="108916" HashValue="C9ABC8154AB340DB91935AA76FDB6597" ProjectDependent="1"/>
+					<File Name="ArWebServ.br" Size="108916" HashValue="0EEA1C27CF24F8C085CB7BD459784A04" ProjectDependent="1"/>
 				</Folder>
 			</Folder>
 		</Class>

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757345927_1_
-#define _BUR_1757345927_1_
+#ifndef _BUR_1757427031_1_
+#define _BUR_1757427031_1_
 
 #include <bur/plctypes.h>
 
@@ -24,6 +24,16 @@ typedef struct Machine_typ
 	enum MACHINE_OPERATIONS_ENUM _previousOperation;
 } Machine_typ;
 
+typedef struct PM_MachineIdentity_typ
+{	plcstring factoryName[41];
+	unsigned short machineNumber;
+	plcstring machineName[41];
+} PM_MachineIdentity_typ;
+
+typedef struct GlobalConfiguration_typ
+{	struct PM_MachineIdentity_typ machineIdentity;
+} GlobalConfiguration_typ;
+
 
 
 
@@ -39,5 +49,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.typ\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1757345927_1_ */
+#endif /* _BUR_1757427031_1_ */
 

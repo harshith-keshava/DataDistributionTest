@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757345927_2_
-#define _BUR_1757345927_2_
+#ifndef _BUR_1757427031_2_
+#define _BUR_1757427031_2_
 
 #include <bur/plctypes.h>
 
@@ -13,6 +13,7 @@
 
 
 /* Variables */
+_GLOBAL struct GlobalConfiguration_typ gConfiguration;
 _GLOBAL struct Machine_typ gMachineState;
 
 
@@ -29,5 +30,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Global.var\\\" scope \\\"global\\\"\\n\"")
 __asm__(".previous");
 
 
-#endif /* _BUR_1757345927_2_ */
+#endif /* _BUR_1757427031_2_ */
 

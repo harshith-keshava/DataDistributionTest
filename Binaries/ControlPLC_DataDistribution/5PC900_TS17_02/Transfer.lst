@@ -217,6 +217,7 @@
   <Operation Download="VF_PARSER.br" Memory="UserROM"/>
   <Operation Download="IotMqtt.br" Memory="UserROM"/>
   <Operation Download="SfDomVis.br" Memory="UserROM"/>
+  <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
   <Operation Download="FirstInitP.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope0.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope1.br" Memory="UserROM"/>

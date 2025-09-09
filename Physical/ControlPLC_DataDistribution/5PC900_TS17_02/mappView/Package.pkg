@@ -6,5 +6,6 @@
     <Object Type="File">Visualizat.vis</Object>
     <Object Type="File">AlarmsPage.binding</Object>
     <Object Type="File">LaserPageMain.binding</Object>
+    <Object Type="File">OpcUaServer.uaserver</Object>
   </Objects>
 </Package>

@@ -20,9 +20,9 @@ PROGRAM _INIT
 	gBuildInformation.platform_name := '600x600';
  
 	
-	//subscribePLCOpen( gSystemRecipeApi.commands.loadBuildInfo, 'Build Info', task.commands.load, task.internal.load );
+	subscribePLCOpen( gSystemRecipeApi.commands.loadBuildInfo, 'Build Info', task.commands.load, task.internal.load );
 	
-	//task.internal.loaded := gSystemRecipeApi.events.buildInfoLoaded;
+	task.internal.loaded := gSystemRecipeApi.events.buildInfoLoaded;
 	
 	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'File Not Loaded', task.internal.notLoaded);
 	

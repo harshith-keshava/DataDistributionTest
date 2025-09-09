@@ -8,6 +8,8 @@ $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RM_BuildInfo/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RM_BuildInfo/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.typ
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RecipeManagement.var
+$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/RecipeManagement.typ
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/BuildInformation.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var

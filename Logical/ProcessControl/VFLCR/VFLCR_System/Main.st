@@ -75,7 +75,7 @@ PROGRAM _CYCLIC
 	task.internal.atnSystemCommand();
 	task.internal.atnSystemCommand.Execute := FALSE;
 	
-	//task.status.racksOnline := stateAllTrue(gVFLCR.status.rackOnline, FALSE);
+	task.status.racksOnline := stateAllTrue(gVFLCR.status.rackOnline, FALSE);
 
 	
 END_PROGRAM

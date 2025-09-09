@@ -9,6 +9,8 @@ PROGRAM _INIT
 	subscribePLCOpen(gVFLCR.command.abortLayer, moduleName, task.command.abortLayer, task.internal.PLCOpenAbortLayer);
 	
 	subscribePLCOpen(gVFLCR.command.deleteLaserControlFiles, moduleName, task.command.deleteLaserControlFiles, task.internal.PLCOpenDeleteLaserControlFiles);
+	
+	registerStateBool(gVFLCR.status.rackOnline, moduleName, task.status.commsOK);
 
 	task.internal.abortLayerTON.PT := T#5s;
 	task.internal.deleteLaserControlFilesTON.PT := T#5s;
@@ -141,6 +143,9 @@ PROGRAM _CYCLIC
 		
 	END_IF //rackIgnored
 	
+	// Reset statuses/internals that aren't checked every cycle
+	task.status.commsOK := TRUE;
+	task.status.commsError := FALSE;
 	
 	task.internal.abortLayerTON.IN := IO.do.AbortLayer AND NOT IO.di.LayerAborted;
 	task.internal.abortLayerTON();

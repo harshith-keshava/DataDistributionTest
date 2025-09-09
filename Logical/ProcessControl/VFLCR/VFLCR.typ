@@ -12,6 +12,7 @@ TYPE
 		deleteLaserControlFiles : STRING[80];
 	END_STRUCT;
 	VFLCRApiStatus_typ : 	STRUCT 
+		rackOnline : STRING[80];
 		layerOpen : STRING[80];
 	END_STRUCT;
 	VFLCRApiIO_typ : 	STRUCT 

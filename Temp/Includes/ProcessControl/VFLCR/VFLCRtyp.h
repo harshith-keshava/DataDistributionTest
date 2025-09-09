@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757437426_8_
-#define _BUR_1757437426_8_
+#ifndef _BUR_1757447704_8_
+#define _BUR_1757447704_8_
 
 #include <bur/plctypes.h>
 
@@ -14,7 +14,8 @@ typedef struct VFLCRApiCommand_typ
 } VFLCRApiCommand_typ;
 
 typedef struct VFLCRApiStatus_typ
-{	plcstring layerOpen[81];
+{	plcstring rackOnline[81];
+	plcstring layerOpen[81];
 } VFLCRApiStatus_typ;
 
 typedef struct VFLCRApiIO_typ
@@ -115,5 +116,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/VFLCR/VFLCR.typ\\\" scope \
 __asm__(".previous");
 
 
-#endif /* _BUR_1757437426_8_ */
+#endif /* _BUR_1757447704_8_ */
 

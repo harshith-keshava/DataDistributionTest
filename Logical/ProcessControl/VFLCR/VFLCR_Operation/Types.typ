@@ -21,6 +21,8 @@ TYPE
 		ready : BOOL;
 		state : STATE;
 		sequence : SEQUENCE;
+		commsOK : BOOL;
+		commsError : BOOL;
 		layerOpen : BOOL;
 	END_STRUCT;
 	LaserOperationInternal_typ : 	STRUCT 

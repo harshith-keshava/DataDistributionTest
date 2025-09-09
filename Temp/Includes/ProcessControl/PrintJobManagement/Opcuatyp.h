@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757437426_11_
-#define _BUR_1757437426_11_
+#ifndef _BUR_1757447704_11_
+#define _BUR_1757447704_11_
 
 #include <bur/plctypes.h>
 
@@ -45,5 +45,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/PrintJobManagement/Opcua.ty
 __asm__(".previous");
 
 
-#endif /* _BUR_1757437426_11_ */
+#endif /* _BUR_1757447704_11_ */
 

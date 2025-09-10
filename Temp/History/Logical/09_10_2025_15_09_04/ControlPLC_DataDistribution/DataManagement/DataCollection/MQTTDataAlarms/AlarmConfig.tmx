@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tmx version="1.4">
+  <header creationtool="B&amp;R Automation Studio" creationtoolversion="4.2" datatype="unknown" segtype="sentence" adminlang="en" srclang="en" o-tmf="TMX">
+    <note>Change the namespace to define where this text module should be located within the logical structure of your texts</note>
+    <prop type="x-BR-TS:Namespace">IAT/DataCollection</prop>
+  </header>
+  <body>
+    <tu tuid="MQTT_SW_CONNECTION_ERROR_AL1400.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Check Server and MQTT Configuration parameters.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_CONNECTION_ERROR_AL1400.Message">
+      <tuv xml:lang="en">
+        <seg>MQTT Broker Connection Error. </seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_PUBLISH_INHIBIT_AL1401.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>First Active Condition : {&amp;inhibitReason}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_PUBLISH_INHIBIT_AL1401.Message">
+      <tuv xml:lang="en">
+        <seg>MQTT Publish inhibited</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_JSON_READ_ERROR_AL1402.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Verify PLC data structure to be published</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_JSON_READ_ERROR_AL1402.Message">
+      <tuv xml:lang="en">
+        <seg>Failed to convert PLC data into JSON structure.Cannot send data to Data collection server</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_DATA_PUBLISH_ERR_AL1403.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>{&amp;MQTT_SW_DATA_PUBLISH_ERR_AL1403.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_DATA_PUBLISH_ERR_AL1403.Message">
+      <tuv xml:lang="en">
+        <seg>Failed to send JSON structure to Data collection server. MQTT block error/Not Enabled or Que is Full</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_DATA_SUBS_ERR_AL1405.Message">
+      <tuv xml:lang="en">
+        <seg>MQTT Subcribe error</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_DATA_SUBS_ERR_AL1405.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Verify Broker connection is stable</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_JSON_WRITE_ERR_AL1406.Message">
+      <tuv xml:lang="en">
+        <seg>Failed to write MQTT data to PLC data structure. Topic- {&amp;MQTT_SW_JSON_WRITE_ERR_AL1406.snippet}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_JSON_WRITE_ERR_AL1406.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>Most likely missmatch of MQTT message sent with PLC structure</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_PRINT_NOT_ALLOWED_AL1407.Message">
+      <tuv xml:lang="en">
+        <seg>MQTT must be enabled and connected to start a layer</seg>
+      </tuv>
+    </tu>
+    <tu tuid="MQTT_SW_PRINT_NOT_ALLOWED_AL1407.AdditionalInfo">
+      <tuv xml:lang="en">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

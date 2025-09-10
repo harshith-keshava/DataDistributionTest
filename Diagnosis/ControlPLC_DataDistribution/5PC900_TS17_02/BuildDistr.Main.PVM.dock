@@ -1,8 +1,18 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=BuildDistr 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                     gOpcData_FromBuildPC               OPCUAData_FROM_BuildPC_typ    0 "                                                               *"    0   24    1    0    0    1         
-                               Heartbeat                                     UINT    0 "                                                            3844"    1    6    1   10    0    0         
+                               Heartbeat                                     UINT    0 "                                                             127"    1    6    1   10    0    0         
+                          BuildInfoReady                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                      DistributionActive                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
                                     task                       localInterface_typ    0 "                                                               *"    0   24    1    0    1    1         
                                  command                localInterfaceCommand_typ    0 "                                                               *"    1   24    1    0    0    1         
                      distributeLayerFile                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                  status                 localInterfaceStatus_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                   state                                     DINT    0 "                                                               4"    2    4    1   10    0    0 e,0,STAT
+
+                                sequence                                     DINT    0 "                                                               3"    2    4    1   10    0    0 e,0,SEQU
+
+                                internal               localInterfaceInternal_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                 PLCOpen                         AtnPlcOpenStatus    0 "                                                               *"    2   24    1    0    0    1         
+                                  status                                     DINT    0 "                                                           65535"    3    4    1   10    0    0         

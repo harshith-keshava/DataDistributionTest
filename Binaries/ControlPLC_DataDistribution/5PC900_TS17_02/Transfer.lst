@@ -30,7 +30,6 @@
   <Operation Delete="VF_COMMON.br"/>
   <Operation Delete="Finder.br"/>
   <Operation Delete="McPureVAx.br"/>
-  <Operation Delete="VFAlarms.br"/>
   <Operation Delete="omjson.br"/>
   <Operation Delete="McProgInt.br"/>
   <Operation Delete="McPathGen.br"/>
@@ -40,6 +39,7 @@
   <Operation Delete="SfDomain.br"/>
   <Operation Delete="mvLoader.br"/>
   <Operation Delete="MpRecipe.br"/>
+  <Operation Delete="VFAlarms.br"/>
   <Operation Delete="piper.br"/>
   <Operation Delete="messagebox.br"/>
   <Operation Delete="hammers.br"/>
@@ -176,7 +176,9 @@
   <Operation Download="hammers.br" Memory="UserROM"/>
   <Operation Download="messagebox.br" Memory="UserROM"/>
   <Operation Download="piper.br" Memory="UserROM"/>
+  <Operation Download="VFAlarms.br" Memory="UserROM"/>
   <Operation Download="MpRecipe.br" Memory="UserROM"/>
+  <Operation Download="ToolBox.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
   <Operation Download="FWRules.br" Memory="UserROM"/>
@@ -203,9 +205,7 @@
   <Operation Download="McPathGen.br" Memory="UserROM"/>
   <Operation Download="McProgInt.br" Memory="UserROM"/>
   <Operation Download="omjson.br" Memory="UserROM"/>
-  <Operation Download="VFAlarms.br" Memory="UserROM"/>
   <Operation Download="McPureVAx.br" Memory="UserROM"/>
-  <Operation Download="ToolBox.br" Memory="UserROM"/>
   <Operation Download="Finder.br" Memory="UserROM"/>
   <Operation Download="VF_COMMON.br" Memory="UserROM"/>
   <Operation Download="VFValve.br" Memory="UserROM"/>

@@ -1,0 +1,38 @@
+VAR
+	COOLING_DELAY_MS : UDINT;
+	COOLING_DELAY_S : UDINT;
+	newBuildJob : BOOL := 0;
+	Configuration : Configuration_typ;
+	task : localInterface_typ;
+	logSeqChange_0 : logStateChange;
+	logStateChange_0 : logStateChange;
+	messageHandler : MessageHandler_typ;
+	dCurrentState : REFERENCE TO PrintJobManagementState_typ;
+END_VAR
+VAR CONSTANT
+	MIN_DOMS_THICKNESS : REAL := 300;
+	MAX_DOMS_THICKNESS : REAL := 330;
+END_VAR
+VAR
+	layerNumberValue_string : STRING[8] := '';
+	layerNumber_string : STRING[8] := '';
+	Name : STRING[80];
+	auditEventString : STRING[255];
+	layerFilename_GCode : STRING[255];
+	test : test_typ;
+	IMAGING_TIME : REAL;
+	command : AtnPLCOpen;
+	msRemainingInPrint : UDINT;
+	elapsedTimeStructure : TIMEStructure;
+	slash : STRING[5] := '/';
+	currentLayerString : STRING[10];
+	totalLayersString : STRING[10];
+	stringAt : STRING[5];
+	stringLayer : STRING[10];
+	stringHours : STRING[10];
+	stringSpace : STRING[10];
+	stringMinutes : STRING[10];
+	avgIterations : UINT;
+	layerIteration : UINT;
+	countLayersForAvg : UINT;
+END_VAR

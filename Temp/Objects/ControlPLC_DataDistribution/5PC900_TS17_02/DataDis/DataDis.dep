@@ -17,10 +17,12 @@ $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmX.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmX.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
-$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Variables.var
-$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Types.typ
+$(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Types.typ
 $(AS_PROJECT_PATH)/Logical/Automation/DataDistributionSFC/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.fun
+$(AS_PROJECT_PATH)/Logical/DataManagement/BuildInformation.typ
+$(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/Automation/Types.typ

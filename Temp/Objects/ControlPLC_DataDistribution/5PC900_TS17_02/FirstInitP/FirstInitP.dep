@@ -4,6 +4,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/persist/Persist.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/LogThat.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/vartools/VarTools.fun
+$(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/csvfilelib/CSVFileLib.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/hmitools/HMITools.var
@@ -11,7 +12,6 @@ $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/persist/Persist.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/tcpcomm/TCPComm.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/vartools/VarTools.var
-$(AS_PROJECT_PATH)/Logical/ProcessControl/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/Cpu.per
 $(AS_PROJECT_PATH)/Logical/Infrastructure/Infrastructure.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/persist/Persist.typ

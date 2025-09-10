@@ -1,0 +1,16 @@
+VAR
+	sendEveryMessage : BOOL;
+	MQTT_MESSAGE_SEQUENCE : USINT;
+	state1 : USINT;
+	state2 : USINT;
+	runTest : BOOL;
+	packetType : STRING[20]; (*DATA,STATUS,EVENT*)
+	variableList : STRING[80];
+	messageWait : TON;
+	startSendingEveryMessage : BOOL;
+	messageIndex : USINT;
+	sendTenAlarms : BOOL;
+	sendTwentyAlarms : BOOL;
+	sendContinuousMessages : BOOL;
+	MESSAGE_STRESS_TEST_DELAY : TIME := T#100ms;
+END_VAR

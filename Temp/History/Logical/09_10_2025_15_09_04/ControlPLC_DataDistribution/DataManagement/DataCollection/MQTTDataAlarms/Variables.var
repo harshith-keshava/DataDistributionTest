@@ -1,0 +1,4 @@
+VAR
+	testAlarm : BOOL;
+	testSnippet : STRING[80];
+END_VAR

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757533629_12_
-#define _BUR_1757533629_12_
+#ifndef _BUR_1757691508_12_
+#define _BUR_1757691508_12_
 
 #include <bur/plctypes.h>
 
@@ -13,6 +13,10 @@ typedef struct SystemRecipeCommand_typ
 	plcstring loadPrintProcessConfigFile[81];
 } SystemRecipeCommand_typ;
 
+typedef struct SystemRecipeStatus_typ
+{	plcbit buildInfoLoaded;
+} SystemRecipeStatus_typ;
+
 typedef struct SystemRecipeEvents_typ
 {	plcstring buildInfoLoaded[81];
 	plcstring customScanLoaded[81];
@@ -20,6 +24,7 @@ typedef struct SystemRecipeEvents_typ
 
 typedef struct SystemRecipeManager_typ
 {	struct SystemRecipeCommand_typ commands;
+	struct SystemRecipeStatus_typ status;
 	struct SystemRecipeEvents_typ events;
 } SystemRecipeManager_typ;
 
@@ -38,5 +43,5 @@ __asm__(".ascii \"iecfile \\\"Logical/DataManagement/RecipeManagement.typ\\\" sc
 __asm__(".previous");
 
 
-#endif /* _BUR_1757533629_12_ */
+#endif /* _BUR_1757691508_12_ */
 

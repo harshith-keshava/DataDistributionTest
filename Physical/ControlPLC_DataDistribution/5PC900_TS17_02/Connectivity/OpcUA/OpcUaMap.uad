@@ -49,6 +49,13 @@
           <Variable Name="PrintingActive" />
           <Variable Name="CurrentPrintLayer" />
         </Variable>
+        <Variable Name="gConfiguration">
+          <Variable Name="machineIdentity">
+            <Variable Name="factoryName" />
+            <Variable Name="machineNumber" />
+            <Variable Name="machineName" />
+          </Variable>
+        </Variable>
       </GlobalVariables>
       <Task Name="VFLCR_Syst">
         <Variable Name="task">

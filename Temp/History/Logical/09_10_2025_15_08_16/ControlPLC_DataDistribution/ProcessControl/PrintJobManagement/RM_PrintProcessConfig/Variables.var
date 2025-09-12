@@ -1,9 +1,0 @@
-VAR
-	fbRecipeXml_PrintProcessConfig : MpRecipeXml := (0);
-	fbRecipeRegPar_PrintConfig : MpRecipeRegPar := (0);
-	task : PrintProcessConfigTask_typ;
-	HMIInputs : HMIInputs_typ;
-	ii : USINT; (*Loop Var*)
-	jj : USINT; (*Loop Var*)
-	gPrintProcessConfigRecipe : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\ControlPLC_Gen3_Rev0\Gen3\ControlPLC_Gen3_Rev0\Physical\ControlPLC_Gen3\5PC900_TS17_02\mappServices\Recipies.mprecipexml" #2"1" #3"1"*)
-END_VAR

@@ -1,4 +1,0 @@
-VAR
-	alarmData : vfAlarms_Data_typ;
-	alarmLink : REFERENCE TO MpComIdentType;
-END_VAR

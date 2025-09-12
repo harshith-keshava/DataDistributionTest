@@ -4,8 +4,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/AS/standard/standard.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/ToolBox/ToolBox.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrStr/AsBrStr.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/LogThat.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
-$(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/VFAlarms.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
@@ -22,6 +21,6 @@ $(AS_PROJECT_PATH)/Logical/DataManagement/RecipeManagement.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/RecipeManagement.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/BuildInformation.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
-$(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/Automation/Types.typ
 $(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

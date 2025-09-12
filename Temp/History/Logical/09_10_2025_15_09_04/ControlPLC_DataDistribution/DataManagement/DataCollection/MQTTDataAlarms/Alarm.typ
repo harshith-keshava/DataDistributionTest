@@ -1,6 +1,0 @@
-
-TYPE
-	Alarms_typ : 	STRUCT 
-		MACHINE_ALARM : STRING[80];
-	END_STRUCT;
-END_TYPE

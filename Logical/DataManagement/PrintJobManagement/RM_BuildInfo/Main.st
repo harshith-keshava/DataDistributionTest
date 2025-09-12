@@ -60,11 +60,11 @@ PROGRAM _CYCLIC
 			//task.internal.save.status := ERR_INHIBITED;
 			//task.internal.load.status := ERR_INHIBITED;
 
-			vfAlarmEdgeSnippet( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.Inhibited_AL0022, 'Load and Save commanded at the same time');
+			//vfAlarmEdgeSnippet( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.Inhibited_AL0022, 'Load and Save commanded at the same time');
 			
 		ELSIF task.commands.load THEN
 		
-			task.commands.load := FALSE;
+			
 			task.status.state:= STATE_LOAD;
 			
 		ELSIF task.commands.save THEN 	
@@ -97,10 +97,11 @@ PROGRAM _CYCLIC
 			IF fbRecipeXml_BuildInfo.CommandDone THEN
 				
 				task.internal.notLoaded := FALSE;
+			    gSystemRecipeApi.status.buildInfoLoaded := TRUE;
 				task.status.state := STATE_READY;
 				task.internal.load.status := ERR_OK;
-				
-				executeCommand( task.internal.loaded );
+				task.commands.load := FALSE;
+				//executeCommand( task.internal.loaded );
 
 			ELSIF fbRecipeXml_BuildInfo.Error THEN
 				
@@ -110,8 +111,8 @@ PROGRAM _CYCLIC
 				task.internal.load.status := PRINT_JOB_MANAGER_ERROR;
 				task.status.state := STATE_READY;
 
-				brsitoa(fbRecipeXml_BuildInfo.StatusID, ADR(gPrintJobManagement.alarms.FileLoadError_AL0023.snippet));
-				vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileLoadError_AL0023);
+				//brsitoa(fbRecipeXml_BuildInfo.StatusID, ADR(gPrintJobManagement.alarms.FileLoadError_AL0023.snippet));
+				//vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileLoadError_AL0023);
 				
 			END_IF
 			
@@ -130,14 +131,14 @@ PROGRAM _CYCLIC
 				task.internal.save.status := PRINT_JOB_MANAGER_ERROR;
 				task.status.state := STATE_READY;
 				
-				brsitoa( fbRecipeXml_BuildInfo.StatusID, ADR(gPrintJobManagement.alarms.FileSaveError_AL0024.snippet));
-				vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileSaveError_AL0024);
+				//brsitoa( fbRecipeXml_BuildInfo.StatusID, ADR(gPrintJobManagement.alarms.FileSaveError_AL0024.snippet));
+				//vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileSaveError_AL0024);
 								
 			END_IF
 
 	END_CASE	
 
-
+	
 	fbRecipeXml_BuildInfo.MpLink := ADR(gBuildInfoRecipe);
 	fbRecipeXml_BuildInfo.Enable := TRUE;
 	fbRecipeXml_BuildInfo.DeviceName := ADR('CurrentBuild');

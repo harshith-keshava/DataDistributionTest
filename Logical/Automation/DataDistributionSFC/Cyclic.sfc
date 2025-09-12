@@ -30,7 +30,7 @@ END_TRANSITION
 (* @SFCNOJUMP := 'CheckBuildInfo' *)
 STEP CheckBuildInfo:
 (* @LANGUAGE := 'st' *)
-IF stateAllTrue( gPrintJobManagement.status.buildInfoValid, TRUE ) THEN
+IF gPrintJobManagement.currentState.buildInfoCheckValid THEN
 	StepDone := TRUE;
 ELSE
 	//TODO:	task.status.statusID := SOME_ERROR;

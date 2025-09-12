@@ -1,20 +1,3 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=BuildDistr 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                                    task                       localInterface_typ    0 "                                                               *"    0   24    1    0    1    1         
-                                  status                 localInterfaceStatus_typ    0 "                                                               *"    1   24    1    0    0    1         
-                                sequence                                     DINT    0 "                                                               3"    2    4    1   10    0    0 e,0,SEQU
-
-                           statusMessage                              STRING[255]    0 "                                    'Start Distribution busy...'"    2    9  256    1    0    0         
-                                internal               localInterfaceInternal_typ    0 "                                                               *"    1   24    1    0    0    1         
-                       atnPLCOpenCommand                               AtnPLCOpen    0 "                                                               *"    2   24    1    0    0    1         
-                                 Execute                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-              lastDistributedLayerNumber                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
-                      gOpcData_ToBuildPC                 OPCUAData_TO_BuildPC_typ    0 "                                                               *"    0   24    1    0    0    1         
-                RequestStartDistribution                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                       CurrentPrintLayer                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
-                    gOpcData_FromBuildPC               OPCUAData_FROM_BuildPC_typ    0 "                                                               *"    0   24    1    0    0    1         
-                          BuildInfoReady                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                     gPrintJobManagement                   PrintJobManagement_typ    0 "                                                               *"    0   24    1    0    0    1         
-                            currentState              PrintJobManagementState_typ    0 "                                                               *"    1   24    1    0    0    1         
-                  newBuildInfoFileLoaded                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         

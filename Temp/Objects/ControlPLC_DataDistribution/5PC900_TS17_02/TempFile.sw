@@ -5,14 +5,13 @@
     <Task Name="FirstInitP" Source="Infrastructure.FirstInitProg.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="VFLCR_HMI" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </TaskClass>
-  <TaskClass Name="Cyclic#2">
-    <Task Name="VFLCR_Ope0" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Description="                  " Language="IEC" Debugging="true" />
-    <Task Name="VFLCR_Ope1" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Description="                  " Language="IEC" Debugging="true" />
-    <Task Name="VFLCR_Ope2" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Description="                  " Language="IEC" Debugging="true" />
-    <Task Name="VFLCR_Ope3" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Description="                  " Language="IEC" Debugging="true" />
-    <Task Name="AlarmWrap" Source="Infrastructure.Alarms.AlarmWrap.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+  <TaskClass Name="Cyclic#2" />
+  <TaskClass Name="Cyclic#3">
+    <Task Name="VFLCR_Ope0" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="VFLCR_Ope1" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="VFLCR_Ope2" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="VFLCR_Ope3" Source="ProcessControl.VFLCR.VFLCR_Operation.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
-  <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="atnDriver" Source="Infrastructure.atnDriver.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="DataDis" Source="Automation.DataDistributionSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
@@ -47,6 +46,7 @@
     <BinaryObject Name="arcoal" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arflatprv" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arsvcreg" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="OpcUaSrv" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary" />

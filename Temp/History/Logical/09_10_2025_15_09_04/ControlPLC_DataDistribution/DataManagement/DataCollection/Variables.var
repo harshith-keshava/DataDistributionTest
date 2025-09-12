@@ -1,3 +1,0 @@
-VAR
-	gMQTTApi : MQTTSystem_typ;
-END_VAR

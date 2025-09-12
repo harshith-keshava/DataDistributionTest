@@ -57,7 +57,7 @@ PROGRAM _CYCLIC
 	///////////////////////////////////////////////////////////////
 	// Handle any canceled commands that are required
 	///////////////////////////////////////////////////////////////
-	IF task.internal.newCommand THEN
+	
 			
 	
 		
@@ -141,7 +141,6 @@ PROGRAM _CYCLIC
 			
 		END_IF
 		
-	END_IF //rackIgnored
 	
 	// Reset statuses/internals that aren't checked every cycle
 	task.status.commsOK := TRUE;

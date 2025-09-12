@@ -12,7 +12,6 @@
   <Operation Delete="SFCControl.br"/>
   <Operation Delete="DataDis.br"/>
   <Operation Delete="atnDriver.br"/>
-  <Operation Delete="AlarmWrap.br"/>
   <Operation Delete="VFLCR_Ope3.br"/>
   <Operation Delete="VFLCR_Ope2.br"/>
   <Operation Delete="VFLCR_Ope1.br"/>
@@ -25,11 +24,13 @@
   <Operation Delete="MpWebXs.br"/>
   <Operation Delete="UtWs.br"/>
   <Operation Delete="AsARCfg.br"/>
+  <Operation Delete="hammers.br"/>
   <Operation Delete="axislib.br"/>
   <Operation Delete="VFValve.br"/>
   <Operation Delete="VF_COMMON.br"/>
   <Operation Delete="Finder.br"/>
   <Operation Delete="McPureVAx.br"/>
+  <Operation Delete="VFAlarms.br"/>
   <Operation Delete="omjson.br"/>
   <Operation Delete="McProgInt.br"/>
   <Operation Delete="McPathGen.br"/>
@@ -37,13 +38,11 @@
   <Operation Delete="MpAxis.br"/>
   <Operation Delete="CoTrace.br"/>
   <Operation Delete="SfDomain.br"/>
+  <Operation Delete="errorAPI.br"/>
   <Operation Delete="mvLoader.br"/>
   <Operation Delete="MpRecipe.br"/>
-  <Operation Delete="VFAlarms.br"/>
   <Operation Delete="piper.br"/>
   <Operation Delete="messagebox.br"/>
-  <Operation Delete="hammers.br"/>
-  <Operation Delete="errorAPI.br"/>
   <Operation Delete="csvfilelib.br"/>
   <Operation Delete="persist.br"/>
   <Operation Delete="atn.br"/>
@@ -172,11 +171,8 @@
   <Operation Download="atn.br" Memory="UserROM"/>
   <Operation Download="persist.br" Memory="UserROM"/>
   <Operation Download="csvfilelib.br" Memory="UserROM"/>
-  <Operation Download="errorAPI.br" Memory="UserROM"/>
-  <Operation Download="hammers.br" Memory="UserROM"/>
   <Operation Download="messagebox.br" Memory="UserROM"/>
   <Operation Download="piper.br" Memory="UserROM"/>
-  <Operation Download="VFAlarms.br" Memory="UserROM"/>
   <Operation Download="MpRecipe.br" Memory="UserROM"/>
   <Operation Download="ToolBox.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
@@ -185,6 +181,7 @@
   <Operation Download="udbdef.br" Memory="UserROM"/>
   <Operation Download="mCoWebSc.br" Memory="UserROM"/>
   <Operation Download="TCLang.br" Memory="UserROM"/>
+  <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="ashwac.br" Memory="UserROM"/>
@@ -198,6 +195,7 @@
   <Operation Download="Settings_1.br" Memory="UserROM"/>
   <Operation Download="UserMgmt.br" Memory="UserROM"/>
   <Operation Download="UserLogin.br" Memory="UserROM"/>
+  <Operation Download="errorAPI.br" Memory="UserROM"/>
   <Operation Download="SfDomain.br" Memory="UserROM"/>
   <Operation Download="CoTrace.br" Memory="UserROM"/>
   <Operation Download="MpAxis.br" Memory="UserROM"/>
@@ -205,11 +203,13 @@
   <Operation Download="McPathGen.br" Memory="UserROM"/>
   <Operation Download="McProgInt.br" Memory="UserROM"/>
   <Operation Download="omjson.br" Memory="UserROM"/>
+  <Operation Download="VFAlarms.br" Memory="UserROM"/>
   <Operation Download="McPureVAx.br" Memory="UserROM"/>
   <Operation Download="Finder.br" Memory="UserROM"/>
   <Operation Download="VF_COMMON.br" Memory="UserROM"/>
   <Operation Download="VFValve.br" Memory="UserROM"/>
   <Operation Download="axislib.br" Memory="UserROM"/>
+  <Operation Download="hammers.br" Memory="UserROM"/>
   <Operation Download="AsARCfg.br" Memory="UserROM"/>
   <Operation Download="UtWs.br" Memory="UserROM"/>
   <Operation Download="MpWebXs.br" Memory="UserROM"/>
@@ -217,13 +217,11 @@
   <Operation Download="VF_PARSER.br" Memory="UserROM"/>
   <Operation Download="IotMqtt.br" Memory="UserROM"/>
   <Operation Download="SfDomVis.br" Memory="UserROM"/>
-  <Operation Download="OpcUaSrv.br" Memory="UserROM"/>
   <Operation Download="FirstInitP.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope0.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope1.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope2.br" Memory="UserROM"/>
   <Operation Download="VFLCR_Ope3.br" Memory="UserROM"/>
-  <Operation Download="AlarmWrap.br" Memory="UserROM"/>
   <Operation Download="atnDriver.br" Memory="UserROM"/>
   <Operation Download="DataDis.br" Memory="UserROM"/>
   <Operation Download="SFCControl.br" Memory="UserROM"/>

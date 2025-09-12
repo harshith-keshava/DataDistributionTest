@@ -48,8 +48,8 @@ PROGRAM _CYCLIC
 				
 				task.status.state := STATE_READY;
 
-				brsitoa(fbRecipeXml_PrintProcessConfig.StatusID, ADR(gPrintJobManagement.alarms.FileLoadError_AL0023.snippet));
-				vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileLoadError_AL0023);
+				//brsitoa(fbRecipeXml_PrintProcessConfig.StatusID, ADR(gPrintJobManagement.alarms.FileLoadError_AL0023.snippet));
+				//vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileLoadError_AL0023);
 				
 			END_IF
 			
@@ -68,8 +68,8 @@ PROGRAM _CYCLIC
 				task.internal.save.status := PRINT_JOB_MANAGER_ERROR;
 				task.status.state := STATE_READY;
 				
-				brsitoa( fbRecipeXml_PrintProcessConfig.StatusID, ADR(gPrintJobManagement.alarms.FileSaveError_AL0024.snippet));
-				vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileSaveError_AL0024);
+				//brsitoa( fbRecipeXml_PrintProcessConfig.StatusID, ADR(gPrintJobManagement.alarms.FileSaveError_AL0024.snippet));
+				//vfAlarmEdge( gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.FileSaveError_AL0024);
 								
 			END_IF
 

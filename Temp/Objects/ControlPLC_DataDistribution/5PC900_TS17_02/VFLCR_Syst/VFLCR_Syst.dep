@@ -15,6 +15,6 @@ $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.typ
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Variables.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.var
-$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/LogThat/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Loupe/logthat/Constants.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/piper/Piper.fun
 $(AS_PROJECT_PATH)/Logical/Automation/Types.typ

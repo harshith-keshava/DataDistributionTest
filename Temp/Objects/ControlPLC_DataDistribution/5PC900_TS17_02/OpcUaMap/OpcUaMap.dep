@@ -1,3 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Opcua.typ
 $(AS_PROJECT_PATH)/Logical/Infrastructure/RevInfo/RevInfo.var
@@ -15,7 +17,6 @@ $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_System/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/PrintJobManagement/Types.typ
-$(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Types.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/BuildDistributor/Variables.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/BuildDistributor/Types.typ
 $(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/AccessAndSecurity/UserRoleSystem/Role.role

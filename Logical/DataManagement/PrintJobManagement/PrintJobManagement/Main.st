@@ -11,7 +11,7 @@ PROGRAM _INIT
 	subscribePLCOpenWithParameters( gPrintJobManagement.commands.updateLayerNumber, Name, ADR(task.parameters.printJobLayer), SIZEOF(task.parameters.printJobLayer), task.command.updateCurrentLayer, task.internal.PLCOpen);
 	
 	subscribePLCOpen( gPrintJobManagement.commands.validatePrintFile, Name, task.command.validatePrintFile, task.internal.PLCOpen);
-	subscribePLCOpen( gPrintJobManagement.commands.calculateRemainingPrintTime, Name, task.command.calculateRemainingPrintTime, task.internal.PLCOpen);
+	
 	
 	
 	
@@ -21,26 +21,27 @@ PROGRAM _INIT
 	registerStateBool( gPrintJobManagement.status.buildInfoValid, 'Build Info Loaded', task.status.buildInfoValid);		
 	
 	//REASONS FOR INVALID BUILD FILE
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Build Name Invalid', task.status.buildInfoInvalidReasons.invalidBuildName);	
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Num Layers Invalid', task.status.buildInfoInvalidReasons.invalidNumLayers);
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Layer Height Invalid', task.status.buildInfoInvalidReasons.invalidLayerHeight);
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Platform ID Invalid', task.status.buildInfoInvalidReasons.invalidPlatformID);
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Machine Name Invalid', task.status.buildInfoInvalidReasons.invalidMachineName);
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Map Ver. Invalid', task.status.buildInfoInvalidReasons.invalidPixelMapVersion);
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Usage Invalid', task.status.buildInfoInvalidReasons.invalidPixelUsage);	
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Build Name Invalid', task.status.buildInfoInvalidReasons.invalidBuildName);	
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Num Layers Invalid', task.status.buildInfoInvalidReasons.invalidNumLayers);
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Layer Height Invalid', task.status.buildInfoInvalidReasons.invalidLayerHeight);
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Platform ID Invalid', task.status.buildInfoInvalidReasons.invalidPlatformID);
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Machine Name Invalid', task.status.buildInfoInvalidReasons.invalidMachineName);
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Map Ver. Invalid', task.status.buildInfoInvalidReasons.invalidPixelMapVersion);
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Usage Invalid', task.status.buildInfoInvalidReasons.invalidPixelUsage);	
 
 	//	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Workspace Boundaries Invalid', task.status.buildInfoInvalidReasons.invalidWorkspace);	 //TODO ADD BACK WHEN BUILD INFO FILE HAS THIS
 	
-	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'PCI File Invalid', task.status.buildInfoInvalidReasons.invalidPrintConfigInstruction);
+	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'PCI File Invalid', task.status.buildInfoInvalidReasons.invalidPrintConfigInstruction);
 			
-
+	gConfiguration.machineIdentity.machineName := 'DP12';
+	gConfiguration.machineIdentity.machineNumber := 12;
 
 	//SIM helper for bootup to set some non vol
 	IF gSimulation THEN
-		gConfiguration.machineIdentity.factoryName := 'VulcanOne';
+		//gConfiguration.machineIdentity.factoryName := 'VulcanOne';
 		//gConfiguration.machineIdentity.factoryNumber := FACTORY_VULCAN_ONE;
 		//gConfiguration.machineIdentity.machineGeneration := MACHINE_GENERATION_GEN3;
-		//	gConfiguration.machineIdentity.machineName := 'DP13';
+			gConfiguration.machineIdentity.machineName := 'DP12';
 		//gConfiguration.machineIdentity.machineType := MACHINE_TYPE_PRINTER;
 		//	gConfiguration.machineIdentity.machineNumber := 13;
 		
@@ -97,7 +98,7 @@ PROGRAM _CYCLIC
 	ELSE
 		
 		IF NOT allZero( ADR(task.command), SIZEOF(task.command)) THEN
-			vfAlarmEdgeSnippet(gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.COMMAND_BEFORE_READY, 'Print Job Manager');
+			//vfAlarmEdgeSnippet(gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.COMMAND_BEFORE_READY, 'Print Job Manager');
 		END_IF	
 		
 		task.internal.PLCOpen.status := PRINT_JOB_MANAGER_ERROR;
@@ -135,7 +136,7 @@ PROGRAM _CYCLIC
 					
 					task.status.statusMessage := CONCAT(task.status.statusMessage, ' (Update Layer Number Inhibit) ');
 					task.status.statusMessage := CONCAT(task.status.statusMessage, task.internal.subSystemStatus[0]);
-					vfAlarmEdgeSnippet(gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.COMMAND_INHIBITED, task.status.statusMessage);
+					//vfAlarmEdgeSnippet(gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.COMMAND_INHIBITED, task.status.statusMessage);
 
 				END_IF
 				
@@ -251,21 +252,20 @@ PROGRAM _CYCLIC
 					task.status.state := STATE_READY;
 
 				SEQUENCE_DONE:
-					task.status.statusMessage := 'Pre-Scan imaging sequence finished';	
-
+					task.status.statusMessage := 'Validating Print files finished';	
+					gPrintJobManagement.status.buildInfoValidCheck := TRUE;
 					//Handle Done
 					task.internal.PLCOpen.status := ERR_OK;
 					task.status.state := STATE_READY;
 				
 				SEQUENCE_IDLE:
 
-					task.status.statusMessage := 'Pre-Scan sequence started';	
+					task.status.statusMessage := 'Print File validation started';	
 					task.status.sequence := SEQUENCE_READ_BUILD_INFO;
 					
 				ELSE
 					
 					ValidateBuildFileSubsequence;														
-
 			END_CASE
 		
 	END_CASE
@@ -336,13 +336,9 @@ PROGRAM _CYCLIC
 	// ---------------------------------------------------------------------------
 	// Call ATN FUB
 	// ---------------------------------------------------------------------------
-	task.internal.checkPixelUsage();
-	task.internal.checkPixelUsage.Execute := FALSE;
 	
-	task.internal.remapPixels();
-	task.internal.remapPixels.Execute := FALSE;
 	
-	task.status.buildInfoValid := stateAllFalse( gPrintJobManagement.status.buildInfoInvalid, TRUE);
+	//task.status.buildInfoValid := stateAllFalse( gPrintJobManagement.status.buildInfoInvalid, TRUE);
 	
 	gPrintJobManagement.status.currentLayerGCodeFilename := task.status.currentLayerGCodeFilename;
 	

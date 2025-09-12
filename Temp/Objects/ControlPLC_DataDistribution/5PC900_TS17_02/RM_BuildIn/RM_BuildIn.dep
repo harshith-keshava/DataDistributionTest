@@ -3,10 +3,7 @@ $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipe.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpBase/MpBase.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipeError.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpRecipe/MpRecipe.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/AsBrStr/AsBrStr.fun
 $(AS_PROJECT_PATH)/Logical/Libraries/Loupe/atn/atn.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/VFAlarms.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/RM_BuildInfo/Variables.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Opcua.typ
@@ -18,8 +15,3 @@ $(AS_PROJECT_PATH)/Logical/DataManagement/BuildInformation.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
 $(AS_PROJECT_PATH)/Physical/ControlPLC_DataDistribution/5PC900_TS17_02/mappServices/Recipies.mprecipexml
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Types.typ
-$(AS_PROJECT_PATH)/Logical/Global.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmXError.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmX.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmX.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Types.typ

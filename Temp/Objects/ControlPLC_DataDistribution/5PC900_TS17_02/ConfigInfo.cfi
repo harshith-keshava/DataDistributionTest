@@ -17,7 +17,9 @@
     </Task>
   </TaskClass>
   <TaskClass
-    Name="Cyclic#2">
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3">
     <Task
       Name="VFLCR_Ope0"
       Disable="false"
@@ -82,21 +84,7 @@
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Ope3\Simulation.st.var" />
     </Task>
-    <Task
-      Name="AlarmWrap"
-      Disable="false"
-      Source="Infrastructure.Alarms.AlarmWrap"
-      Language="IEC">
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\AlarmWrap\Main.st.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\Alarms\AlarmWrap\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\Alarms\AlarmWrap\Variables.var" />
-    </Task>
   </TaskClass>
-  <TaskClass
-    Name="Cyclic#3" />
   <TaskClass
     Name="Cyclic#4">
     <Task

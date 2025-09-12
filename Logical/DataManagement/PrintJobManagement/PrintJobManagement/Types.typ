@@ -59,37 +59,16 @@ TYPE
 		layerToDistribute : UINT;
 		printJobLayer : UINT;
 		startingLayerNumber : UDINT;
-		laseOnPlateLayerNumber : UINT;
-		buildPlateThickness_mm : REAL;
-		focalOffset_mm : REAL;
-		recoaterOffset_mm : REAL;
-		thicknessDOMS_mm : REAL;
 	END_STRUCT;
 	localInterfaceInternal_typ : 	STRUCT 
 		PLCOpenConfigData : AtnPlcOpenStatus;
 		PLCOpen : AtnPlcOpenStatus;
 		checkPixelUsage : AtnPLCOpen;
-		parameters : PrintJobManagementParameters_typ;
 		previousState : STATE;
 		newCommand : BOOL;
 		localLockout : BOOL;
 		subSystemStatus : ARRAY[0..10]OF STRING[80];
 		remapPixels : AtnPLCOpen;
-		_lopModeActive : BOOL;
-		strBpPreparedStatus : STRING[80];
-		strRecoaterOffsetStatus : STRING[80];
-		strBuildPlateLoadStatus : STRING[80];
-		_focalOffset : REAL;
-		_bladeOffset : REAL;
-		_plateThickness : REAL;
-		triggerDataCapture : BOOL;
-		triggerParDataCapture : BOOL;
-		printTimeCalc : printTimeCalc_typ;
-		coolingDelayTimer : TON;
-		powderConsumptionAverage : REAL;
-		powderConsumptionSum : REAL;
-		powderConsumption5Layers : ARRAY[0..4]OF REAL;
-		remainingCoolingDelayS : UDINT;
 	END_STRUCT;
 	localInterfaceStatus_typ : 	STRUCT 
 		currentLayerGCodeFilename : STRING[255];
@@ -102,36 +81,12 @@ TYPE
 		buildInfoNotInvalid : BOOL;
 		buildInfoError : BOOL;
 		distributionTimeout : BOOL;
-		finishedRecoat : BOOL;
-		finishedPrepareNextLayer : BOOL;
-		finishedPrint : BOOL;
-		laseOnPlateActive : BOOL;
-		buildInfoErrorSnippet : STRING[80];
-		enableAutoAdvance : BOOL;
 		buildInfoErrorStatus : ARRAY[0..19]OF STRING[80];
 		ready : BOOL;
 		sequence : SEQUENCE;
 		statusMessage : STRING[vfALARMS_MAX_SNIPPET_STR_LENGTH];
 		state : STATE;
-		inhibitRecoatReasons : inhibitRecoatReasons_typ;
-		inhibitPrintReasons : inhibitPrintReasons_typ;
 		buildInfoInvalidReasons : buildInfoInvalidReasons_typ;
-		inhibitPrint : BOOL;
-		inhibitRecoatStatus : ARRAY[0..19]OF STRING[80];
-		inhibitLOPStatus : ARRAY[0..19]OF STRING[80];
-		inhibitPrintStatus : ARRAY[0..19]OF STRING[80];
-		inhibitIncrement : BOOL;
-		inhibitRecoat : BOOL;
-		inhibitMHopperRefillReasons : inhibitMHopperRefill_typ;
-		laserText : STRING[20];
-		pumpText : STRING[20];
-		startDistributionAllowed : BOOL;
-		thicknessDOMS : REAL;
-		inhibitLOP : BOOL;
-	END_STRUCT;
-	inhibitMHopperRefill_typ : 	STRUCT 
-		overheadHopperRefillActive : BOOL;
-		oxygenLevelsNotOK : BOOL;
 	END_STRUCT;
 	SEQUENCE : 
 		(
@@ -169,40 +124,6 @@ TYPE
 		STATE_RESETTING_PRINT_INFO,
 		STATE_ERROR
 		);
-	inhibitRecoatReasons_typ : 	STRUCT 
-		layerNumberNotOK : BOOL;
-		oxygenLevelsNotOK : BOOL;
-		pnuematicSupplyNotOK : BOOL;
-		chillerNotReady : BOOL;
-		axesNotOK : BOOL;
-		gantryXNotInSafeArea : BOOL;
-		meteringHopperNotOK : BOOL;
-		visionNotOK : BOOL;
-		LopModeActive : BOOL;
-		pumpsNotRunning : BOOL;
-		longPauseRecoveryReq : BOOL;
-		buildPlateNotPresent : BOOL;
-	END_STRUCT;
-	inhibitPrintReasons_typ : 	STRUCT 
-		layerNumberNotOK : BOOL;
-		oxygenLevelsNotSafeToLase : BOOL;
-		oxygenLevelsNotOK : BOOL;
-		pumpsNotRunningAtSetFreq : BOOL;
-		pumpsNotRunningAtSetFlow : BOOL;
-		pnuematicSupplyNotOK : BOOL;
-		lasersNotReadyDryRun : BOOL;
-		lasersNotReady : BOOL;
-		chillerNotReady : BOOL;
-		axesNotOK : BOOL;
-		recoaterNotAtPark : BOOL;
-		liftNotAtCurrentLayer : BOOL;
-		buildInfoNotValid : BOOL;
-		bladeOffsetNotFound : BOOL;
-		buildPlateNotPrepared : BOOL;
-		distributionNotOk : BOOL;
-		scratchCoatNotVerified : BOOL;
-		longPauseRecoveryReq : BOOL;
-	END_STRUCT;
 	buildInfoInvalidReasons_typ : 	STRUCT 
 		invalidPixelUsage : BOOL;
 		invalidPixelMapVersion : BOOL;
@@ -215,14 +136,5 @@ TYPE
 		invalidWorkspace : BOOL;
 		invalidPlateOrigin : BOOL;
 		invalidPrintConfigInstruction : BOOL;
-	END_STRUCT;
-	printTimeCalc_typ : 	STRUCT 
-		intraLayerGasheadCleansRemaining : UINT;
-		trajectoriesRemaining : UDINT;
-		recoatsRemainingMin : UINT;
-		recoatsRemainingMax : UINT;
-		remainingPrintTimeHigh : REAL;
-		remainingPrintTimeLow : REAL;
-		layersRemaining : UINT;
 	END_STRUCT;
 END_TYPE

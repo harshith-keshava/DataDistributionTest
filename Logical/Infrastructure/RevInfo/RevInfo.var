@@ -1,14 +1,14 @@
 (* RevInfo.var 2.0.0 *)
 VAR CONSTANT
-	gRevInfo_revision : STRING[80] := 'fbae8a3';
-	revision : STRING[80] := 'fbae8a3';
-	gRevInfo_revisionDate : STRING[80] := '2025-09-10 16:01:16 -0400';
+	gRevInfo_revision : STRING[80] := '97b8667';
+	revision : STRING[80] := '97b8667';
+	gRevInfo_revisionDate : STRING[80] := '2025-09-12 11:48:37 -0400';
 	gRevInfo_revisionAuthor : STRING[80] := 'Harshith';
 	gRevInfo_branchName : STRING[80] := 'main';
-	gRevInfo_uncommittedChanges : STRING[80] := ' 2506 files changed, 435 insertions(+), 716412 deletions(-)';
-	gRevInfo_buildDate  : STRING[80] := '2025-09-12 11:38:21 -0400';
+	gRevInfo_uncommittedChanges : STRING[80] := ' 209 files changed, 2378 insertions(+), 6559 deletions(-)';
+	gRevInfo_buildDate  : STRING[80] := '2025-09-17 15:06:38 -0400';
 	gRevInfo_buildConfiguration : STRING[80] := 'ControlPLC_DataDistribution';
 	buildConfiguration : STRING[80] := 'ControlPLC_DataDistribution';
 	gRevInfo_builder : STRING[80] := 'hkeshavamurthy';
-	gRevInfo_versionId : STRING[80] := 'fbae8a3';
+	gRevInfo_versionId : STRING[80] := '97b8667';
 END_VAR

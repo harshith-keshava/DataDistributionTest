@@ -100,28 +100,6 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Logical\Infrastructure\atnDriver\Variables.var" />
     </Task>
     <Task
-      Name="DataDis"
-      Disable="false"
-      Source="Automation.DataDistributionSFC"
-      Language="IEC">
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Cyclic.sfc.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Variables.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Init.st.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\Common.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\PiperInterface.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Action.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\commands.st.var" />
-    </Task>
-    <Task
       Name="SFCControl"
       Disable="false"
       Source="Automation.SFCControl"
@@ -156,6 +134,72 @@
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\VFLCR_Syst\hmiHelper.st.var" />
     </Task>
     <Task
+      Name="PrintJobMa"
+      Disable="false"
+      Source="DataManagement.PrintJobManagement.PrintJobManagement"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\PrintJobMa\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\PrintJobManagement\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\PrintJobManagement\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\PrintJobMa\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\PrintJobMa\Simulation.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="DataDis"
+      Disable="false"
+      Source="Automation.DataDistributionSFC"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Cyclic.sfc.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Variables.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Init.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\SFCCommon\Common.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\PiperInterface.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\Action.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\DataDis\commands.st.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6">
+    <Task
+      Name="BuildDistr"
+      Disable="false"
+      Source="DataManagement.PrintJobManagement.BuildDistributor"
+      Language="IEC">
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\Main.st.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\Types.typ" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\Variables.var" />
+      <File
+        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\PiperModule.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\PiperInterface.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\SubSequence.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\Simulation.st.var" />
+      <InternalFile
+        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\BuildDistributorSignals.xlsx.var" />
+    </Task>
+    <Task
       Name="RM_BuildIn"
       Disable="false"
       Source="DataManagement.PrintJobManagement.RM_BuildInfo"
@@ -185,49 +229,7 @@
       <InternalFile
         Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\RM_PrintPr\DeriveProcessData.st.var" />
     </Task>
-    <Task
-      Name="PrintJobMa"
-      Disable="false"
-      Source="DataManagement.PrintJobManagement.PrintJobManagement"
-      Language="IEC">
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\PrintJobMa\Main.st.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\PrintJobManagement\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\PrintJobManagement\Variables.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\PrintJobMa\SubSequence.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\PrintJobMa\Simulation.st.var" />
-    </Task>
-    <Task
-      Name="BuildDistr"
-      Disable="false"
-      Source="DataManagement.PrintJobManagement.BuildDistributor"
-      Language="IEC">
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\Main.st.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\Types.typ" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\Variables.var" />
-      <File
-        Path="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\PiperModule.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\PiperInterface.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\SubSequence.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\Simulation.st.var" />
-      <InternalFile
-        Path="C:\DataDistributionTest\DataDistributionTest\Temp\Objects\ControlPLC_DataDistribution\5PC900_TS17_02\BuildDistr\BuildDistributorSignals.xlsx.var" />
-    </Task>
   </TaskClass>
-  <TaskClass
-    Name="Cyclic#5" />
-  <TaskClass
-    Name="Cyclic#6" />
   <TaskClass
     Name="Cyclic#7" />
   <TaskClass

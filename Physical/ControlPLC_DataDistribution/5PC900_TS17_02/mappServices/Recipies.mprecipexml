@@ -31,4 +31,10 @@
       </Group>
     </Selector>
   </Element>
+  <Element ID="gCustomScanRecipe" Type="mprecipexml">
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+  <Element ID="gPrintProcessConfigRecipe" Type="mprecipexml">
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
 </Configuration>

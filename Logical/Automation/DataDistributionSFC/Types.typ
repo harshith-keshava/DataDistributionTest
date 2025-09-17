@@ -24,6 +24,7 @@ TYPE
 	END_STRUCT;
 	localInterfaceInternal_typ : 	STRUCT 
 		PLCOpen : AtnPlcOpenStatus;
+		nextLayerTimer : TON;
 		nextLayerNumber : UINT;
 		completedLayers : BOOL;
 		newCommand : BOOL;

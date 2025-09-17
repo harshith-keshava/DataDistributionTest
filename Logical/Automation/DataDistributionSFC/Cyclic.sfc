@@ -30,6 +30,8 @@ END_TRANSITION
 (* @SFCNOJUMP := 'CheckBuildInfo' *)
 STEP CheckBuildInfo:
 (* @LANGUAGE := 'st' *)
+
+gPrintJobManagement.currentState.currentLayerNumber := 1;
 IF gPrintJobManagement.currentState.buildInfoCheckValid THEN
 	StepDone := TRUE;
 ELSE
@@ -46,10 +48,15 @@ END_TRANSITION
 (* @SFCNOJUMP := 'UpdateNextLayer' *)
 STEP UpdateNextLayer:
 (* @LANGUAGE := 'st' *)
-task.internal.nextLayerNumber  := gPrintJobManagement.currentState.currentLayerNumber + 1;					
+task.internal.nextLayerNumber  := gPrintJobManagement.currentState.currentLayerNumber + 1;	
+
+task.internal.nextLayerTimer.PT := T#3s;
+task.internal.nextLayerTimer.IN := TRUE;
+task.internal.nextLayerTimer(); 
+			
 
 // Incrementing to the next layer is only permitted as long as the last layer has yet to be printed.
-IF ( task.internal.nextLayerNumber <= gPrintJobManagement.currentState.numberOfLayers ) THEN
+IF ( task.internal.nextLayerNumber <= gPrintJobManagement.currentState.numberOfLayers ) AND  task.internal.nextLayerTimer.Q THEN
 	
 	StepDone := TRUE;
 		
@@ -67,6 +74,12 @@ END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)
 (* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+task.internal.nextLayerTimer.IN := FALSE;
+task.internal.nextLayerTimer();
+(* TODO: Insert Program *)
+END_ACTION
 TRANSITION FROM UpdateNextLayer TO UpdateNextLayerglobally:=
 StepDone
 END_TRANSITION
@@ -95,22 +108,12 @@ END_TRANSITION
 (* @SFCISJUMP := 'Step1' *)
 STEP UpdateNextLayerglobally:
 (* @LANGUAGE := 'st' *)
+gPrintJobManagement.currentState.nextLayerNumber := task.internal.nextLayerNumber;
+gPrintJobManagement.currentState.currentLayerNumber := gPrintJobManagement.currentState.nextLayerNumber;
 
-Command.Command := gPrintJobManagement.commands.updateLayerNumber;
-Command.pParameters := ADR(task.internal.nextLayerNumber);
-Command.sParameters := SIZEOF(task.internal.nextLayerNumber);
-Command.Execute := TRUE;
-Command();
 
-StepDone := FALSE;
+StepDone := TRUE;
 			
-IF Command.Done THEN
-	StepDone := TRUE;
-	Command.Execute := FALSE;
-	Command();		
-ELSIF Command.Error OR Command.Aborted THEN
-	StepError := TRUE;
-END_IF
 END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)
@@ -123,13 +126,11 @@ STEP RequestLayerFileTranf:
 (* @LANGUAGE := 'st' *)
 
 buildDistCommand.Command := gBuildDistributorApi.commands.distributeLayerFile;
-buildDistCommand.pParameters := ADR(task.internal.nextLayerNumber);
-buildDistCommand.sParameters := SIZEOF(task.internal.nextLayerNumber);
 buildDistCommand.Execute := TRUE;
 buildDistCommand();
 
 
-IF buildDistCommand.Busy THEN
+IF buildDistCommand.Done THEN
 	
 	StepDone := TRUE;
 	
@@ -138,84 +139,12 @@ ELSIF buildDistCommand.Error OR buildDistCommand.Aborted THEN
 	StepDone := FALSE;
 	StepError := TRUE;
 
-ELSE
-	StepDone := FALSE;	
-	StepRetry := FALSE;
 END_IF
 END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)
 (* @SFCCOMMENT := '' *)
-TRANSITION FROM RequestLayerFileTranf TO CheckLastDistributedLayer:=
-StepDone
-END_TRANSITION
-(* @SFCNOJUMP := 'CheckLastDistributedLayer' *)
-STEP CheckLastDistributedLayer:
-(* @LANGUAGE := 'st' *)
-(* TODO: Insert Program *)
-
-StepDone := FALSE;
-
-IF NOT(buildDistCommand.Busy) THEN
-	
-	IF gPrintJobManagement.currentState.lastDistributedLayer = gPrintJobManagement.currentState.currentLayerNumber THEN
-		StepDone := TRUE;
-	ELSE
-		StepError := TRUE;
-	END_IF
-	
-END_IF
-END_STEP
-(* @SFCMAXTIME := '' *)
-(* @SFCMINTIME := '' *)
-(* @SFCCOMMENT := '' *)
-TRANSITION FROM CheckLastDistributedLayer TO OpenLayer:=
-StepDone
-END_TRANSITION
-(* @SFCNOJUMP := 'OpenLayer' *)
-STEP OpenLayer:
-(* @LANGUAGE := 'st' *)
-Command.Command :=  gVFLCR.command.openLayer;
-//TODO: VALIDATE THIS  IS CORRECT!
-openLayerParameters.parameters.selectedBuildLayout :=	gPrintJobManagement.currentState.buildLayout;
-openLayerParameters.parameters.selectedLayer :=			gPrintJobManagement.currentState.currentLayerNumber;
-openLayerParameters.parameters.selectedPrintNumber :=	gPrintJobManagement.currentState.printNumber;
-Command.pParameters := ADR(openLayerParameters); 
-Command.sParameters := SIZEOF(openLayerParameters);
-Command.Execute := TRUE;
-Command();
-IF Command.Done THEN
-	StepDone := TRUE;
-	Command.Execute := FALSE;
-	Command();
-ELSE
-	StepDone := FALSE;	
-END_IF
-END_STEP
-(* @SFCMAXTIME := '' *)
-(* @SFCMINTIME := '' *)
-(* @SFCCOMMENT := '' *)
-TRANSITION FROM OpenLayer TO AbortLayer:=
-StepDone
-END_TRANSITION
-(* @SFCNOJUMP := 'AbortLayer' *)
-STEP AbortLayer:
-(* @LANGUAGE := 'st' *)
-Command.Command :=  gVFLCR.command.abortLayer;
-Command.Execute := TRUE;
-Command();
-IF Command.Done THEN
-	StepDone := TRUE;
-	Command.Execute := FALSE;
-	Command();
-ELSE
-	StepDone := FALSE;	
-END_IF
-END_STEP
-(* @SFCMAXTIME := '' *)
-(* @SFCMINTIME := '' *)
-(* @SFCCOMMENT := '' *)
-TRANSITION FROM AbortLayer TO UpdateNextLayer:=
+TRANSITION FROM RequestLayerFileTranf TO UpdateNextLayer:=
 StepDone
 END_TRANSITION
 (* @SFCISJUMP := 'UpdateNextLayer' *)

@@ -5,8 +5,8 @@
     <Object Type="File">MachineAC.mpalarmxcore</Object>
     <Object Type="File">MachineAH.mpalarmxhistory</Object>
     <Object Type="File">MachineCG.mpcomgroup</Object>
-    <Object Type="File">Recipies.mprecipexml</Object>
     <Object Type="File">UserMgmt.mpuserx</Object>
     <Object Type="File">UserLogin.mpuserxlogin</Object>
+    <Object Type="File">Recipies.mprecipexml</Object>
   </Objects>
 </Package>

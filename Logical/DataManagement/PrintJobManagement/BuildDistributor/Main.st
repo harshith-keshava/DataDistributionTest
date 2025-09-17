@@ -7,7 +7,7 @@ PROGRAM _INIT
 
 	//direct commands to operate the chiller
 	subscribePLCOpenWithParameters ( gBuildDistributorApi.commands.startDistribution, Name, ADR(task.parameters.layerNumberToDistribute), SIZEOF(task.parameters.layerNumberToDistribute), task.command.startDistribution, task.internal.PLCOpen);
-	subscribePLCOpenWithParameters ( gBuildDistributorApi.commands.distributeLayerFile, Name, ADR(task.parameters.layerNumberToDistribute), SIZEOF(task.parameters.layerNumberToDistribute), task.command.distributeLayerFile, task.internal.PLCOpen );
+	subscribePLCOpen( gBuildDistributorApi.commands.distributeLayerFile, Name, task.command.distributeLayerFile, task.internal.PLCOpen );
 	subscribePLCOpenWithParameters ( gBuildDistributorApi.commands.abortDistribution, Name, 0, 0, task.command.abortDistribution, task.internal.PLCOpen);
 		
 	//other systems can monitor this state

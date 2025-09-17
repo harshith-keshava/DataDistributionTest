@@ -19,7 +19,7 @@ TYPE
 		done : BOOL;
 		error : BOOL;
 		errorId : DINT;
-		continuousModeStatus : BOOL;
+		loadPCIComplete : BOOL;
 		pciLoadStatus : STRING[12];
 	END_STRUCT;
 	PrintConfigInternal_typ : 	STRUCT 

@@ -46,6 +46,7 @@ TYPE
 	PrintJobManagementStatus_typ : 	STRUCT 
 		distributionLayerRecieved : BOOL;
 		distributionLayerRequested : BOOL;
+		loadPCIFileComplete : BOOL;
 		buildInfoValidCheck : BOOL;
 		buildInfoValid : STRING[80];
 		currentLayerGCodeFilename : STRING[255];
@@ -75,6 +76,7 @@ TYPE
 		maxLaserWatts : REAL;
 		buildPlatformName : STRING[20];
 		currentPartHeight : REAL;
+		nextLayerNumber : UINT;
 		currentLayerNumber : UINT;
 		lastRecoatedLayerNumber : UINT;
 		lastPrintedLayerNumber : UINT;

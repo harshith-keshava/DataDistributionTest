@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=VFLCR_Ope1 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      IO                              LaserIO_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                      di                            LaserIODI_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               LayerOpen                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                      do                            LaserIODO_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               OpenLayer                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         

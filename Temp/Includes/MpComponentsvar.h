@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757691508_3_
-#define _BUR_1757691508_3_
+#ifndef _BUR_1757955819_3_
+#define _BUR_1757955819_3_
 
 #include <bur/plctypes.h>
 
@@ -14,6 +14,7 @@
 
 /* Variables */
 _GLOBAL struct MpComIdentType gUserXLogin;
+_GLOBAL struct MpComIdentType gPrintProcessConfigRecipe;
 _GLOBAL struct MpComIdentType gGroup_Vision;
 _GLOBAL struct MpComIdentType gGroup_Shuttle;
 _GLOBAL struct MpComIdentType gGroup_Safety;
@@ -37,6 +38,7 @@ _GLOBAL struct MpComIdentType gGroup_Cooling;
 _GLOBAL struct MpComIdentType gGroup_CncGear;
 _GLOBAL struct MpComIdentType gGroup_CncGantry;
 _GLOBAL struct MpComIdentType gGroup_AxisBasic;
+_GLOBAL struct MpComIdentType gCustomScanRecipe;
 _GLOBAL struct MpComIdentType gBuildInfoRecipe;
 _GLOBAL struct MpComIdentType gAlarmXHistory_Machine;
 _GLOBAL struct MpComIdentType alarm_Safety;
@@ -60,5 +62,5 @@ __asm__(".ascii \"iecfile \\\"Temp/Includes/AS_TempDecl/ControlPLC_DataDistribut
 __asm__(".previous");
 
 
-#endif /* _BUR_1757691508_3_ */
+#endif /* _BUR_1757955819_3_ */
 

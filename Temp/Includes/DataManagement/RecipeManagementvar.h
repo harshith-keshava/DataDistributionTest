@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757691508_11_
-#define _BUR_1757691508_11_
+#ifndef _BUR_1757955819_11_
+#define _BUR_1757955819_11_
 
 #include <bur/plctypes.h>
 
@@ -31,5 +31,5 @@ __asm__(".ascii \"iecfile \\\"Logical/DataManagement/RecipeManagement.var\\\" sc
 __asm__(".previous");
 
 
-#endif /* _BUR_1757691508_11_ */
+#endif /* _BUR_1757955819_11_ */
 

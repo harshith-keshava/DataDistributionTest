@@ -14,16 +14,18 @@
   </TaskClass>
   <TaskClass Name="Cyclic#4">
     <Task Name="atnDriver" Source="Infrastructure.atnDriver.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="DataDis" Source="Automation.DataDistributionSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="SFCControl" Source="Automation.SFCControl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="VFLCR_Syst" Source="ProcessControl.VFLCR.VFLCR_System.prg" Memory="UserROM" Description="                     " Language="IEC" Debugging="true" />
+    <Task Name="PrintJobMa" Source="DataManagement.PrintJobManagement.PrintJobManagement.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+  </TaskClass>
+  <TaskClass Name="Cyclic#5">
+    <Task Name="DataDis" Source="Automation.DataDistributionSFC.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+  </TaskClass>
+  <TaskClass Name="Cyclic#6">
+    <Task Name="BuildDistr" Source="DataManagement.PrintJobManagement.BuildDistributor.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="RM_BuildIn" Source="DataManagement.PrintJobManagement.RM_BuildInfo.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="RM_PrintPr" Source="DataManagement.PrintJobManagement.RM_PrintProcessConfig.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="PrintJobMa" Source="DataManagement.PrintJobManagement.PrintJobManagement.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="BuildDistr" Source="DataManagement.PrintJobManagement.BuildDistributor.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
-  <TaskClass Name="Cyclic#5" />
-  <TaskClass Name="Cyclic#6" />
   <TaskClass Name="Cyclic#7" />
   <TaskClass Name="Cyclic#8">
     <Task Name="RevInfo" Source="Infrastructure.RevInfo.RevInfo.prg" Memory="UserROM" Language="IEC" Debugging="true" />

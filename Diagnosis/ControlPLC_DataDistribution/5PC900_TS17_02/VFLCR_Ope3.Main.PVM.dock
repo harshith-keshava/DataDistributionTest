@@ -1,0 +1,25 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=VFLCR_Ope3 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                      IO                              LaserIO_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                      di                            LaserIODI_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               LayerOpen                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                            LayerAborted                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                      do                            LaserIODO_typ    0 "                                                               *"    1   24    1    0    0    1         
+                               OpenLayer                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                              AbortLayer                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                    task                       LaserOperation_typ    0 "                                                               *"    0   24    1    0    1    1         
+                              parameters              LaserOperationParameter_typ    0 "                                                               *"    1   24    1    0    0    1         
+                     openLayerParameters             VFLCROpenLayerParameters_typ    0 "                                                               *"    2   24    1    0    0    1         
+                     selectedBuildLayout                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                     selectedPrintNumber                                     UINT    0 "                                                               0"    3    6    1   10    0    0         
+                           selectedLayer                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         
+                                internal               LaserOperationInternal_typ    0 "                                                               *"    1   24    1    0    0    1         
+                            openLayerTON                                      TON    0 "                                                               *"    2   24    1    0    0    1         
+                                      IN                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                      PT                                     TIME    0 "                                                           T#05s"    3   12    1    1    0    0         
+                                       Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                      ET                                     TIME    0 "                                                           T#0ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#01h_06m_44s_830ms"    3   12    1    1    0    0         
+                                       M                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
+                                 Restart                                    UDINT    0 "                                                             110"    3    7    1   10    0    0         

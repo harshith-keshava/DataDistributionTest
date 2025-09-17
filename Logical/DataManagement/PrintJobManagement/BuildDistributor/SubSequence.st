@@ -32,7 +32,7 @@ ACTION StartDistributionSubSequence:
 			
 			IF (gOpcData_FromBuildPC.BuildInfoReady) THEN
 				gOpcData_ToBuildPC.RequestBuildInfo := FALSE;
-				task.status.sequence := SEQUENCE_LOAD_BUILD_FILE;
+				task.status.sequence := SEQUENCE_LOAD_PCI_FILE;
 			END_IF
 						
 		SEQUENCE_LOAD_PCI_FILE:
@@ -42,9 +42,10 @@ ACTION StartDistributionSubSequence:
 			task.internal.atnPLCOpenCommand.Command := gSystemRecipeApi.commands.loadPrintProcessConfigFile;
 			task.internal.atnPLCOpenCommand.Execute := TRUE;
 			
-			IF task.internal.atnPLCOpenCommand.Done THEN 
+			IF task.internal.atnPLCOpenCommand.Done OR gPrintJobManagement.status.loadPCIFileComplete THEN 
 				task.status.sequence := SEQUENCE_LOAD_BUILD_FILE;
 				task.internal.atnPLCOpenCommand.Execute := FALSE;
+				gPrintJobManagement.status.loadPCIFileComplete := FALSE;
 				
 			ELSIF task.internal.atnPLCOpenCommand.Error THEN
 				task.status.sequence := SEQUENCE_ERROR;
@@ -122,18 +123,11 @@ ACTION StartDistributionSubSequence:
 			task.status.statusMessage := 'update current layer';
 			
 			//NOT NEEDED!
-			task.internal.atnPLCOpenCommandParameters.Command := gPrintJobManagement.commands.updateLayerNumber;
-			task.internal.atnPLCOpenCommandParameters.pParameters := ADR(task.internal.lastDistributedLayerNumber);
-			task.internal.atnPLCOpenCommandParameters.sParameters := SIZEOF(task.internal.lastDistributedLayerNumber);
-			task.internal.atnPLCOpenCommandParameters.Execute := TRUE;
+			Nonvolatile.currentLayerNumber := gPrintJobManagement.currentState.currentLayerNumber;
+											
+		
 			
-			IF task.internal.atnPLCOpenCommandParameters.Done THEN
-				task.status.sequence := SEQUENCE_DISTRIBUTION_STARTED;
-				task.internal.atnPLCOpenCommandParameters.Execute := FALSE;
-				
-			ELSIF task.internal.atnPLCOpenCommandParameters.Error THEN
-				task.status.sequence := SEQUENCE_ERROR;	
-			END_IF
+			task.status.sequence := SEQUENCE_DISTRIBUTION_STARTED;
 			
 			
 		SEQUENCE_DISTRIBUTION_STARTED:
@@ -152,16 +146,17 @@ ACTION DistributeLayerFileSubSequence:
 	CASE task.status.sequence OF
 	
 		SEQUENCE_EXECUTE_GET_LAYER_FILES:
-			task.status.sequence := SEQUENCE_CHK_BUILD_INFO;
+			task.status.sequence := SEQUENCE_SET_DESIRED_LAYER;
 				
 		SEQUENCE_CHK_BUILD_INFO: 
 			task.status.statusMessage := 'validating build info';
 			task.internal.atnPLCOpenCommand.Command := gPrintJobManagement.commands.validatePrintFile;
 			task.internal.atnPLCOpenCommand.Execute := TRUE;
 							
-			IF task.internal.atnPLCOpenCommand.Done THEN
+			IF task.internal.atnPLCOpenCommand.Done OR gPrintJobManagement.status.buildInfoValidCheck THEN
 				task.status.sequence := SEQUENCE_SET_DESIRED_LAYER;
 				task.internal.atnPLCOpenCommand.Execute := FALSE;
+				gPrintJobManagement.status.buildInfoValidCheck := FALSE;
 			ELSIF task.internal.atnPLCOpenCommand.Error THEN
 				
 				task.status.lastErrorMessage := 'SEQUENCE_CHK_BUILD_INFO';
@@ -173,7 +168,7 @@ ACTION DistributeLayerFileSubSequence:
 			task.internal.distRetryAttempted := 0;
 			
 			task.status.statusMessage := 'set layer for distribution';
-			gOpcData_ToBuildPC.CurrentPrintLayer := task.parameters.layerNumberToDistribute;
+			gOpcData_ToBuildPC.CurrentPrintLayer := gPrintJobManagement.currentState.nextLayerNumber;
 			
 			//delay for parameter to go through 
 			task.internal.fbTON_DistributionDelay.PT := T#0.25s;
@@ -192,7 +187,7 @@ ACTION DistributeLayerFileSubSequence:
 		SEQUENCE_WAIT_FOR_FEEDBACK: 
 			
 			IF (gOpcData_FromBuildPC.CurrentDistributionLayer = gOpcData_ToBuildPC.CurrentPrintLayer) THEN
-				task.status.sequence := SEQUENCE_SET_CURRENT_LAYER;
+				task.status.sequence := SEQUENCE_DONE;
 			END_IF
 			
 			task.internal.distributorTimeout.IN := TRUE;

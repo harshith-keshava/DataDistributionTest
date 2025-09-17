@@ -35,7 +35,9 @@ PROGRAM _CYCLIC
 			
 			fbRecipeXml_PrintProcessConfig.Load := TRUE;
 			
-			IF fbRecipeXml_PrintProcessConfig.CommandDone THEN				
+			IF fbRecipeXml_PrintProcessConfig.CommandDone THEN	
+				
+				gPrintJobManagement.status.loadPCIFileComplete := TRUE;
 	
 				task.internal.load.status := ERR_OK;
 				

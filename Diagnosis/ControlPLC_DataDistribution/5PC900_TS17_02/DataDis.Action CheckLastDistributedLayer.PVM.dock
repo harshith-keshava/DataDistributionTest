@@ -1,0 +1,30 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=DataDis 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=18 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                        buildDistCommand                 AtnPLCOpenWithParameters    0 "                                                               *"    0   24    1    0    1    1         
+                                 Command                               STRING[80]    0 "                                                              ''"    1    9   81    1    0    0         
+                                 Execute                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                Fallback                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                             pParameters                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                             sParameters                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                  Status                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                           StatusMessage                         STRING[80][0..9]    0 "                                                               *"    1    9   81    0    0    1         
+                        StatusMessage[0]                               STRING[80]    0 "                                 'Print Job Management : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[1]                               STRING[80]    0 "                                 'Print Job Management : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[2]                               STRING[80]    0 "                                 'Print Job Management : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[3]                               STRING[80]    0 "                                 'Print Job Management : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[4]                               STRING[80]    0 "                                    'Build Distributor : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[5]                               STRING[80]    0 "                                    'Build Distributor : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[6]                               STRING[80]    0 "                                    'Build Distributor : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[7]                               STRING[80]    0 "                                           'Build Info : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[8]                               STRING[80]    0 "                       'Print Process Config File Load : 65535 '"    2    9   81    1    0    0         
+                        StatusMessage[9]                               STRING[80]    0 "                                                              ''"    2    9   81    1    0    0         
+                                    Busy                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                    Done                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                 Aborted                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                   Error                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                  _state                                    USINT    0 "                                                               8"    1    5    1   10    0    0         
+                                _command                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                                _execute                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                   _call                           AtnPlcOpenCall    0 "                                                               *"    1   24    1    0    0    1         
+                                   abort                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757691508_13_
-#define _BUR_1757691508_13_
+#ifndef _BUR_1757956802_1_
+#define _BUR_1757956802_1_
 
 #include <bur/plctypes.h>
 
@@ -47,6 +47,7 @@ typedef struct PrintJobManagementCommands_typ
 typedef struct PrintJobManagementStatus_typ
 {	plcbit distributionLayerRecieved;
 	plcbit distributionLayerRequested;
+	plcbit loadPCIFileComplete;
 	plcbit buildInfoValidCheck;
 	plcstring buildInfoValid[81];
 	plcstring currentLayerGCodeFilename[256];
@@ -77,6 +78,7 @@ typedef struct PrintJobManagementState_typ
 	float maxLaserWatts;
 	plcstring buildPlatformName[21];
 	float currentPartHeight;
+	unsigned short nextLayerNumber;
 	unsigned short currentLayerNumber;
 	unsigned short lastRecoatedLayerNumber;
 	unsigned short lastPrintedLayerNumber;
@@ -109,5 +111,5 @@ __asm__(".ascii \"iecfile \\\"Logical/DataManagement/PrintJobManagement/Types.ty
 __asm__(".previous");
 
 
-#endif /* _BUR_1757691508_13_ */
+#endif /* _BUR_1757956802_1_ */
 

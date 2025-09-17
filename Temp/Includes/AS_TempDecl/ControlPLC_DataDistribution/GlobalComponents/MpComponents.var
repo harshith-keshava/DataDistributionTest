@@ -7,6 +7,7 @@ VAR
 	alarm_Safety : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineAC.mpalarmxcore" #2"1" #3"1"*)
 	gAlarmXHistory_Machine : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineAH.mpalarmxhistory" #2"1" #3"1"*)
 	gBuildInfoRecipe : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\Recipies.mprecipexml" #2"1" #3"1"*)
+	gCustomScanRecipe : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\Recipies.mprecipexml" #2"1" #3"1"*)
 	gGroup_AxisBasic : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineCG.mpcomgroup" #2"1" #3"1"*)
 	gGroup_CncGantry : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineCG.mpcomgroup" #2"1" #3"1"*)
 	gGroup_CncGear : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineCG.mpcomgroup" #2"1" #3"1"*)
@@ -30,5 +31,6 @@ VAR
 	gGroup_Safety : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineCG.mpcomgroup" #2"1" #3"1"*)
 	gGroup_Shuttle : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineCG.mpcomgroup" #2"1" #3"1"*)
 	gGroup_Vision : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\MachineCG.mpcomgroup" #2"1" #3"1"*)
+	gPrintProcessConfigRecipe : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\Recipies.mprecipexml" #2"1" #3"1"*)
 	gUserXLogin : {REDUND_UNREPLICABLE} MpComIdentType; (*#1"C:\DataDistributionTest\DataDistributionTest\Physical\ControlPLC_DataDistribution\5PC900_TS17_02\mappServices\UserLogin.mpuserxlogin" #2"1" #3"1"*)
 END_VAR

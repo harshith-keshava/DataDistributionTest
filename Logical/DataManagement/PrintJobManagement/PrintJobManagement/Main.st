@@ -8,7 +8,7 @@ PROGRAM _INIT
 
 	
 	
-	subscribePLCOpenWithParameters( gPrintJobManagement.commands.updateLayerNumber, Name, ADR(task.parameters.printJobLayer), SIZEOF(task.parameters.printJobLayer), task.command.updateCurrentLayer, task.internal.PLCOpen);
+	subscribePLCOpen( gPrintJobManagement.commands.updateLayerNumber, Name, task.command.updateCurrentLayer, task.internal.PLCOpen);
 	
 	subscribePLCOpen( gPrintJobManagement.commands.validatePrintFile, Name, task.command.validatePrintFile, task.internal.PLCOpen);
 	
@@ -123,25 +123,7 @@ PROGRAM _CYCLIC
 		// If the command came from PLCOpen FirstPass will be true and it will not abort it
 		atnPLCOpenAbort(task.internal.PLCOpen);
 		
-		// handle state-based inhibits
-		CASE task.status.state OF
-			STATE_UPDATE_LAYER_NUMBER:
-				
-				IF stateAnyTrue( gPrintJobManagement.status.buildInfoInvalid , TRUE) THEN
-					
-					//task.internal.PLCOpen.status := ERR_INHIBITED;
-					task.status.state := STATE_READY;
-					
-					stateTrueStatus(gPrintJobManagement.status.buildInfoInvalid, ADR(task.internal.subSystemStatus), SIZEOF(task.internal.subSystemStatus)); 
-					
-					task.status.statusMessage := CONCAT(task.status.statusMessage, ' (Update Layer Number Inhibit) ');
-					task.status.statusMessage := CONCAT(task.status.statusMessage, task.internal.subSystemStatus[0]);
-					//vfAlarmEdgeSnippet(gPrintJobManagement.alarms.components, gPrintJobManagement.alarms.COMMAND_INHIBITED, task.status.statusMessage);
-
-				END_IF
-				
-			
-		END_CASE
+		
 		
 	END_IF
 	
@@ -198,19 +180,10 @@ PROGRAM _CYCLIC
 			
 		STATE_UPDATE_LAYER_NUMBER:
 			
-			//Updating Layer Number
-			IF task.internal.PLCOpen.parametersWritten THEN
-				task.internal.PLCOpen.parametersWritten := FALSE;
+		
 				
-				IF dCurrentState.currentLayerNumber <> task.parameters.printJobLayer THEN
-					//reset signals but only if its a different layer number
-					//gOpcData_ToVisionPC.ImgSet := 0;
-					//gOpcData_ToVisionPC.CurrentRecoat := 0;
-					//gOpcData_ToVisionPC.CurrentScan := 0;
-				END_IF
-				
-				dCurrentState.currentLayerNumber := task.parameters.printJobLayer;			
-			END_IF
+			dCurrentState.currentLayerNumber := gPrintJobManagement.currentState.nextLayerNumber;			
+			
 	
 			
 			Nonvolatile.currentLayerNumber := dCurrentState.currentLayerNumber;

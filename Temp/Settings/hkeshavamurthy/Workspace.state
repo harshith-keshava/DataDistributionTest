@@ -1,16 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio FileVersion="4.9"?>
 <State Top="0" Left="0" Width="0" Height="0" WindowState="Normal" xmlns="http://br-automation.co.at/AS/State">
-  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\RM_PrintProcessConfig\Cyclic.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="36">
+  <Versatile ID="C:\DataDistributionTest\DataDistributionTest\Logical\Automation\DataDistributionSFC\Cyclic.sfc">
+    <Property Name="cyclic actions" Value="5 13 " />
+    <Property Name="transitions" Value="" />
+    <Property Name="exit actions" Value="" />
+    <Property Name="xpos" Value="0" />
+    <Property Name="ypos" Value="0" />
+    <Property Name="zoom" Value="100" />
+    <Property Name="entry actions" Value="" />
+  </Versatile>
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\Main.st" CaretLine="205" CaretColumn="64" FirstVisibleLine="191">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\Main.st" CaretLine="181" CaretColumn="58" FirstVisibleLine="157">
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\RM_PrintProcessConfig\Cyclic.st" CaretLine="72" CaretColumn="38" FirstVisibleLine="55">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\SubSequence.st" CaretLine="63" CaretColumn="10" FirstVisibleLine="43">
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\BuildDistributor\SubSequence.st" CaretLine="134" CaretColumn="13" FirstVisibleLine="119">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\RM_BuildInfo\Main.st" CaretLine="104" CaretColumn="1" FirstVisibleLine="91">
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Temp\SFCSubEditor\Automation.DataDistributionSFC\Cyclic\Action CheckBuildInfo.st" CaretLine="1" CaretColumn="56" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\PrintJobManagement\SubSequence.st" CaretLine="48" CaretColumn="25" FirstVisibleLine="33">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Logical\DataManagement\PrintJobManagement\PrintJobManagement\Main.st" CaretLine="128" CaretColumn="29" FirstVisibleLine="115">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\DataDistributionTest\DataDistributionTest\Temp\SFCSubEditor\Automation.DataDistributionSFC\Cyclic\Action UpdateNextLayerglobally.st" CaretLine="2" CaretColumn="20" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
 </State>

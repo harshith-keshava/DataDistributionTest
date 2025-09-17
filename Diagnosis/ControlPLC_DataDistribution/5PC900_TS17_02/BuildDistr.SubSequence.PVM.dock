@@ -5,7 +5,7 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index
                                   status                 localInterfaceStatus_typ    0 "                                                               *"    1   24    1    0    0    1         
                                 sequence                                     DINT    0 "                                                               0"    2    4    1   10    0    0 e,0,SEQU
 
-                           statusMessage                              STRING[255]    0 "                                   'Start Distribution COMPLETE'"    2    9  256    1    0    0         
+                           statusMessage                              STRING[255]    0 "                                             'aborting complete'"    2    9  256    1    0    0         
                                 internal               localInterfaceInternal_typ    0 "                                                               *"    1   24    1    0    0    1         
                        atnPLCOpenCommand                               AtnPLCOpen    0 "                                                               *"    2   24    1    0    0    1         
                                  Command                               STRING[80]    0 "                        'gVFLCR.command.deleteLaserControlFiles'"    3    9   81    1    0    0         
@@ -14,12 +14,12 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index
                                       PT                                     TIME    0 "                                                           T#0ms"    3   12    1    1    0    0         
                                        Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
                                       ET                                     TIME    0 "                                                           T#0ms"    3   12    1    1    0    0         
-                               StartTime                                     TIME    0 "                                             T#01h_06m_44s_940ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                             T#01h_06m_44s_650ms"    3   12    1    1    0    0         
                                        M                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                 Restart                                    UDINT    0 "                                                             110"    3    7    1   10    0    0         
+                                 Restart                                    UDINT    0 "                                                             111"    3    7    1   10    0    0         
                       distRetryAttempted                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
                     gOpcData_FromBuildPC               OPCUAData_FROM_BuildPC_typ    0 "                                                               *"    0   24    1    0    0    1         
-                CurrentDistributionLayer                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         
+                CurrentDistributionLayer                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
                       gOpcData_ToBuildPC                 OPCUAData_TO_BuildPC_typ    0 "                                                               *"    0   24    1    0    0    1         
-                RequestStartDistribution                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                RequestStartDistribution                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
                        CurrentPrintLayer                                    UDINT    0 "                                                               1"    1    7    1   10    0    0         

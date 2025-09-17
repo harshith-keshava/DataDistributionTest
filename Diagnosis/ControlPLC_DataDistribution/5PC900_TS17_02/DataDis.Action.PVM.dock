@@ -2,7 +2,7 @@ WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=DataDis
 Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=27 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                  Command                 AtnPLCOpenWithParameters    0 "                                                               *"    0   24    1    0    1    1         
-                                 Command                               STRING[80]    0 "                                                               *"    1    9   81    1    0    0         
+                                 Command                               STRING[80]    0 "                                                              ''"    1    9   81    1    0    0         
                                  Execute                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
                                 Fallback                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
                              pParameters                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         

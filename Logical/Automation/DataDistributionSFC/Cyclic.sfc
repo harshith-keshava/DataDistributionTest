@@ -144,7 +144,27 @@ END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)
 (* @SFCCOMMENT := '' *)
-TRANSITION FROM RequestLayerFileTranf TO UpdateNextLayer:=
+TRANSITION FROM RequestLayerFileTranf TO AbortLayer:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'AbortLayer' *)
+STEP AbortLayer:
+(* @LANGUAGE := 'st' *)
+Command.Command :=  gVFLCR.command.abortLayer;
+Command.Execute := TRUE;
+Command();
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	StepDone := FALSE;	
+END_IF
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+TRANSITION FROM AbortLayer TO UpdateNextLayer:=
 StepDone
 END_TRANSITION
 (* @SFCISJUMP := 'UpdateNextLayer' *)

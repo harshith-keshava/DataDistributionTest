@@ -92,15 +92,11 @@ PROGRAM _CYCLIC
 		IF task.command.startDistribution THEN
 			task.internal.newCommand := 1;
 			
-			IF (gOpcData_FromBuildPC.BuildInfoReady) OR (gOpcData_FromBuildPC.DistributionActive) THEN
-				task.status.sequence := SEQUENCE_IDLE;
-				task.status.state := STATE_ABORT_DISTRIBUTION;
-				task.status.statusMessage := 'Aborting Distribution';
-			ELSE		
-				task.status.sequence := SEQUENCE_IDLE;
-				task.status.state := STATE_START_DISTRIBUTION;
-				task.status.statusMessage := 'Starting Distribution';
-			END_IF
+				
+			task.status.sequence := SEQUENCE_IDLE;
+			task.status.state := STATE_START_DISTRIBUTION;
+			task.status.statusMessage := 'Starting Distribution';
+		
 		
 		ELSIF task.command.distributeLayerFile THEN
 			task.internal.newCommand := 1;	

@@ -188,6 +188,7 @@ ACTION DistributeLayerFileSubSequence:
 			
 			IF (gOpcData_FromBuildPC.CurrentDistributionLayer = gOpcData_ToBuildPC.CurrentPrintLayer) THEN
 				task.status.sequence := SEQUENCE_DONE;
+				gPrintJobManagement.status.distributionLayerComplete := TRUE;
 			END_IF
 			
 			task.internal.distributorTimeout.IN := TRUE;

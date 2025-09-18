@@ -12,6 +12,8 @@ VAR
 	_UpdateNextLayerglobally:BOOL:=FALSE;
 	RequestLayerFileTranf:BOOL:=FALSE;
 	_RequestLayerFileTranf:BOOL:=FALSE;
+	wait:BOOL:=FALSE;
+	_wait:BOOL:=FALSE;
 	FunctionblockCalls:SFCActionType:=(0);
 	Step1Active:SFCActionType:=(0);
 END_VAR

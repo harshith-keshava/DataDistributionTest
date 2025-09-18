@@ -10,8 +10,9 @@ $(AS_PROJECT_PATH)/Logical/Automation/SFCCommon/Common.var
 $(AS_PROJECT_PATH)/Logical/Libraries/VF/VFAlarms/Constants.var
 $(AS_PROJECT_PATH)/Logical/Automation/DataDistributionSFC/Variables.var
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/runtime/runtime.var
-$(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Opcua.typ
+$(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Types.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpBase/MpBase.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/AS/MpAlarmX/MpAlarmXError.typ

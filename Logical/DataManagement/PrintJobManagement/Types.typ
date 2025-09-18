@@ -47,6 +47,7 @@ TYPE
 		distributionLayerRecieved : BOOL;
 		distributionLayerRequested : BOOL;
 		loadPCIFileComplete : BOOL;
+		distributionLayerComplete : BOOL;
 		buildInfoValidCheck : BOOL;
 		buildInfoValid : STRING[80];
 		currentLayerGCodeFilename : STRING[255];

@@ -1,17 +1,13 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=DataDis 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=6 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=2 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
-                     gPrintJobManagement                   PrintJobManagement_typ    0 "                                                               *"    0   24    1    0    0    1         
-                            currentState              PrintJobManagementState_typ    0 "                                                               *"    1   24    1    0    0    1         
-                      currentLayerNumber                                     UINT    0 "                                                              18"    2    6    1   10    0    0         
                                     task                       localInterface_typ    0 "                                                               *"    0   24    1    0    1    1         
                                 internal               localInterfaceInternal_typ    0 "                                                               *"    1   24    1    0    0    1         
                           nextLayerTimer                                      TON    0 "                                                               *"    2   24    1    0    0    1         
                                       IN                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                      PT                                     TIME    0 "                                                           T#03s"    3   12    1    1    0    0         
+                                      PT                                     TIME    0 "                                                           T#0ms"    3   12    1    1    0    0         
                                        Q                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
                                       ET                                     TIME    0 "                                                           T#0ms"    3   12    1    1    0    0         
-                               StartTime                                     TIME    0 "                                             T#01h_23m_09s_410ms"    3   12    1    1    0    0         
+                               StartTime                                     TIME    0 "                                                           T#0ms"    3   12    1    1    0    0         
                                        M                                     BOOL    0 "                                                           FALSE"    3    1    1    2    0    0         
-                                 Restart                                    UDINT    0 "                                                             120"    3    7    1   10    0    0         
-                         nextLayerNumber                                     UINT    0 "                                                              18"    2    6    1   10    0    0         
+                                 Restart                                    UDINT    0 "                                                               0"    3    7    1   10    0    0         

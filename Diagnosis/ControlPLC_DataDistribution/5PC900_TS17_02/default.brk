@@ -1,2 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<breakpoints />
+<breakpoints>
+  <breakpoint>
+    <status>Y</status>
+    <file>Logical/Automation/DataDistributionSFC/Cyclic.sfc</file>
+    <position>95</position>
+    <condition></condition>
+    <instance></instance>
+    <program>DataDis</program>
+  </breakpoint>
+</breakpoints>

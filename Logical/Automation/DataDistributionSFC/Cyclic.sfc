@@ -102,10 +102,10 @@ END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)
 (* @SFCCOMMENT := '' *)
-TRANSITION FROM CompletedAllLayers TO Step1:=
+TRANSITION FROM CompletedAllLayers TO CheckBuildInfo:=
 StepDone
 END_TRANSITION
-(* @SFCISJUMP := 'Step1' *)
+(* @SFCISJUMP := 'CheckBuildInfo' *)
 STEP UpdateNextLayerglobally:
 (* @LANGUAGE := 'st' *)
 gPrintJobManagement.currentState.nextLayerNumber := task.internal.nextLayerNumber;
@@ -161,7 +161,7 @@ END_TRANSITION
 (* @SFCNOJUMP := 'wait' *)
 STEP wait:
 (* @LANGUAGE := 'st' *)
-task.internal.nextLayerTimer.PT := T#3s;
+task.internal.nextLayerTimer.PT := T#2s;
 task.internal.nextLayerTimer.IN := TRUE;
 task.internal.nextLayerTimer(); 
 			

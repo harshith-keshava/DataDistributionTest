@@ -21,17 +21,17 @@ PROGRAM _INIT
 	registerStateBool( gPrintJobManagement.status.buildInfoValid, 'Build Info Loaded', task.status.buildInfoValid);		
 	
 	//REASONS FOR INVALID BUILD FILE
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Build Name Invalid', task.status.buildInfoInvalidReasons.invalidBuildName);	
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Num Layers Invalid', task.status.buildInfoInvalidReasons.invalidNumLayers);
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Layer Height Invalid', task.status.buildInfoInvalidReasons.invalidLayerHeight);
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Platform ID Invalid', task.status.buildInfoInvalidReasons.invalidPlatformID);
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Machine Name Invalid', task.status.buildInfoInvalidReasons.invalidMachineName);
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Map Ver. Invalid', task.status.buildInfoInvalidReasons.invalidPixelMapVersion);
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Build Name Invalid', task.status.buildInfoInvalidReasons.invalidBuildName);	
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Num Layers Invalid', task.status.buildInfoInvalidReasons.invalidNumLayers);
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Layer Height Invalid', task.status.buildInfoInvalidReasons.invalidLayerHeight);
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Platform ID Invalid', task.status.buildInfoInvalidReasons.invalidPlatformID);
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Machine Name Invalid', task.status.buildInfoInvalidReasons.invalidMachineName);
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Map Ver. Invalid', task.status.buildInfoInvalidReasons.invalidPixelMapVersion);
 	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Pixel Usage Invalid', task.status.buildInfoInvalidReasons.invalidPixelUsage);	
 
 	//	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'Workspace Boundaries Invalid', task.status.buildInfoInvalidReasons.invalidWorkspace);	 //TODO ADD BACK WHEN BUILD INFO FILE HAS THIS
 	
-	//registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'PCI File Invalid', task.status.buildInfoInvalidReasons.invalidPrintConfigInstruction);
+	registerStateBool( gPrintJobManagement.status.buildInfoInvalid, 'PCI File Invalid', task.status.buildInfoInvalidReasons.invalidPrintConfigInstruction);
 			
 	gConfiguration.machineIdentity.machineName := 'DP12';
 	gConfiguration.machineIdentity.machineNumber := 12;

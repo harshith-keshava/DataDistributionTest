@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1757955819_21_
-#define _BUR_1757955819_21_
+#ifndef _BUR_1758551266_21_
+#define _BUR_1758551266_21_
 
 #include <bur/plctypes.h>
 
@@ -19,5 +19,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Infrastructure/FirstInitProg/FirstInitProg
 __asm__(".previous");
 
 
-#endif /* _BUR_1757955819_21_ */
+#endif /* _BUR_1758551266_21_ */
 

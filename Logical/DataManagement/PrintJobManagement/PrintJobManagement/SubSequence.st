@@ -15,11 +15,11 @@ ACTION ValidateBuildFileSubsequence:
 			// PLATFORM_MEDIUM_400x600 is not currently supported
 			// PrinterInfo.name must match the machineIdentity.machineName setting
 		
-			//task.status.buildInfoInvalidReasons.invalidBuildName := (gBuildInformation.build_layout = 0) OR (gBuildInformation.print_number = 0) OR (brsstrlen(ADR(gBuildInformation.base_filename)) <> 13);
-			//task.status.buildInfoInvalidReasons.invalidNumLayers := (gBuildInformation.num_layers = 0);
-			//task.status.buildInfoInvalidReasons.invalidLayerHeight := (gBuildInformation.layer_height < MIN_LAYER_HEIGHT) OR (gBuildInformation.layer_height > MAX_LAYER_HEIGHT);
-			//task.status.buildInfoInvalidReasons.invalidPlatformID := (gBuildInformation.platform_id <> PLATFORM_SMALL_200x600) AND (gBuildInformation.platform_id <> PLATFORM_LARGE_600x600);
-			//task.status.buildInfoInvalidReasons.invalidMachineName := (brsstrcmp(ADR(gBuildInformation.BuildInstanceInfo.PrinterInfo.name), ADR(gConfiguration.machineIdentity.machineName)) <> 0);
+			task.status.buildInfoInvalidReasons.invalidBuildName := (gBuildInformation.build_layout = 0) OR (gBuildInformation.print_number = 0) OR (brsstrlen(ADR(gBuildInformation.base_filename)) <> 13);
+			task.status.buildInfoInvalidReasons.invalidNumLayers := (gBuildInformation.num_layers = 0);
+			task.status.buildInfoInvalidReasons.invalidLayerHeight := (gBuildInformation.layer_height < MIN_LAYER_HEIGHT) OR (gBuildInformation.layer_height > MAX_LAYER_HEIGHT);
+			task.status.buildInfoInvalidReasons.invalidPlatformID := (gBuildInformation.platform_id <> PLATFORM_SMALL_200x600) AND (gBuildInformation.platform_id <> PLATFORM_LARGE_600x600);
+			task.status.buildInfoInvalidReasons.invalidMachineName := (brsstrcmp(ADR(gBuildInformation.BuildInstanceInfo.PrinterInfo.name), ADR(gConfiguration.machineIdentity.machineName)) <> 0);
 			
 			
 			//task.status.buildInfoInvalidReasons.invalidPrintConfigInstruction := NOT(gPrintProcessConfig.MachineName = gConfiguration.machineIdentity.machineName) OR NOT(gPrintProcessConfig.FileFormatVersion = gPrintJobManagement.currentState.PCIFileFormatVersion);
@@ -29,8 +29,9 @@ ACTION ValidateBuildFileSubsequence:
 				Nonvolatile.pixelMapFileVersion := 1;
 			END_IF
 			
-			task.status.buildInfoValid := TRUE;
-			gPrintJobManagement.currentState.buildInfoCheckValid := task.status.buildInfoValid;
+		
+				task.status.buildInfoValid := TRUE;
+				gPrintJobManagement.currentState.buildInfoCheckValid := task.status.buildInfoValid;
 				// If the BuildInfo file is different from the one that was previously running, reset to layer zero to start a new print.
 				(*	IF (gBuildInformation.build_layout <> dCurrentState.buildLayout)
 				OR (gBuildInformation.print_number <> dCurrentState.printNumber)				
@@ -52,7 +53,8 @@ ACTION ValidateBuildFileSubsequence:
 				dCurrentState.printOwner := gBuildInformation.print_owner;
 				
 				
-			task.status.sequence := SEQUENCE_DONE;
+				task.status.sequence := SEQUENCE_DONE;
+			
 		
 	END_CASE
 	

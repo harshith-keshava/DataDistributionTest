@@ -1,0 +1,55 @@
+# Backup projects
+/Backups
+
+# AS temporary directories
+Binaries/
+Diagnosis/
+Temp/
+TempObjects/
+
+//cypress testing videos
+Artifacts/
+
+# AS transfer files
+*artransfer.br
+*arTrsfmode.nv
+
+# 'ignored' directory
+ignored/
+
+# ARNC0ext
+*arnc0ext.br
+
+# File types
+*.bak
+*.isopen
+*.DS_Store
+*.orig
+*.log
+*.asar
+*.csvlog*
+*.set
+!**/Physical/**/*.set
+
+# RevInfo variables
+*RevInfo.var
+
+# Logging
+**/DataLog/Logs/**/*.csv
+
+# Misc
+**/MPLogs/*
+**/DLFiles/*
+**/node_modules/
+*.pyc
+
+
+**/.vscode/ipch/
+
+logs/
+
+Gen3/HMIReleases/
+
+# Cypress artifacts
+**/cypress/screenshots/
+**/cypress/videos/

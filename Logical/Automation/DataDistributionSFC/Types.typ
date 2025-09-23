@@ -26,6 +26,7 @@ TYPE
 		PLCOpen : AtnPlcOpenStatus;
 		nextLayerTimer : TON;
 		nextLayerNumber : UINT;
+		completedCycles : UINT;
 		completedLayers : BOOL;
 		newCommand : BOOL;
 	END_STRUCT;

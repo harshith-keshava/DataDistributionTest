@@ -4,15 +4,19 @@
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\cyclic.sfc.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\automation\datadistributionsfc\cyclic.sfc" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitproginit.c.o">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
@@ -20,20 +24,16 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\main.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\datamanagement\printjobmanagement\printjobmanagement\subsequence.st" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\opcuamap\opcuamap.uar">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\infrastructure\revinfo\revinfo.var" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json._markerfile">
     <BuildReason>Prerequiste "c:\users\hkeshavamurthy\appdata\local\temp\msafetyvisu\configurationview\sdmp11_vil.vis" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job._markerfile">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\iat_media.job" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\brvisu\release\burtheme1.min.css" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\.mappview\data\wwwroot\mappsafety.json">
@@ -48,16 +48,16 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\_bur_pvdef.st.o">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\main.st.o" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\cyclic.sfc.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\a.out">
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo\main.st.o" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\a.out">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\main.st.o" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\cyclic.sfc.o" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\a.out">
@@ -76,12 +76,12 @@
     <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\firstinitp\firstinitp.ox" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\printjobma.ox">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\a.out" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\datadis.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\a.out" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma.br">
-    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\printjobma\printjobma.ox" differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\datadis\datadis.ox" differs.
 </BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\controlplc_datadistribution\5pc900_ts17_02\revinfo.br">

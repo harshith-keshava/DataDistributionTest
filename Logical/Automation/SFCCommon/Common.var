@@ -9,6 +9,7 @@ VAR
 	SFCSingleStep : BOOL;
 	OK : BOOL;
 	StepError : BOOL;
+	CycleDone : BOOL;
 	StepDone : BOOL;
 	StepContinue : BOOL;
 	StepRetry : BOOL;

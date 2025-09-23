@@ -22,6 +22,7 @@ END_STEP
 EXIT_ACTION
 (* @LANGUAGE := 'st' *)
 task.internal.completedLayers := FALSE;
+task.internal.completedCycles := 0;
 
 END_ACTION
 TRANSITION FROM Step1 TO CheckBuildInfo:=
@@ -63,7 +64,9 @@ IF ( task.internal.nextLayerNumber <= gPrintJobManagement.currentState.numberOfL
 		
 ELSE
 
-	StepError := TRUE;
+
+	task.internal.completedCycles := task.internal.completedCycles + 1;
+	CycleDone := TRUE;
 
 	task.status.statusMessage := 'Invalid Next layer';
 
@@ -78,6 +81,7 @@ END_STEP
 EXIT_ACTION
 (* @LANGUAGE := 'st' *)
 StepDone := FALSE;
+CycleDone := FALSE;
 (* TODO: Insert Program *)
 END_ACTION
 TRANSITION FROM UpdateNextLayer TO UpdateNextLayerglobally:=
@@ -85,19 +89,19 @@ StepDone
 END_TRANSITION
 (* @SFCNOJUMP := 'UpdateNextLayerglobally' *)
 TRANSITION FROM UpdateNextLayer TO CompletedAllLayers:=
-StepError
+CycleDone
 END_TRANSITION
 (* @SFCNOJUMP := 'CompletedAllLayers' *)
 STEP CompletedAllLayers:
 (* @LANGUAGE := 'st' *)
-task.internal.completedLayers := TRUE;
+//task.internal.completedLayers := TRUE;
 
-IF task.command.closePopup THEN
+//IF task.command.closePopup THEN
 		
-	task.internal.completedLayers := FALSE;
+	//task.internal.completedLayers := FALSE;
 	StepDone := TRUE;
 		
-END_IF
+//END_IF
 END_STEP
 (* @SFCMAXTIME := '' *)
 (* @SFCMINTIME := '' *)

@@ -3,11 +3,11 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index
                                     name                                     type force                                                            value level type len format place expand specs
                                   gVFLCR                             VFLCRApi_typ    0 "                                                               *"    0   24    1    0    0    1         
                                  command                      VFLCRApiCommand_typ    0 "                                                               *"    1   24    1    0    0    1         
-                               openLayer                               STRING[80]    0 "                                                               *"    2    9   81    1    0    0         
+                               openLayer                               STRING[80]    0 "                                      'gVFLCR.command.openLayer'"    2    9   81    1    0    0         
                                  Command                 AtnPLCOpenWithParameters    0 "                                                               *"    0   24    1    0    1    1         
-                                 Command                               STRING[80]    0 "                                                               *"    1    9   81    1    0    0         
-                                 Execute                                     BOOL    0 "                                                               *"    1    1    1    2    0    0         
-                                Fallback                                     DINT    0 "                                                               *"    1    4    1   10    0    0         
+                                 Command                               STRING[80]    0 "                                      'gVFLCR.command.openLayer'"    1    9   81    1    0    0         
+                                 Execute                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
+                                Fallback                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
                              pParameters                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
                              sParameters                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
                                   Status                                     DINT    0 "                                                           65534"    1    4    1   10    0    0         
@@ -33,7 +33,7 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index
                                    abort                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
                      openLayerParameters            VFLCROpenLayerCommandPars_typ    0 "                                                               *"    0   24    1    0    1    1         
                               parameters             VFLCROpenLayerParameters_typ    0 "                                                               *"    1   24    1    0    0    1         
-                           selectedLayer                                    UDINT    0 "                                                               1"    2    7    1   10    0    0         
+                           selectedLayer                                    UDINT    0 "                                                               2"    2    7    1   10    0    0         
                      gPrintJobManagement                   PrintJobManagement_typ    0 "                                                               *"    0   24    1    0    0    1         
                             currentState              PrintJobManagementState_typ    0 "                                                               *"    1   24    1    0    0    1         
-                      currentLayerNumber                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                      currentLayerNumber                                     UINT    0 "                                                               2"    2    6    1   10    0    0         

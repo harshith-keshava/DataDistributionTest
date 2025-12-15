@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1758551266_13_
-#define _BUR_1758551266_13_
+#ifndef _BUR_1765465028_13_
+#define _BUR_1765465028_13_
 
 #include <bur/plctypes.h>
 
@@ -86,6 +86,7 @@ typedef struct PrintJobManagementState_typ
 	plcbit buildInfoCheckValid;
 	plcbit newBuildInfoFileLoaded;
 	unsigned short buildIteration;
+	plcbit openAndCloseLayers;
 	plcbit cleanerEngagedToScoops;
 	unsigned short pixelMapFileVersion;
 	unsigned short lastDistributedLayer;
@@ -112,5 +113,5 @@ __asm__(".ascii \"iecfile \\\"Logical/DataManagement/PrintJobManagement/Types.ty
 __asm__(".previous");
 
 
-#endif /* _BUR_1758551266_13_ */
+#endif /* _BUR_1765465028_13_ */
 

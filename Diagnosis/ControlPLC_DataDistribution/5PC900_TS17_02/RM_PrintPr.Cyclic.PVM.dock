@@ -1,14 +1,14 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=RM_PrintPr 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=17 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=29 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
           fbRecipeXml_PrintProcessConfig                              MpRecipeXml    0 "                                                               *"    0   24    1    0    1    1         
-                                  MpLink                                    UDINT    0 "                                                       400776668"    1    7    1   10    0    0         
+                                  MpLink                                    UDINT    0 "                                                       400769488"    1    7    1   10    0    0         
                                   Enable                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
                               ErrorReset                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
-                              DeviceName                                    UDINT    0 "                                                       415369210"    1    7    1   10    0    0         
-                                FileName                                    UDINT    0 "                                                       415369266"    1    7    1   10    0    0         
+                              DeviceName                                    UDINT    0 "                                                       414857434"    1    7    1   10    0    0         
+                                FileName                                    UDINT    0 "                                                       414857490"    1    7    1   10    0    0         
                                   Header                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
-                                Category                                    UDINT    0 "                                                       415369238"    1    7    1   10    0    0         
+                                Category                                    UDINT    0 "                                                       414857462"    1    7    1   10    0    0         
                                 LoadType                                     DINT    0 "                                                               0"    1    4    1   10    0    0 e,0,mpRE
 
                                     Load                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
@@ -31,5 +31,8 @@ Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index
                                     Code                                     UINT    0 "                                                               *"    4    6    1   10    0    0         
                         LastLoadedRecipe                              STRING[255]    0 "                                                               *"    2    9  256    1    0    0         
                                 Internal                    MpComInternalDataType    0 "                                                               *"    1   24    1    0    0    1         
-                                 pObject                                    UDINT    0 "                                                       116902224"    2    7    1   10    0    0         
+                                 pObject                                    UDINT    0 "                                                       116902200"    2    7    1   10    0    0         
                                    State                                    UDINT    0 "                                                               3"    2    7    1   10    0    0         
+                                    task               PrintProcessConfigTask_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                commands                  PrintConfigCommands_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                    load                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         

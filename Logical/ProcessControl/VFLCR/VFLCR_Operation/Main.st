@@ -106,7 +106,7 @@ PROGRAM _CYCLIC
 			IF task.internal.PLCOpenOpenLayer.parametersWritten THEN
 				task.parameters.openLayerParameters := task.internal.openLayerCommandParameters.parameters;
 				
-				IF (task.parameters.openLayerParameters.selectedBuildLayout > 0) AND (task.parameters.openLayerParameters.selectedPrintNumber > 0) AND NOT (IO.di.LayerOpen) THEN
+				IF  (task.parameters.openLayerParameters.selectedPrintNumber > 0) AND NOT (IO.di.LayerOpen) THEN
 					IO.do.OpenLayer := TRUE;
 				ELSE
 					IO.do.OpenLayer := FALSE;
@@ -120,6 +120,7 @@ PROGRAM _CYCLIC
 		END_IF
 		
 		IF IO.di.LayerOpen THEN
+			
 			
 			// Unlike other commands, IO.do.OpenLayer must stay set after a success (while the layer is open)
 			task.internal.PLCOpenOpenLayer.status := ERR_OK;

@@ -6,6 +6,16 @@ VAR
 	_CheckBuildInfo:BOOL:=FALSE;
 	UpdateNextLayer:BOOL:=FALSE;
 	_UpdateNextLayer:BOOL:=FALSE;
+	UpdateNextLayerglobally1:BOOL:=FALSE;
+	_UpdateNextLayerglobally1:BOOL:=FALSE;
+	RequestLayerFileTranf1:BOOL:=FALSE;
+	_RequestLayerFileTranf1:BOOL:=FALSE;
+	openLayer1:BOOL:=FALSE;
+	_openLayer1:BOOL:=FALSE;
+	abortLayer1:BOOL:=FALSE;
+	_abortLayer1:BOOL:=FALSE;
+	wait1:BOOL:=FALSE;
+	_wait1:BOOL:=FALSE;
 	CompletedAllLayers:BOOL:=FALSE;
 	_CompletedAllLayers:BOOL:=FALSE;
 	UpdateNextLayerglobally:BOOL:=FALSE;

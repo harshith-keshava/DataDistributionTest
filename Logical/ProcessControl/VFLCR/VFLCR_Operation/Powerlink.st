@@ -76,13 +76,13 @@ ACTION WriteOutputIO:
 			IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 3);
 		END_IF
 		
-		//IF (IO.do.EnableMode_MANUAL) THEN
-		//	IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 6); // Set manual mode
-		//	IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 7); // Clear auto mode
-		//ELSE
-		//	IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 6); // Clear manual mode
-		//	IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 7); // Set auto mode
-		//END_IF
+		IF (IO.do.EnableMode_MANUAL) THEN
+			IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 6); // Set manual mode
+			IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 7); // Clear auto mode
+		ELSE
+			IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 6); // Clear manual mode
+			IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 7); // Set auto mode
+		END_IF
 		
 		IF (IO.do.OpenLayer) THEN
 			IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 8);

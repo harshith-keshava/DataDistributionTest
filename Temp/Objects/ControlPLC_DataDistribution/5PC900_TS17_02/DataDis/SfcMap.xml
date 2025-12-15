@@ -7,10 +7,15 @@
 <STEP00004 NAME="Step1" EXIT="9"/>
 <STEP00006 NAME="CheckBuildInfo" CYCLIC="10" EXIT="11"/>
 <STEP00008 NAME="UpdateNextLayer" CYCLIC="12" EXIT="13"/>
-<STEP00011 NAME="CompletedAllLayers" CYCLIC="14"/>
-<STEP00014 NAME="UpdateNextLayerglobally" CYCLIC="15" EXIT="16"/>
-<STEP00016 NAME="RequestLayerFileTranf" CYCLIC="17" EXIT="18"/>
-<STEP00018 NAME="wait" CYCLIC="19" EXIT="20"/>
+<STEP00011 NAME="UpdateNextLayerglobally1" CYCLIC="14" EXIT="15"/>
+<STEP00013 NAME="RequestLayerFileTranf1" CYCLIC="16" EXIT="17"/>
+<STEP00015 NAME="openLayer1" CYCLIC="18" EXIT="19"/>
+<STEP00017 NAME="abortLayer1" CYCLIC="20" EXIT="21"/>
+<STEP00019 NAME="wait1" CYCLIC="22" EXIT="23"/>
+<STEP00023 NAME="CompletedAllLayers" CYCLIC="24"/>
+<STEP00026 NAME="UpdateNextLayerglobally" CYCLIC="25" EXIT="26"/>
+<STEP00028 NAME="RequestLayerFileTranf" CYCLIC="27" EXIT="28"/>
+<STEP00030 NAME="wait" CYCLIC="29" EXIT="30"/>
 </MainSFC>
 <PiperModuleInterface USED="FALSE" NR="2">
 </PiperModuleInterface>

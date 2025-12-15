@@ -1,4 +1,7 @@
 
+
+
+  
 // Start connection to build distributor and distribute the starting files
 ACTION StartDistributionSubSequence: 
 	
@@ -50,6 +53,7 @@ ACTION StartDistributionSubSequence:
 			ELSIF task.internal.atnPLCOpenCommand.Error THEN
 				task.status.sequence := SEQUENCE_ERROR;
 			END_IF
+			
 				
 		SEQUENCE_LOAD_BUILD_FILE: 
 			task.status.statusMessage := 'load build info file';
@@ -60,9 +64,11 @@ ACTION StartDistributionSubSequence:
 				task.status.sequence := SEQUENCE_CHK_BUILD_INFO_VALID;
 				gSystemRecipeApi.status.buildInfoLoaded := FALSE;
 				task.internal.atnPLCOpenCommand.Execute := FALSE;
+				
 			ELSIF task.internal.atnPLCOpenCommand.Error THEN
 				task.status.sequence := SEQUENCE_ERROR;	
 			END_IF
+			
 			
 		
 		SEQUENCE_CHK_BUILD_INFO_VALID:

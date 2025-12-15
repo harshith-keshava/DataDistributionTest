@@ -91,10 +91,11 @@ PROGRAM _CYCLIC
 	
 	CASE task.status.state OF						
 		STATE_LOAD:		
-
+			fbRecipeXml_BuildInfo.Enable := TRUE;
 			fbRecipeXml_BuildInfo.Load := TRUE;
 
 			IF fbRecipeXml_BuildInfo.CommandDone THEN
+				fbRecipeXml_BuildInfo.Enable := FALSE;
 				
 				task.internal.notLoaded := FALSE;
 			    gSystemRecipeApi.status.buildInfoLoaded := TRUE;
@@ -105,9 +106,11 @@ PROGRAM _CYCLIC
 
 			ELSIF fbRecipeXml_BuildInfo.Error THEN
 				
+				
 				task.internal.notLoaded := TRUE;
 				
 				fbRecipeXml_BuildInfo.ErrorReset	:= TRUE;
+				fbRecipeXml_BuildInfo.Enable := FALSE;
 				task.internal.load.status := PRINT_JOB_MANAGER_ERROR;
 				task.status.state := STATE_READY;
 
@@ -140,7 +143,6 @@ PROGRAM _CYCLIC
 
 	
 	fbRecipeXml_BuildInfo.MpLink := ADR(gBuildInfoRecipe);
-	fbRecipeXml_BuildInfo.Enable := TRUE;
 	fbRecipeXml_BuildInfo.DeviceName := ADR('CurrentBuild');
 	fbRecipeXml_BuildInfo.Category := ADR('BuildInfo');
 	fbRecipeXml_BuildInfo.FileName := ADR('BuildInfo.xml');		

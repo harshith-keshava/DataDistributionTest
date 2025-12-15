@@ -84,6 +84,7 @@ TYPE
 		buildInfoCheckValid : BOOL;
 		newBuildInfoFileLoaded : BOOL;
 		buildIteration : UINT;
+		openAndCloseLayers : BOOL;
 		cleanerEngagedToScoops : BOOL;
 		pixelMapFileVersion : UINT;
 		lastDistributedLayer : UINT;

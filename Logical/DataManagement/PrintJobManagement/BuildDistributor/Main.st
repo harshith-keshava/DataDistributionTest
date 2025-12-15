@@ -49,13 +49,12 @@ PROGRAM _CYCLIC
 			task.status.missedHeartbeats := 0;
 		ELSE
 			task.status.missedHeartbeats := task.status.missedHeartbeats + 1;
-			task.status.buildDistributorConnected := FALSE;
 		END_IF
 	END_IF
 	task.internal.heartbeatTimer();
 	
 	//timeout after 3 missed heartbeats
-	IF task.status.missedHeartbeats > 3 THEN
+	IF task.status.missedHeartbeats > 10 THEN
 		task.status.buildDistributorConnected := FALSE;
 	END_IF
 	
@@ -269,7 +268,7 @@ PROGRAM _CYCLIC
 	task.internal.atnPLCOpenCommandParameters.Execute := FALSE;
 	
 	task.internal.distributorTimeout();
-	task.internal.distributorTimeout.IN := FALSE;
+	task.internal.distributorTimeout.IN := FALSE; 
 	
 	task.internal.distributionRecoveryTimer();
 	task.internal.distributionRecoveryTimer.IN := FALSE;

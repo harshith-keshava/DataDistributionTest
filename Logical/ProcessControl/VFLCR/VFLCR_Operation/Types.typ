@@ -106,6 +106,7 @@ TYPE
 	LaserIODO_typ : 	STRUCT 
 		Delete_LaserControlFiles : BOOL; (*OperationControl.1*)
 		Transfer_LaserControlFiles : BOOL; (*OperationControl.3*)
+		EnableMode_MANUAL : BOOL; (*OperationControl.8*)
 		OpenLayer : BOOL; (*OperationControl.8*)
 		AbortLayer : BOOL; (*OperationControl.9*)
 	END_STRUCT;

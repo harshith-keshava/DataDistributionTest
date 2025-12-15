@@ -10,6 +10,7 @@ VAR
 	OK : BOOL;
 	StepError : BOOL;
 	CycleDone : BOOL;
+	StepDoneOpenLayer : BOOL;
 	StepDone : BOOL;
 	StepContinue : BOOL;
 	StepRetry : BOOL;

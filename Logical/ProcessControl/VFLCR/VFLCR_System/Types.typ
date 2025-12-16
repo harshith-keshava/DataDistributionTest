@@ -8,6 +8,7 @@ TYPE
 	END_STRUCT;
 	localInterfaceCommand_typ : 	STRUCT 
 		openLayer : BOOL;
+		resetAllErrors : BOOL;
 		closePopup : BOOL;
 		confirmReboot : BOOL;
 		rebootPLC : BOOL;

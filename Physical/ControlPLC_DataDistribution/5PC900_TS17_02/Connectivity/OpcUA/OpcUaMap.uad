@@ -56,6 +56,11 @@
             <Variable Name="machineName" />
           </Variable>
         </Variable>
+        <Variable Name="gPrintJobManagement">
+          <Variable Name="currentState">
+            <Variable Name="openAndCloseLayers" />
+          </Variable>
+        </Variable>
       </GlobalVariables>
       <Task Name="VFLCR_Syst">
         <Variable Name="task">
@@ -65,6 +70,7 @@
             <Variable Name="rebootPLC" />
             <Variable Name="closePopup" />
             <Variable Name="confirmReboot" />
+            <Variable Name="resetAllErrors" />
           </Variable>
           <Variable Name="parameters">
             <Variable Name="openLayer" />

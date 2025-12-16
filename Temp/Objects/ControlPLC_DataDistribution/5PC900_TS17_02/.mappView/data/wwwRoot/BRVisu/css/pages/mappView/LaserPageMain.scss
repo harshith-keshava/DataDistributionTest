@@ -54,7 +54,7 @@
 	@include elemLeft(440);
 }
 #LaserPageMain_GroupBox1 {
-	@include elemWidth(520);
+	@include elemWidth(540);
 }
 #LaserPageMain_GroupBox1 {
 	@include elemHeight(480);
@@ -66,7 +66,7 @@
 		background-color: rgba(192, 192, 192, 1);
 }
 #LaserPageMain_MomentaryPushButton22 {
-	@include elemTop(163);
+	@include elemTop(203);
 }
 #LaserPageMain_MomentaryPushButton22 {
 	@include elemLeft(139);
@@ -81,7 +81,7 @@
 		z-index: 0;
 }
 #LaserPageMain_MomentaryPushButton23 {
-	@include elemTop(243);
+	@include elemTop(283);
 }
 #LaserPageMain_MomentaryPushButton23 {
 	@include elemLeft(139);
@@ -156,7 +156,7 @@
 		z-index: 5;
 }
 #LaserPageMain_MomentaryPushButton24 {
-	@include elemTop(323);
+	@include elemTop(363);
 }
 #LaserPageMain_MomentaryPushButton24 {
 	@include elemLeft(139);
@@ -194,6 +194,46 @@
 	&:not(.disabled):not(.active):not(.checked) span{
 		color: rgba(255, 0, 0, 1);
 	}
+}
+#LaserPageMain_MomentaryPushButton28 {
+	@include elemTop(3);
+}
+#LaserPageMain_MomentaryPushButton28 {
+	@include elemLeft(359);
+}
+#LaserPageMain_MomentaryPushButton28 {
+	@include elemAutoWidth(161);
+}
+#LaserPageMain_MomentaryPushButton28 {
+	@include elemAutoHeight(57);
+}
+#LaserPageMain_MomentaryPushButton28 {
+		z-index: 8;
+}
+#LaserPageMain_MomentaryPushButton28 {
+	&:not(.disabled):not(.active):not(.checked){
+		border-color: rgba(255, 0, 0, 1);
+	}
+}
+#LaserPageMain_MomentaryPushButton28 {
+	&:not(.disabled):not(.active):not(.checked) span{
+		color: rgba(255, 0, 0, 1);
+	}
+}
+#LaserPageMain_StatusLEDGreen5 {
+	@include elemAutoHeight(30);
+}
+#LaserPageMain_StatusLEDGreen5 {
+	@include elemTop(163);
+}
+#LaserPageMain_StatusLEDGreen5 {
+	@include elemLeft(139);
+}
+#LaserPageMain_StatusLEDGreen5 {
+	@include elemAutoWidth(241);
+}
+#LaserPageMain_StatusLEDGreen5 {
+		z-index: 9;
 }
 #LaserPageMain_GroupBox50 {
 	@include elemTop(20);

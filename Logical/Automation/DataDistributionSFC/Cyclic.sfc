@@ -147,32 +147,7 @@ EXIT_ACTION
 (* @LANGUAGE := 'st' *)
 StepDone := FALSE;
 END_ACTION
-TRANSITION FROM RequestLayerFileTranf1 TO abortLayer1:=
-StepDone
-END_TRANSITION
-(* @SFCNOJUMP := 'abortLayer1' *)
-STEP abortLayer1:
-(* @LANGUAGE := 'st' *)
-Command.Command :=  gVFLCR.command.abortLayer;
-Command.Execute := TRUE;
-Command();
-IF Command.Done THEN
-	StepDone := TRUE;
-	Command.Execute := FALSE;
-	Command();
-ELSE
-	StepDone := FALSE;	
-END_IF
-
-END_STEP
-(* @SFCMAXTIME := '' *)
-(* @SFCMINTIME := '' *)
-(* @SFCCOMMENT := '' *)
-EXIT_ACTION
-(* @LANGUAGE := 'st' *)
-StepDone := FALSE;
-END_ACTION
-TRANSITION FROM abortLayer1 TO openLayer1:=
+TRANSITION FROM RequestLayerFileTranf1 TO openLayer1:=
 StepDone
 END_TRANSITION
 (* @SFCNOJUMP := 'openLayer1' *)
@@ -202,7 +177,32 @@ EXIT_ACTION
 (* @LANGUAGE := 'st' *)
 StepDone := FALSE;
 END_ACTION
-TRANSITION FROM openLayer1 TO wait1:=
+TRANSITION FROM openLayer1 TO abortLayer1:=
+StepDone
+END_TRANSITION
+(* @SFCNOJUMP := 'abortLayer1' *)
+STEP abortLayer1:
+(* @LANGUAGE := 'st' *)
+Command.Command :=  gVFLCR.command.abortLayer;
+Command.Execute := TRUE;
+Command();
+IF Command.Done THEN
+	StepDone := TRUE;
+	Command.Execute := FALSE;
+	Command();
+ELSE
+	StepDone := FALSE;	
+END_IF
+
+END_STEP
+(* @SFCMAXTIME := '' *)
+(* @SFCMINTIME := '' *)
+(* @SFCCOMMENT := '' *)
+EXIT_ACTION
+(* @LANGUAGE := 'st' *)
+StepDone := FALSE;
+END_ACTION
+TRANSITION FROM abortLayer1 TO wait1:=
 StepDone
 END_TRANSITION
 (* @SFCNOJUMP := 'wait1' *)

@@ -68,7 +68,13 @@ ACTION WriteOutputIO:
 		//	IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 2);
 		//ELSE
 		//	IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 2);
-		//END_IF
+	//END_IF
+	
+		IF (IO.do.ClearLaserErrors) THEN
+			IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 13);
+		ELSE
+			IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 13);
+		END_IF
 		
 		IF (IO.do.Transfer_LaserControlFiles) THEN
 			IO.raw.oOperationControl := BIT_SET(IO.raw.oOperationControl, 3);
@@ -95,6 +101,12 @@ ACTION WriteOutputIO:
 		ELSE
 			IO.raw.oOperationControl := BIT_CLR(IO.raw.oOperationControl, 9);
 		END_IF
+	
+		FOR index := 0 TO 21 DO
+			IO.raw.oLaserEnable := BIT_SET(IO.raw.oLaserEnable, index);
+		END_FOR
+		
+		
 	
 END_ACTION
 

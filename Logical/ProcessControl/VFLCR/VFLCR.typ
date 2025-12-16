@@ -8,7 +8,9 @@ TYPE
 	END_STRUCT;
 	VFLCRApiCommand_typ : 	STRUCT 
 		openLayer : STRING[80];
+		resetSoftwareError : STRING[80];
 		abortLayer : STRING[80];
+		resetAllErrors : STRING[80];
 		deleteLaserControlFiles : STRING[80];
 	END_STRUCT;
 	VFLCRApiStatus_typ : 	STRUCT 

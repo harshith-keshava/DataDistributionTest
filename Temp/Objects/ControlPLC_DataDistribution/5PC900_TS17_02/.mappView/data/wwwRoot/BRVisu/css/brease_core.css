@@ -373,7 +373,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #LaserPageMain_GroupBox1 {
-  width: 520px;
+  width: 540px;
 }
 
 #LaserPageMain_GroupBox1 {
@@ -389,7 +389,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #LaserPageMain_MomentaryPushButton22 {
-  top: 163px;
+  top: 203px;
   position: absolute;
 }
 
@@ -411,7 +411,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #LaserPageMain_MomentaryPushButton23 {
-  top: 243px;
+  top: 283px;
   position: absolute;
 }
 
@@ -521,7 +521,7 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 }
 
 #LaserPageMain_MomentaryPushButton24 {
-  top: 323px;
+  top: 363px;
   position: absolute;
 }
 
@@ -570,6 +570,58 @@ div[id$="_breaseMainWrapper"]{position:absolute;pointer-events:none}.breaseInfoB
 
 #LaserPageMain_MomentaryPushButton27:not(.disabled):not(.active):not(.checked) span {
   color: red;
+}
+
+#LaserPageMain_MomentaryPushButton28 {
+  top: 3px;
+  position: absolute;
+}
+
+#LaserPageMain_MomentaryPushButton28 {
+  left: 359px;
+  position: absolute;
+}
+
+#LaserPageMain_MomentaryPushButton28 {
+  width: 161px;
+}
+
+#LaserPageMain_MomentaryPushButton28 {
+  height: 57px;
+}
+
+#LaserPageMain_MomentaryPushButton28 {
+  z-index: 8;
+}
+
+#LaserPageMain_MomentaryPushButton28:not(.disabled):not(.active):not(.checked) {
+  border-color: red;
+}
+
+#LaserPageMain_MomentaryPushButton28:not(.disabled):not(.active):not(.checked) span {
+  color: red;
+}
+
+#LaserPageMain_StatusLEDGreen5 {
+  height: 30px;
+}
+
+#LaserPageMain_StatusLEDGreen5 {
+  top: 163px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen5 {
+  left: 139px;
+  position: absolute;
+}
+
+#LaserPageMain_StatusLEDGreen5 {
+  width: 241px;
+}
+
+#LaserPageMain_StatusLEDGreen5 {
+  z-index: 9;
 }
 
 #LaserPageMain_GroupBox50 {

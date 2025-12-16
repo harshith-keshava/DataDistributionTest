@@ -11,6 +11,7 @@ TYPE
 	END_STRUCT;
 	LaserOperationCommand_typ : 	STRUCT 
 		openLayer : BOOL;
+		resetSoftwareError : BOOL;
 		abortLayer : BOOL;
 		deleteLaserControlFiles : BOOL;
 	END_STRUCT;
@@ -108,6 +109,7 @@ TYPE
 		Transfer_LaserControlFiles : BOOL; (*OperationControl.3*)
 		EnableMode_MANUAL : BOOL; (*OperationControl.8*)
 		OpenLayer : BOOL; (*OperationControl.8*)
+		ClearLaserErrors : BOOL; (*OperationControl.9*)
 		AbortLayer : BOOL; (*OperationControl.9*)
 	END_STRUCT;
 	LaserIOAI_typ : 	STRUCT 

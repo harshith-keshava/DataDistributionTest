@@ -1,6 +1,7 @@
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Global.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Variables.var
+$(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Types.typ
 $(AS_PROJECT_PATH)/Logical/DataManagement/PrintJobManagement/Opcua.typ
 $(AS_PROJECT_PATH)/Logical/Infrastructure/RevInfo/RevInfo.var
 $(AS_PROJECT_PATH)/Logical/ProcessControl/VFLCR/VFLCR_Operation/Variables.var

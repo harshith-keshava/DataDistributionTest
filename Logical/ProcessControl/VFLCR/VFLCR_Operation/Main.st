@@ -16,6 +16,8 @@ PROGRAM _INIT
 	task.internal.deleteLaserControlFilesTON.PT := T#5s;
 	task.internal.openLayerTON.PT := T#5s;
 	
+	subscribeCommandBool(gVFLCR.command.resetAllErrors, moduleName, task.command.resetSoftwareError);
+	
 END_PROGRAM
 
 PROGRAM _CYCLIC
@@ -76,6 +78,12 @@ PROGRAM _CYCLIC
 			
 			IO.do.AbortLayer := FALSE;
 			task.internal.PLCOpenAbortLayer.status := VFLCR_ERROR;
+			
+		END_IF
+	
+		IF task.command.resetSoftwareError THEN
+			
+			IO.do.ClearLaserErrors := TRUE;
 			
 		END_IF
 		

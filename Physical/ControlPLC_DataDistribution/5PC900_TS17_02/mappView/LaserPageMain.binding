@@ -83,5 +83,13 @@
 <Source xsi:type="opcUa" refId="::DataDis:task.internal.completedLayers" attribute="value" />
 <Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="GroupBox50" attribute="enable" />
 </Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::VFLCR_Syst:task.command.resetAllErrors" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="MomentaryPushButton28" attribute="value" />
+</Binding>
+<Binding mode="twoWay">
+<Source xsi:type="opcUa" refId="::AsGlobalPV:gPrintJobManagement.currentState.openAndCloseLayers" attribute="value" />
+<Target xsi:type="brease" contentRefId="LaserPageMain" widgetRefId="StatusLEDGreen5" attribute="value" />
+</Binding>
 </Bindings>
 </BindingsSet>

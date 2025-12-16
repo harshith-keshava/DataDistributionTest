@@ -51,6 +51,11 @@ PROGRAM _CYCLIC
 		task.internal.rebootPLC := FALSE;
 		
 	END_IF
+	
+	// Error reset command
+	IF task.command.resetAllErrors THEN
+		executeCommand(gVFLCR.command.resetAllErrors);
+	END_IF
 	 	
 	// Layer commands
 	IF task.command.openLayer THEN

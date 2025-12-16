@@ -1,15 +1,17 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1765465028_8_
-#define _BUR_1765465028_8_
+#ifndef _BUR_1765904570_8_
+#define _BUR_1765904570_8_
 
 #include <bur/plctypes.h>
 
 /* Datatypes and datatypes of function blocks */
 typedef struct VFLCRApiCommand_typ
 {	plcstring openLayer[81];
+	plcstring resetSoftwareError[81];
 	plcstring abortLayer[81];
+	plcstring resetAllErrors[81];
 	plcstring deleteLaserControlFiles[81];
 } VFLCRApiCommand_typ;
 
@@ -116,5 +118,5 @@ __asm__(".ascii \"iecfile \\\"Logical/ProcessControl/VFLCR/VFLCR.typ\\\" scope \
 __asm__(".previous");
 
 
-#endif /* _BUR_1765465028_8_ */
+#endif /* _BUR_1765904570_8_ */
 
